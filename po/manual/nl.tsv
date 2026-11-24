@@ -1,0 +1,318 @@
+1	Klaar.
+2	Mislukt (afsluitcode %1).
+3	Animaties
+4	Vensters in- en uitfaden en zoomen
+5	Openen en sluiten
+6	Beginformaat
+7	Minimaliseren
+8	Vensters vliegen naar hun knop op de taakbalk
+9	Duur
+10	Alle bureaubladeffecten
+11	Toepassingen
+12	Venstermateriaal
+13	Mica-vensterachtergronden
+14	Zijbalken, werkbalken en dialoogvensters tonen de vervaagde achtergrond. Geldt voor nieuw geopende vensters.
+15	Dekking
+16	Deze apps ondoorzichtig houden
+17	Besturingselementen
+18	Hoekradius
+19	Acryl menu's en tooltips
+20	Vereist Lumen-materialen
+21	Altijd volledige schuifbalken tonen
+22	Uit: ze blijven smal tot je eroverheen beweegt
+23	Beweging
+24	Besturingselementen animeren
+25	Geldt voor apps met de Lumen-toepassingsstijl. Wijzigingen zijn direct zichtbaar.
+26	Opstarten
+27	Lumen gebruiken bij het opstarten
+28	Limine-opstartmenu en Plymouth-opstartscherm. Het vorige menu wordt bewaard.
+29	Vorige opstartweergave herstellen
+30	Vergrendelen en aanmelden
+31	Vergrendelscherm
+32	Lumen-achtergrond
+33	Klok altijd tonen
+34	Mediabediening
+35	Schermvergrendeling
+36	Aanmeldscherm
+37	Lumen gebruiken op het aanmeldscherm
+38	Standaard aanmeldscherm herstellen
+39	Instellingen van het aanmeldscherm
+40	Vergrendel- en afmeldschermen
+41	Lumen-vergrendel- en afmeldschermen vernieuwen
+42	Wordt automatisch uitgevoerd na Plasma-updates
+43	Onderhoud
+44	Het hulpmiddel lumen is niet gevonden
+45	Installeer het met `make install-system` vanuit de Lumen-bronmap.
+46	Controleren
+47	Controleert of elk onderdeel van Lumen geïnstalleerd en actief is
+48	Diagnose uitvoeren
+49	Momentopname van de paneelindeling tonen
+50	Herstellen
+51	Kleuren, stijl, vensterdecoratie, effecten en Plasma-thema
+52	Lumen opnieuw toepassen
+53	Vervangen hulpmiddelen zoeken
+54	Toont geïnstalleerde pakketten die Lumen vervangt, zoals Kvantum en Klassy. Verwijder ze met `lumen cleanup` in een terminal.
+55	Systeemeigen onderdelen opnieuw bouwen
+56	Wordt automatisch uitgevoerd na KWin- of Qt-updates
+57	Materialen
+58	Lumen-materialen
+59	Vervangt de standaardvervaging door Mica en acryl
+60	Mica voor de taakbalk
+61	Uit: acryl, waardoor vensters achter de taakbalk zichtbaar zijn
+62	Acryl (menu's, flyouts, Start)
+63	Vervaging
+64	Verzadiging
+65	Ruis
+66	Mica (vensters, taakbalk)
+67	Taakbalk
+68	De Lumen-taakbalk staat niet op dit bureaublad
+69	Pas de Lumen-indeling toe om het huidige paneel te vervangen. Je widgets, systeemvakpictogrammen, vastgemaakte apps en favorieten blijven behouden.
+70	Lumen-indeling toepassen
+71	Indeling
+72	Taakbalkpictogrammen centreren
+73	Zwevend
+74	Automatisch verbergen
+75	Pictogrammen
+76	Hoogte van de taakbalk
+77	Grootte van app-pictogrammen
+78	Start- en app-pictogrammen houden dit formaat bij elke taakbalkhoogte
+79	Ruimte tussen apps
+80	Extra breed
+81	Geen
+82	Normaal
+83	Breed
+84	Grootte van systeemvakpictogrammen
+85	Grootte van snelle-instellingenpictogrammen
+86	Netwerk, volume en batterij naast de klok
+87	Ruimte tussen systeemvakpictogrammen
+88	Klok
+89	Tonen
+90	Alleen datum
+91	Tijd en datum op één regel
+92	Alleen tijd
+93	Tijd boven datum
+94	Tijdnotatie
+95	12-uurs
+96	24-uurs
+97	Regio-instellingen gebruiken
+98	Datumnotatie
+99	Regionaal kort (%1)
+100	Met weekdag (%1)
+101	Regionaal lang (%1)
+102	ISO (%1)
+103	Aangepast (in te stellen bij de klok)
+104	Seconden tonen
+105	Vetgedrukte tijd
+106	Grootte van de tijd
+107	Uitlijning van de tijd
+108	Gecentreerd
+109	Links
+110	Rechts
+111	Grootte van de datum
+112	Grote formaten worden verkleind zodat ze passen; de taakbalk zelf verandert nooit
+113	Uitlijning van de datum
+114	Onderdelen
+115	Vastgemaakte en aanbevolen apps, energie- en accountmenu's
+116	Start
+117	Pictogrammen, overloop, tegels en schuifregelaars
+118	Systeemvak en snelle instellingen
+119	Klok en meldingen
+120	Aangepaste datumnotatie, agenda en meldingencentrum
+121	App-knoppen
+122	Vastgemaakte apps en geopende vensters
+123	Meldingen
+124	Boven apps op volledig scherm tonen
+125	Uit: games en video's op volledig scherm zetten Niet storen aan (kritieke meldingen verschijnen nog steeds)
+126	Uitvoer
+127	Bezig…
+128	Vensters
+129	Titelbalk
+130	Doorschijnende titelbalk
+131	Hoogte
+132	Titel centreren
+133	Toepassingspictogram tonen
+134	Knoppen
+135	Alleen sluiten
+136	Sluiten, minimaliseren, maximaliseren (links)
+137	Minimaliseren, maximaliseren, sluiten (rechts)
+138	Vorm
+139	Instellingen voor vensterdecoraties
+140	Donker
+141	Donkere Mica-oppervlakken overal
+142	Lichte oppervlakken met zachte schaduwen
+143	Licht
+144	Automatisch
+145	Wisselen tussen licht en donker afhankelijk van het tijdstip
+146	Modus
+147	Aanpassen
+148	Mica- en acrylvervaging, tint en ruis
+149	Titelbalken, hoeken en knoppen
+150	Besturingselementen, menu's, schuifbalken en animatiesnelheid
+151	Beweging bij openen, sluiten en minimaliseren
+152	Uitlijning, grootte, Start, systeemvak en klok
+153	Vergrendelscherm, aanmeldscherm en afmelden
+154	Opstartmenu en opstartscherm
+155	Herstel, update en diagnose
+156	Gerelateerd
+157	Accentkleur
+158	Achtergrond
+159	Lettertypen
+161	Tonen:
+162	Tijdnotatie:
+165	Aangepaste notatie:
+166	Grootte van de tijd:
+167	Uitlijning van de tijd:
+168	Grootte van de datum:
+169	Uitlijning van de datum:
+170	Grote formaten worden verkleind voor de taakbalk; de taakbalk zelf verandert nooit.
+171	Meldingsbel tonen
+172	Flyout:
+173	Agenda tonen
+176	Niet storen
+177	Alles wissen
+178	Niet storen staat aan
+179	Geen nieuwe meldingen
+180	Eerder
+181	Minder tonen
+182	+%1
+183	Groep wissen
+184	Agenda verbergen
+191	Alle meldingen wissen
+192	Datum en tijd aanpassen…
+193	Meldingsinstellingen…
+197	App-namen:
+198	Algemene naam (naam)
+199	Alleen algemene naam
+200	Naam (algemene naam)
+202	Aanbevolen:
+203	Recente bestanden tonen
+204	Zoeken naar apps, instellingen en documenten
+205	Vastgemaakt
+206	Alle apps
+207	Klik met de rechtermuisknop op een app en kies ‘Aan Start vastmaken’
+208	Aanbevolen
+209	Je recente bestanden verschijnen hier
+210	Terug
+211	Geen resultaten voor ‘%1’
+212	Accountinstellingen wijzigen
+213	Vergrendelen
+214	Andere gebruiker
+215	Afmelden
+217	Slaapstand
+218	Sluimerstand
+219	Afsluiten
+220	Opnieuw opstarten
+221	Van Start losmaken
+222	Aan Start vastmaken
+224	%1 afsluiten
+225	Wifi
+227	Vliegtuigmodus
+228	Energiemodus
+229	Nachtlampje
+230	Donkere modus
+231	Tip: sleep pictogrammen op de taakbalk om ze te ordenen, of tussen de taakbalk en het venster met verborgen pictogrammen om ze vast te maken of te verbergen.
+232	Tegels van snelle instellingen
+233	In snelle instellingen
+234	Altijd verborgen
+235	Altijd zichtbaar
+236	Uitgeschakeld
+237	Zichtbaar indien relevant
+238	Verborgen pictogrammen verbergen
+239	Verborgen pictogrammen tonen
+240	Pictogrammen hier neerzetten
+242	Vorige
+244	Volgende
+245	Energiebesparing
+250	Snelle instellingen
+251	Meer opties
+252	Items
+399	Achtergrondtint
+400	Taakbalk, Start, menu's en vensters nemen de kleur van de achtergrond over en volgen die vloeiend als hij verandert
+409	Alleen indien anders dan lokaal
+410	Tijdzoneformaat:
+413	Verschil met UTC
+422	Voeg meer tijdzones toe om ze in het paneel en de tooltip van de klok te zien, of om er een op de taakbalk te tonen
+423	Weergegeven tijdzone wisselen door over de klok te scrollen
+424	Dit wijzigt de systeemtijdzone niet. Wijzig op reis liever de systeemtijdzone.
+426	Open houden
+428	Afspraak toevoegen
+431	Tijdzones
+432	Hele dag
+433	Overig
+434	nog %1	nog %1
+435	Minder tonen
+441	Meldingenbel:
+443	Alleen bij nieuwe meldingen
+444	Aantal nieuwe meldingen tonen
+445	Alles
+446	Recent toegevoegd
+447	Meest gebruikt
+448	Naar een letter springen
+449	Instellingen
+450	Bestandsbeheerder
+451	Documenten
+452	Downloads
+453	Muziek
+454	Afbeeldingen
+455	Video's
+456	Netwerk
+457	Indeling:
+458	Vastgemaakt en Alle apps op aparte pagina's
+459	Alles op één schuifbare pagina
+460	Standaard
+461	Meer vastgemaakte items
+462	Meer aanbevelingen
+463	Recent gebruikte apps opnemen
+464	Alle apps:
+465	Recent toegevoegde apps tonen
+466	Meest gebruikte apps tonen
+467	Categorieweergave inschakelen (groepen van het toepassingsmenu)
+468	Weergave:
+469	Categorie
+470	Raster
+471	Lijst
+472	Naast Aan/uit:
+473	Herstarten naar UEFI-firmware-instellingen
+474	Alles tonen
+476	Apps
+477	Web
+478	Zoeken configureren…
+479	Zoekresultaten
+480	Openen
+481	Weergave: %1
+194	Algemeen
+482	Grootte:
+483	Vrije ruimte vullen
+484	Rechtsklikmenu:
+485	Verwijderen
+486	App toevoegen…
+487	Taakbalkinstellingen
+488	Bureaubladonderdelen herstarten
+489	Gebruik na het wijzigen van pictogrammen of thema's in Systeeminstellingen: vernieuwt pictogrammen in open apps en laadt de taakbalk, het bureaublad en zoeken opnieuw
+490	Opdrachtbalk
+491	Knoppen Nieuw, Knippen, Kopiëren, Plakken, Sorteren en Weergave onder de adresbalk. Uit houdt het venster strak en minimaal.
+492	Maanden tonen
+493	Jaren tonen
+494	Vandaag
+495	Tekstgrootte
+496	Grootte van het Start-pictogram
+537	Verkenner
+538	Verkenner openen in 'Deze pc'
+539	Uit opent je persoonlijke map
+540	Deze pc
+541	Vrije ruimte weergeven
+542	Een capaciteitsbalk en de vrije ruimte onder elk station
+543	Mappen weergeven
+544	Bureaublad, Documenten, Downloads, Muziek, Afbeeldingen en Video's boven de stations
+545	Netwerklocaties weergeven
+546	Verborgen stations weergeven
+547	Stations die in het navigatiedeelvenster verborgen zijn
+551	Apparaten en stations
+552	Netwerklocaties
+554	1 item geselecteerd
+555	%1 beschikbaar van %2
+560	Verkenner openen in
+561	'Persoonlijke map' is de startlocatie uit de instellingen van Verkenner
+562	Persoonlijke map
+563	Vorige sessie
+564	Recente bestanden

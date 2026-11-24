@@ -1,0 +1,305 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ar\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+#: plasma/plasmoids/org.lumen.start/contents/config/config.qml:6
+msgid "General"
+msgstr "عامّ"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:213
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:17
+msgid "All"
+msgstr "الكل"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:219
+msgid "Recently added"
+msgstr "المضافة مؤخرًا"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:226
+msgid "Most used"
+msgstr "الأكثر استخدامًا"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:244
+msgid "Jump to a letter"
+msgstr "الانتقال إلى حرف"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:472
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:273
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:298
+msgid "Back"
+msgstr "رجوع"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:22
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:20
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:25
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:23
+msgid "File Manager"
+msgstr "مدير الملفات"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:19
+msgid "Documents"
+msgstr "المستندات"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:27
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:25
+msgid "Downloads"
+msgstr "التنزيلات"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:28
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:26
+msgid "Music"
+msgstr "الموسيقى"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:27
+msgid "Pictures"
+msgstr "الصور"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:30
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:28
+msgid "Videos"
+msgstr "الفيديو"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:31
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:29
+msgid "Network"
+msgstr "الشبكة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:36
+msgid "Icon:"
+msgstr "الأيقونة:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:38
+msgid "Choose…"
+msgstr "اختر..."
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:47
+msgid "App names:"
+msgstr "أسماء التطبيقات:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name (name)"
+msgstr "الاسم العام (الاسم)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name only"
+msgstr "الاسم العام فقط"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name (generic name)"
+msgstr "الاسم (الاسم العام)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name only"
+msgstr "الاسم فقط"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:54
+msgid "Layout:"
+msgstr "التخطيط:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:55
+msgid "Pinned and All apps on separate pages"
+msgstr "المثبّتة وكل التطبيقات في صفحات منفصلة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:60
+msgid "Everything on one scrolling page"
+msgstr "كل شيء في صفحة واحدة قابلة للتمرير"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:66
+msgid "Show:"
+msgstr "إظهار:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "Default"
+msgstr "الافتراضي"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More pins"
+msgstr "مزيد من العناصر المثبّتة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More recommendations"
+msgstr "مزيد من التوصيات"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:74
+msgid "Recommended:"
+msgstr "المقترحة:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:75
+msgid "Show recent files"
+msgstr "إظهار الملفات الأخيرة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:80
+msgid "Include recently used apps"
+msgstr "تضمين التطبيقات المستخدمة مؤخرًا"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:87
+msgid "All apps:"
+msgstr "كل التطبيقات:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:88
+msgid "Show recently added apps"
+msgstr "إظهار التطبيقات المضافة مؤخرًا"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:92
+msgid "Show most used apps"
+msgstr "إظهار التطبيقات الأكثر استخدامًا"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:96
+msgid "Enable category view (application menu groups)"
+msgstr "تمكين عرض الفئات (مجموعات قائمة التطبيقات)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:100
+msgid "View:"
+msgstr "العرض:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Category"
+msgstr "الفئة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Grid"
+msgstr "شبكة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "List"
+msgstr "قائمة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:109
+msgid "Next to Power:"
+msgstr "بجوار زر الطاقة:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:117
+msgid "Change account settings"
+msgstr "تغيير إعدادات الحساب"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:122
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:171
+msgid "Lock"
+msgstr "قفل"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:128
+msgid "Switch user"
+msgstr "تبديل المستخدم"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:134
+msgid "Sign out"
+msgstr "تسجيل الخروج"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:162
+msgid "Power"
+msgstr "الطاقة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:177
+msgid "Sleep"
+msgstr "سكون"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:183
+msgid "Hibernate"
+msgstr "إسبات"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:189
+msgid "Shut down"
+msgstr "إيقاف التشغيل"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:195
+msgid "Restart"
+msgstr "إعادة التشغيل"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:205
+msgid "Restart to UEFI Firmware Setup"
+msgstr "إعادة التشغيل إلى إعداد البرنامج الثابت UEFI"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:33
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:66
+msgid "Pinned"
+msgstr "المثبتة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:272
+msgid "All apps"
+msgstr "كل التطبيقات"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show all"
+msgstr "إظهار الكل"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show less"
+msgstr "إظهار أقل"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:120
+msgid "Right-click an app and choose “Pin to Start”"
+msgstr "انقر بزر الماوس الأيمن على تطبيق واختر «تثبيت في ابدأ»"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:56
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:297
+msgid "Recommended"
+msgstr "المقترحة"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:30
+msgid "More"
+msgstr "المزيد"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:94
+msgid "Your recent files will show up here"
+msgstr "ستظهر ملفاتك الأخيرة هنا"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:18
+msgid "Apps"
+msgstr "التطبيقات"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:21
+msgid "Web"
+msgstr "الويب"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:116
+msgid "Configure Search…"
+msgstr "تكوين البحث…"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:147
+msgid "Search results"
+msgstr "نتائج البحث"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:181
+msgid "No results for “%1”"
+msgstr "لا توجد نتائج لـ «%1»"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:190
+msgid "Open"
+msgstr "فتح"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:194
+msgid "Search for apps, settings, and documents"
+msgstr "البحث عن التطبيقات والإعدادات والمستندات"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:13
+msgctxt "@action:button %1 is List, Grid or Category"
+msgid "View: %1"
+msgstr "العرض: %1"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:226
+msgid "Start"
+msgstr "ابدأ"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:153
+msgid "Unpin from Start"
+msgstr "إلغاء التثبيت من ابدأ"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:154
+msgid "Pin to Start"
+msgstr "تثبيت في ابدأ"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:264
+msgid "Edit Applications…"
+msgstr "حرّر التّطبيقات..."

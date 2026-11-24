@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Description": "Lumen: Fluent-inspired window decoration",
+        "EnabledByDefault": true,
+        "Id": "org.lumen.decoration",
+        "Name": "Lumen"
+    },
+    "org.kde.kdecoration3": {
+        "blur": true,
+        "kcmodule": false,
+        "recommendedBorderSize": "None",
+        "styles": ["titled", "shadow"]
+    }
+}

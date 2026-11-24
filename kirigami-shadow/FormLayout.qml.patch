@@ -1,0 +1,154 @@
+--- FormLayout.qml
++++ FormLayout.qml
+@@ -72,7 +72,7 @@
+       Set this to \c true for a convergent design,
+       set this to \c false for a mobile-only design.
+      */
+-    property bool wideMode: width >= lay.wideImplicitWidth
++    property bool wideMode: width - 2 * __lumenPad >= lay.wideImplicitWidth
+ 
+     /*!
+       If for some implementation reason multiple FormLayouts have to appear
+@@ -94,6 +94,29 @@
+ 
+     property KirigamiControls.ScrollablePage scrollablePage: findAncestor(root, (item) => item instanceof KirigamiControls.ScrollablePage) as KirigamiControls.ScrollablePage
+ 
++    // Lumen: on settings pages each section sits in a card, like Windows Settings. Nested forms stay plain.
++    readonly property bool __lumenCards: scrollablePage !== null
++        && ["systemsettings", "kcmshell6", "kinfocenter"].includes(Qt.application.name)
++        && findAncestor(root, (item) => item.hasOwnProperty("twinFormLayouts")) === null
++    readonly property int __lumenPad: __lumenCards ? Platform.Units.largeSpacing + Platform.Units.smallSpacing : 0
++    // Rows between sections, as [container, label] pairs in row order.
++    property var __lumenGroups: []
++
++    function __lumenGroup(): void {
++        const rows = lay.knownItems.map((item, i) => [item, lay.buddies[i]])
++            .filter(([item]) => item && typeof item.Layout !== "undefined")
++            .sort((a, b) => a[0].Layout.row - b[0].Layout.row);
++        const groups = [[]];
++        for (const [item, buddy] of rows) {
++            if (item.KirigamiLayouts.FormData.isSection) {
++                groups.push([]);
++            } else {
++                groups[groups.length - 1].push(lay.children.find(c => c.item === item && c !== buddy), buddy);
++            }
++        }
++        __lumenGroups = groups.filter(g => g.length > 0);
++    }
++
+     function findAncestor(item: Item, predicate: /*function Item => bool*/ var): Item {
+         let target = item.parent
+         while (target && !predicate(target)) {
+@@ -127,13 +150,14 @@
+     }
+ 
+     implicitWidth: lay.wideImplicitWidth
+-    implicitHeight: lay.implicitHeight
+-    Layout.preferredHeight: lay.implicitHeight
++    implicitHeight: lay.implicitHeight + 2 * __lumenPad
++    Layout.preferredHeight: lay.implicitHeight + 2 * __lumenPad
+     Layout.fillWidth: true
+     Accessible.role: Accessible.Form
+ 
+     GridLayout {
+         id: lay
++        y: root.__lumenPad
+         property int wideImplicitWidth
+         columns: root.wideMode ? 2 : 1
+         rowSpacing: Platform.Units.smallSpacing
+@@ -145,7 +169,7 @@
+             target: lay
+             property: "width"
+             // Works out to 576px by default; any higher and it's not really very narrow!
+-            value: Math.min(lay.implicitWidth, Platform.Units.gridUnit * 32, root.width)
++            value: Math.min(lay.implicitWidth, Platform.Units.gridUnit * 32, root.width - 2 * root.__lumenPad)
+             restoreMode: Binding.RestoreBinding
+         }
+         Binding {
+@@ -250,6 +274,26 @@
+ 
+     Item {
+         id: temp
++        z: -1
++
++        Repeater {
++            model: root.__lumenCards ? root.__lumenGroups : []
++            delegate: KirigamiControls.AbstractCard {
++                required property var modelData
++                readonly property var shown: modelData.filter(i => i && i.visible && i.height > 0)
++                readonly property real rowsTop: shown.length > 0 ? Math.min(...shown.map(i => i.y)) : 0
++                readonly property real rowsBottom: shown.length > 0 ? Math.max(...shown.map(i => i.y + i.height)) : 0
++                visible: shown.length > 0
++                x: 0
++                y: lay.y + rowsTop - root.__lumenPad
++                width: root.width
++                height: rowsBottom - rowsTop + 2 * root.__lumenPad
++                hoverEnabled: false
++                showClickFeedback: false
++                focusPolicy: Qt.NoFocus
++                Accessible.ignored: true
++            }
++        }
+ 
+         /*!
+          * The following two functions are used in the label buddy items.
+@@ -277,7 +321,7 @@
+                 : Qt.AlignTop;
+ 
+             if (item.KirigamiLayouts.FormData.isSection) {
+-                return Qt.AlignHCenter;
++                return root.__lumenCards ? Qt.AlignLeft | Qt.AlignBottom : Qt.AlignHCenter;
+             }
+             if (root.wideMode) {
+                 return Qt.AlignRight | verticalAlignment;
+@@ -333,6 +377,7 @@
+         lay.knownItemsChanged();
+         lay.buddiesChanged();
+         hintCompression.restart();
++        Qt.callLater(root.__lumenGroup);
+     }
+ 
+     onChildrenChanged: relayout()
+@@ -368,6 +413,14 @@
+             Layout.maximumHeight: item?.Layout.maximumHeight ?? 0
+ 
+             Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
++            Layout.bottomMargin: root.__lumenCards && item?.KirigamiLayouts.FormData.isSection ? root.__lumenPad : 0
++            // Cards take over from section separator lines.
++            Binding {
++                when: root.__lumenCards && container.item instanceof Primitives.Separator && container.item.KirigamiLayouts.FormData.isSection
++                target: container.item
++                property: "opacity"
++                value: 0
++            }
+             Layout.fillWidth: item !== null && (item instanceof TextInput || item.Layout.fillWidth || item.KirigamiLayouts.FormData.isSection)
+             Layout.columnSpan: item?.KirigamiLayouts.FormData.isSection ? lay.columns : 1
+             onItemChanged: {
+@@ -452,6 +505,10 @@
+ 
+             Layout.fillWidth: !root.wideMode
+             wrapMode: Text.Wrap
++            // Lumen: section titles start at the card edge.
++            transform: Translate {
++                x: root.__lumenCards && labelItem.item?.KirigamiLayouts.FormData.isSection ? Platform.Units.smallSpacing - lay.x : 0
++            }
+ 
+             Layout.topMargin: {
+                 if (!item) {
+@@ -461,11 +518,15 @@
+                     return item.KirigamiLayouts.FormData.buddyFor.y;
+                 }
+                 if (item?.KirigamiLayouts.FormData.isSection && text.length > 0) {
+-                    return Platform.Units.largeSpacing * 2;
++                    return Platform.Units.largeSpacing * 2 + root.__lumenPad;
+                 }
+                 if (index === 0 || root.wideMode) {
+                     return 0;
+                 }
++                // Lumen: the card edge already separates a section's first row from its title.
++                if (root.__lumenCards && root.children[index + 1]?.KirigamiLayouts.FormData.isSection) {
++                    return 0;
++                }
+                 return Platform.Units.largeSpacing * 2;
+             }
+             onItemChanged: {

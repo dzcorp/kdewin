@@ -1,0 +1,198 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: uk\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: plasma/notifier/FullRepresentation.qml:81
+msgid "Do not disturb"
+msgstr "Не турбувати"
+
+#: plasma/notifier/FullRepresentation.qml:131
+msgid "For 1 hour"
+msgstr "Протягом години"
+
+#: plasma/notifier/FullRepresentation.qml:136
+msgid "For 4 hours"
+msgstr "Протягом 4 годин"
+
+#: plasma/notifier/FullRepresentation.qml:145
+msgid "Until this evening"
+msgstr "До цього вечора"
+
+#: plasma/notifier/FullRepresentation.qml:155
+msgid "Until tomorrow morning"
+msgstr "До завтрашнього ранку"
+
+#: plasma/notifier/FullRepresentation.qml:167
+msgid "Until Monday"
+msgstr "До понеділка"
+
+#: plasma/notifier/FullRepresentation.qml:174
+msgid "Until manually disabled"
+msgstr "До вимикання вручну"
+
+#: plasma/notifier/FullRepresentation.qml:226
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Автоматично завершується: %1"
+
+#: plasma/notifier/FullRepresentation.qml:238
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "Доки є активним %1 (%2)"
+
+#: plasma/notifier/FullRepresentation.qml:240
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "Доки є активним %1"
+
+#: plasma/notifier/FullRepresentation.qml:246
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Екрани віддзеркалено"
+
+#: plasma/notifier/FullRepresentation.qml:250
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "Фокусовано повноекранну програму"
+
+#: plasma/notifier/FullRepresentation.qml:510
+#: plasma/notifier/FullRepresentation.qml:516
+msgctxt "@action:button"
+msgid "View"
+msgstr "Переглянути"
+
+#: plasma/notifier/FullRepresentation.qml:597
+msgid "Close Group"
+msgstr "Закрити групу"
+
+#: plasma/notifier/FullRepresentation.qml:619
+msgid "Show Fewer"
+msgstr "Показувати менше"
+
+#: plasma/notifier/FullRepresentation.qml:621
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "Показати ще %1"
+
+#: plasma/notifier/FullRepresentation.qml:650 plasma/notifier/main.qml:108
+msgid "No unread notifications"
+msgstr "Непрочитаних сповіщень немає"
+
+#: plasma/notifier/FullRepresentation.qml:665 plasma/notifier/main.qml:77
+msgid "Notification service not available"
+msgstr "Немає доступу до служби сповіщень"
+
+#: plasma/notifier/FullRepresentation.qml:667
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "За роботу сповіщень зараз відповідає «%1 %2»"
+
+#: plasma/notifier/components/ActionContainer.qml:92
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Відповісти"
+
+#: plasma/notifier/fileinfo.cpp:186
+msgid "Open with %1"
+msgstr "Відкрити за допомогою %1"
+
+#: plasma/notifier/fileinfo.cpp:190
+msgid "Open with…"
+msgstr "Відкрити за допомогою…"
+
+#: plasma/notifier/filemenu.cpp:117
+msgid "Open Containing Folder"
+msgstr "Відкрити теку об’єкта"
+
+#: plasma/notifier/filemenu.cpp:131
+msgid "&Copy"
+msgstr "&Копіювати"
+
+#: plasma/notifier/filemenu.cpp:140
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Копіювати адресу"
+
+#: plasma/notifier/filemenu.cpp:198
+msgid "Properties"
+msgstr "Властивості"
+
+#: plasma/notifier/globalshortcuts.cpp:24
+msgid "Toggle do not disturb"
+msgstr "Перемкнути стан «Не турбувати»"
+
+#: plasma/notifier/globalshortcuts.cpp:33
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "Спорожнити журнал сповіщень"
+
+#: plasma/notifier/globalshortcuts.cpp:52
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Сповіщення вимкнено"
+
+#: plasma/notifier/globalshortcuts.cpp:53
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Сповіщення увімкнено"
+
+#: plasma/notifier/globalshortcuts.cpp:68
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "Журнал сповіщень спорожнено"
+
+#: plasma/notifier/main.qml:61
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 завдання, що виконується"
+msgstr[1] "%1 завдання, що виконуються"
+msgstr[2] "%1 завдань, що виконуються"
+msgstr[3] "%1 завдання, що виконується"
+
+#: plasma/notifier/main.qml:65
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: plasma/notifier/main.qml:70
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 завдання, що виконується (%2%)"
+msgstr[1] "%1 завдання, що виконуються (%2%)"
+msgstr[2] "%1 завдань, що виконуються (%2%)"
+msgstr[3] "%1 завдання, що виконується (%2%)"
+
+#: plasma/notifier/main.qml:83
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 непрочитане сповіщення"
+msgstr[1] "%1 непрочитаних сповіщення"
+msgstr[2] "%1 непрочитаних сповіщень"
+msgstr[3] "%1 непрочитане сповіщення"
+
+#: plasma/notifier/main.qml:88
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 активне сповіщення"
+msgstr[1] "%1 активних сповіщення"
+msgstr[2] "%1 активних сповіщень"
+msgstr[3] "%1 активне сповіщення"
+
+#: plasma/notifier/main.qml:101
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "Не турбувати до %1; клацніть середньою кнопкою, щоб вийти з режиму зараз"
+
+#: plasma/notifier/main.qml:104
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "Задіяно режим «Не турбувати»; клацніть середньою кнопкою, щоб вийти з нього"
+
+#: plasma/notifier/main.qml:110
+msgid "Middle-click to enter do not disturb mode"
+msgstr "Клацніть середньою кнопкою, щоб увійти у режим «Не турбувати»"
+
+#: plasma/notifier/main.qml:245
+msgid "Clear All Notifications"
+msgstr "Вилучити усі сповіщення"
+
+#: plasma/notifier/main.qml:264
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Налаштувати сповіщення і дії у відповідь на події…"

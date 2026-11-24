@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ru\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "Готово."
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "Ошибка (код выхода %1)."
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "Анимация"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "Плавное появление и масштабирование окон"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "Открытие и закрытие"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "Начальный размер"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "Свёртывание"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "Окна улетают к своей кнопке на панели задач"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "Длительность"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "Все эффекты рабочего стола"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "Приложения"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "Материал окон"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Фон окон Mica"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "Боковые панели, панели инструментов и диалоги показывают размытые обои. Применяется к новым окнам."
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "Эти приложения оставлять непрозрачными"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "Элементы управления"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "Радиус скругления"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "Акриловые меню и подсказки"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "Требуются материалы Lumen"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "Всегда показывать полные полосы прокрутки"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "Если выключено, они остаются тонкими до наведения"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "Проводник"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "Панель команд"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "Кнопки «Создать», «Вырезать», «Копировать», «Вставить», «Сортировка» и «Вид» под адресной строкой. Если выключено, окно остаётся чистым и минимальным."
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "Открывать проводник в"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "«Домашняя папка» — начальное расположение из настроек самого проводника"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "Домашняя папка"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "Прошлый сеанс"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "Последние файлы"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "Этот компьютер"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "Показывать свободное место"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "Полоса заполнения и свободное место под каждым диском"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "Показывать папки"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "«Рабочий стол», «Документы», «Загрузки», «Музыка», «Изображения» и «Видео» над дисками"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "Показывать сетевые расположения"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "Показывать скрытые диски"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "Диски, скрытые в области навигации"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "Движение"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "Анимировать элементы управления"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "Действует в приложениях со стилем Lumen. Изменения видны сразу."
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "Загрузка"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "Использовать Lumen при загрузке"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Меню загрузки Limine и заставка Plymouth. Предыдущее меню сохраняется."
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "Вернуть прежний вид загрузки"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "Блокировка и вход"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "Экран блокировки"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Обои Lumen"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "Всегда показывать часы"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "Управление мультимедиа"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "Блокировка экрана"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "Экран входа"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "Использовать Lumen на экране входа"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "Вернуть стандартный экран входа"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "Настройки экрана входа"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "Экраны блокировки и выхода"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "Обновить экраны блокировки и выхода Lumen"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Выполняется автоматически после обновлений Plasma"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "Обслуживание"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "Инструмент lumen не найден"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "Установите его командой `make install-system` из папки с исходниками Lumen."
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "Проверка"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "Проверяет, что все части Lumen установлены и работают"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "Запустить диагностику"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "Показать снимок раскладки панели"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "Восстановление"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "Цвета, стиль, оформление окон, эффекты и тема Plasma"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "Применить Lumen заново"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "Перезапустить компоненты рабочего стола"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "После смены значков или тем в Параметрах системы: обновляет значки в открытых приложениях и перезагружает панель задач, рабочий стол и поиск"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "Найти заменённые программы"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "Показывает установленные пакеты, которые заменяет Lumen, например Kvantum и Klassy. Удалите их командой `lumen cleanup` в терминале."
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "Пересобрать системные компоненты"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "Выполняется автоматически после обновлений KWin или Qt"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "Материалы"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Материалы Lumen"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "Заменяют стандартное размытие эффектами Mica и акрил"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "Mica для панели задач"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "Если выключено, используется акрил, сквозь который видны окна под панелью"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "Тон обоев"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "Панель задач, Пуск, меню и окна принимают цвет обоев и плавно меняются вместе с ними"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "Акрил (меню, всплывающие окна, Пуск)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "Размытие"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "Насыщенность"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "Шум"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica (окна, панель задач)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "Панель задач"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "Панель задач Lumen отсутствует на этом рабочем столе"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "Примените раскладку Lumen, чтобы заменить текущую панель. Ваши виджеты, значки в трее, закреплённые приложения и избранное сохранятся."
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "Применить раскладку Lumen"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "Расположение"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "Значки панели задач по центру"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "Плавающая"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "Автоматически скрывать"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "Значки"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "Высота панели задач"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "Размер значка «Пуск»"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "Размер значков приложений"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "Значки Пуска и приложений сохраняют этот размер при любой высоте панели"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "Расстояние между приложениями"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "Очень широкое"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "Нет"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "Обычное"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "Широкое"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "Размер значков в трее"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "Размер значков быстрых настроек"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "Сеть, громкость и батарея рядом с часами"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "Расстояние между значками в трее"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "Часы"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "Показывать"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "Только дату"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "Время и дату в одну строку"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "Только время"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "Время над датой"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "Формат времени"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12-часовой"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24-часовой"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "Как в региональных настройках"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "Формат даты"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "Краткий региональный (%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "С днём недели (%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "Полный региональный (%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "Свой (задаётся в настройках часов)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "Показывать секунды"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "Жирное время"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "Размер времени"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "Выравнивание времени"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "По центру"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "По левому краю"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "По правому краю"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "Размер даты"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "Крупные размеры уменьшаются, чтобы поместиться; сама панель задач не меняется"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "Выравнивание даты"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "Компоненты"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "Закреплённые и рекомендуемые приложения, меню питания и учётной записи"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "Пуск"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "Значки, скрытые значки, плитки и ползунки"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "Трей и быстрые настройки"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "Часы и уведомления"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "Свой формат даты, календарь и центр уведомлений"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "Кнопки приложений"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "Закреплённые приложения и открытые окна"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "Показывать поверх полноэкранных приложений"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "Если выключено, полноэкранные игры и видео включают режим «Не беспокоить» (важные уведомления всё равно показываются)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "Вывод"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "Выполняется…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "Окна"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "Заголовок окна"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "Полупрозрачный заголовок"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "Высота"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "Заголовок по центру"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "Показывать значок приложения"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "Только «Закрыть»"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "Закрыть, свернуть, развернуть (слева)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "Свернуть, развернуть, закрыть (справа)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "Форма"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "Настройки оформления окон"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "Тёмный"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "Тёмные поверхности Mica повсюду"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "Светлые поверхности с мягкими тенями"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "Светлый"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "Автоматически"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "Переключаться между светлым и тёмным в зависимости от времени суток"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "Режим"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "Размер текста"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "Настройка"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Размытие Mica и акрил, оттенок и шум"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "Заголовки окон, углы и кнопки"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "Элементы управления, меню, полосы прокрутки и скорость анимации"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "Анимация открытия, закрытия и свёртывания"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "Выравнивание, размер, Пуск, трей и часы"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "Экран блокировки, экран входа и выход"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "Меню загрузки и заставка загрузки"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "Восстановление, обновление и диагностика"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "Связанные настройки"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "Цвет акцента"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "Обои"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "Шрифты"

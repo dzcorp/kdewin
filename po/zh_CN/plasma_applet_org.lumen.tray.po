@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: plasma/tray/qml/AppletPage.qml:64
+msgid "Back"
+msgstr "返回"
+
+#: plasma/tray/qml/BackgroundAppTrayItem.qml:47
+msgctxt "@action:inmenu"
+msgid "Quit %1"
+msgstr "退出 %1"
+
+#: plasma/tray/qml/ConfigEntries.qml:16 plasma/tray/qml/QsWifi.qml:11
+msgid "Wi-Fi"
+msgstr "WLAN"
+
+#: plasma/tray/qml/ConfigEntries.qml:17 plasma/tray/qml/QsBluetooth.qml:5
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+#: plasma/tray/qml/ConfigEntries.qml:18 plasma/tray/qml/QsAirplane.qml:8
+msgid "Airplane mode"
+msgstr "飞行模式"
+
+#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:14
+msgid "Power mode"
+msgstr "电源模式"
+
+#: plasma/tray/qml/ConfigEntries.qml:20 plasma/tray/qml/QsNightLight.qml:18
+msgid "Night light"
+msgstr "夜间模式"
+
+#: plasma/tray/qml/ConfigEntries.qml:21 plasma/tray/qml/QsDnd.qml:9
+msgid "Do not disturb"
+msgstr "免打扰"
+
+#: plasma/tray/qml/ConfigEntries.qml:22 plasma/tray/qml/QsDarkMode.qml:6
+msgid "Dark mode"
+msgstr "深色模式"
+
+#: plasma/tray/qml/ConfigEntries.qml:61
+msgid "Tip: drag icons on the taskbar to reorder them, or between the taskbar and the hidden icons flyout to pin or hide them."
+msgstr "提示:在任务栏上拖动图标可调整顺序，在任务栏和隐藏图标之间拖动可固定或隐藏它们。"
+
+#: plasma/tray/qml/ConfigEntries.qml:65
+msgid "Quick Settings tiles"
+msgstr "快速设置磁贴"
+
+#: plasma/tray/qml/ConfigEntries.qml:82
+msgid "Icons"
+msgstr "图标"
+
+#: plasma/tray/qml/ConfigEntries.qml:112
+msgid "In Quick Settings"
+msgstr "在快速设置中"
+
+#: plasma/tray/qml/ConfigEntries.qml:119
+msgid "Always hidden"
+msgstr "始终隐藏"
+
+#: plasma/tray/qml/ConfigEntries.qml:119
+msgid "Always shown"
+msgstr "始终显示"
+
+#: plasma/tray/qml/ConfigEntries.qml:119
+msgid "Disabled"
+msgstr "已禁用"
+
+#: plasma/tray/qml/ConfigEntries.qml:119
+msgid "Shown when relevant"
+msgstr "需要时显示"
+
+#: plasma/tray/qml/OverflowChevron.qml:12
+msgid "Hide hidden icons"
+msgstr "隐藏隐藏的图标"
+
+#: plasma/tray/qml/OverflowChevron.qml:12
+msgid "Show hidden icons"
+msgstr "显示隐藏的图标"
+
+#: plasma/tray/qml/OverflowFlyout.qml:64
+msgid "Drop icons here"
+msgstr "将图标拖放到此处"
+
+#: plasma/tray/qml/QsBattery.qml:22
+msgctxt "battery percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: plasma/tray/qml/QsMedia.qml:74
+msgid "Previous"
+msgstr "上一个"
+
+#: plasma/tray/qml/QsMedia.qml:81
+msgid "Pause"
+msgstr "暂停"
+
+#: plasma/tray/qml/QsMedia.qml:81
+msgid "Play"
+msgstr "播放"
+
+#: plasma/tray/qml/QsMedia.qml:88
+msgid "Next"
+msgstr "下一个"
+
+#: plasma/tray/qml/QsPowerProfile.qml:9
+msgid "Power saver"
+msgstr "节电模式"
+
+#: plasma/tray/qml/QsPowerProfile.qml:10
+msgid "Balanced"
+msgstr "平衡"
+
+#: plasma/tray/qml/QsPowerProfile.qml:11
+msgid "Performance"
+msgstr "性能"
+
+#: plasma/tray/qml/QsVolume.qml:17
+msgid "Mute"
+msgstr "静音"
+
+#: plasma/tray/qml/QsVolume.qml:17
+msgid "Unmute"
+msgstr "取消静音"
+
+#: plasma/tray/qml/QuickSettings.qml:115
+msgid "Settings"
+msgstr "设置"
+
+#: plasma/tray/qml/QuickSettingsButton.qml:17
+msgid "Quick Settings"
+msgstr "快速设置"
+
+#: plasma/tray/qml/QuickSlider.qml:122
+msgid "More options"
+msgstr "更多选项"
+
+#: plasma/tray/qml/config.qml:6
+msgid "Entries"
+msgstr "条目"

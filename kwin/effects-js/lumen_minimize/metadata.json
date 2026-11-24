@@ -1,0 +1,16 @@
+{
+    "KPackageStructure": "KWin/Effect",
+    "KPlugin": {
+        "Authors": [{ "Name": "Lumen" }],
+        "Category": "Window Management",
+        "Description": "Fluent minimize: windows glide and shrink into their taskbar button",
+        "EnabledByDefault": false,
+        "Icon": "preferences-system-windows-effect-squash",
+        "Id": "lumen_minimize",
+        "License": "GPL",
+        "Name": "Lumen Minimize"
+    },
+    "X-KDE-Ordering": 60,
+    "X-KWin-Exclusive-Category": "minimize",
+    "X-Plasma-API": "javascript"
+}

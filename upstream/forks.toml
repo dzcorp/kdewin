@@ -1,0 +1,60 @@
+# Forked upstream sources. `lumen upstream sync` merges each fork three-way with a newer release:
+# `version` is the release the fork is based on, `arch` the Arch package whose version is followed
+# (else the newest release in `releases`). `paths` are merged, `watch` paths were rewritten here and
+# only list upstream changes for review. `version_files` get the old version string replaced.
+
+[plasma]
+version = "6.8.2"
+arch = "plasma-workspace"
+releases = "https://download.kde.org/stable/plasma/"
+url = "https://download.kde.org/stable/plasma/{v}/{pkg}-{v}.tar.xz"
+version_files = ["plasma/tray/CMakeLists.txt", "plasma/tasks/CMakeLists.txt", "plasma/notifier/CMakeLists.txt", "ARCHITECTURE.md"]
+
+[[plasma.paths]]
+local = "plasma/tray/src"
+package = "plasma-workspace"
+upstream = "applets/systemtray"
+
+[[plasma.paths]]
+local = "plasma/tray/dbusmenuqt"
+package = "plasma-workspace"
+upstream = "libdbusmenuqt"
+
+[[plasma.paths]]
+local = "plasma/notifier"
+package = "plasma-workspace"
+upstream = "applets/notifications"
+exclude = ["CMakeLists.txt"]
+
+[[plasma.paths]]
+local = "plasma/tasks"
+package = "plasma-desktop"
+upstream = "applets/taskmanager"
+exclude = ["CMakeLists.txt"]
+
+[[plasma.watch]]
+local = "plasma/tray/qml"
+package = "plasma-workspace"
+upstream = "applets/systemtray/qml"
+
+[dolphin]
+version = "26.08.2"
+arch = "dolphin"
+releases = "https://download.kde.org/stable/release-service/"
+url = "https://download.kde.org/stable/release-service/{v}/src/{pkg}-{v}.tar.xz"
+version_files = ["apps/dolphin/CMakeLists.txt", "apps/dolphin/UPSTREAM"]
+
+[[dolphin.paths]]
+local = "apps/dolphin/src"
+package = "dolphin"
+upstream = "src"
+
+[[dolphin.paths]]
+local = "apps/dolphin/LICENSES"
+package = "dolphin"
+upstream = "LICENSES"
+
+[[dolphin.paths]]
+local = "apps/dolphin/COPYING"
+package = "dolphin"
+upstream = "COPYING"

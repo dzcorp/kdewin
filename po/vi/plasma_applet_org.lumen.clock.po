@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: vi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:11
+msgid "Appearance"
+msgstr "Diện mạo"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:16
+msgid "Calendar"
+msgstr "Lịch"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:21
+msgid "Time Zones"
+msgstr "Múi giờ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:40
+msgid "General:"
+msgstr "Chung:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:41
+msgid "Show week numbers"
+msgstr "Hiện số tuần"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:44
+msgid "First day of week:"
+msgstr "Ngày đầu tuần:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:48
+msgid "Use region defaults"
+msgstr "Dùng mặc định theo vùng"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:64
+msgid "Available Add-Ons"
+msgstr "Tiện ích bổ sung có sẵn"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:32
+msgid "Show:"
+msgstr "Hiện:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Date only"
+msgstr "Chỉ ngày"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time and date on one line"
+msgstr "Giờ và ngày trên một dòng"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time only"
+msgstr "Chỉ giờ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time over date"
+msgstr "Giờ phía trên ngày"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:38
+msgid "Time format:"
+msgstr "Định dạng giờ:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "12-hour"
+msgstr "12 giờ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "24-hour"
+msgstr "24 giờ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "Use region settings"
+msgstr "Dùng cài đặt vùng"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:41
+msgid "Show seconds"
+msgstr "Hiện giây"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:42
+msgid "Bold time"
+msgstr "Giờ in đậm"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:45
+msgid "Date format:"
+msgstr "Định dạng ngày:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:47
+msgid "Region short (%1)"
+msgstr "Ngắn theo vùng (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:48
+msgid "Weekday (%1)"
+msgstr "Kèm thứ (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:49
+msgid "Region long (%1)"
+msgstr "Dài theo vùng (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:50
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:51
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:57
+msgid "Custom format:"
+msgstr "Định dạng tùy chỉnh:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:61
+msgid "Time size:"
+msgstr "Cỡ giờ:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:67
+msgid "Time alignment:"
+msgstr "Căn lề giờ:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Center"
+msgstr "Giữa"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Left"
+msgstr "Trái"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Right"
+msgstr "Phải"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:71
+msgid "Date size:"
+msgstr "Cỡ ngày:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:77
+msgid "Date alignment:"
+msgstr "Căn lề ngày:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:84
+msgid "Large sizes shrink to fit the taskbar; the taskbar itself never changes."
+msgstr "Cỡ lớn được thu nhỏ cho vừa thanh tác vụ; bản thân thanh tác vụ không bao giờ thay đổi."
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:87
+msgid "Notification bell:"
+msgstr "Chuông thông báo:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Always"
+msgstr "Luôn luôn"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+msgid "Only with new notifications"
+msgstr "Chỉ khi có thông báo mới"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:98
+msgid "Show number of new notifications"
+msgstr "Hiển thị số thông báo mới"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:101
+msgid "Show time zone:"
+msgstr "Hiện múi giờ:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Only when different from local"
+msgstr "Chỉ khi khác với giờ địa phương"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:112
+msgid "Time zone format:"
+msgstr "Định dạng múi giờ:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "City"
+msgstr "Thành phố"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "Code"
+msgstr "Mã"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "Offset from UTC"
+msgstr "Chênh lệch với UTC"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
+msgid "Flyout:"
+msgstr "Bảng bật lên:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+msgid "Show calendar"
+msgstr "Hiện lịch"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:23
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:234
+msgid "Cancel"
+msgstr "Huỷ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:30
+msgid "Add Selected Time Zone"
+msgstr "Thêm múi giờ đã chọn"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:60
+msgid "Add Time Zone…"
+msgstr "Thêm múi giờ…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:98
+msgid "Clock is currently using this time zone"
+msgstr "Đồng hồ hiện đang dùng múi giờ này"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:99
+msgid "Hidden while this is the local time zone's city"
+msgstr "Ẩn khi đây là thành phố của múi giờ địa phương"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:117
+msgid "Switch Systemwide Time Zone…"
+msgstr "Chuyển múi giờ toàn hệ thống…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:125
+msgid "Remove this time zone"
+msgstr "Bỏ múi giờ này"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:137
+msgid "Additional Time Zones"
+msgstr "Múi giờ bổ sung"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:137
+msgid "Systemwide Time Zone"
+msgstr "Múi giờ toàn hệ thống"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:147
+msgid "Add more time zones to see them in the clock's flyout and tooltip, or to show one of them on the taskbar"
+msgstr "Thêm múi giờ để xem chúng trong bảng bật lên và chú giải của đồng hồ, hoặc để hiển thị một trong số đó trên thanh tác vụ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:158
+msgid "Switch displayed time zone by scrolling over the clock"
+msgstr "Chuyển múi giờ hiển thị bằng cách cuộn trên đồng hồ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:164
+msgid "This does not change the systemwide time zone. When you travel, switch the systemwide time zone instead."
+msgstr "Thao tác này không thay đổi múi giờ hệ thống. Khi đi du lịch, hãy đổi múi giờ hệ thống."
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:173
+msgid "Choose Time Zone"
+msgstr "Chọn múi giờ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:107
+msgid "Keep open"
+msgstr "Giữ mở"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+msgid "Hide calendar"
+msgstr "Ẩn lịch"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:190
+msgid "Events"
+msgstr "Sự kiện"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:198
+msgid "Add event"
+msgstr "Thêm sự kiện"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+msgid "No events for this day"
+msgstr "Ngày này không có sự kiện nào"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+msgid "No events for today"
+msgstr "Hôm nay không có sự kiện nào"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:238
+msgid "Time zones"
+msgstr "Múi giờ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+msgid "Show months"
+msgstr "Hiện các tháng"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+msgid "Show years"
+msgstr "Hiện các năm"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:363
+msgid "Today"
+msgstr "Hôm nay"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+msgid "Next"
+msgstr "Tiếp"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+msgid "Previous"
+msgstr "Trước"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:636
+msgid "All day"
+msgstr "Cả ngày"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:44
+msgid "Other"
+msgstr "Khác"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:57
+msgid "%1 more"
+msgid_plural "%1 more"
+msgstr[0] "%1 mục khác"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:57
+msgid "Show less"
+msgstr "Hiện ít hơn"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:68
+msgid "Clear group"
+msgstr "Xóa nhóm"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:132
+msgid "Configure"
+msgstr "Cấu hình"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:143
+msgid "Close"
+msgstr "Đóng"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:227
+msgid "Pause"
+msgstr "Tạm dừng"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:227
+msgid "Resume"
+msgstr "Tiếp tục trở lại"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:260
+msgid "Reply"
+msgstr "Hồi đáp"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:274
+msgid "Type a reply…"
+msgstr "Viết lời hồi đáp…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:36
+msgid "Notifications"
+msgstr "Thông báo"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:52
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:401
+msgid "Do not disturb"
+msgstr "Đừng làm phiền"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:64
+msgid "Clear all"
+msgstr "Xóa tất cả"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:76
+msgid "Do not disturb is on"
+msgstr "Không làm phiền đang bật"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:76
+msgid "No new notifications"
+msgstr "Không có thông báo mới"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:87
+msgctxt "offset from current time in hours and minutes"
+msgid " • %1:%2 later"
+msgstr " • muộn hơn %1:%2"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:88
+msgctxt "offset from current time in hours and minutes"
+msgid " • %1:%2 earlier"
+msgstr " • sớm hơn %1:%2"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:90
+msgctxt "offset from current time"
+msgid " • %1 hour later"
+msgid_plural " • %1 hours later"
+msgstr[0] " • muộn hơn %1 giờ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:91
+msgctxt "offset from current time"
+msgid " • %1 hour earlier"
+msgid_plural " • %1 hours earlier"
+msgstr[0] " • sớm hơn %1 giờ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:397
+msgid "Copy to Clipboard"
+msgstr "Chép vào bảng nháp"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:408
+msgid "Clear all notifications"
+msgstr "Xóa tất cả thông báo"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:414
+msgid "Adjust date and time…"
+msgstr "Điều chỉnh ngày và giờ…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:419
+msgid "Notification settings…"
+msgstr "Cài đặt thông báo…"

@@ -1,0 +1,318 @@
+1	Listo.
+2	Error (código de salida %1).
+3	Animaciones
+4	Desvanecer y ampliar las ventanas al abrir y cerrar
+5	Abrir y cerrar
+6	Tamaño inicial
+7	Minimizar
+8	Las ventanas vuelan a su botón de la barra de tareas
+9	Duración
+10	Todos los efectos del escritorio
+11	Aplicaciones
+12	Material de las ventanas
+13	Fondos de ventana Mica
+14	Las barras laterales, barras de herramientas y diálogos muestran el fondo de pantalla desenfocado. Se aplica a las ventanas nuevas.
+15	Opacidad
+16	Mantener opacas estas aplicaciones
+17	Controles
+18	Radio de las esquinas
+19	Menús e información sobre herramientas acrílicos
+20	Requiere los materiales de Lumen
+21	Mostrar siempre las barras de desplazamiento completas
+22	Desactivado: se mantienen finas hasta pasar el ratón
+23	Movimiento
+24	Animar los controles
+25	Se aplica a las aplicaciones con el estilo de Lumen. Los cambios se ven al instante.
+26	Arranque
+27	Usar Lumen en el arranque
+28	Menú de arranque Limine y pantalla de Plymouth. Se guarda una copia del menú anterior.
+29	Restaurar el aspecto de arranque anterior
+30	Bloqueo e inicio de sesión
+31	Pantalla de bloqueo
+32	Fondo de pantalla de Lumen
+33	Mostrar siempre el reloj
+34	Controles multimedia
+35	Bloqueo de pantalla
+36	Pantalla de inicio de sesión
+37	Usar Lumen en la pantalla de inicio de sesión
+38	Restaurar la pantalla de inicio de sesión estándar
+39	Configuración de la pantalla de inicio de sesión
+40	Pantallas de bloqueo y cierre de sesión
+41	Actualizar las pantallas de bloqueo y cierre de sesión de Lumen
+42	Se ejecuta automáticamente tras actualizar Plasma
+43	Mantenimiento
+44	No se encontró la herramienta lumen
+45	Instálela con `make install-system` desde la carpeta del código fuente de Lumen.
+46	Comprobar
+47	Comprueba que todas las partes de Lumen están instaladas y activas
+48	Ejecutar diagnóstico
+49	Mostrar la instantánea de la disposición del panel
+50	Reparar
+51	Colores, estilo, decoración, efectos y tema de Plasma
+52	Volver a aplicar Lumen
+53	Buscar herramientas reemplazadas
+54	Muestra los paquetes instalados que Lumen reemplaza, como Kvantum y Klassy. Elimínelos con `lumen cleanup` en una terminal.
+55	Recompilar los componentes nativos
+56	Se ejecuta automáticamente tras actualizar KWin o Qt
+57	Materiales
+58	Materiales de Lumen
+59	Sustituye el desenfoque estándar por Mica y acrílico
+60	Mica para la barra de tareas
+61	Desactivado: acrílico, que deja ver las ventanas detrás de la barra de tareas
+62	Acrílico (menús, paneles flotantes, Inicio)
+63	Desenfoque
+64	Saturación
+65	Ruido
+66	Mica (ventanas, barra de tareas)
+67	Barra de tareas
+68	La barra de tareas de Lumen no está en este escritorio
+69	Aplique la disposición de Lumen para sustituir el panel actual. Se conservan sus widgets, iconos de la bandeja, aplicaciones ancladas y favoritos.
+70	Aplicar la disposición de Lumen
+71	Disposición
+72	Centrar los iconos de la barra de tareas
+73	Flotante
+74	Ocultar automáticamente
+75	Iconos
+76	Altura de la barra de tareas
+77	Tamaño de los iconos de aplicaciones
+78	Los iconos de Inicio y de las aplicaciones mantienen este tamaño con cualquier altura de la barra
+79	Espacio entre aplicaciones
+80	Muy ancho
+81	Ninguno
+82	Normal
+83	Ancho
+84	Tamaño de los iconos de la bandeja
+85	Tamaño de los iconos de configuración rápida
+86	Red, volumen y batería junto al reloj
+87	Espacio entre los iconos de la bandeja
+88	Reloj
+89	Mostrar
+90	Solo la fecha
+91	Hora y fecha en una línea
+92	Solo la hora
+93	Hora sobre la fecha
+94	Formato de hora
+95	12 horas
+96	24 horas
+97	Usar la configuración regional
+98	Formato de fecha
+99	Regional corto (%1)
+100	Con día de la semana (%1)
+101	Regional largo (%1)
+102	ISO (%1)
+103	Personalizado (se define en la configuración del reloj)
+104	Mostrar los segundos
+105	Hora en negrita
+106	Tamaño de la hora
+107	Alineación de la hora
+108	Centro
+109	Izquierda
+110	Derecha
+111	Tamaño de la fecha
+112	Los tamaños grandes se reducen para caber; la barra de tareas nunca cambia
+113	Alineación de la fecha
+114	Componentes
+115	Aplicaciones ancladas y recomendadas, menús de energía y de cuenta
+116	Inicio
+117	Iconos, desbordamiento, mosaicos y controles deslizantes
+118	Bandeja y configuración rápida
+119	Reloj y notificaciones
+120	Formato de fecha personalizado, calendario y centro de notificaciones
+121	Botones de aplicaciones
+122	Aplicaciones ancladas y ventanas abiertas
+123	Notificaciones
+124	Mostrar sobre las aplicaciones a pantalla completa
+125	Desactivado: los juegos y vídeos a pantalla completa activan «No molestar» (las notificaciones críticas se siguen mostrando)
+126	Salida
+127	Ejecutando…
+128	Ventanas
+129	Barra de título
+130	Barra de título translúcida
+131	Altura
+132	Centrar el título
+133	Mostrar el icono de la aplicación
+134	Botones
+135	Solo cerrar
+136	Cerrar, minimizar, maximizar (izquierda)
+137	Minimizar, maximizar, cerrar (derecha)
+138	Forma
+139	Configuración de la decoración de ventanas
+140	Oscuro
+141	Superficies Mica oscuras en todas partes
+142	Superficies claras con sombras suaves
+143	Claro
+144	Automático
+145	Cambiar entre claro y oscuro según la hora del día
+146	Modo
+147	Personalizar
+148	Desenfoque Mica y acrílico, tinte y ruido
+149	Barras de título, esquinas y botones
+150	Controles, menús, barras de desplazamiento y velocidad de animación
+151	Movimiento al abrir, cerrar y minimizar
+152	Alineación, tamaño, Inicio, bandeja y reloj
+153	Pantalla de bloqueo, de inicio de sesión y cierre de sesión
+154	Menú de arranque y pantalla de arranque
+155	Reparación, actualización y diagnóstico
+156	Relacionado
+157	Color de énfasis
+158	Fondo de pantalla
+159	Fuentes
+161	Mostrar:
+162	Formato de hora:
+165	Formato personalizado:
+166	Tamaño de la hora:
+167	Alineación de la hora:
+168	Tamaño de la fecha:
+169	Alineación de la fecha:
+170	Los tamaños grandes se reducen para caber en la barra de tareas; la barra nunca cambia.
+171	Mostrar la campana de notificaciones
+172	Panel flotante:
+173	Mostrar el calendario
+176	No molestar
+177	Borrar todo
+178	«No molestar» está activado
+179	No hay notificaciones nuevas
+180	Anteriores
+181	Mostrar menos
+182	+%1
+183	Borrar el grupo
+184	Ocultar el calendario
+191	Borrar todas las notificaciones
+192	Ajustar la fecha y la hora…
+193	Configuración de notificaciones…
+197	Nombres de aplicaciones:
+198	Nombre genérico (nombre)
+199	Solo el nombre genérico
+200	Nombre (nombre genérico)
+202	Recomendado:
+203	Mostrar los archivos recientes
+204	Buscar aplicaciones, configuración y documentos
+205	Anclado
+206	Todas las aplicaciones
+207	Haga clic con el botón derecho en una aplicación y elija «Anclar a Inicio»
+208	Recomendado
+209	Sus archivos recientes aparecerán aquí
+210	Atrás
+211	No hay resultados para «%1»
+212	Cambiar la configuración de la cuenta
+213	Bloquear
+214	Cambiar de usuario
+215	Cerrar sesión
+217	Suspender
+218	Hibernar
+219	Apagar
+220	Reiniciar
+221	Desanclar de Inicio
+222	Anclar a Inicio
+224	Salir de %1
+225	Wi-Fi
+227	Modo avión
+228	Modo de energía
+229	Luz nocturna
+230	Modo oscuro
+231	Consejo: arrastre los iconos de la barra de tareas para reordenarlos, o entre la barra y el panel de iconos ocultos para anclarlos u ocultarlos.
+232	Mosaicos de configuración rápida
+233	En la configuración rápida
+234	Siempre oculto
+235	Siempre visible
+236	Desactivado
+237	Visible cuando corresponde
+238	Ocultar los iconos ocultos
+239	Mostrar los iconos ocultos
+240	Suelte los iconos aquí
+242	Anterior
+244	Siguiente
+245	Ahorro de energía
+250	Configuración rápida
+251	Más opciones
+252	Entradas
+399	Tono del fondo de pantalla
+400	La barra de tareas, Inicio, los menús y las ventanas adoptan el color del fondo de pantalla y lo siguen suavemente cuando cambia
+409	Solo si es distinta de la local
+410	Formato de zona horaria:
+413	Diferencia con UTC
+422	Añade más zonas horarias para verlas en el panel y la información emergente del reloj, o para mostrar una de ellas en la barra de tareas
+423	Cambiar la zona horaria mostrada desplazándose sobre el reloj
+424	Esto no cambia la zona horaria del sistema. Cuando viajes, cambia la zona horaria del sistema.
+426	Mantener abierto
+428	Añadir evento
+431	Zonas horarias
+432	Todo el día
+433	Otros
+434	%1 más	%1 más
+435	Mostrar menos
+441	Campana de notificaciones:
+443	Solo con notificaciones nuevas
+444	Mostrar el número de notificaciones nuevas
+445	Todo
+446	Agregadas recientemente
+447	Más usadas
+448	Saltar a una letra
+449	Configuración
+450	Gestor de archivos
+451	Documentos
+452	Descargas
+453	Música
+454	Imágenes
+455	Vídeos
+456	Red
+457	Diseño:
+458	Ancladas y Todas las aplicaciones en páginas separadas
+459	Todo en una sola página desplazable
+460	Predeterminado
+461	Más anclajes
+462	Más recomendaciones
+463	Incluir aplicaciones usadas recientemente
+464	Todas las aplicaciones:
+465	Mostrar aplicaciones agregadas recientemente
+466	Mostrar las aplicaciones más usadas
+467	Activar la vista por categorías (grupos del menú de aplicaciones)
+468	Vista:
+469	Categoría
+470	Cuadrícula
+471	Lista
+472	Junto al botón de apagado:
+473	Reiniciar en la configuración del firmware UEFI
+474	Mostrar todo
+476	Aplicaciones
+477	Web
+478	Configurar la búsqueda…
+479	Resultados de la búsqueda
+480	Abrir
+481	Vista: %1
+194	General
+482	Tamaño:
+483	Llenar el espacio libre
+484	Menú contextual:
+485	Quitar
+486	Añadir aplicación…
+487	Configuración de la barra de tareas
+488	Reiniciar los componentes del escritorio
+489	Úselo tras cambiar iconos o temas en Preferencias del sistema: actualiza los iconos de las aplicaciones abiertas y recarga la barra de tareas, el escritorio y la búsqueda
+490	Barra de comandos
+491	Botones Nuevo, Cortar, Copiar, Pegar, Ordenar y Ver bajo la barra de direcciones. Desactivada deja una ventana limpia y mínima.
+492	Mostrar meses
+493	Mostrar años
+494	Hoy
+495	Tamaño del texto
+496	Tamaño del icono de Inicio
+537	Explorador de archivos
+538	Abrir el Explorador de archivos en «Este equipo»
+539	Desactivado abre tu carpeta personal
+540	Este equipo
+541	Mostrar espacio libre
+542	Una barra de capacidad y el espacio libre bajo cada unidad
+543	Mostrar carpetas
+544	Escritorio, Documentos, Descargas, Música, Imágenes y Vídeos sobre las unidades
+545	Mostrar ubicaciones de red
+546	Mostrar unidades ocultas
+547	Unidades ocultas en el panel de navegación
+551	Dispositivos y unidades
+552	Ubicaciones de red
+554	1 elemento seleccionado
+555	%1 disponibles de %2
+560	Abrir el Explorador de archivos en
+561	«Carpeta personal» es la ubicación inicial definida en la configuración del Explorador de archivos
+562	Carpeta personal
+563	Sesión anterior
+564	Archivos recientes

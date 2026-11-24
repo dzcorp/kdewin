@@ -1,0 +1,305 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: eu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plasma/plasmoids/org.lumen.start/contents/config/config.qml:6
+msgid "General"
+msgstr "Orokorra"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:213
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:17
+msgid "All"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:219
+msgid "Recently added"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:226
+msgid "Most used"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:244
+msgid "Jump to a letter"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:472
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:273
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:298
+msgid "Back"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:22
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:20
+msgid "Settings"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:25
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:23
+msgid "File Manager"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:19
+msgid "Documents"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:27
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:25
+msgid "Downloads"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:28
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:26
+msgid "Music"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:27
+msgid "Pictures"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:30
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:28
+msgid "Videos"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:31
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:29
+msgid "Network"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:36
+msgid "Icon:"
+msgstr "Ikonoa:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:38
+msgid "Choose…"
+msgstr "Hautatu…"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:47
+msgid "App names:"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name (name)"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name only"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name (generic name)"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name only"
+msgstr "Izena bakarrik"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:54
+msgid "Layout:"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:55
+msgid "Pinned and All apps on separate pages"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:60
+msgid "Everything on one scrolling page"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:66
+msgid "Show:"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "Default"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More pins"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More recommendations"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:74
+msgid "Recommended:"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:75
+msgid "Show recent files"
+msgstr "Erakutsi azken fitxategiak"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:80
+msgid "Include recently used apps"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:87
+msgid "All apps:"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:88
+msgid "Show recently added apps"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:92
+msgid "Show most used apps"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:96
+msgid "Enable category view (application menu groups)"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:100
+msgid "View:"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Category"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Grid"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "List"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:109
+msgid "Next to Power:"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:117
+msgid "Change account settings"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:122
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:171
+msgid "Lock"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:128
+msgid "Switch user"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:134
+msgid "Sign out"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:162
+msgid "Power"
+msgstr "Itzaltzea"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:177
+msgid "Sleep"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:183
+msgid "Hibernate"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:189
+msgid "Shut down"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:195
+msgid "Restart"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:205
+msgid "Restart to UEFI Firmware Setup"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:33
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:66
+msgid "Pinned"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:272
+msgid "All apps"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show all"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show less"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:120
+msgid "Right-click an app and choose “Pin to Start”"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:56
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:297
+msgid "Recommended"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:30
+msgid "More"
+msgstr "Gehiago"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:94
+msgid "Your recent files will show up here"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:18
+msgid "Apps"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:21
+msgid "Web"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:116
+msgid "Configure Search…"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:147
+msgid "Search results"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:181
+msgid "No results for “%1”"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:190
+msgid "Open"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:194
+msgid "Search for apps, settings, and documents"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:13
+msgctxt "@action:button %1 is List, Grid or Category"
+msgid "View: %1"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:226
+msgid "Start"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:153
+msgid "Unpin from Start"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:154
+msgid "Pin to Start"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:264
+msgid "Edit Applications…"
+msgstr "Editatu aplikazioak…"

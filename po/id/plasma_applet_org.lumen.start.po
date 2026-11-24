@@ -1,0 +1,305 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: id\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plasma/plasmoids/org.lumen.start/contents/config/config.qml:6
+msgid "General"
+msgstr "Umum"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:213
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:17
+msgid "All"
+msgstr "Semua"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:219
+msgid "Recently added"
+msgstr "Baru ditambahkan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:226
+msgid "Most used"
+msgstr "Paling sering digunakan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:244
+msgid "Jump to a letter"
+msgstr "Lompat ke huruf"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:472
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:273
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:298
+msgid "Back"
+msgstr "Kembali"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:22
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:20
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:25
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:23
+msgid "File Manager"
+msgstr "Pengelola Berkas"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:19
+msgid "Documents"
+msgstr "Dokumen"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:27
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:25
+msgid "Downloads"
+msgstr "Unduhan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:28
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:26
+msgid "Music"
+msgstr "Musik"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:27
+msgid "Pictures"
+msgstr "Gambar"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:30
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:28
+msgid "Videos"
+msgstr "Video"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:31
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:29
+msgid "Network"
+msgstr "Jaringan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:36
+msgid "Icon:"
+msgstr "Ikon:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:38
+msgid "Choose…"
+msgstr "Pilih..."
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:47
+msgid "App names:"
+msgstr "Nama aplikasi:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name (name)"
+msgstr "Nama umum (nama)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name only"
+msgstr "Nama umum saja"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name (generic name)"
+msgstr "Nama (nama umum)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name only"
+msgstr "Nama saja"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:54
+msgid "Layout:"
+msgstr "Tata letak:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:55
+msgid "Pinned and All apps on separate pages"
+msgstr "Disematkan dan Semua aplikasi di halaman terpisah"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:60
+msgid "Everything on one scrolling page"
+msgstr "Semuanya dalam satu halaman bergulir"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:66
+msgid "Show:"
+msgstr "Tampilkan:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "Default"
+msgstr "Bawaan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More pins"
+msgstr "Lebih banyak sematan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More recommendations"
+msgstr "Lebih banyak rekomendasi"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:74
+msgid "Recommended:"
+msgstr "Direkomendasikan:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:75
+msgid "Show recent files"
+msgstr "Tampilkan berkas terbaru"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:80
+msgid "Include recently used apps"
+msgstr "Sertakan aplikasi yang baru digunakan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:87
+msgid "All apps:"
+msgstr "Semua aplikasi:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:88
+msgid "Show recently added apps"
+msgstr "Tampilkan aplikasi yang baru ditambahkan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:92
+msgid "Show most used apps"
+msgstr "Tampilkan aplikasi yang paling sering digunakan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:96
+msgid "Enable category view (application menu groups)"
+msgstr "Aktifkan tampilan kategori (grup menu aplikasi)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:100
+msgid "View:"
+msgstr "Tampilan:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Category"
+msgstr "Kategori"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Grid"
+msgstr "Kisi"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "List"
+msgstr "Daftar"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:109
+msgid "Next to Power:"
+msgstr "Di samping Daya:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:117
+msgid "Change account settings"
+msgstr "Ubah pengaturan akun"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:122
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:171
+msgid "Lock"
+msgstr "Kunci"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:128
+msgid "Switch user"
+msgstr "Ganti pengguna"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:134
+msgid "Sign out"
+msgstr "Keluar"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:162
+msgid "Power"
+msgstr "Daya"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:177
+msgid "Sleep"
+msgstr "Tidur"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:183
+msgid "Hibernate"
+msgstr "Hibernasi"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:189
+msgid "Shut down"
+msgstr "Matikan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:195
+msgid "Restart"
+msgstr "Mulai ulang"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:205
+msgid "Restart to UEFI Firmware Setup"
+msgstr "Mulai ulang ke Pengaturan Firmware UEFI"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:33
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:66
+msgid "Pinned"
+msgstr "Disematkan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:272
+msgid "All apps"
+msgstr "Semua aplikasi"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show all"
+msgstr "Tampilkan semua"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show less"
+msgstr "Tampilkan lebih sedikit"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:120
+msgid "Right-click an app and choose “Pin to Start”"
+msgstr "Klik kanan sebuah aplikasi lalu pilih “Sematkan ke Mulai”"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:56
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:297
+msgid "Recommended"
+msgstr "Direkomendasikan"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:30
+msgid "More"
+msgstr "Lainnya"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:94
+msgid "Your recent files will show up here"
+msgstr "Berkas terbaru Anda akan muncul di sini"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:18
+msgid "Apps"
+msgstr "Aplikasi"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:21
+msgid "Web"
+msgstr "Web"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:116
+msgid "Configure Search…"
+msgstr "Konfigurasi Pencarian…"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:147
+msgid "Search results"
+msgstr "Hasil pencarian"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:181
+msgid "No results for “%1”"
+msgstr "Tidak ada hasil untuk “%1”"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:190
+msgid "Open"
+msgstr "Buka"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:194
+msgid "Search for apps, settings, and documents"
+msgstr "Cari aplikasi, pengaturan, dan dokumen"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:13
+msgctxt "@action:button %1 is List, Grid or Category"
+msgid "View: %1"
+msgstr "Tampilan: %1"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:226
+msgid "Start"
+msgstr "Mulai"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:153
+msgid "Unpin from Start"
+msgstr "Lepas sematan dari Mulai"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:154
+msgid "Pin to Start"
+msgstr "Sematkan ke Mulai"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:264
+msgid "Edit Applications…"
+msgstr "Edit Aplikasi…"

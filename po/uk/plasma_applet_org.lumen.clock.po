@@ -1,0 +1,410 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: uk\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:11
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:16
+msgid "Calendar"
+msgstr "Календар"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:21
+msgid "Time Zones"
+msgstr "Часові пояси"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:40
+msgid "General:"
+msgstr "Загальне:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:41
+msgid "Show week numbers"
+msgstr "Показувати номери тижнів"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:44
+msgid "First day of week:"
+msgstr "Перший день тижня:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:48
+msgid "Use region defaults"
+msgstr "Типове для регіону"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:64
+msgid "Available Add-Ons"
+msgstr "Доступні додатки"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:32
+msgid "Show:"
+msgstr "Показувати:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Date only"
+msgstr "Лише дату"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time and date on one line"
+msgstr "Час і дату в один рядок"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time only"
+msgstr "Лише час"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time over date"
+msgstr "Час над датою"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:38
+msgid "Time format:"
+msgstr "Формат часу:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "12-hour"
+msgstr "12-годинний"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "24-hour"
+msgstr "24-годинний"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "Use region settings"
+msgstr "Як у регіональних параметрах"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:41
+msgid "Show seconds"
+msgstr "Показувати секунди"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:42
+msgid "Bold time"
+msgstr "Жирний час"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:45
+msgid "Date format:"
+msgstr "Формат дати:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:47
+msgid "Region short (%1)"
+msgstr "Короткий регіональний (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:48
+msgid "Weekday (%1)"
+msgstr "З днем тижня (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:49
+msgid "Region long (%1)"
+msgstr "Повний регіональний (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:50
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:51
+msgid "Custom"
+msgstr "Нетиповий"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:57
+msgid "Custom format:"
+msgstr "Власний формат:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:61
+msgid "Time size:"
+msgstr "Розмір часу:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:67
+msgid "Time alignment:"
+msgstr "Вирівнювання часу:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Center"
+msgstr "По центру"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Left"
+msgstr "Ліворуч"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Right"
+msgstr "Праворуч"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:71
+msgid "Date size:"
+msgstr "Розмір дати:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:77
+msgid "Date alignment:"
+msgstr "Вирівнювання дати:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:84
+msgid "Large sizes shrink to fit the taskbar; the taskbar itself never changes."
+msgstr "Великі розміри зменшуються під панель завдань; сама панель не змінюється."
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:87
+msgid "Notification bell:"
+msgstr "Дзвіночок сповіщень:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Always"
+msgstr "Завжди"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Never"
+msgstr "Ніколи"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+msgid "Only with new notifications"
+msgstr "Лише за нових сповіщень"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:98
+msgid "Show number of new notifications"
+msgstr "Показувати кількість нових сповіщень"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:101
+msgid "Show time zone:"
+msgstr "Показ часового поясу:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Only when different from local"
+msgstr "Лише якщо відрізняється від місцевого"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:112
+msgid "Time zone format:"
+msgstr "Формат часового поясу:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "City"
+msgstr "Місто"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "Code"
+msgstr "Код"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "Offset from UTC"
+msgstr "Зміщення від UTC"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
+msgid "Flyout:"
+msgstr "Спливне вікно:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+msgid "Show calendar"
+msgstr "Показувати календар"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:23
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:234
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:30
+msgid "Add Selected Time Zone"
+msgstr "Додати вибраний часовий пояс"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:60
+msgid "Add Time Zone…"
+msgstr "Додати часовий пояс…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:98
+msgid "Clock is currently using this time zone"
+msgstr "Зараз у годиннику використовується цей часовий пояс"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:99
+msgid "Hidden while this is the local time zone's city"
+msgstr "Приховано, доки це місто із місцевого часового поясу"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:117
+msgid "Switch Systemwide Time Zone…"
+msgstr "Перемкнути загальносистемний часовий пояс…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:125
+msgid "Remove this time zone"
+msgstr "Вилучити цей часовий пояс"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:137
+msgid "Additional Time Zones"
+msgstr "Додаткові часові пояси"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:137
+msgid "Systemwide Time Zone"
+msgstr "Загальносистемний часовий пояс"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:147
+msgid "Add more time zones to see them in the clock's flyout and tooltip, or to show one of them on the taskbar"
+msgstr "Додайте часові пояси, щоб бачити їх на панелі та в підказці годинника або показувати один з них на панелі завдань"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:158
+msgid "Switch displayed time zone by scrolling over the clock"
+msgstr "Перемикати часовий пояс прокручуванням над годинником"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:164
+msgid "This does not change the systemwide time zone. When you travel, switch the systemwide time zone instead."
+msgstr "Це не змінює загальносистемний часовий пояс. Під час подорожей краще змінюйте загальносистемний часовий пояс."
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:173
+msgid "Choose Time Zone"
+msgstr "Виберіть часовий пояс"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:107
+msgid "Keep open"
+msgstr "Не закривати"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+msgid "Hide calendar"
+msgstr "Сховати календар"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:190
+msgid "Events"
+msgstr "Події"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:198
+msgid "Add event"
+msgstr "Додати подію"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+msgid "No events for this day"
+msgstr "На цей день подій немає"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+msgid "No events for today"
+msgstr "На сьогодні подій немає"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:238
+msgid "Time zones"
+msgstr "Часові пояси"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+msgid "Show months"
+msgstr "Показати місяці"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+msgid "Show years"
+msgstr "Показати роки"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:363
+msgid "Today"
+msgstr "Сьогодні"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+msgid "Next"
+msgstr "Наступний"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+msgid "Previous"
+msgstr "Попередній"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:636
+msgid "All day"
+msgstr "Увесь день"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:44
+msgid "Other"
+msgstr "Інше"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:57
+msgid "%1 more"
+msgid_plural "%1 more"
+msgstr[0] "ще %1"
+msgstr[1] "ще %1"
+msgstr[2] "ще %1"
+msgstr[3] "ще %1"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:57
+msgid "Show less"
+msgstr "Показати менше"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:68
+msgid "Clear group"
+msgstr "Очистити групу"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:132
+msgid "Configure"
+msgstr "Налаштувати"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:143
+msgid "Close"
+msgstr "Закрити"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:227
+msgid "Pause"
+msgstr "Призупинити"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:227
+msgid "Resume"
+msgstr "Продовжити"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:260
+msgid "Reply"
+msgstr "Відповісти"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:274
+msgid "Type a reply…"
+msgstr "Введіть відповідь…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:36
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:52
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:401
+msgid "Do not disturb"
+msgstr "Не турбувати"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:64
+msgid "Clear all"
+msgstr "Очистити все"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:76
+msgid "Do not disturb is on"
+msgstr "Режим «Не турбувати» увімкнено"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:76
+msgid "No new notifications"
+msgstr "Немає нових сповіщень"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:87
+msgctxt "offset from current time in hours and minutes"
+msgid " • %1:%2 later"
+msgstr " • на %1:%2 пізніше"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:88
+msgctxt "offset from current time in hours and minutes"
+msgid " • %1:%2 earlier"
+msgstr " • на %1:%2 раніше"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:90
+msgctxt "offset from current time"
+msgid " • %1 hour later"
+msgid_plural " • %1 hours later"
+msgstr[0] " • на %1 годину пізніше"
+msgstr[1] " • на %1 години пізніше"
+msgstr[2] " • на %1 годин пізніше"
+msgstr[3] " • на %1 годину пізніше"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:91
+msgctxt "offset from current time"
+msgid " • %1 hour earlier"
+msgid_plural " • %1 hours earlier"
+msgstr[0] " • на %1 годину раніше"
+msgstr[1] " • на %1 години раніше"
+msgstr[2] " • на %1 годин раніше"
+msgstr[3] " • на %1 годину раніше"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:397
+msgid "Copy to Clipboard"
+msgstr "Скопіювати до буфера"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:408
+msgid "Clear all notifications"
+msgstr "Очистити всі сповіщення"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:414
+msgid "Adjust date and time…"
+msgstr "Налаштувати дату і час…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:419
+msgid "Notification settings…"
+msgstr "Параметри сповіщень…"

@@ -1,0 +1,15 @@
+{
+    "KPlugin": {
+        "Authors": [{ "Name": "Lumen" }],
+        "Category": "Windows and Tasks",
+        "Description": "Taskbar app buttons with adjustable icon size",
+        "EnabledByDefault": true,
+        "FormFactors": ["desktop"],
+        "Icon": "preferences-system-tabbox",
+        "License": "GPL-2.0+",
+        "Name": "Lumen Taskbar Apps",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": ["org.kde.plasma.multitasking"]
+}

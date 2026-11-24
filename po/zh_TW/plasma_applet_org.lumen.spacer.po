@@ -1,0 +1,30 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/config/config.qml:6
+msgid "General"
+msgstr "一般"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:39
+msgid "Size:"
+msgstr "大小："
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:40
+msgid "Fill free space"
+msgstr "填滿空白區域"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:46
+msgid "Right-click menu:"
+msgstr "右鍵選單："
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:68
+msgid "Remove"
+msgstr "移除"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:81
+msgid "Add app…"
+msgstr "新增應用程式…"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/main.qml:154
+msgid "Taskbar settings"
+msgstr "工作列設定"

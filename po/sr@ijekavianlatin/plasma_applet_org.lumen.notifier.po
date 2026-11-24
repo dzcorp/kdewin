@@ -1,0 +1,198 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: sr@ijekavianlatin\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: plasma/notifier/FullRepresentation.qml:81
+msgid "Do not disturb"
+msgstr "Ne uznemiravaj"
+
+#: plasma/notifier/FullRepresentation.qml:131
+msgid "For 1 hour"
+msgstr "Na 1 sat"
+
+#: plasma/notifier/FullRepresentation.qml:136
+msgid "For 4 hours"
+msgstr "Na 4 sata"
+
+#: plasma/notifier/FullRepresentation.qml:145
+msgid "Until this evening"
+msgstr "Do večeras"
+
+#: plasma/notifier/FullRepresentation.qml:155
+msgid "Until tomorrow morning"
+msgstr "Do sutra ujutru"
+
+#: plasma/notifier/FullRepresentation.qml:167
+msgid "Until Monday"
+msgstr "Do ponedjeljka"
+
+#: plasma/notifier/FullRepresentation.qml:174
+msgid "Until manually disabled"
+msgstr "Dok se ručno ne isključi"
+
+#: plasma/notifier/FullRepresentation.qml:226
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Automatski prestaje: %1"
+
+#: plasma/notifier/FullRepresentation.qml:238
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "Dok radi %1 (%2)"
+
+#: plasma/notifier/FullRepresentation.qml:240
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "Dok radi %1"
+
+#: plasma/notifier/FullRepresentation.qml:246
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Ekrani su preslikani"
+
+#: plasma/notifier/FullRepresentation.qml:250
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "Fokusiran je program preko cijelog ekrana"
+
+#: plasma/notifier/FullRepresentation.qml:510
+#: plasma/notifier/FullRepresentation.qml:516
+msgctxt "@action:button"
+msgid "View"
+msgstr "Prikaži"
+
+#: plasma/notifier/FullRepresentation.qml:597
+msgid "Close Group"
+msgstr "Zatvori grupu"
+
+#: plasma/notifier/FullRepresentation.qml:619
+msgid "Show Fewer"
+msgstr "Prikaži manje"
+
+#: plasma/notifier/FullRepresentation.qml:621
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "Prikaži još %1"
+
+#: plasma/notifier/FullRepresentation.qml:650 plasma/notifier/main.qml:108
+msgid "No unread notifications"
+msgstr "Nema nepročitanih obavještenja"
+
+#: plasma/notifier/FullRepresentation.qml:665 plasma/notifier/main.qml:77
+msgid "Notification service not available"
+msgstr "Servis obavještenja nije dostupan"
+
+#: plasma/notifier/FullRepresentation.qml:667
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "Obavještenja trenutno pruža „%1 %2“"
+
+#: plasma/notifier/components/ActionContainer.qml:92
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Odgovori"
+
+#: plasma/notifier/fileinfo.cpp:186
+msgid "Open with %1"
+msgstr "Otvori pomoću %1|/|Otvori $[ins-p %1]"
+
+#: plasma/notifier/fileinfo.cpp:190
+msgid "Open with…"
+msgstr "Otvori pomoću…"
+
+#: plasma/notifier/filemenu.cpp:117
+msgid "Open Containing Folder"
+msgstr "Otvori obuhvatajuću fasciklu"
+
+#: plasma/notifier/filemenu.cpp:131
+msgid "&Copy"
+msgstr "&Kopiraj"
+
+#: plasma/notifier/filemenu.cpp:140
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Kopiraj lokaciju"
+
+#: plasma/notifier/filemenu.cpp:198
+msgid "Properties"
+msgstr "Svojstva"
+
+#: plasma/notifier/globalshortcuts.cpp:24
+msgid "Toggle do not disturb"
+msgstr "Uključi/isključi „Ne uznemiravaj“"
+
+#: plasma/notifier/globalshortcuts.cpp:33
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "Očisti istorijat obavještenja"
+
+#: plasma/notifier/globalshortcuts.cpp:52
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Obavještenja isključena"
+
+#: plasma/notifier/globalshortcuts.cpp:53
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Obavještenja uključena"
+
+#: plasma/notifier/globalshortcuts.cpp:68
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "Istorijat obavještenja očišćen"
+
+#: plasma/notifier/main.qml:61
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 posao u pogonu"
+msgstr[1] "%1 posla u pogonu"
+msgstr[2] "%1 poslova u pogonu"
+msgstr[3] "%1 posao u pogonu"
+
+#: plasma/notifier/main.qml:65
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: plasma/notifier/main.qml:70
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 posao u pogonu (%2%)"
+msgstr[1] "%1 posla u pogonu (%2%)"
+msgstr[2] "%1 poslova u pogonu (%2%)"
+msgstr[3] "%1 posao u pogonu (%2%)"
+
+#: plasma/notifier/main.qml:83
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 nepročitano obavještenje"
+msgstr[1] "%1 nepročitana obavještenja"
+msgstr[2] "%1 nepročitanih obavještenja"
+msgstr[3] "%1 nepročitano obavještenje"
+
+#: plasma/notifier/main.qml:88
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 aktivno obavještenje"
+msgstr[1] "%1 aktivna obavještenja"
+msgstr[2] "%1 aktivnih obavještenja"
+msgstr[3] "%1 aktivno obavještenje"
+
+#: plasma/notifier/main.qml:101
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "Režim „Ne uznemiravaj“ do %1; srednji klik ga odmah isključuje"
+
+#: plasma/notifier/main.qml:104
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "Režim „Ne uznemiravaj“ je uključen; srednji klik ga isključuje"
+
+#: plasma/notifier/main.qml:110
+msgid "Middle-click to enter do not disturb mode"
+msgstr "Srednji klik uključuje režim „Ne uznemiravaj“"
+
+#: plasma/notifier/main.qml:245
+msgid "Clear All Notifications"
+msgstr "Očisti sva obavještenja"
+
+#: plasma/notifier/main.qml:264
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Podesi obavještenja i radnje događaja…"

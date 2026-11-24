@@ -1,0 +1,30 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/config/config.qml:6
+msgid "General"
+msgstr "Général"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:39
+msgid "Size:"
+msgstr "Taille :"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:40
+msgid "Fill free space"
+msgstr "Remplir l’espace libre"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:46
+msgid "Right-click menu:"
+msgstr "Menu du clic droit :"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:68
+msgid "Remove"
+msgstr "Supprimer"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:81
+msgid "Add app…"
+msgstr "Ajouter une application…"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/main.qml:154
+msgid "Taskbar settings"
+msgstr "Paramètres de la barre des tâches"

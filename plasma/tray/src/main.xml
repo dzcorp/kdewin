@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="extraItems" type="StringList">
+      <label>Plasmoid ids enabled in the tray.</label>
+      <default></default>
+    </entry>
+    <entry name="disabledStatusNotifiers" type="StringList">
+      <label>StatusNotifier ids never shown.</label>
+      <default></default>
+    </entry>
+    <entry name="hiddenItems" type="StringList">
+      <label>Item ids always in the overflow flyout.</label>
+      <default></default>
+    </entry>
+    <entry name="shownItems" type="StringList">
+      <label>Item ids always on the taskbar.</label>
+      <default></default>
+    </entry>
+    <entry name="showAllItems" type="bool">
+      <default>false</default>
+    </entry>
+    <entry name="knownItems" type="StringList" hidden="true">
+      <default></default>
+    </entry>
+    <entry name="itemOrder" type="StringList">
+      <label>Manual (drag-sorted) item order.</label>
+      <default></default>
+    </entry>
+    <entry name="quickSettingsItems" type="StringList">
+      <label>Plasmoids merged into the Quick Settings button; their icons form the button and their popups become detail pages.</label>
+      <default>org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery</default>
+    </entry>
+    <entry name="quickSettingsPages" type="StringList">
+      <label>Plasmoids also reachable as Quick Settings detail pages (they keep their own tray icon).</label>
+      <default>org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.kdeconnect,org.kde.plasma.mediacontroller</default>
+    </entry>
+    <entry name="quickSettingsTiles" type="StringList">
+      <label>Quick Settings tiles in order.</label>
+      <default>wifi,bluetooth,airplane,powerprofile,nightlight,dnd</default>
+    </entry>
+    <entry name="suppressedItems" type="StringList">
+      <label>Plasmoids loaded for their services but never shown (notifications live in the clock).</label>
+      <default>org.kde.plasma.notifications,org.lumen.notifier</default>
+    </entry>
+    <entry name="reverseIconOrder" type="bool">
+      <default>false</default>
+    </entry>
+    <entry name="scaleIconsToFit" type="bool">
+      <default>false</default>
+    </entry>
+    <entry name="iconSize" type="int">
+      <default>16</default>
+      <min>16</min>
+      <max>32</max>
+    </entry>
+    <entry name="quickIconSize" type="int">
+      <default>16</default>
+      <min>16</min>
+      <max>32</max>
+    </entry>
+    <entry name="iconSpacing" type="int">
+      <default>0</default>
+    </entry>
+    <entry name="pin" type="Bool">
+      <default>false</default>
+    </entry>
+  </group>
+</kcfg>

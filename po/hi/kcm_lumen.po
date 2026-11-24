@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: hi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "हो गया।"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "विफल (निकास कोड %1)।"
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "एनिमेशन"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "विंडो को फ़ेड और ज़ूम के साथ दिखाएँ और छिपाएँ"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "खोलना और बंद करना"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "आरंभिक आकार"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "छोटा करें"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "विंडो टास्कबार पर अपने बटन की ओर उड़ती है"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "अवधि"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "सभी डेस्कटॉप प्रभाव"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "ऐप्स"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "विंडो सामग्री"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Mica विंडो पृष्ठभूमि"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "साइडबार, टूलबार और संवाद धुंधला वॉलपेपर दिखाते हैं। नई खोली गई विंडो पर लागू होता है।"
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "अपारदर्शिता"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "इन ऐप्स को अपारदर्शी रखें"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "नियंत्रण"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "कोने की त्रिज्या"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "ऐक्रेलिक मेनू और टूलटिप"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "Lumen सामग्री आवश्यक है"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "हमेशा पूरे स्क्रॉल बार दिखाएँ"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "बंद होने पर पॉइंटर ले जाने तक बार पतले रहते हैं"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "फ़ाइल एक्सप्लोरर"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "कमांड बार"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "पता बार के नीचे नया, काटें, कॉपी, चिपकाएँ, क्रमबद्ध करें और दृश्य बटन। बंद करने पर विंडो साफ़ और न्यूनतम रहती है।"
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "फ़ाइल एक्सप्लोरर यहाँ खोलें"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "\"होम फ़ोल्डर\" फ़ाइल एक्सप्लोरर की अपनी सेटिंग्स में सेट किया गया प्रारंभ स्थान है"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "होम फ़ोल्डर"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "पिछला सत्र"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "हाल की फ़ाइलें"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "यह PC"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "खाली स्थान दिखाएँ"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "प्रत्येक ड्राइव के नीचे क्षमता बार और खाली स्थान"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "फ़ोल्डर दिखाएँ"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "ड्राइव के ऊपर डेस्कटॉप, दस्तावेज़, डाउनलोड, संगीत, चित्र और वीडियो"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "नेटवर्क स्थान दिखाएँ"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "छिपी हुई ड्राइव दिखाएँ"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "नेविगेशन फलक में छिपी ड्राइव"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "गति"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "नियंत्रणों को एनिमेट करें"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "Lumen ऐप शैली उपयोग करने वाले ऐप्स पर लागू होता है। बदलाव तुरंत दिखते हैं।"
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "बूट"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "बूट पर Lumen का उपयोग करें"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Limine बूट मेनू और Plymouth स्प्लैश। पिछले मेनू का बैकअप लिया जाता है।"
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "पिछला बूट रूप पुनर्स्थापित करें"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "लॉक और साइन-इन"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "लॉक स्क्रीन"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Lumen वॉलपेपर"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "हमेशा घड़ी दिखाएँ"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "मीडिया नियंत्रण"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "स्क्रीन लॉकिंग"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "साइन-इन स्क्रीन"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "साइन-इन स्क्रीन के लिए Lumen का उपयोग करें"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "मानक साइन-इन स्क्रीन पुनर्स्थापित करें"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "साइन-इन स्क्रीन सेटिंग्स"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "लॉक और लॉगआउट स्क्रीन"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "Lumen लॉक और लॉगआउट स्क्रीन ताज़ा करें"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Plasma अपडेट के बाद स्वचालित रूप से चलता है"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "रखरखाव"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "lumen टूल नहीं मिला"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "इसे Lumen स्रोत फ़ोल्डर से `make install-system` द्वारा इंस्टॉल करें।"
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "जाँच"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "जाँचता है कि Lumen का हर हिस्सा इंस्टॉल और सक्रिय है"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "निदान चलाएँ"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "पैनल लेआउट स्नैपशॉट दिखाएँ"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "सुधारें"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "रंग, शैली, विंडो सजावट, प्रभाव और Plasma थीम"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "Lumen फिर से लागू करें"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "डेस्कटॉप घटक पुनः आरंभ करें"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "सिस्टम सेटिंग्स में आइकन या थीम बदलने के बाद उपयोग करें: खुले ऐप्स में आइकन ताज़ा करता है और टास्कबार, डेस्कटॉप और खोज को फिर से लोड करता है"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "बदले गए टूल खोजें"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "Lumen द्वारा बदले जाने वाले इंस्टॉल पैकेज सूचीबद्ध करता है, जैसे Kvantum और Klassy। उन्हें टर्मिनल में `lumen cleanup` से हटाएँ।"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "नेटिव घटक फिर से बनाएँ"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "KWin या Qt अपडेट के बाद स्वचालित रूप से चलता है"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "सामग्री"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Lumen सामग्री"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "मानक धुंधलेपन को Mica और ऐक्रेलिक से बदलती है"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "टास्कबार के लिए Mica"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "बंद होने पर ऐक्रेलिक का उपयोग होता है, जिससे टास्कबार के पीछे की विंडो दिखती हैं"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "वॉलपेपर रंगत"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "टास्कबार, प्रारंभ, मेनू और विंडो वॉलपेपर का रंग लेते हैं और वॉलपेपर बदलने पर उसे सहजता से अपनाते हैं"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "ऐक्रेलिक (मेनू, फ़्लाईआउट, प्रारंभ)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "धुंधलापन"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "संतृप्ति"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "नॉइज़"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica (विंडो, टास्कबार)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "टास्कबार"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "इस डेस्कटॉप पर Lumen टास्कबार नहीं है"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "वर्तमान पैनल को बदलने के लिए Lumen लेआउट लागू करें। आपके विजेट, ट्रे आइकन, पिन किए गए ऐप्स और पसंदीदा बने रहते हैं।"
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "Lumen लेआउट लागू करें"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "लेआउट"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "टास्कबार आइकन बीच में रखें"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "फ़्लोटिंग"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "स्वतः छिपाएँ"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "आइकन"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "टास्कबार की ऊँचाई"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "स्टार्ट आइकन का आकार"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "ऐप आइकन का आकार"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "प्रारंभ और ऐप आइकन किसी भी टास्कबार ऊँचाई पर यही आकार रखते हैं"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "ऐप्स के बीच दूरी"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "बहुत चौड़ा"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "कोई नहीं"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "सामान्य"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "चौड़ा"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "ट्रे आइकन का आकार"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "त्वरित सेटिंग्स आइकन का आकार"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "घड़ी के पास नेटवर्क, वॉल्यूम और बैटरी"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "ट्रे आइकनों के बीच दूरी"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "घड़ी"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "दिखाएँ"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "केवल दिनांक"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "एक पंक्ति में समय और दिनांक"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "केवल समय"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "दिनांक के ऊपर समय"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "समय प्रारूप"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12 घंटे"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24 घंटे"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "क्षेत्रीय सेटिंग्स का उपयोग करें"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "दिनांक प्रारूप"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "क्षेत्रीय छोटा (%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "दिन के साथ (%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "क्षेत्रीय लंबा (%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "कस्टम (घड़ी सेटिंग्स में सेट करें)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "सेकंड दिखाएँ"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "मोटा समय"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "समय का आकार"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "समय संरेखण"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "बीच में"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "बाएँ"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "दाएँ"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "दिनांक का आकार"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "बड़े आकार फ़िट होने के लिए छोटे हो जाते हैं; टास्कबार स्वयं कभी नहीं बदलता"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "दिनांक संरेखण"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "हिस्से"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "पिन किए गए और अनुशंसित ऐप्स, पावर और खाता मेनू"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "प्रारंभ"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "आइकन, ओवरफ़्लो, टाइल और स्लाइडर"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "ट्रे और त्वरित सेटिंग्स"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "घड़ी और सूचनाएँ"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "कस्टम दिनांक प्रारूप, कैलेंडर और सूचना केंद्र"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "ऐप बटन"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "पिन किए गए ऐप्स और खुली विंडो"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "सूचनाएँ"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "पूर्ण-स्क्रीन ऐप्स के ऊपर दिखाएँ"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "बंद होने पर पूर्ण-स्क्रीन गेम और वीडियो 'परेशान न करें' चालू कर देते हैं (महत्वपूर्ण सूचनाएँ फिर भी दिखती हैं)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "आउटपुट"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "चल रहा है…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "विंडो"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "शीर्षक पट्टी"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "पारभासी शीर्षक पट्टी"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "ऊँचाई"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "शीर्षक बीच में रखें"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "ऐप आइकन दिखाएँ"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "बटन"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "केवल बंद करें"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "बंद करें, छोटा करें, बड़ा करें (बाएँ)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "छोटा करें, बड़ा करें, बंद करें (दाएँ)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "आकृति"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "विंडो सजावट सेटिंग्स"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "गहरा"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "हर जगह गहरी Mica सतहें"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "हल्की छाया वाली हल्की सतहें"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "हल्का"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "स्वचालित"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "दिन के समय के अनुसार हल्के और गहरे के बीच बदलें"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "मोड"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "टेक्स्ट का आकार"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "वैयक्तिकृत करें"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Mica और ऐक्रेलिक धुंधलापन, रंगत और नॉइज़"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "शीर्षक पट्टियाँ, कोने और बटन"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "नियंत्रण, मेनू, स्क्रॉल बार और एनिमेशन गति"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "खोलने, बंद करने और छोटा करने की गति"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "संरेखण, आकार, प्रारंभ, ट्रे और घड़ी"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "लॉक स्क्रीन, साइन-इन स्क्रीन और लॉगआउट"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "बूट मेनू और स्प्लैश"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "सुधार, अपडेट और निदान"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "संबंधित"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "एक्सेंट रंग"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "वॉलपेपर"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "फ़ॉन्ट"

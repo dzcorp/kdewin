@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="showDate" type="Bool"><default>true</default></entry>
+    <entry name="showSeconds" type="Bool"><default>false</default></entry>
+    <!-- 0 = locale, 1 = 12-hour, 2 = 24-hour -->
+    <entry name="hourFormat" type="Int"><default>0</default></entry>
+    <!-- Empty = locale short date; otherwise a Qt date format such as "ddd d MMM" -->
+    <entry name="dateFormat" type="String"><default></default></entry>
+    <!-- 0 = time over date, 1 = one line, 2 = time only, 3 = date only -->
+    <entry name="displayMode" type="Int"><default>0</default></entry>
+    <!-- 0 = region short, 1 = weekday + day + month, 2 = region long, 3 = ISO, 4 = custom (dateFormat) -->
+    <entry name="dateStyle" type="Int"><default>0</default></entry>
+    <entry name="timeSize" type="Int"><default>100</default><min>70</min><max>200</max></entry>
+    <entry name="dateSize" type="Int"><default>100</default><min>70</min><max>200</max></entry>
+    <!-- 0 = left, 1 = center, 2 = right -->
+    <entry name="timeAlign" type="Int"><default>2</default></entry>
+    <entry name="dateAlign" type="Int"><default>2</default></entry>
+    <entry name="boldTime" type="Bool"><default>false</default></entry>
+    <entry name="showBell" type="Bool"><default>false</default></entry>
+    <entry name="bellOnlyUnread" type="Bool"><default>false</default></entry>
+    <entry name="bellCount" type="Bool"><default>true</default></entry>
+    <entry name="showCalendar" type="Bool"><default>true</default></entry>
+    <entry name="showWeekNumbers" type="Bool"><default>false</default></entry>
+    <entry name="enabledCalendarPlugins" type="StringList"><default></default></entry>
+    <entry name="pin" type="Bool"><default>false</default></entry>
+    <!-- -1 = region default, otherwise 0 = Sunday … 6 = Saturday -->
+    <entry name="firstDayOfWeek" type="Int"><default>-1</default></entry>
+    <!-- "Local" is the systemwide zone -->
+    <entry name="selectedTimeZones" type="StringList"><default>Local</default></entry>
+    <entry name="lastSelectedTimezone" type="String"><default>Local</default></entry>
+    <entry name="wheelChangesTimezone" type="Bool"><default>false</default></entry>
+    <entry name="showLocalTimezone" type="Bool"><default>false</default></entry>
+    <entry name="hideTimezone" type="Bool"><default>false</default></entry>
+    <!-- 0 = code, 1 = city, 2 = UTC offset -->
+    <entry name="displayTimezoneFormat" type="Int"><default>0</default></entry>
+  </group>
+</kcfg>

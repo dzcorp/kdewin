@@ -1,0 +1,564 @@
+1	Done.
+2	Failed (exit code %1).
+3	Animations
+4	Fade and zoom windows in and out
+5	Open and close
+6	Start size
+7	Minimize
+8	Windows fly to their taskbar button
+9	Duration
+10	All desktop effects
+11	Applications
+12	Window material
+13	Mica window backgrounds
+14	Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows.
+15	Opacity
+16	Keep these apps opaque
+17	Controls
+18	Corner radius
+19	Acrylic menus and tooltips
+20	Needs Lumen materials
+21	Always show full scroll bars
+22	Off keeps them thin until hovered
+23	Motion
+24	Animate controls
+25	Applies to apps using the Lumen application style. Changes show up live.
+26	Boot
+27	Use Lumen for boot
+28	Limine boot menu and Plymouth splash. The previous menu is backed up.
+29	Restore the previous boot look
+30	Lock and login
+31	Lock screen
+32	Lumen wallpaper
+33	Always show the clock
+34	Media controls
+35	Screen locking
+36	Login screen
+37	Use Lumen on the login screen
+38	Restore the stock login screen
+39	Login screen settings
+40	Lock and logout screens
+41	Refresh the Lumen lock and logout screens
+42	Runs automatically after Plasma updates
+43	Maintenance
+44	The lumen tool was not found
+45	Install it with `make install-system` from the Lumen source folder.
+46	Check
+47	Checks every Lumen part is installed and active
+48	Run diagnostics
+49	Show the panel layout snapshot
+50	Repair
+51	Colors, style, decoration, effects and Plasma theme
+52	Re-apply Lumen
+53	Find replaced tools
+54	Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal.
+55	Rebuild native parts
+56	Runs automatically after KWin or Qt updates
+57	Materials
+58	Lumen materials
+59	Replaces the stock blur with Mica and acrylic
+60	Mica for the taskbar
+61	Off uses acrylic, which shows windows behind the taskbar
+62	Acrylic (menus, flyouts, Start)
+63	Blur
+64	Saturation
+65	Noise
+66	Mica (windows, taskbar)
+67	Taskbar
+68	The Lumen taskbar is not on this desktop
+69	Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept.
+70	Apply Lumen layout
+71	Layout
+72	Center taskbar icons
+73	Floating
+74	Automatically hide
+75	Icons
+76	Taskbar height
+77	App icon size
+78	Start and app icons keep this size at any taskbar height
+79	Space between apps
+80	Extra wide
+81	None
+82	Normal
+83	Wide
+84	Tray icon size
+85	Quick Settings icon size
+86	Network, volume and battery next to the clock
+87	Space between tray icons
+88	Clock
+89	Show
+90	Date only
+91	Time and date on one line
+92	Time only
+93	Time over date
+94	Time format
+95	12-hour
+96	24-hour
+97	Use region settings
+98	Date format
+99	Region short (%1)
+100	Weekday (%1)
+101	Region long (%1)
+102	ISO (%1)
+103	Custom (set in the clock's settings)
+104	Show seconds
+105	Bold time
+106	Time size
+107	Time alignment
+108	Center
+109	Left
+110	Right
+111	Date size
+112	Large sizes shrink to fit; the taskbar itself never changes
+113	Date alignment
+114	Parts
+115	Pinned and recommended apps, power and account menus
+116	Start
+117	Icons, overflow, tiles and sliders
+118	Tray and Quick Settings
+119	Clock and notifications
+120	Custom date format, calendar and Notification Center
+121	App buttons
+122	Pinned apps and running windows
+123	Notifications
+124	Show over full-screen apps
+125	Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)
+126	Output
+127	Running…
+128	Windows
+129	Title bar
+130	Translucent title bar
+131	Height
+132	Center the title
+133	Show the application icon
+134	Buttons
+135	Close only
+136	Close, minimize, maximize (left)
+137	Minimize, maximize, close (right)
+138	Shape
+139	Window decoration settings
+140	Dark
+141	Mica-dark surfaces everywhere
+142	Bright surfaces with soft shadows
+143	Light
+144	Automatic
+145	Switch between light and dark with the time of day
+146	Mode
+147	Customize
+148	Mica and acrylic blur, tint and noise
+149	Title bars, corners and buttons
+150	Controls, menus, scroll bars and animation speed
+151	Open, close and minimize motion
+152	Alignment, size, Start, tray and clock
+153	Lock screen, login screen and logout
+154	Boot menu and boot splash
+155	Repair, update and diagnostics
+156	Related
+157	Accent color
+158	Wallpaper
+159	Fonts
+160	Appearance
+161	Show:
+162	Time format:
+163	Date format:
+164	Custom
+165	Custom format:
+166	Time size:
+167	Time alignment:
+168	Date size:
+169	Date alignment:
+170	Large sizes shrink to fit the taskbar; the taskbar itself never changes.
+171	Show notification bell
+172	Flyout:
+173	Show calendar
+174	Show week numbers
+175	Close
+176	Do not disturb
+177	Clear all
+178	Do not disturb is on
+179	No new notifications
+180	Earlier
+181	Show fewer
+182	expand group\4+%1
+183	Clear group
+184	Hide calendar
+185	Configure
+186	Pause
+187	Resume
+188	Cancel
+189	Reply
+190	Type a reply…
+191	Clear all notifications
+192	Adjust date and time…
+193	Notification settings…
+194	General
+195	Icon:
+196	Choose…
+197	App names:
+198	Generic name (name)
+199	Generic name only
+200	Name (generic name)
+201	Name only
+202	Recommended:
+203	Show recent files
+204	Search for apps, settings, and documents
+205	Pinned
+206	All apps
+207	Right-click an app and choose “Pin to Start”
+208	Recommended
+209	Your recent files will show up here
+210	Back
+211	No results for “%1”
+212	Change account settings
+213	Lock
+214	Switch user
+215	Sign out
+216	Power
+217	Sleep
+218	Hibernate
+219	Shut down
+220	Restart
+221	Unpin from Start
+222	Pin to Start
+223	Edit Applications…
+224	@action:inmenu\4Quit %1
+225	Wi-Fi
+226	Bluetooth
+227	Airplane mode
+228	Power mode
+229	Night light
+230	Dark mode
+231	Tip: drag icons on the taskbar to reorder them, or between the taskbar and the hidden icons flyout to pin or hide them.
+232	Quick Settings tiles
+233	In Quick Settings
+234	Always hidden
+235	Always shown
+236	Disabled
+237	Shown when relevant
+238	Hide hidden icons
+239	Show hidden icons
+240	Drop icons here
+241	battery percentage\4%1%
+242	Previous
+243	Play
+244	Next
+245	Power saver
+246	Balanced
+247	Performance
+248	Mute
+249	Unmute
+250	Quick Settings
+251	More options
+252	Entries
+253	Show all user Places\4%1 more Place…\0%1 more Places…
+254	Recent Downloads
+255	Recent Connections
+256	Recent Places
+257	@action:inmenu\4Forget Recent Downloads
+258	@action:inmenu\4Forget Recent Connections
+259	@action:inmenu\4Forget Recent Places
+260	@action:inmenu\4Forget Recent Files
+261	Activate Previous Task Manager Entry
+262	Activate Next Task Manager Entry
+263	Move Active Task Manager Entry Backward
+264	Move Active Task Manager Entry Forward
+265	Activate Task Manager Entry %1
+266	@action:button\4Mute
+267	@action:button\4Unmute
+268	@info:tooltip %1 is the window title\4Mute %1
+269	@info:tooltip %1 is the window title\4Unmute %1
+270	@label for several checkboxes\4General:
+271	@option:check section General\4Show small window previews when hovering over tasks
+272	@option:check section General\4Hide other windows when hovering over previews
+273	@option:check section General\4Hide other windows when hovering over tooltips
+274	@option:check section General\4Show an indicator when a task is playing audio
+275	@option:check section General\4Mute task when clicking indicator
+276	@option:check section General\4Show media and volume controls in tooltip
+277	@option:check section General\4Fill free space on panel
+278	@label:listbox\4Maximum task width:
+279	@item:inlistbox how wide a task item should be\4Narrow
+280	@item:inlistbox how wide a task item should be\4Medium
+281	@item:inlistbox how wide a task item should be\4Wide
+282	@label for radio button group, completes sentence: … when panel is low on space etc.\4Use multi-column view:
+283	@label for radio button group, completes sentence: … when panel is low on space etc.\4Use multi-row view:
+284	@option:radio Never use multi-column view for Task Manager\4Never
+285	@option:radio completes sentence: Use multi-column/row view\4When panel is low on space and thick enough
+286	@option:radio completes sentence: Use multi-column/row view\4Always when panel is thick enough
+287	@label:spinbox maximum number of columns for tasks\4Maximum columns:
+288	@label:spinbox maximum number of rows for tasks\4Maximum rows:
+289	@label:listbox\4Spacing between icons:
+290	@item:inlistbox Icon spacing\4Small
+291	@item:inlistbox Icon spacing\4Normal
+292	@item:inlistbox Icon spacing\4Large
+293	@info\4If you're using this setting to work around an application that demands attention too often, first look for a setting in the app to disable that behavior. If you don't find one, consider reporting this as a bug to the app's developer.
+294	@label:listbox how to group tasks\4Group:
+295	@item:inlistbox how to group tasks\4Do not group
+296	@item:inlistbox how to group tasks\4By program name
+297	@label:listbox completes sentence like: … cycles through tasks\4Clicking grouped task:
+298	@item:inlistbox Completes the sentence 'Clicking grouped task cycles through tasks' \4Cycles through tasks
+299	@item:inlistbox Completes the sentence 'Clicking grouped task shows small window previews' \4Shows small window previews
+300	@item:inlistbox Completes the sentence 'Clicking grouped task shows large window previews' \4Shows large window previews
+301	@item:inlistbox Completes the sentence 'Clicking grouped task shows textual list' \4Shows textual list
+302	@info displayed as InlineMessage\4The compositor does not support displaying windows side by side, so a textual list will be displayed instead.
+303	@option:check grouped task\4Combine into single button
+304	@option:check grouped task\4Group only when the Task Manager is full
+305	@label:listbox sort tasks in grouped task\4Sort:
+306	@item:inlistbox sort tasks in grouped task\4Do not sort
+307	@item:inlistbox sort tasks in grouped task\4Manually
+308	@item:inlistbox sort tasks in grouped task\4Alphabetically
+309	@item:inlistbox sort tasks in grouped task\4By desktop
+310	@item:inlistbox sort tasks in grouped task\4By activity
+311	@item:inlistbox sort tasks in grouped task\4By horizontal window position
+312	@option:check configure task sorting\4Keep launchers separate
+313	@option:check for icons-and-text task manager\4Hide launchers after application startup
+314	@label for checkbox Part of a sentence: 'Clicking active task minimizes the task'\4Clicking active task:
+315	@option:check Part of a sentence: 'Clicking active task minimizes the task'\4Minimizes the task
+316	@label:listbox completes sentence like: … does nothing\4Middle-clicking any task:
+317	@item:inlistbox Part of a sentence: 'Middle-clicking any task does nothing'\4Does nothing
+318	@item:inlistbox Part of a sentence: 'Middle-clicking any task closes window or group'\4Closes window or group
+319	@item:inlistbox Part of a sentence: 'Middle-clicking any task opens a new window'\4Opens a new window
+320	@item:inlistbox Part of a sentence: 'Middle-clicking any task minimizes/restores window or group'\4Minimizes/Restores window or group
+321	@item:inlistbox Part of a sentence: 'Middle-clicking any task toggles grouping'\4Toggles grouping
+322	@item:inlistbox Part of a sentence: 'Middle-clicking any task brings it to the current virtual desktop'\4Brings it to the current virtual desktop
+323	@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles through tasks/cycles through the selected task's windows/adjusts the hovered task’s volume''\4Scrolling behavior:
+324	@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'\4Does nothing
+325	@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all tasks'\4Cycles through all tasks
+326	@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the hovered task's windows'\4Cycles through the hovered task’s windows
+327	@item:inlistbox Part of a sentence: 'Scrolling behavior adjusts the hovered task’s volume'\4Adjusts the hovered task’s volume
+328	@option:check mouse wheel task cycling\4Skip minimized tasks
+329	@label for checkbox group, completes sentence like: … from current screen\4Show only tasks:
+330	@option:check completes sentence: show only tasks\4From the current desktop
+331	@option:check completes sentence: show only tasks\4From the current activity
+332	@option:check completes sentence: show only tasks\4From the current screen
+333	@option:check completes sentence: show only tasks\4That are minimized
+334	@label for checkbox, completes sentence: … unhide if window wants attention\4When panel is hidden:
+335	@option:check completes sentence: When panel is hidden\4Unhide when a window wants attention
+336	@label for radiobutton group completes sentence like: … on the bottom\4New tasks appear:
+337	@option:check completes sentence: New tasks appear\4On the bottom
+338	@option:check completes sentence: New tasks appear\4To the right
+339	@option:check completes sentence: New tasks appear\4To the left
+340	@option:check completes sentence: New tasks appear\4On the top
+341	@title:group for section of menu items\4Places
+342	@title:group for section of menu items\4Recent Files
+343	@title:group for section of menu items\4Actions
+344	Play previous track\4Previous Track
+345	Pause playback\4Pause
+346	Start playback\4Play
+347	Play next track\4Next Track
+348	Stop playback\4Stop
+349	Quit media player app\4Quit
+350	Open or bring to the front window of media player app\4Restore
+351	@option:check inmenu, no separate unmute action\4Mute
+352	action:inmenu\4Open New Window
+353	action:inmenu\4Move to &Desktop
+354	action:inmenu\4Move &To Current Desktop
+355	action:inmenu\4&All Desktops
+356	action:inmenu\4&New Desktop
+357	action:inmenu\4Show in &Activities
+358	action:inmenu\4Add To Current Activity
+359	action:inmenu\4All Activities
+360	action:inmenu\4Move to %1
+361	action:inmenu\4&Pin to Task Manager
+362	action:inmenu\4On All Activities
+363	action:inmenu\4On The Current Activity
+364	action:inmenu\4Unpin from Task Manager
+365	item:inmenu opens submenu\4More
+366	action:inmenu\4&Move
+367	action:inmenu\4Re&size
+368	action:inmenu\4Ma&ximize
+369	action:inmenu\4Mi&nimize
+370	action:inmenu\4Keep &Above Others
+371	action:inmenu\4Keep &Below Others
+372	action:inmenu\4&Fullscreen
+373	@action:inmenu\4&No Titlebar and Frame
+374	@action:inmenu\4&Hide from Screencast
+375	@option:check inmenu\4Allow this program to be grouped
+376	@action:inmenu\4&Close
+377	@action:inmenu\4&Close All
+378	@info:usagetip %1 application name\4Launch %1
+379	@info:tooltip\4There is %1 new message.\0There are %1 new messages.
+380	@info:usagetip %1 task name\4Show Task tooltip for %1
+381	@info:usagetip %1 task name\4Show windows side by side for %1
+382	@info:usagetip %1 task name\4Open textual list of windows for %1
+383	@info:usagetip %1 task name\4Activate %1
+384	'k' is a suffix for 'thousand'; keep to one character or else the badge could overflow!\49k+
+385	'k' is a suffix for 'thousand'; keep to one character or else the badge could overflow!\4%1k
+386	@info:tooltip Close this window\4Close window
+387	button to unmute app\4Unmute %1
+388	button to mute app\4Mute %1
+389	Accessibility data on volume slider\4Adjust volume for %1
+390	volume percentage\4%1%
+391	only used for sizing, should be widest possible string\4100%
+392	Comma-separated list of desktops\4On %1
+393	Comma-separated list of desktops\4Pinned to all desktops
+394	Which virtual desktop a window is currently on\4Available on all activities
+395	Activities a window is currently on (apart from the current one)\4Also available on %1
+396	Which activities a window is currently on\4Available on %1
+397	@title:group for configuration dialog page\4Appearance
+398	@title:group for configuration dialog page\4Behavior
+399	Wallpaper tone
+400	Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes
+401	Calendar
+402	Time Zones
+403	General:
+404	First day of week:
+405	Use region defaults
+406	Available Add-Ons
+407	Show time zone:
+408	Always
+409	Only when different from local
+410	Time zone format:
+411	City
+412	Code
+413	Offset from UTC
+414	Add Selected Time Zone
+415	Add Time Zone…
+416	Clock is currently using this time zone
+417	Hidden while this is the local time zone's city
+418	Switch Systemwide Time Zone…
+419	Remove this time zone
+420	Additional Time Zones
+421	Systemwide Time Zone
+422	Add more time zones to see them in the clock's flyout and tooltip, or to show one of them on the taskbar
+423	Switch displayed time zone by scrolling over the clock
+424	This does not change the systemwide time zone. When you travel, switch the systemwide time zone instead.
+425	Choose Time Zone
+426	Keep open
+427	Events
+428	Add event
+429	No events for this day
+430	No events for today
+431	Time zones
+432	All day
+433	Other
+434	%1 more\0%1 more
+435	Show less
+436	offset from current time in hours and minutes\4 • %1:%2 later
+437	offset from current time in hours and minutes\4 • %1:%2 earlier
+438	offset from current time\4 • %1 hour later\0 • %1 hours later
+439	offset from current time\4 • %1 hour earlier\0 • %1 hours earlier
+440	Copy to Clipboard
+441	Notification bell:
+442	Never
+443	Only with new notifications
+444	Show number of new notifications
+445	All
+446	Recently added
+447	Most used
+448	Jump to a letter
+449	Settings
+450	File Manager
+451	Documents
+452	Downloads
+453	Music
+454	Pictures
+455	Videos
+456	Network
+457	Layout:
+458	Pinned and All apps on separate pages
+459	Everything on one scrolling page
+460	Default
+461	More pins
+462	More recommendations
+463	Include recently used apps
+464	All apps:
+465	Show recently added apps
+466	Show most used apps
+467	Enable category view (application menu groups)
+468	View:
+469	Category
+470	Grid
+471	List
+472	Next to Power:
+473	Restart to UEFI Firmware Setup
+474	Show all
+475	More
+476	Apps
+477	Web
+478	Configure Search…
+479	Search results
+480	Open
+481	@action:button %1 is List, Grid or Category\4View: %1
+482	Size:
+483	Fill free space
+484	Right-click menu:
+485	Remove
+486	Add app…
+487	Taskbar settings
+488	Restart desktop components
+489	Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search
+490	Command bar
+491	New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window.
+492	Show months
+493	Show years
+494	Today
+495	Text size
+496	Start icon size
+497	For 1 hour
+498	For 4 hours
+499	Until this evening
+500	Until tomorrow morning
+501	Until Monday
+502	Until manually disabled
+503	Do not disturb until date\4Automatically ends: %1
+504	Do not disturb until app has finished (reason)\4While %1 is active (%2)
+505	Do not disturb until app has finished\4While %1 is active
+506	Do not disturb because external mirrored screens connected\4Screens are mirrored
+507	Do not disturb because fullscreen app is focused\4Fullscreen app is focused
+508	@action:button\4View
+509	Close Group
+510	Show Fewer
+511	Expand to show n more notifications\4Show %1 More
+512	No unread notifications
+513	Notification service not available
+514	Vendor and product name\4Notifications are currently provided by '%1 %2'
+515	Reply to message\4Reply
+516	Open with %1
+517	Open with…
+518	Open Containing Folder
+519	&Copy
+520	@action:incontextmenu\4Copy Location
+521	Properties
+522	Toggle do not disturb
+523	@action\4Clear Notification History
+524	OSD popup, keep short\4Notifications Off
+525	OSD popup, keep short\4Notifications On
+526	@label OSD popup, keep short\4Notification history cleared
+527	%1 running job\0%1 running jobs
+528	Job title (percentage)\4%1 (%2%)
+529	%1 running job (%2%)\0%1 running jobs (%2%)
+530	%1 unread notification\0%1 unread notifications
+531	%1 active notification\0%1 active notifications
+532	Do not disturb until %1; middle-click to exit now
+533	Do not disturb mode active; middle-click to exit
+534	Middle-click to enter do not disturb mode
+535	Clear All Notifications
+536	&Configure Event Notifications and Actions…
+537	File Explorer
+538	Open File Explorer to This PC
+539	Off opens your home folder
+540	This PC
+541	Show free space
+542	A capacity bar and the free space under each drive
+543	Show folders
+544	Desktop, Documents, Downloads, Music, Pictures and Videos above the drives
+545	Show network locations
+546	Show hidden drives
+547	Drives hidden from the navigation pane
+548	@action:intoolbar\4Search
+549	@action:inmenu\4New Tab
+550	@title:group This PC section\4Folders
+551	@title:group This PC section\4Devices and drives
+552	@title:group This PC section\4Network locations
+553	@info:status\41 item\0%1 items
+554	@info:status\41 item selected
+555	@info free and total space of a drive\4%1 free of %2
+556	@action:inmenu\4Open
+557	@action:inmenu\4Open in New Tab
+558	@action:inmenu\4Open in New Window
+559	@action:inmenu\4Properties
+560	Open File Explorer to
+561	Home folder is the start location set in File Explorer's own settings
+562	Home folder
+563	Previous session
+564	Recent files

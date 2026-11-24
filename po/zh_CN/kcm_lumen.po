@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "完成。"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "失败(退出代码 %1)。"
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "动画"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "窗口打开和关闭时淡入淡出并缩放"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "打开和关闭"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "起始大小"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "最小化"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "窗口飞向其任务栏按钮"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "时长"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "所有桌面效果"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "应用"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "窗口材质"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Mica 窗口背景"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "侧边栏、工具栏和对话框显示模糊的壁纸。适用于新打开的窗口。"
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "不透明度"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "保持这些应用不透明"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "控件"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "圆角半径"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "亚克力菜单和工具提示"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "需要 Lumen 材质"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "始终显示完整滚动条"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "关闭时滚动条保持纤细，直到鼠标悬停"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "文件资源管理器"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "命令栏"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "在地址栏下方显示新建、剪切、复制、粘贴、排序和查看按钮。关闭后窗口保持简洁。"
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "打开文件资源管理器时"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "“主文件夹”是文件资源管理器自身设置中的起始位置"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "主文件夹"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "上次会话"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "最近使用的文件"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "此电脑"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "显示可用空间"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "在每个驱动器下显示容量条和可用空间"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "显示文件夹"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "在驱动器上方显示桌面、文档、下载、音乐、图片和视频"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "显示网络位置"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "显示隐藏的驱动器"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "在导航窗格中隐藏的驱动器"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "动态效果"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "为控件添加动画"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "适用于使用 Lumen 应用样式的应用。更改立即生效。"
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "启动"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "启动时使用 Lumen"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Limine 启动菜单和 Plymouth 启动画面。会备份之前的菜单。"
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "恢复之前的启动外观"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "锁定和登录"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "锁屏界面"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Lumen 壁纸"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "始终显示时钟"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "媒体控件"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "屏幕锁定"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "登录界面"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "在登录界面使用 Lumen"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "恢复标准登录界面"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "登录界面设置"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "锁屏和注销界面"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "刷新 Lumen 锁屏和注销界面"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Plasma 更新后自动运行"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "维护"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "找不到 lumen 工具"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "请在 Lumen 源代码文件夹中运行 `make install-system` 进行安装。"
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "检查"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "检查 Lumen 的每个部分是否已安装并生效"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "运行诊断"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "显示面板布局快照"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "修复"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "颜色、样式、窗口装饰、效果和 Plasma 主题"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "重新应用 Lumen"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "重启桌面组件"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "在系统设置中更改图标或主题后使用：刷新已打开应用中的图标，并重新加载任务栏、桌面和搜索"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "查找被替换的工具"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "列出 Lumen 所替换的已安装软件包，例如 Kvantum 和 Klassy。请在终端中运行 `lumen cleanup` 将其移除。"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "重新构建原生组件"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "KWin 或 Qt 更新后自动运行"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "材质"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Lumen 材质"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "用 Mica 和亚克力替换标准模糊"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "任务栏使用 Mica"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "关闭时使用亚克力，可透过任务栏看到其后的窗口"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "壁纸色调"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "任务栏、开始、菜单和窗口会带上壁纸的颜色，并在壁纸更换时平滑跟随"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "亚克力(菜单、浮出控件、开始)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "模糊"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "饱和度"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "噪点"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica(窗口、任务栏)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "任务栏"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "此桌面上没有 Lumen 任务栏"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "应用 Lumen 布局以替换当前面板。你的小组件、托盘图标、固定的应用和收藏都会保留。"
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "应用 Lumen 布局"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "布局"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "任务栏图标居中"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "浮动"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "自动隐藏"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "图标"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "任务栏高度"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "“开始”图标大小"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "应用图标大小"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "无论任务栏高度如何，开始和应用图标都保持此大小"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "应用间距"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "特宽"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "无"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "正常"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "宽"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "托盘图标大小"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "快速设置图标大小"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "时钟旁边的网络、音量和电池"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "托盘图标间距"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "时钟"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "显示"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "仅日期"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "时间和日期在同一行"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "仅时间"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "时间在日期上方"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "时间格式"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12 小时制"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24 小时制"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "使用区域设置"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "日期格式"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "区域短格式(%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "带星期(%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "区域长格式(%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO(%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "自定义(在时钟设置中指定)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "显示秒"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "时间加粗"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "时间大小"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "时间对齐"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "居中"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "左对齐"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "右对齐"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "日期大小"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "较大的尺寸会缩小以适应；任务栏本身不会改变"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "日期对齐"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "组成部分"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "固定和推荐的应用、电源和账户菜单"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "开始"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "图标、溢出区、磁贴和滑块"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "托盘和快速设置"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "时钟和通知"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "自定义日期格式、日历和通知中心"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "应用按钮"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "固定的应用和打开的窗口"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "通知"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "在全屏应用上方显示"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "关闭时，全屏游戏和视频会开启免打扰(重要通知仍会显示)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "输出"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "正在运行…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "窗口"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "标题栏"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "半透明标题栏"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "高度"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "标题居中"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "显示应用图标"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "按钮"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "仅关闭"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "关闭、最小化、最大化(左侧)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "最小化、最大化、关闭(右侧)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "形状"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "窗口装饰设置"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "深色"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "处处都是深色 Mica 表面"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "带柔和阴影的浅色表面"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "浅色"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "自动"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "根据一天中的时间在浅色和深色之间切换"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "模式"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "文本大小"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "个性化"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Mica 和亚克力模糊、色调和噪点"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "标题栏、圆角和按钮"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "控件、菜单、滚动条和动画速度"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "打开、关闭和最小化的动态效果"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "对齐、大小、开始、托盘和时钟"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "锁屏界面、登录界面和注销"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "启动菜单和启动画面"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "修复、更新和诊断"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "相关设置"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "主题色"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "壁纸"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "字体"

@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:11
+msgid "Appearance"
+msgstr "外観"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:16
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:21
+msgid "Time Zones"
+msgstr "タイムゾーン"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:40
+msgid "General:"
+msgstr "全般:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:41
+msgid "Show week numbers"
+msgstr "週番号を表示"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:44
+msgid "First day of week:"
+msgstr "週の最初の日:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:48
+msgid "Use region defaults"
+msgstr "地域の標準を使用"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:64
+msgid "Available Add-Ons"
+msgstr "利用可能なアドオン"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:32
+msgid "Show:"
+msgstr "表示:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Date only"
+msgstr "日付のみ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time and date on one line"
+msgstr "時刻と日付を 1 行で"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time only"
+msgstr "時刻のみ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time over date"
+msgstr "時刻を日付の上に"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:38
+msgid "Time format:"
+msgstr "時刻の形式:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "12-hour"
+msgstr "12 時間制"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "24-hour"
+msgstr "24 時間制"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "Use region settings"
+msgstr "地域の設定を使用"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:41
+msgid "Show seconds"
+msgstr "秒を表示"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:42
+msgid "Bold time"
+msgstr "時刻を太字にする"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:45
+msgid "Date format:"
+msgstr "日付書式:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:47
+msgid "Region short (%1)"
+msgstr "地域の短い形式 (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:48
+msgid "Weekday (%1)"
+msgstr "曜日付き (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:49
+msgid "Region long (%1)"
+msgstr "地域の長い形式 (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:50
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:51
+msgid "Custom"
+msgstr "カスタム"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:57
+msgid "Custom format:"
+msgstr "カスタム形式:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:61
+msgid "Time size:"
+msgstr "時刻のサイズ:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:67
+msgid "Time alignment:"
+msgstr "時刻の配置:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Center"
+msgstr "中央"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Left"
+msgstr "左"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Right"
+msgstr "右"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:71
+msgid "Date size:"
+msgstr "日付のサイズ:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:77
+msgid "Date alignment:"
+msgstr "日付の配置:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:84
+msgid "Large sizes shrink to fit the taskbar; the taskbar itself never changes."
+msgstr "大きいサイズはタスク バーに収まるように縮小されます。タスク バー自体は変わりません。"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:87
+msgid "Notification bell:"
+msgstr "通知ベル:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Always"
+msgstr "常に表示"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Never"
+msgstr "しない"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+msgid "Only with new notifications"
+msgstr "新しい通知があるときのみ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:98
+msgid "Show number of new notifications"
+msgstr "新しい通知の数を表示する"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:101
+msgid "Show time zone:"
+msgstr "タイムゾーンを表示:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Only when different from local"
+msgstr "ローカルと異なる場合のみ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:112
+msgid "Time zone format:"
+msgstr "タイムゾーンの形式:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "City"
+msgstr "都市"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "Code"
+msgstr "コード"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "Offset from UTC"
+msgstr "UTC からの時差"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
+msgid "Flyout:"
+msgstr "ポップアップ:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+msgid "Show calendar"
+msgstr "カレンダーを表示"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:23
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:234
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:30
+msgid "Add Selected Time Zone"
+msgstr "選択されたタイムゾーンを追加"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:60
+msgid "Add Time Zone…"
+msgstr "タイムゾーン追加…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:98
+msgid "Clock is currently using this time zone"
+msgstr "「デジタル時計」は現在このタイムゾーンを使用中"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:99
+msgid "Hidden while this is the local time zone's city"
+msgstr "ローカルタイムゾーンの都市と同じときは隠す"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:117
+msgid "Switch Systemwide Time Zone…"
+msgstr "システム全体のタイムゾーンを切り替え…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:125
+msgid "Remove this time zone"
+msgstr "このタイムゾーンを削除"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:137
+msgid "Additional Time Zones"
+msgstr "追加のタイムゾーン"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:137
+msgid "Systemwide Time Zone"
+msgstr "システム全体のタイムゾーン"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:147
+msgid "Add more time zones to see them in the clock's flyout and tooltip, or to show one of them on the taskbar"
+msgstr "タイムゾーンを追加すると、時計のポップアップとツールチップに表示したり、そのうち 1 つをタスクバーに表示したりできます"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:158
+msgid "Switch displayed time zone by scrolling over the clock"
+msgstr "時計の上でスクロールして表示するタイムゾーンを切り替える"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:164
+msgid "This does not change the systemwide time zone. When you travel, switch the systemwide time zone instead."
+msgstr "システム全体のタイムゾーンは変更されません。旅行中はシステムのタイムゾーンを切り替えてください。"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:173
+msgid "Choose Time Zone"
+msgstr "タイムゾーンを選択"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:107
+msgid "Keep open"
+msgstr "開いたままにする"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+msgid "Hide calendar"
+msgstr "カレンダーを隠す"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:190
+msgid "Events"
+msgstr "イベント"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:198
+msgid "Add event"
+msgstr "予定を追加"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+msgid "No events for this day"
+msgstr "この日のイベントはありません"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+msgid "No events for today"
+msgstr "今日のイベントはありません"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:238
+msgid "Time zones"
+msgstr "タイムゾーン"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+msgid "Show months"
+msgstr "月を表示"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+msgid "Show years"
+msgstr "年を表示"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:363
+msgid "Today"
+msgstr "今日"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+msgid "Next"
+msgstr "次へ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+msgid "Previous"
+msgstr "前へ"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:636
+msgid "All day"
+msgstr "終日"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:44
+msgid "Other"
+msgstr "その他"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:57
+msgid "%1 more"
+msgid_plural "%1 more"
+msgstr[0] "他 %1 件"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:57
+msgid "Show less"
+msgstr "表示を減らす"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:68
+msgid "Clear group"
+msgstr "グループをクリア"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:132
+msgid "Configure"
+msgstr "設定"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:143
+msgid "Close"
+msgstr "閉じる"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:227
+msgid "Pause"
+msgstr "一時停止"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:227
+msgid "Resume"
+msgstr "再開"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:260
+msgid "Reply"
+msgstr "返信"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:274
+msgid "Type a reply…"
+msgstr "返信を入力…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:36
+msgid "Notifications"
+msgstr "通知"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:52
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:401
+msgid "Do not disturb"
+msgstr "マナーモード"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:64
+msgid "Clear all"
+msgstr "すべてクリア"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:76
+msgid "Do not disturb is on"
+msgstr "応答不可がオンです"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:76
+msgid "No new notifications"
+msgstr "新しい通知はありません"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:87
+msgctxt "offset from current time in hours and minutes"
+msgid " • %1:%2 later"
+msgstr " • %1:%2 早い"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:88
+msgctxt "offset from current time in hours and minutes"
+msgid " • %1:%2 earlier"
+msgstr " • %1:%2 遅い"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:90
+msgctxt "offset from current time"
+msgid " • %1 hour later"
+msgid_plural " • %1 hours later"
+msgstr[0] " • %1時間早い"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:91
+msgctxt "offset from current time"
+msgid " • %1 hour earlier"
+msgid_plural " • %1 hours earlier"
+msgstr[0] " • %1時間遅い"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:397
+msgid "Copy to Clipboard"
+msgstr "クリップボードにコピー"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:408
+msgid "Clear all notifications"
+msgstr "すべての通知をクリア"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:414
+msgid "Adjust date and time…"
+msgstr "日付と時刻を調整…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:419
+msgid "Notification settings…"
+msgstr "通知の設定…"

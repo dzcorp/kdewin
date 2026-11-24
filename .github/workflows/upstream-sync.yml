@@ -1,0 +1,135 @@
+# Merges the forked KDE sources (upstream/forks.toml) with the release Arch ships, builds the result and merges it
+# into main when it is clean. Conflicts or a failed build leave the pull request open for a human.
+# Pull requests opened with the default token start no other workflows; set the optional SYNC_TOKEN secret
+# (a fine-grained token with contents and pull-requests write) to run CI on them as well.
+name: Upstream sync
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+    inputs:
+      fork:
+        description: "Fork to sync (empty: all)"
+        required: false
+      to:
+        description: "Target version (needs a fork)"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: upstream-sync
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        fork: [plasma, dolphin]
+    steps:
+      - name: Skip forks not asked for
+        id: want
+        run: echo "run=${{ inputs.fork == '' || inputs.fork == matrix.fork }}" >> "$GITHUB_OUTPUT"
+      - name: Base tools
+        if: steps.want.outputs.run == 'true'
+        run: pacman -Syu --noconfirm --needed git base-devel github-cli
+      - uses: actions/checkout@v4
+        if: steps.want.outputs.run == 'true'
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.SYNC_TOKEN || github.token }}
+      - name: Build dependencies (from the PKGBUILD)
+        if: steps.want.outputs.run == 'true'
+        run: |
+          source packaging/aur/lumen-kde-git/PKGBUILD
+          pacman -S --noconfirm --needed "${depends[@]}" "${makedepends[@]}"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Merge upstream
+        id: sync
+        if: steps.want.outputs.run == 'true'
+        env:
+          FORK: ${{ matrix.fork }}
+          TO: ${{ inputs.to }}
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN || github.token }}
+        run: |
+          cargo build --release --quiet --manifest-path tools/lumen/Cargo.toml
+          args=(upstream sync "$FORK" --report "$RUNNER_TEMP/report.md")
+          [ -n "$TO" ] && args+=(--to "$TO")
+          set +e
+          tools/lumen/target/release/lumen "${args[@]}"
+          code=$?
+          set -e
+          [ "$code" -eq 0 ] || [ "$code" -eq 3 ] || exit "$code"
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          version=$(sed -n "/^\[$FORK\]/,/^\[/s/^version = \"\(.*\)\"/\1/p" upstream/forks.toml | head -1)
+          branch="upstream/$FORK-$version"
+          # A pull request for this release already exists (open, merged, or closed by a human): nothing to propose.
+          exists=false
+          [ "$(gh pr list --head "$branch" --state all --json number --jq length)" != 0 ] && exists=true
+          {
+            echo "changed=true"
+            echo "conflicts=$([ "$code" -eq 3 ] && echo true || echo false)"
+            echo "version=$version"
+            echo "branch=$branch"
+            echo "exists=$exists"
+          } >> "$GITHUB_OUTPUT"
+      - name: Build the merged tree
+        id: build
+        if: steps.sync.outputs.changed == 'true' && steps.sync.outputs.exists == 'false' && steps.sync.outputs.conflicts == 'false'
+        continue-on-error: true
+        run: make -j"$(nproc)" && make check-tray
+      - name: Open the pull request, merge it when clean
+        if: steps.sync.outputs.changed == 'true' && steps.sync.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN || github.token }}
+          FORK: ${{ matrix.fork }}
+          VERSION: ${{ steps.sync.outputs.version }}
+          BRANCH: ${{ steps.sync.outputs.branch }}
+          CONFLICTS: ${{ steps.sync.outputs.conflicts }}
+          BUILD: ${{ steps.build.outcome }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -q -m "Sync $FORK fork with upstream $VERSION" -m "Three-way merge by \`lumen upstream sync $FORK\`."
+          git push -q --force origin "$BRANCH"
+          body="$RUNNER_TEMP/body.md"
+          {
+            echo "Automatic three-way merge of the \`$FORK\` fork with upstream $VERSION."
+            echo
+            if [ "$CONFLICTS" = true ]; then
+              echo "> [!WARNING]"
+              echo "> Conflicts: resolve the \`<<<<<<<\` markers in the files listed below, then merge."
+            elif [ "$BUILD" != success ]; then
+              echo "> [!WARNING]"
+              echo "> The merged tree does not build or its checks fail: see the workflow run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
+            else
+              echo "Clean merge, build and tray checks passed: merged automatically."
+            fi
+            echo
+            cat "$RUNNER_TEMP/report.md"
+          } > "$body"
+          gh label create upstream-sync --color 0e8a16 --description "Automatic upstream merge" --force >/dev/null
+          gh label create needs-attention --color d93f0b --description "Automatic merge needs a human" --force >/dev/null
+          url=$(gh pr create --base main --head "$BRANCH" --title "Sync $FORK fork with upstream $VERSION" --body-file "$body" --label upstream-sync)
+          if [ "$CONFLICTS" = false ] && [ "$BUILD" = success ]; then
+            gh pr merge "$url" --squash --delete-branch || gh pr merge "$url" --auto --squash --delete-branch
+          else
+            gh pr edit "$url" --add-label needs-attention
+          fi

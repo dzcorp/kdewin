@@ -1,0 +1,318 @@
+1	Hotovo.
+2	Selhalo (návratový kód %1).
+3	Animace
+4	Prolínání a zvětšování oken při otevření a zavření
+5	Otevření a zavření
+6	Počáteční velikost
+7	Minimalizace
+8	Okna odlétají ke svému tlačítku na hlavním panelu
+9	Doba trvání
+10	Všechny efekty plochy
+11	Aplikace
+12	Materiál oken
+13	Pozadí oken Mica
+14	Postranní panely, panely nástrojů a dialogy zobrazují rozmazanou tapetu. Platí pro nově otevřená okna.
+15	Neprůhlednost
+16	Tyto aplikace ponechat neprůhledné
+17	Ovládací prvky
+18	Poloměr zaoblení
+19	Akrylové nabídky a popisky
+20	Vyžaduje materiály Lumen
+21	Vždy zobrazovat celé posuvníky
+22	Vypnuto: zůstávají tenké, dokud na ně nenajedete
+23	Pohyb
+24	Animovat ovládací prvky
+25	Platí pro aplikace se stylem Lumen. Změny se projeví ihned.
+26	Spouštění
+27	Použít Lumen při spouštění
+28	Spouštěcí nabídka Limine a úvodní obrazovka Plymouth. Předchozí nabídka se zálohuje.
+29	Obnovit předchozí vzhled spouštění
+30	Zamčení a přihlášení
+31	Zamykací obrazovka
+32	Tapeta Lumen
+33	Vždy zobrazovat hodiny
+34	Ovládání médií
+35	Zamykání obrazovky
+36	Přihlašovací obrazovka
+37	Použít Lumen na přihlašovací obrazovce
+38	Obnovit standardní přihlašovací obrazovku
+39	Nastavení přihlašovací obrazovky
+40	Obrazovky zamčení a odhlášení
+41	Obnovit obrazovky zamčení a odhlášení Lumen
+42	Spouští se automaticky po aktualizacích Plasmy
+43	Údržba
+44	Nástroj lumen nebyl nalezen
+45	Nainstalujte jej příkazem `make install-system` ze složky se zdrojovým kódem Lumen.
+46	Kontrola
+47	Ověří, že jsou všechny části Lumen nainstalované a aktivní
+48	Spustit diagnostiku
+49	Zobrazit snímek rozvržení panelu
+50	Oprava
+51	Barvy, styl, dekorace oken, efekty a motiv Plasmy
+52	Znovu použít Lumen
+53	Najít nahrazené nástroje
+54	Vypíše nainstalované balíčky, které Lumen nahrazuje, například Kvantum a Klassy. Odstraňte je příkazem `lumen cleanup` v terminálu.
+55	Znovu sestavit nativní součásti
+56	Spouští se automaticky po aktualizacích KWin nebo Qt
+57	Materiály
+58	Materiály Lumen
+59	Nahrazuje standardní rozmazání efekty Mica a akryl
+60	Mica pro hlavní panel
+61	Vypnuto: akryl, kterým prosvítají okna za hlavním panelem
+62	Akryl (nabídky, vysouvací panely, Start)
+63	Rozmazání
+64	Sytost
+65	Šum
+66	Mica (okna, hlavní panel)
+67	Hlavní panel
+68	Hlavní panel Lumen na této ploše není
+69	Použijte rozvržení Lumen a nahraďte jím současný panel. Vaše widgety, ikony v oznamovací oblasti, připnuté aplikace a oblíbené položky zůstanou zachovány.
+70	Použít rozvržení Lumen
+71	Rozvržení
+72	Zarovnat ikony hlavního panelu na střed
+73	Plovoucí
+74	Automaticky skrývat
+75	Ikony
+76	Výška hlavního panelu
+77	Velikost ikon aplikací
+78	Ikony Startu a aplikací si tuto velikost zachovají při jakékoli výšce panelu
+79	Mezera mezi aplikacemi
+80	Velmi široká
+81	Žádná
+82	Normální
+83	Široká
+84	Velikost ikon v oznamovací oblasti
+85	Velikost ikon rychlého nastavení
+86	Síť, hlasitost a baterie vedle hodin
+87	Mezera mezi ikonami v oznamovací oblasti
+88	Hodiny
+89	Zobrazit
+90	Jen datum
+91	Čas a datum na jednom řádku
+92	Jen čas
+93	Čas nad datem
+94	Formát času
+95	12hodinový
+96	24hodinový
+97	Podle místního nastavení
+98	Formát data
+99	Místní krátký (%1)
+100	S dnem v týdnu (%1)
+101	Místní dlouhý (%1)
+102	ISO (%1)
+103	Vlastní (nastavuje se v možnostech hodin)
+104	Zobrazovat sekundy
+105	Tučný čas
+106	Velikost času
+107	Zarovnání času
+108	Na střed
+109	Vlevo
+110	Vpravo
+111	Velikost data
+112	Velké hodnoty se zmenší, aby se vešly; samotný hlavní panel se nikdy nemění
+113	Zarovnání data
+114	Součásti
+115	Připnuté a doporučené aplikace, nabídky napájení a účtu
+116	Start
+117	Ikony, přetečení, dlaždice a posuvníky
+118	Oznamovací oblast a rychlé nastavení
+119	Hodiny a oznámení
+120	Vlastní formát data, kalendář a centrum oznámení
+121	Tlačítka aplikací
+122	Připnuté aplikace a otevřená okna
+123	Oznámení
+124	Zobrazovat nad aplikacemi na celé obrazovce
+125	Vypnuto: hry a videa na celé obrazovce zapnou režim Nerušit (kritická oznámení se zobrazí i tak)
+126	Výstup
+127	Probíhá…
+128	Okna
+129	Záhlaví
+130	Průsvitné záhlaví
+131	Výška
+132	Titulek na střed
+133	Zobrazovat ikonu aplikace
+134	Tlačítka
+135	Jen zavřít
+136	Zavřít, minimalizovat, maximalizovat (vlevo)
+137	Minimalizovat, maximalizovat, zavřít (vpravo)
+138	Tvar
+139	Nastavení dekorace oken
+140	Tmavý
+141	Tmavé povrchy Mica všude
+142	Světlé povrchy s jemnými stíny
+143	Světlý
+144	Automaticky
+145	Přepínat mezi světlým a tmavým podle denní doby
+146	Režim
+147	Přizpůsobení
+148	Rozmazání Mica a akryl, tónování a šum
+149	Záhlaví, rohy a tlačítka
+150	Ovládací prvky, nabídky, posuvníky a rychlost animací
+151	Pohyb při otevření, zavření a minimalizaci
+152	Zarovnání, velikost, Start, oznamovací oblast a hodiny
+153	Zamykací obrazovka, přihlašovací obrazovka a odhlášení
+154	Spouštěcí nabídka a úvodní obrazovka
+155	Oprava, aktualizace a diagnostika
+156	Související
+157	Barva zvýraznění
+158	Tapeta
+159	Písma
+161	Zobrazit:
+162	Formát času:
+165	Vlastní formát:
+166	Velikost času:
+167	Zarovnání času:
+168	Velikost data:
+169	Zarovnání data:
+170	Velké hodnoty se zmenší podle hlavního panelu; samotný panel se nikdy nemění.
+171	Zobrazovat zvonek oznámení
+172	Vysouvací panel:
+173	Zobrazovat kalendář
+176	Nerušit
+177	Vymazat vše
+178	Režim Nerušit je zapnutý
+179	Žádná nová oznámení
+180	Dříve
+181	Zobrazit méně
+182	+%1
+183	Vymazat skupinu
+184	Skrýt kalendář
+191	Vymazat všechna oznámení
+192	Upravit datum a čas…
+193	Nastavení oznámení…
+197	Názvy aplikací:
+198	Obecný název (název)
+199	Jen obecný název
+200	Název (obecný název)
+202	Doporučené:
+203	Zobrazovat nedávné soubory
+204	Hledat aplikace, nastavení a dokumenty
+205	Připnuté
+206	Všechny aplikace
+207	Klikněte na aplikaci pravým tlačítkem a zvolte „Připnout na Start“
+208	Doporučené
+209	Zde se zobrazí vaše nedávné soubory
+210	Zpět
+211	Žádné výsledky pro „%1“
+212	Změnit nastavení účtu
+213	Zamknout
+214	Přepnout uživatele
+215	Odhlásit se
+217	Režim spánku
+218	Hibernace
+219	Vypnout
+220	Restartovat
+221	Odepnout ze Startu
+222	Připnout na Start
+224	Ukončit %1
+225	Wi-Fi
+227	Režim v letadle
+228	Režim napájení
+229	Noční světlo
+230	Tmavý režim
+231	Tip: přetažením ikon na hlavním panelu změníte jejich pořadí; přetažením mezi panelem a oknem skrytých ikon je připnete nebo skryjete.
+232	Dlaždice rychlého nastavení
+233	V rychlém nastavení
+234	Vždy skrytá
+235	Vždy zobrazená
+236	Vypnutá
+237	Zobrazená podle potřeby
+238	Skrýt skryté ikony
+239	Zobrazit skryté ikony
+240	Sem přetáhněte ikony
+242	Předchozí
+244	Další
+245	Úspora energie
+250	Rychlé nastavení
+251	Další možnosti
+252	Položky
+399	Tón tapety
+400	Hlavní panel, Start, nabídky a okna přebírají barvu tapety a plynule ji sledují, když se změní
+409	Pouze pokud se liší od místního
+410	Formát časového pásma:
+413	Posun od UTC
+422	Přidejte další časová pásma, abyste je viděli v panelu a tipu hodin, nebo abyste jedno z nich zobrazili na hlavním panelu
+423	Přepínat zobrazené časové pásmo posouváním nad hodinami
+424	Tím se nezmění systémové časové pásmo. Na cestách raději přepněte systémové časové pásmo.
+426	Ponechat otevřené
+428	Přidat událost
+431	Časová pásma
+432	Celý den
+433	Ostatní
+434	další %1	další %1	další %1
+435	Zobrazit méně
+441	Zvonek oznámení:
+443	Pouze při nových oznámeních
+444	Zobrazovat počet nových oznámení
+445	Vše
+446	Nedávno přidané
+447	Nejpoužívanější
+448	Přejít na písmeno
+449	Nastavení
+450	Správce souborů
+451	Dokumenty
+452	Stažené soubory
+453	Hudba
+454	Obrázky
+455	Videa
+456	Síť
+457	Rozložení:
+458	Připnuté a Všechny aplikace na samostatných stránkách
+459	Vše na jedné posouvatelné stránce
+460	Výchozí
+461	Více připnutých
+462	Více doporučení
+463	Zahrnout nedávno použité aplikace
+464	Všechny aplikace:
+465	Zobrazovat nedávno přidané aplikace
+466	Zobrazovat nejpoužívanější aplikace
+467	Povolit zobrazení podle kategorií (skupiny nabídky aplikací)
+468	Zobrazení:
+469	Kategorie
+470	Mřížka
+471	Seznam
+472	Vedle tlačítka napájení:
+473	Restartovat do nastavení firmwaru UEFI
+474	Zobrazit vše
+476	Aplikace
+477	Web
+478	Nastavit hledání…
+479	Výsledky hledání
+480	Otevřít
+481	Zobrazení: %1
+194	Obecné
+482	Velikost:
+483	Vyplnit volné místo
+484	Nabídka pravého tlačítka:
+485	Odstranit
+486	Přidat aplikaci…
+487	Nastavení hlavního panelu
+488	Restartovat součásti pracovní plochy
+489	Použijte po změně ikon nebo motivů v Nastavení systému: obnoví ikony v otevřených aplikacích a znovu načte hlavní panel, plochu a hledání
+490	Panel příkazů
+491	Tlačítka Nový, Vyjmout, Kopírovat, Vložit, Řadit a Zobrazení pod adresním řádkem. Vypnuto ponechá okno čisté a minimální.
+492	Zobrazit měsíce
+493	Zobrazit roky
+494	Dnes
+495	Velikost textu
+496	Velikost ikony Start
+537	Průzkumník souborů
+538	Otevírat Průzkumníka souborů v umístění Tento počítač
+539	Vypnuto otevře domovskou složku
+540	Tento počítač
+541	Zobrazit volné místo
+542	Pruh kapacity a volné místo pod každou jednotkou
+543	Zobrazit složky
+544	Plocha, Dokumenty, Stažené soubory, Hudba, Obrázky a Videa nad jednotkami
+545	Zobrazit síťová umístění
+546	Zobrazit skryté jednotky
+547	Jednotky skryté v navigačním podokně
+551	Zařízení a jednotky
+552	Síťová umístění
+554	Vybrána 1 položka
+555	Volné: %1 z %2
+560	Otevírat Průzkumníka souborů v
+561	Domovská složka je počáteční umístění nastavené v Průzkumníkovi souborů
+562	Domovská složka
+563	Předchozí relace
+564	Poslední soubory

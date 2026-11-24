@@ -1,0 +1,190 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ia\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: plasma/notifier/FullRepresentation.qml:81
+msgid "Do not disturb"
+msgstr "Non disturba"
+
+#: plasma/notifier/FullRepresentation.qml:131
+msgid "For 1 hour"
+msgstr "Per 1 hora"
+
+#: plasma/notifier/FullRepresentation.qml:136
+msgid "For 4 hours"
+msgstr "Per 4 horas"
+
+#: plasma/notifier/FullRepresentation.qml:145
+msgid "Until this evening"
+msgstr "Usque iste vespere"
+
+#: plasma/notifier/FullRepresentation.qml:155
+msgid "Until tomorrow morning"
+msgstr "Usque deman matino"
+
+#: plasma/notifier/FullRepresentation.qml:167
+msgid "Until Monday"
+msgstr "Usque Lunedi"
+
+#: plasma/notifier/FullRepresentation.qml:174
+msgid "Until manually disabled"
+msgstr "Usque manualmente dishabilitate"
+
+#: plasma/notifier/FullRepresentation.qml:226
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Termina automaticamente: %1"
+
+#: plasma/notifier/FullRepresentation.qml:238
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "Quando %1 es active (%2)"
+
+#: plasma/notifier/FullRepresentation.qml:240
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "Quando %1 es active"
+
+#: plasma/notifier/FullRepresentation.qml:246
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Schermos es reflectite"
+
+#: plasma/notifier/FullRepresentation.qml:250
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "App de schermo plen es focalisate"
+
+#: plasma/notifier/FullRepresentation.qml:510
+#: plasma/notifier/FullRepresentation.qml:516
+msgctxt "@action:button"
+msgid "View"
+msgstr "Vista"
+
+#: plasma/notifier/FullRepresentation.qml:597
+msgid "Close Group"
+msgstr "Claude gruppo"
+
+#: plasma/notifier/FullRepresentation.qml:619
+msgid "Show Fewer"
+msgstr "Monstra minus"
+
+#: plasma/notifier/FullRepresentation.qml:621
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "Monstra %1 plus"
+
+#: plasma/notifier/FullRepresentation.qml:650 plasma/notifier/main.qml:108
+msgid "No unread notifications"
+msgstr "Necun notificationes non legite"
+
+#: plasma/notifier/FullRepresentation.qml:665 plasma/notifier/main.qml:77
+msgid "Notification service not available"
+msgstr "Servicio de Notification non es disponibile"
+
+#: plasma/notifier/FullRepresentation.qml:667
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "Notificationes es currentemente fornite per '%1 %2'"
+
+#: plasma/notifier/components/ActionContainer.qml:92
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Responde"
+
+#: plasma/notifier/fileinfo.cpp:186
+msgid "Open with %1"
+msgstr "Aperi con %1"
+
+#: plasma/notifier/fileinfo.cpp:190
+msgid "Open with…"
+msgstr "Aperi con…"
+
+#: plasma/notifier/filemenu.cpp:117
+msgid "Open Containing Folder"
+msgstr "Aperi dossier continente"
+
+#: plasma/notifier/filemenu.cpp:131
+msgid "&Copy"
+msgstr "&Copia"
+
+#: plasma/notifier/filemenu.cpp:140
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Copia location"
+
+#: plasma/notifier/filemenu.cpp:198
+msgid "Properties"
+msgstr "Proprietates"
+
+#: plasma/notifier/globalshortcuts.cpp:24
+msgid "Toggle do not disturb"
+msgstr "Commuta a non disturbar"
+
+#: plasma/notifier/globalshortcuts.cpp:33
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "Netta Chronologia de Notification"
+
+#: plasma/notifier/globalshortcuts.cpp:52
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Notificationes Off"
+
+#: plasma/notifier/globalshortcuts.cpp:53
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Notificationes On"
+
+#: plasma/notifier/globalshortcuts.cpp:68
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "Chronologia de Notification  clarate"
+
+#: plasma/notifier/main.qml:61
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 labor executante"
+msgstr[1] "%1 labores executante"
+
+#: plasma/notifier/main.qml:65
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: plasma/notifier/main.qml:70
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 labor executante (%2%)"
+msgstr[1] "%1 labores executante (%2%)"
+
+#: plasma/notifier/main.qml:83
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 notification non legite"
+msgstr[1] "%1 notificationes non legite"
+
+#: plasma/notifier/main.qml:88
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 notification active"
+msgstr[1] "%1 notificationes active"
+
+#: plasma/notifier/main.qml:101
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "Non disturbar usque %1;  pulsa in le medie per exir nunc"
+
+#: plasma/notifier/main.qml:104
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "Modo de non disturbar active: pulsa in le medie per exir"
+
+#: plasma/notifier/main.qml:110
+msgid "Middle-click to enter do not disturb mode"
+msgstr "Pulsa in le medie per entrar in modo de non disturbar"
+
+#: plasma/notifier/main.qml:245
+msgid "Clear All Notifications"
+msgstr "Netta omne Notificationes"
+
+#: plasma/notifier/main.qml:264
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Configura Notificationes de eventos  e actiones…"

@@ -1,0 +1,25 @@
+windows-modern icon theme from https://github.com/Jeysef/KDE-Windows-Modern (icons/windows-modern)
+commit 7ef6bfe99a472f2fc7fa473383eda50f411a8840 (2026-07-19), GPL-3.0
+
+## Icon Pack Sources
+
+The `icons/windows-modern/` icon theme is a curated derivative work.
+**Eleven** is the anchor pack; the other packs listed below were used only
+where Eleven was missing an icon or where another pack provided a clearly
+superior match for Windows 11 style.
+
+| Pack | Author | Source | License | Role in final theme |
+|------|--------|--------|---------|---------------------|
+| **Eleven** | mjkim0727 | <https://github.com/mjkim0727/Eleven-icon-theme> | GPL-3.0 | Anchor pack — the majority of icons |
+| **Fluent** | vinceliuice | <https://github.com/vinceliuice/Fluent-icon-theme> | GPL-3.0 | Quality overrides (weather, dialog, security, applications, media controls) |
+| **Win11** | yeyushengfan258 | <https://github.com/yeyushengfan258/Win11-icon-theme> | GPL-3.0 | Gap-filling (network, cellular, emotes, animations, MIME types, devices) |
+| **We10X** | yeyushengfan258 | <https://github.com/yeyushengfan258/We10X-icon-theme> | GPL-3.0 | Small gap-fills (security-high, folder-visiting, mail icons) |
+| **Fluentwin** | — | <https://store.kde.org/p/1395671> | No explicit license listed on the store page; the author's other projects are GPL-3.0 | Tiny fills (preferences-desktop-personal, cs-cat-admin, cs-cat-prefs) |
+
+The following packs were considered during curation but **not selected**
+for the final output:
+
+- Cobalt-icons
+- Windows-Eleven
+- Windows-Beuty
+

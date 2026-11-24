@@ -1,0 +1,305 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: plasma/plasmoids/org.lumen.start/contents/config/config.qml:6
+msgid "General"
+msgstr "Obecné"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:213
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:17
+msgid "All"
+msgstr "Vše"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:219
+msgid "Recently added"
+msgstr "Nedávno přidané"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:226
+msgid "Most used"
+msgstr "Nejpoužívanější"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:244
+msgid "Jump to a letter"
+msgstr "Přejít na písmeno"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:472
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:273
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:298
+msgid "Back"
+msgstr "Zpět"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:22
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:20
+msgid "Settings"
+msgstr "Nastavení"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:25
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:23
+msgid "File Manager"
+msgstr "Správce souborů"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:19
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:27
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:25
+msgid "Downloads"
+msgstr "Stažené soubory"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:28
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:26
+msgid "Music"
+msgstr "Hudba"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:27
+msgid "Pictures"
+msgstr "Obrázky"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:30
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:28
+msgid "Videos"
+msgstr "Videa"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:31
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:29
+msgid "Network"
+msgstr "Síť"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:36
+msgid "Icon:"
+msgstr "Ikona:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:38
+msgid "Choose…"
+msgstr "Vybrat…"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:47
+msgid "App names:"
+msgstr "Názvy aplikací:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name (name)"
+msgstr "Obecný název (název)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name only"
+msgstr "Jen obecný název"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name (generic name)"
+msgstr "Název (obecný název)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name only"
+msgstr "Pouze název"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:54
+msgid "Layout:"
+msgstr "Rozložení:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:55
+msgid "Pinned and All apps on separate pages"
+msgstr "Připnuté a Všechny aplikace na samostatných stránkách"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:60
+msgid "Everything on one scrolling page"
+msgstr "Vše na jedné posouvatelné stránce"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:66
+msgid "Show:"
+msgstr "Zobrazit:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "Default"
+msgstr "Výchozí"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More pins"
+msgstr "Více připnutých"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More recommendations"
+msgstr "Více doporučení"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:74
+msgid "Recommended:"
+msgstr "Doporučené:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:75
+msgid "Show recent files"
+msgstr "Zobrazovat nedávné soubory"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:80
+msgid "Include recently used apps"
+msgstr "Zahrnout nedávno použité aplikace"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:87
+msgid "All apps:"
+msgstr "Všechny aplikace:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:88
+msgid "Show recently added apps"
+msgstr "Zobrazovat nedávno přidané aplikace"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:92
+msgid "Show most used apps"
+msgstr "Zobrazovat nejpoužívanější aplikace"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:96
+msgid "Enable category view (application menu groups)"
+msgstr "Povolit zobrazení podle kategorií (skupiny nabídky aplikací)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:100
+msgid "View:"
+msgstr "Zobrazení:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Category"
+msgstr "Kategorie"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Grid"
+msgstr "Mřížka"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "List"
+msgstr "Seznam"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:109
+msgid "Next to Power:"
+msgstr "Vedle tlačítka napájení:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:117
+msgid "Change account settings"
+msgstr "Změnit nastavení účtu"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:122
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:171
+msgid "Lock"
+msgstr "Zamknout"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:128
+msgid "Switch user"
+msgstr "Přepnout uživatele"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:134
+msgid "Sign out"
+msgstr "Odhlásit se"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:162
+msgid "Power"
+msgstr "Napájení"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:177
+msgid "Sleep"
+msgstr "Režim spánku"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:183
+msgid "Hibernate"
+msgstr "Hibernace"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:189
+msgid "Shut down"
+msgstr "Vypnout"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:195
+msgid "Restart"
+msgstr "Restartovat"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:205
+msgid "Restart to UEFI Firmware Setup"
+msgstr "Restartovat do nastavení firmwaru UEFI"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:33
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:66
+msgid "Pinned"
+msgstr "Připnuté"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:272
+msgid "All apps"
+msgstr "Všechny aplikace"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show all"
+msgstr "Zobrazit vše"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show less"
+msgstr "Zobrazit méně"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:120
+msgid "Right-click an app and choose “Pin to Start”"
+msgstr "Klikněte na aplikaci pravým tlačítkem a zvolte „Připnout na Start“"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:56
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:297
+msgid "Recommended"
+msgstr "Doporučené"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:30
+msgid "More"
+msgstr "Více"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:94
+msgid "Your recent files will show up here"
+msgstr "Zde se zobrazí vaše nedávné soubory"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:18
+msgid "Apps"
+msgstr "Aplikace"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:21
+msgid "Web"
+msgstr "Web"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:116
+msgid "Configure Search…"
+msgstr "Nastavit hledání…"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:147
+msgid "Search results"
+msgstr "Výsledky hledání"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:181
+msgid "No results for “%1”"
+msgstr "Žádné výsledky pro „%1“"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:190
+msgid "Open"
+msgstr "Otevřít"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:194
+msgid "Search for apps, settings, and documents"
+msgstr "Hledat aplikace, nastavení a dokumenty"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:13
+msgctxt "@action:button %1 is List, Grid or Category"
+msgid "View: %1"
+msgstr "Zobrazení: %1"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:226
+msgid "Start"
+msgstr "Start"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:153
+msgid "Unpin from Start"
+msgstr "Odepnout ze Startu"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:154
+msgid "Pin to Start"
+msgstr "Připnout na Start"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:264
+msgid "Edit Applications…"
+msgstr "Upravit aplikace…"

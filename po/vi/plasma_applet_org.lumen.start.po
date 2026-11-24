@@ -1,0 +1,305 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: vi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: plasma/plasmoids/org.lumen.start/contents/config/config.qml:6
+msgid "General"
+msgstr "Chung"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:213
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:17
+msgid "All"
+msgstr "Tất cả"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:219
+msgid "Recently added"
+msgstr "Mới thêm gần đây"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:226
+msgid "Most used"
+msgstr "Dùng nhiều nhất"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:244
+msgid "Jump to a letter"
+msgstr "Chuyển đến chữ cái"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/AppsView.qml:472
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:273
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:298
+msgid "Back"
+msgstr "Quay lại"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:22
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:20
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:25
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:23
+msgid "File Manager"
+msgstr "Trình quản lý tệp"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:24
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:19
+msgid "Documents"
+msgstr "Tài liệu"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:27
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:25
+msgid "Downloads"
+msgstr "Tải xuống"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:28
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:26
+msgid "Music"
+msgstr "Nhạc"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:27
+msgid "Pictures"
+msgstr "Ảnh"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:30
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:28
+msgid "Videos"
+msgstr "Video"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:31
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:29
+msgid "Network"
+msgstr "Mạng"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:36
+msgid "Icon:"
+msgstr "Biểu tượng:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:38
+msgid "Choose…"
+msgstr "Chọn…"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:47
+msgid "App names:"
+msgstr "Tên ứng dụng:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name (name)"
+msgstr "Tên chung (tên)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Generic name only"
+msgstr "Chỉ tên chung"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name (generic name)"
+msgstr "Tên (tên chung)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
+msgid "Name only"
+msgstr "Chỉ tên"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:54
+msgid "Layout:"
+msgstr "Bố cục:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:55
+msgid "Pinned and All apps on separate pages"
+msgstr "Đã ghim và Tất cả ứng dụng ở các trang riêng"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:60
+msgid "Everything on one scrolling page"
+msgstr "Mọi thứ trên một trang cuộn"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:66
+msgid "Show:"
+msgstr "Hiện:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "Default"
+msgstr "Mặc định"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More pins"
+msgstr "Nhiều mục ghim hơn"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:67
+msgid "More recommendations"
+msgstr "Nhiều đề xuất hơn"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:74
+msgid "Recommended:"
+msgstr "Đề xuất:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:75
+msgid "Show recent files"
+msgstr "Hiện tệp gần đây"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:80
+msgid "Include recently used apps"
+msgstr "Bao gồm ứng dụng dùng gần đây"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:87
+msgid "All apps:"
+msgstr "Tất cả ứng dụng:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:88
+msgid "Show recently added apps"
+msgstr "Hiển thị ứng dụng mới thêm gần đây"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:92
+msgid "Show most used apps"
+msgstr "Hiển thị ứng dụng dùng nhiều nhất"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:96
+msgid "Enable category view (application menu groups)"
+msgstr "Bật chế độ xem theo danh mục (nhóm menu ứng dụng)"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:100
+msgid "View:"
+msgstr "Chế độ xem:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Category"
+msgstr "Danh mục"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "Grid"
+msgstr "Lưới"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:101
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:10
+msgid "List"
+msgstr "Danh sách"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:109
+msgid "Next to Power:"
+msgstr "Bên cạnh Nguồn:"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:117
+msgid "Change account settings"
+msgstr "Thay đổi cài đặt tài khoản"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:122
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:171
+msgid "Lock"
+msgstr "Khóa"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:128
+msgid "Switch user"
+msgstr "Chuyển người dùng"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:134
+msgid "Sign out"
+msgstr "Đăng xuất"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:162
+msgid "Power"
+msgstr "Nguồn"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:177
+msgid "Sleep"
+msgstr "Ngủ"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:183
+msgid "Hibernate"
+msgstr "Ngủ đông"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:189
+msgid "Shut down"
+msgstr "Tắt máy"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:195
+msgid "Restart"
+msgstr "Khởi động lại"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/Footer.qml:205
+msgid "Restart to UEFI Firmware Setup"
+msgstr "Khởi động lại vào Thiết lập Firmware UEFI"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:33
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:66
+msgid "Pinned"
+msgstr "Đã ghim"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:272
+msgid "All apps"
+msgstr "Tất cả ứng dụng"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show all"
+msgstr "Hiển thị tất cả"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:34
+msgid "Show less"
+msgstr "Hiện ít hơn"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/PinnedSection.qml:120
+msgid "Right-click an app and choose “Pin to Start”"
+msgstr "Nhấp chuột phải vào ứng dụng và chọn “Ghim vào Bắt đầu”"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:29
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:56
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:297
+msgid "Recommended"
+msgstr "Đề xuất"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:30
+msgid "More"
+msgstr "Thêm"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/RecommendedSection.qml:94
+msgid "Your recent files will show up here"
+msgstr "Các tệp gần đây của bạn sẽ hiện ở đây"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:18
+msgid "Apps"
+msgstr "Ứng dụng"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:21
+msgid "Web"
+msgstr "Web"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:116
+msgid "Configure Search…"
+msgstr "Cấu hình tìm kiếm…"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:147
+msgid "Search results"
+msgstr "Kết quả tìm kiếm"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:181
+msgid "No results for “%1”"
+msgstr "Không có kết quả cho “%1”"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/SearchPage.qml:190
+msgid "Open"
+msgstr "Mở"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/StartMenu.qml:194
+msgid "Search for apps, settings, and documents"
+msgstr "Tìm ứng dụng, cài đặt và tài liệu"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/ViewPicker.qml:13
+msgctxt "@action:button %1 is List, Grid or Category"
+msgid "View: %1"
+msgstr "Chế độ xem: %1"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:26
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:226
+msgid "Start"
+msgstr "Bắt đầu"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:153
+msgid "Unpin from Start"
+msgstr "Bỏ ghim khỏi Bắt đầu"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:154
+msgid "Pin to Start"
+msgstr "Ghim vào Bắt đầu"
+
+#: plasma/plasmoids/org.lumen.start/contents/ui/main.qml:264
+msgid "Edit Applications…"
+msgstr "Sửa ứng dụng…"

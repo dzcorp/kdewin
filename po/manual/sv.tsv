@@ -1,0 +1,318 @@
+1	Klart.
+2	Misslyckades (slutkod %1).
+3	Animeringar
+4	Tona in och zooma fönster vid öppning och stängning
+5	Öppna och stäng
+6	Startstorlek
+7	Minimera
+8	Fönster flyger till sin knapp i aktivitetsfältet
+9	Varaktighet
+10	Alla skrivbordseffekter
+11	Program
+12	Fönstermaterial
+13	Mica-bakgrunder i fönster
+14	Sidofält, verktygsfält och dialogrutor visar den suddiga bakgrundsbilden. Gäller nyöppnade fönster.
+15	Opacitet
+16	Håll de här apparna ogenomskinliga
+17	Kontroller
+18	Hörnradie
+19	Menyer och verktygstips i akryl
+20	Kräver Lumen-material
+21	Visa alltid hela rullningslister
+22	Av: de förblir smala tills pekaren är över dem
+23	Rörelse
+24	Animera kontroller
+25	Gäller appar som använder Lumens programstil. Ändringar syns direkt.
+26	Uppstart
+27	Använd Lumen vid uppstart
+28	Startmenyn Limine och startskärmen Plymouth. Den tidigare menyn säkerhetskopieras.
+29	Återställ tidigare utseende vid uppstart
+30	Låsning och inloggning
+31	Låsskärm
+32	Lumen-bakgrundsbild
+33	Visa alltid klockan
+34	Mediekontroller
+35	Skärmlås
+36	Inloggningsskärm
+37	Använd Lumen på inloggningsskärmen
+38	Återställ standardinloggningsskärmen
+39	Inställningar för inloggningsskärmen
+40	Lås- och utloggningsskärmar
+41	Uppdatera Lumens lås- och utloggningsskärmar
+42	Körs automatiskt efter Plasma-uppdateringar
+43	Underhåll
+44	Verktyget lumen hittades inte
+45	Installera det med `make install-system` från Lumens källmapp.
+46	Kontroll
+47	Kontrollerar att varje del av Lumen är installerad och aktiv
+48	Kör diagnostik
+49	Visa en ögonblicksbild av panellayouten
+50	Reparation
+51	Färger, stil, fönsterdekoration, effekter och Plasma-tema
+52	Tillämpa Lumen igen
+53	Hitta ersatta verktyg
+54	Listar installerade paket som Lumen ersätter, till exempel Kvantum och Klassy. Ta bort dem med `lumen cleanup` i en terminal.
+55	Bygg om inbyggda komponenter
+56	Körs automatiskt efter uppdateringar av KWin eller Qt
+57	Material
+58	Lumen-material
+59	Ersätter standardoskärpan med Mica och akryl
+60	Mica för aktivitetsfältet
+61	Av: akryl, som låter fönster bakom aktivitetsfältet synas
+62	Akryl (menyer, utfällbara paneler, Start)
+63	Oskärpa
+64	Mättnad
+65	Brus
+66	Mica (fönster, aktivitetsfält)
+67	Aktivitetsfält
+68	Lumens aktivitetsfält finns inte på det här skrivbordet
+69	Tillämpa Lumen-layouten för att ersätta den nuvarande panelen. Dina widgetar, ikoner i meddelandefältet, fästa appar och favoriter behålls.
+70	Tillämpa Lumen-layouten
+71	Layout
+72	Centrera ikonerna i aktivitetsfältet
+73	Flytande
+74	Dölj automatiskt
+75	Ikoner
+76	Aktivitetsfältets höjd
+77	Storlek på appikoner
+78	Start- och appikoner behåller den här storleken oavsett aktivitetsfältets höjd
+79	Avstånd mellan appar
+80	Extra brett
+81	Inget
+82	Normalt
+83	Brett
+84	Storlek på ikoner i meddelandefältet
+85	Storlek på snabbinställningsikoner
+86	Nätverk, volym och batteri bredvid klockan
+87	Avstånd mellan ikoner i meddelandefältet
+88	Klocka
+89	Visa
+90	Bara datum
+91	Tid och datum på en rad
+92	Bara tid
+93	Tid över datum
+94	Tidsformat
+95	12-timmars
+96	24-timmars
+97	Använd regionala inställningar
+98	Datumformat
+99	Regionalt kort (%1)
+100	Med veckodag (%1)
+101	Regionalt långt (%1)
+102	ISO (%1)
+103	Anpassat (ställs in i klockans inställningar)
+104	Visa sekunder
+105	Fet tid
+106	Tidens storlek
+107	Tidens justering
+108	Centrerad
+109	Vänster
+110	Höger
+111	Datumets storlek
+112	Stora storlekar krymps så att de får plats; själva aktivitetsfältet ändras aldrig
+113	Datumets justering
+114	Delar
+115	Fästa och rekommenderade appar, energi- och kontomenyer
+116	Start
+117	Ikoner, överflöde, paneler och skjutreglage
+118	Meddelandefält och snabbinställningar
+119	Klocka och aviseringar
+120	Anpassat datumformat, kalender och meddelandecenter
+121	Appknappar
+122	Fästa appar och öppna fönster
+123	Aviseringar
+124	Visa över appar i helskärm
+125	Av: spel och videor i helskärm aktiverar Stör ej (kritiska aviseringar visas ändå)
+126	Utdata
+127	Körs…
+128	Fönster
+129	Namnlist
+130	Genomskinlig namnlist
+131	Höjd
+132	Centrera titeln
+133	Visa programikonen
+134	Knappar
+135	Bara stäng
+136	Stäng, minimera, maximera (vänster)
+137	Minimera, maximera, stäng (höger)
+138	Form
+139	Inställningar för fönsterdekorationer
+140	Mörkt
+141	Mörka Mica-ytor överallt
+142	Ljusa ytor med mjuka skuggor
+143	Ljust
+144	Automatiskt
+145	Växla mellan ljust och mörkt efter tid på dygnet
+146	Läge
+147	Anpassa
+148	Mica- och akryloskärpa, toning och brus
+149	Namnlister, hörn och knappar
+150	Kontroller, menyer, rullningslister och animeringshastighet
+151	Rörelse vid öppning, stängning och minimering
+152	Justering, storlek, Start, meddelandefält och klocka
+153	Låsskärm, inloggningsskärm och utloggning
+154	Startmeny och startskärm
+155	Reparation, uppdatering och diagnostik
+156	Relaterat
+157	Accentfärg
+158	Bakgrundsbild
+159	Teckensnitt
+161	Visa:
+162	Tidsformat:
+165	Anpassat format:
+166	Tidens storlek:
+167	Tidens justering:
+168	Datumets storlek:
+169	Datumets justering:
+170	Stora storlekar krymps för att passa aktivitetsfältet; själva fältet ändras aldrig.
+171	Visa aviseringsklockan
+172	Utfällbar panel:
+173	Visa kalendern
+176	Stör ej
+177	Rensa alla
+178	Stör ej är på
+179	Inga nya aviseringar
+180	Tidigare
+181	Visa färre
+182	+%1
+183	Rensa gruppen
+184	Dölj kalendern
+191	Rensa alla aviseringar
+192	Justera datum och tid…
+193	Aviseringsinställningar…
+197	Appnamn:
+198	Allmänt namn (namn)
+199	Bara allmänt namn
+200	Namn (allmänt namn)
+202	Rekommenderat:
+203	Visa senaste filer
+204	Sök efter appar, inställningar och dokument
+205	Fästa
+206	Alla appar
+207	Högerklicka på en app och välj ”Fäst på Start”
+208	Rekommenderat
+209	Dina senaste filer visas här
+210	Tillbaka
+211	Inga resultat för ”%1”
+212	Ändra kontoinställningar
+213	Lås
+214	Byt användare
+215	Logga ut
+217	Strömsparläge
+218	Viloläge
+219	Stäng av
+220	Starta om
+221	Ta bort från Start
+222	Fäst på Start
+224	Avsluta %1
+225	Wi-Fi
+227	Flygplansläge
+228	Energiläge
+229	Nattljus
+230	Mörkt läge
+231	Tips: dra ikoner i aktivitetsfältet för att ändra ordning, eller mellan aktivitetsfältet och panelen med dolda ikoner för att fästa eller dölja dem.
+232	Paneler för snabbinställningar
+233	I snabbinställningar
+234	Alltid dold
+235	Alltid synlig
+236	Inaktiverad
+237	Synlig vid behov
+238	Dölj dolda ikoner
+239	Visa dolda ikoner
+240	Släpp ikoner här
+242	Föregående
+244	Nästa
+245	Energisparläge
+250	Snabbinställningar
+251	Fler alternativ
+252	Poster
+399	Bakgrundston
+400	Aktivitetsfältet, Start, menyer och fönster får bakgrundsbildens färg och följer den mjukt när den ändras
+409	Bara när den skiljer sig från den lokala
+410	Tidszonsformat:
+413	Förskjutning från UTC
+422	Lägg till fler tidszoner för att se dem i klockans panel och verktygstips, eller för att visa en av dem i aktivitetsfältet
+423	Byt visad tidszon genom att rulla över klockan
+424	Detta ändrar inte systemets tidszon. Byt hellre systemets tidszon när du reser.
+426	Håll öppen
+428	Lägg till händelse
+431	Tidszoner
+432	Hela dagen
+433	Övrigt
+434	%1 till	%1 till
+435	Visa mindre
+441	Aviseringsklocka:
+443	Bara vid nya aviseringar
+444	Visa antal nya aviseringar
+445	Alla
+446	Nyligen tillagda
+447	Mest använda
+448	Hoppa till en bokstav
+449	Inställningar
+450	Filhanterare
+451	Dokument
+452	Hämtade filer
+453	Musik
+454	Bilder
+455	Videor
+456	Nätverk
+457	Layout:
+458	Fästa och Alla appar på separata sidor
+459	Allt på en rullningsbar sida
+460	Standard
+461	Fler fästa
+462	Fler rekommendationer
+463	Inkludera nyligen använda appar
+464	Alla appar:
+465	Visa nyligen tillagda appar
+466	Visa mest använda appar
+467	Aktivera kategorivy (programmenyns grupper)
+468	Vy:
+469	Kategori
+470	Rutnät
+471	Lista
+472	Bredvid Av/på:
+473	Starta om till UEFI-inställningar för fast programvara
+474	Visa alla
+476	Appar
+477	Webb
+478	Anpassa sökning…
+479	Sökresultat
+480	Öppna
+481	Vy: %1
+194	Allmänt
+482	Storlek:
+483	Fyll ledigt utrymme
+484	Högerklicksmeny:
+485	Ta bort
+486	Lägg till app…
+487	Inställningar för aktivitetsfältet
+488	Starta om skrivbordskomponenter
+489	Använd efter att ha bytt ikoner eller teman i Systeminställningar: uppdaterar ikoner i öppna appar och läser om aktivitetsfältet, skrivbordet och sökningen
+490	Kommandofält
+491	Knapparna Ny, Klipp ut, Kopiera, Klistra in, Sortera och Visa under adressfältet. Av ger ett rent, minimalt fönster.
+492	Visa månader
+493	Visa år
+494	Idag
+495	Textstorlek
+496	Storlek på Start-ikonen
+537	Utforskaren
+538	Öppna Utforskaren i Den här datorn
+539	Av öppnar din hemmapp
+540	Den här datorn
+541	Visa ledigt utrymme
+542	En kapacitetsstapel och det lediga utrymmet under varje enhet
+543	Visa mappar
+544	Skrivbord, Dokument, Hämtade filer, Musik, Bilder och Videor ovanför enheterna
+545	Visa nätverksplatser
+546	Visa dolda enheter
+547	Enheter som är dolda i navigeringsfönstret
+551	Enheter och diskar
+552	Nätverksplatser
+554	1 objekt har markerats
+555	%1 ledigt av %2
+560	Öppna Utforskaren i
+561	Hemmapp är startplatsen som anges i Utforskarens egna inställningar
+562	Hemmapp
+563	Föregående session
+564	Senaste filer

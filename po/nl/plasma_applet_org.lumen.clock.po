@@ -1,0 +1,404 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: nl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:11
+msgid "Appearance"
+msgstr "Uiterlijk"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:16
+msgid "Calendar"
+msgstr "Agenda"
+
+#: plasma/plasmoids/org.lumen.clock/contents/config/config.qml:21
+msgid "Time Zones"
+msgstr "Tijdzones"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:40
+msgid "General:"
+msgstr "Algemeen:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:41
+msgid "Show week numbers"
+msgstr "Weeknummers tonen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:44
+msgid "First day of week:"
+msgstr "Eerste dag van de week:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:48
+msgid "Use region defaults"
+msgstr "Standaard van regio gebruiken"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigCalendar.qml:64
+msgid "Available Add-Ons"
+msgstr "Beschikbare add-ons:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:32
+msgid "Show:"
+msgstr "Tonen:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Date only"
+msgstr "Alleen datum"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time and date on one line"
+msgstr "Tijd en datum op één regel"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time only"
+msgstr "Alleen tijd"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:33
+msgid "Time over date"
+msgstr "Tijd boven datum"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:38
+msgid "Time format:"
+msgstr "Tijdnotatie:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "12-hour"
+msgstr "12-uurs"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "24-hour"
+msgstr "24-uurs"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:39
+msgid "Use region settings"
+msgstr "Regio-instellingen gebruiken"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:41
+msgid "Show seconds"
+msgstr "Seconden tonen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:42
+msgid "Bold time"
+msgstr "Vetgedrukte tijd"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:45
+msgid "Date format:"
+msgstr "Datumopmaak:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:47
+msgid "Region short (%1)"
+msgstr "Regionaal kort (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:48
+msgid "Weekday (%1)"
+msgstr "Met weekdag (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:49
+msgid "Region long (%1)"
+msgstr "Regionaal lang (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:50
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:51
+msgid "Custom"
+msgstr "Aangepast"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:57
+msgid "Custom format:"
+msgstr "Aangepaste notatie:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:61
+msgid "Time size:"
+msgstr "Grootte van de tijd:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:67
+msgid "Time alignment:"
+msgstr "Uitlijning van de tijd:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Center"
+msgstr "Gecentreerd"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Left"
+msgstr "Links"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:68
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:78
+msgid "Right"
+msgstr "Rechts"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:71
+msgid "Date size:"
+msgstr "Grootte van de datum:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:77
+msgid "Date alignment:"
+msgstr "Uitlijning van de datum:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:84
+msgid "Large sizes shrink to fit the taskbar; the taskbar itself never changes."
+msgstr "Grote formaten worden verkleind voor de taakbalk; de taakbalk zelf verandert nooit."
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:87
+msgid "Notification bell:"
+msgstr "Meldingenbel:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Always"
+msgstr "Altijd"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Never"
+msgstr "Nooit"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:88
+msgid "Only with new notifications"
+msgstr "Alleen bij nieuwe meldingen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:98
+msgid "Show number of new notifications"
+msgstr "Aantal nieuwe meldingen tonen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:101
+msgid "Show time zone:"
+msgstr "Tijdzone tonen:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:102
+msgid "Only when different from local"
+msgstr "Alleen indien anders dan lokaal"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:112
+msgid "Time zone format:"
+msgstr "Tijdzoneformaat:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "City"
+msgstr "Stad"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "Code"
+msgstr "Code"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:113
+msgid "Offset from UTC"
+msgstr "Verschil met UTC"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
+msgid "Flyout:"
+msgstr "Flyout:"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+msgid "Show calendar"
+msgstr "Agenda tonen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:23
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:234
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:30
+msgid "Add Selected Time Zone"
+msgstr "Geselecteerde tijdzone toevoegen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:60
+msgid "Add Time Zone…"
+msgstr "Tijdzone toevoegen…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:98
+msgid "Clock is currently using this time zone"
+msgstr "Klok gebruikt nu deze tijdzone"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:99
+msgid "Hidden while this is the local time zone's city"
+msgstr "Verborgen omdat dit de plaats is van de lokale tijdzone"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:117
+msgid "Switch Systemwide Time Zone…"
+msgstr "Systeembrede tijdzone omschakelen…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:125
+msgid "Remove this time zone"
+msgstr "Deze tijdzone verwijderen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:137
+msgid "Additional Time Zones"
+msgstr "Extra tijdzones"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:137
+msgid "Systemwide Time Zone"
+msgstr "Systeembrede tijdzone"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:147
+msgid "Add more time zones to see them in the clock's flyout and tooltip, or to show one of them on the taskbar"
+msgstr "Voeg meer tijdzones toe om ze in het paneel en de tooltip van de klok te zien, of om er een op de taakbalk te tonen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:158
+msgid "Switch displayed time zone by scrolling over the clock"
+msgstr "Weergegeven tijdzone wisselen door over de klok te scrollen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:164
+msgid "This does not change the systemwide time zone. When you travel, switch the systemwide time zone instead."
+msgstr "Dit wijzigt de systeemtijdzone niet. Wijzig op reis liever de systeemtijdzone."
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigTimeZones.qml:173
+msgid "Choose Time Zone"
+msgstr "Tijdzone kiezen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:107
+msgid "Keep open"
+msgstr "Open houden"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+msgid "Hide calendar"
+msgstr "Agenda verbergen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:190
+msgid "Events"
+msgstr "Gebeurtenissen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:198
+msgid "Add event"
+msgstr "Afspraak toevoegen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+msgid "No events for this day"
+msgstr "Geen gebeurtenissen voor deze dag"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+msgid "No events for today"
+msgstr "Geen gebeurtenissen voor vandaag"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:238
+msgid "Time zones"
+msgstr "Tijdzones"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+msgid "Show months"
+msgstr "Maanden tonen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+msgid "Show years"
+msgstr "Jaren tonen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:363
+msgid "Today"
+msgstr "Vandaag"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+msgid "Next"
+msgstr "Volgende"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+msgid "Previous"
+msgstr "Vorige"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:636
+msgid "All day"
+msgstr "Hele dag"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:44
+msgid "Other"
+msgstr "Overig"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:57
+msgid "%1 more"
+msgid_plural "%1 more"
+msgstr[0] "nog %1"
+msgstr[1] "nog %1"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:57
+msgid "Show less"
+msgstr "Minder tonen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/GroupHeader.qml:68
+msgid "Clear group"
+msgstr "Groep wissen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:132
+msgid "Configure"
+msgstr "Configureren"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:143
+msgid "Close"
+msgstr "Sluiten"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:227
+msgid "Pause"
+msgstr "Pauzeren"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:227
+msgid "Resume"
+msgstr "Hervatten"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:260
+msgid "Reply"
+msgstr "Beantwoorden"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationItem.qml:274
+msgid "Type a reply…"
+msgstr "Een antwoord intypen…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:36
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:52
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:401
+msgid "Do not disturb"
+msgstr "Niet storen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:64
+msgid "Clear all"
+msgstr "Alles wissen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:76
+msgid "Do not disturb is on"
+msgstr "Niet storen staat aan"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/NotificationPanel.qml:76
+msgid "No new notifications"
+msgstr "Geen nieuwe meldingen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:87
+msgctxt "offset from current time in hours and minutes"
+msgid " • %1:%2 later"
+msgstr " • %1:%2 later"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:88
+msgctxt "offset from current time in hours and minutes"
+msgid " • %1:%2 earlier"
+msgstr " • %1:%2 vroeger"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:90
+msgctxt "offset from current time"
+msgid " • %1 hour later"
+msgid_plural " • %1 hours later"
+msgstr[0] " • %1 uur later"
+msgstr[1] " • %1 uren later"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:91
+msgctxt "offset from current time"
+msgid " • %1 hour earlier"
+msgid_plural " • %1 hours earlier"
+msgstr[0] " • %1 uur vroeger"
+msgstr[1] " • %1 uren vroeger"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:397
+msgid "Copy to Clipboard"
+msgstr "Naar klembord kopiëren"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:408
+msgid "Clear all notifications"
+msgstr "Alle meldingen wissen"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:414
+msgid "Adjust date and time…"
+msgstr "Datum en tijd aanpassen…"
+
+#: plasma/plasmoids/org.lumen.clock/contents/ui/main.qml:419
+msgid "Notification settings…"
+msgstr "Meldingsinstellingen…"

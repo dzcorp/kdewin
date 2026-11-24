@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 18:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plasma/plasmoids/org.lumen.spacer/contents/config/config.qml:6
+msgid "General"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:39
+msgid "Size:"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:40
+msgid "Fill free space"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:46
+msgid "Right-click menu:"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:68
+msgid "Remove"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/ConfigGeneral.qml:81
+msgid "Add app…"
+msgstr ""
+
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/main.qml:154
+msgid "Taskbar settings"
+msgstr ""

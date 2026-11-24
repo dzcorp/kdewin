@@ -1,0 +1,318 @@
+1	Tamamlandı.
+2	Başarısız (çıkış kodu %1).
+3	Animasyonlar
+4	Pencereleri soldurarak ve yakınlaştırarak aç ve kapat
+5	Açma ve kapatma
+6	Başlangıç boyutu
+7	Simge durumuna küçültme
+8	Pencereler görev çubuğu düğmelerine uçar
+9	Süre
+10	Tüm masaüstü efektleri
+11	Uygulamalar
+12	Pencere malzemesi
+13	Mica pencere arka planları
+14	Kenar çubukları, araç çubukları ve iletişim kutuları bulanık duvar kâğıdını gösterir. Yeni açılan pencerelere uygulanır.
+15	Opaklık
+16	Bu uygulamalar opak kalsın
+17	Denetimler
+18	Köşe yarıçapı
+19	Akrilik menüler ve araç ipuçları
+20	Lumen malzemeleri gerekir
+21	Kaydırma çubuklarını her zaman tam göster
+22	Kapalıyken üzerine gelinene kadar ince kalırlar
+23	Hareket
+24	Denetimleri canlandır
+25	Lumen uygulama stilini kullanan uygulamalara uygulanır. Değişiklikler hemen görünür.
+26	Önyükleme
+27	Önyüklemede Lumen kullan
+28	Limine önyükleme menüsü ve Plymouth açılış ekranı. Önceki menü yedeklenir.
+29	Önceki önyükleme görünümünü geri yükle
+30	Kilit ve oturum açma
+31	Kilit ekranı
+32	Lumen duvar kâğıdı
+33	Saati her zaman göster
+34	Ortam denetimleri
+35	Ekran kilidi
+36	Oturum açma ekranı
+37	Oturum açma ekranında Lumen kullan
+38	Standart oturum açma ekranını geri yükle
+39	Oturum açma ekranı ayarları
+40	Kilit ve oturum kapatma ekranları
+41	Lumen kilit ve oturum kapatma ekranlarını yenile
+42	Plasma güncellemelerinden sonra otomatik çalışır
+43	Bakım
+44	lumen aracı bulunamadı
+45	Lumen kaynak klasöründen `make install-system` ile kurun.
+46	Denetim
+47	Lumen'in her parçasının kurulu ve etkin olduğunu denetler
+48	Tanılamayı çalıştır
+49	Panel düzeni anlık görüntüsünü göster
+50	Onarım
+51	Renkler, stil, pencere dekorasyonu, efektler ve Plasma teması
+52	Lumen'i yeniden uygula
+53	Değiştirilen araçları bul
+54	Lumen'in yerini aldığı kurulu paketleri listeler (ör. Kvantum ve Klassy). Bunları bir terminalde `lumen cleanup` ile kaldırın.
+55	Yerel bileşenleri yeniden derle
+56	KWin veya Qt güncellemelerinden sonra otomatik çalışır
+57	Malzemeler
+58	Lumen malzemeleri
+59	Standart bulanıklığı Mica ve akrilik ile değiştirir
+60	Görev çubuğu için Mica
+61	Kapalıyken akrilik kullanılır; görev çubuğunun arkasındaki pencereler görünür
+62	Akrilik (menüler, açılır paneller, Başlat)
+63	Bulanıklık
+64	Doygunluk
+65	Gürültü
+66	Mica (pencereler, görev çubuğu)
+67	Görev çubuğu
+68	Lumen görev çubuğu bu masaüstünde yok
+69	Geçerli paneli değiştirmek için Lumen düzenini uygulayın. Widget'larınız, sistem tepsisi simgeleriniz, sabitlenmiş uygulamalarınız ve sık kullanılanlarınız korunur.
+70	Lumen düzenini uygula
+71	Düzen
+72	Görev çubuğu simgelerini ortala
+73	Yüzen
+74	Otomatik gizle
+75	Simgeler
+76	Görev çubuğu yüksekliği
+77	Uygulama simgesi boyutu
+78	Başlat ve uygulama simgeleri her görev çubuğu yüksekliğinde bu boyutta kalır
+79	Uygulamalar arası boşluk
+80	Çok geniş
+81	Yok
+82	Normal
+83	Geniş
+84	Tepsi simgesi boyutu
+85	Hızlı Ayarlar simgesi boyutu
+86	Saatin yanındaki ağ, ses ve pil
+87	Tepsi simgeleri arası boşluk
+88	Saat
+89	Göster
+90	Yalnızca tarih
+91	Saat ve tarih tek satırda
+92	Yalnızca saat
+93	Saat tarihin üstünde
+94	Saat biçimi
+95	12 saat
+96	24 saat
+97	Bölge ayarlarını kullan
+98	Tarih biçimi
+99	Bölgesel kısa (%1)
+100	Hafta günüyle (%1)
+101	Bölgesel uzun (%1)
+102	ISO (%1)
+103	Özel (saatin ayarlarında belirlenir)
+104	Saniyeleri göster
+105	Kalın saat
+106	Saat boyutu
+107	Saat hizalaması
+108	Orta
+109	Sol
+110	Sağ
+111	Tarih boyutu
+112	Büyük boyutlar sığması için küçültülür; görev çubuğunun kendisi hiç değişmez
+113	Tarih hizalaması
+114	Parçalar
+115	Sabitlenmiş ve önerilen uygulamalar, güç ve hesap menüleri
+116	Başlat
+117	Simgeler, taşma, kutucuklar ve kaydırıcılar
+118	Tepsi ve Hızlı Ayarlar
+119	Saat ve bildirimler
+120	Özel tarih biçimi, takvim ve Bildirim Merkezi
+121	Uygulama düğmeleri
+122	Sabitlenmiş uygulamalar ve açık pencereler
+123	Bildirimler
+124	Tam ekran uygulamaların üzerinde göster
+125	Kapalıyken tam ekran oyunlar ve videolar Rahatsız Etmeyin'i açar (kritik bildirimler yine de görünür)
+126	Çıktı
+127	Çalışıyor…
+128	Pencereler
+129	Başlık çubuğu
+130	Yarı saydam başlık çubuğu
+131	Yükseklik
+132	Başlığı ortala
+133	Uygulama simgesini göster
+134	Düğmeler
+135	Yalnızca kapat
+136	Kapat, küçült, büyüt (solda)
+137	Küçült, büyüt, kapat (sağda)
+138	Şekil
+139	Pencere dekorasyonu ayarları
+140	Koyu
+141	Her yerde koyu Mica yüzeyler
+142	Yumuşak gölgeli açık yüzeyler
+143	Açık
+144	Otomatik
+145	Günün saatine göre açık ve koyu arasında geçiş yap
+146	Mod
+147	Özelleştir
+148	Mica ve akrilik bulanıklık, renk tonu ve gürültü
+149	Başlık çubukları, köşeler ve düğmeler
+150	Denetimler, menüler, kaydırma çubukları ve animasyon hızı
+151	Açma, kapatma ve küçültme hareketi
+152	Hizalama, boyut, Başlat, tepsi ve saat
+153	Kilit ekranı, oturum açma ekranı ve oturum kapatma
+154	Önyükleme menüsü ve açılış ekranı
+155	Onarım, güncelleme ve tanılama
+156	İlgili
+157	Vurgu rengi
+158	Duvar kâğıdı
+159	Yazı tipleri
+161	Göster:
+162	Saat biçimi:
+165	Özel biçim:
+166	Saat boyutu:
+167	Saat hizalaması:
+168	Tarih boyutu:
+169	Tarih hizalaması:
+170	Büyük boyutlar görev çubuğuna sığacak şekilde küçültülür; görev çubuğu hiç değişmez.
+171	Bildirim zilini göster
+172	Açılır panel:
+173	Takvimi göster
+176	Rahatsız etmeyin
+177	Tümünü temizle
+178	Rahatsız Etmeyin açık
+179	Yeni bildirim yok
+180	Daha önce
+181	Daha az göster
+182	+%1
+183	Grubu temizle
+184	Takvimi gizle
+191	Tüm bildirimleri temizle
+192	Tarih ve saati ayarla…
+193	Bildirim ayarları…
+197	Uygulama adları:
+198	Genel ad (ad)
+199	Yalnızca genel ad
+200	Ad (genel ad)
+202	Önerilen:
+203	Son kullanılan dosyaları göster
+204	Uygulama, ayar ve belge ara
+205	Sabitlenmiş
+206	Tüm uygulamalar
+207	Bir uygulamaya sağ tıklayıp “Başlat'a sabitle”yi seçin
+208	Önerilen
+209	Son kullandığınız dosyalar burada görünecek
+210	Geri
+211	“%1” için sonuç yok
+212	Hesap ayarlarını değiştir
+213	Kilitle
+214	Kullanıcı değiştir
+215	Oturumu kapat
+217	Uyku
+218	Hazırda beklet
+219	Kapat
+220	Yeniden başlat
+221	Başlat'tan kaldır
+222	Başlat'a sabitle
+224	%1 uygulamasından çık
+225	Wi-Fi
+227	Uçak modu
+228	Güç modu
+229	Gece ışığı
+230	Koyu mod
+231	İpucu: Simgeleri yeniden sıralamak için görev çubuğunda sürükleyin; sabitlemek ya da gizlemek için görev çubuğu ile gizli simgeler paneli arasında sürükleyin.
+232	Hızlı Ayarlar kutucukları
+233	Hızlı Ayarlarda
+234	Her zaman gizli
+235	Her zaman görünür
+236	Devre dışı
+237	Gerektiğinde görünür
+238	Gizli simgeleri sakla
+239	Gizli simgeleri göster
+240	Simgeleri buraya bırakın
+242	Önceki
+244	Sonraki
+245	Güç tasarrufu
+250	Hızlı Ayarlar
+251	Diğer seçenekler
+252	Girişler
+399	Duvar kâğıdı tonu
+400	Görev çubuğu, Başlat, menüler ve pencereler duvar kâğıdının rengini alır ve değiştiğinde yumuşakça onu izler
+409	Yalnızca yerelden farklıysa
+410	Saat dilimi biçimi:
+413	UTC farkı
+422	Saatin açılır panelinde ve ipucunda görmek ya da birini görev çubuğunda göstermek için daha fazla saat dilimi ekleyin
+423	Saatin üzerinde kaydırarak gösterilen saat dilimini değiştir
+424	Bu, sistem genelindeki saat dilimini değiştirmez. Seyahat ederken bunun yerine sistem saat dilimini değiştirin.
+426	Açık tut
+428	Etkinlik ekle
+431	Saat dilimleri
+432	Tüm gün
+433	Diğer
+434	%1 tane daha	%1 tane daha
+435	Daha az göster
+441	Bildirim zili:
+443	Yalnızca yeni bildirimler olduğunda
+444	Yeni bildirim sayısını göster
+445	Tümü
+446	Son eklenenler
+447	En çok kullanılanlar
+448	Bir harfe atla
+449	Ayarlar
+450	Dosya Yöneticisi
+451	Belgeler
+452	İndirilenler
+453	Müzik
+454	Resimler
+455	Videolar
+456	Ağ
+457	Yerleşim:
+458	Sabitlenenler ve Tüm uygulamalar ayrı sayfalarda
+459	Her şey kaydırılabilir tek bir sayfada
+460	Varsayılan
+461	Daha fazla sabitleme
+462	Daha fazla öneri
+463	Son kullanılan uygulamaları dahil et
+464	Tüm uygulamalar:
+465	Son eklenen uygulamaları göster
+466	En çok kullanılan uygulamaları göster
+467	Kategori görünümünü etkinleştir (uygulama menüsü grupları)
+468	Görünüm:
+469	Kategori
+470	Izgara
+471	Liste
+472	Güç düğmesinin yanında:
+473	UEFI Ürün Yazılımı Ayarlarına Yeniden Başlat
+474	Tümünü göster
+476	Uygulamalar
+477	Web
+478	Aramayı Yapılandır…
+479	Arama sonuçları
+480	Aç
+481	Görünüm: %1
+194	Genel
+482	Boyut:
+483	Boş alanı doldur
+484	Sağ tık menüsü:
+485	Kaldır
+486	Uygulama ekle…
+487	Görev çubuğu ayarları
+488	Masaüstü bileşenlerini yeniden başlat
+489	Sistem Ayarları'nda simgeleri veya temaları değiştirdikten sonra kullanın: açık uygulamalardaki simgeleri yeniler, görev çubuğunu, masaüstünü ve aramayı yeniden yükler
+490	Komut çubuğu
+491	Adres çubuğunun altında Yeni, Kes, Kopyala, Yapıştır, Sırala ve Görünüm düğmeleri. Kapalıyken pencere sade ve minimal kalır.
+492	Ayları göster
+493	Yılları göster
+494	Bugün
+495	Metin boyutu
+496	Başlat simgesi boyutu
+537	Dosya Gezgini
+538	Dosya Gezgini'ni Bu bilgisayar konumunda aç
+539	Kapalıyken ana klasörünüz açılır
+540	Bu bilgisayar
+541	Boş alanı göster
+542	Her sürücünün altında bir kapasite çubuğu ve boş alan
+543	Klasörleri göster
+544	Sürücülerin üstünde Masaüstü, Belgeler, İndirilenler, Müzik, Resimler ve Videolar
+545	Ağ konumlarını göster
+546	Gizli sürücüleri göster
+547	Gezinti bölmesinde gizlenmiş sürücüler
+551	Aygıtlar ve sürücüler
+552	Ağ konumları
+554	1 öğe seçildi
+555	%2 içinde %1 boş
+560	Dosya Gezgini'ni şurada aç
+561	"Ana klasör", Dosya Gezgini'nin kendi ayarlarındaki başlangıç konumudur
+562	Ana klasör
+563	Önceki oturum
+564	Son dosyalar

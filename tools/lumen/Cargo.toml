@@ -1,0 +1,19 @@
+[package]
+name = "lumen"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+description = "Lumen KDE theme generator and installer"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+toml = "0.8"
+resvg = "0.45"
+walkdir = "2"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+strip = true

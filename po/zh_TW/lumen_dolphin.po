@@ -1,0 +1,76 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:14
+msgid "File Explorer"
+msgstr "檔案總管"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:19
+#: apps/dolphin/src/lumen/thispcworker.cpp:89
+msgid "This PC"
+msgstr "本機"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:24
+msgid "Recent files"
+msgstr "最近使用的檔案"
+
+#: apps/dolphin/src/lumen/lumensearchfield.cpp:16
+msgctxt "@action:intoolbar"
+msgid "Search"
+msgstr "搜尋"
+
+#: apps/dolphin/src/lumen/lumentitlebar.cpp:152
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "新增分頁"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:77
+msgctxt "@title:group This PC section"
+msgid "Folders"
+msgstr "資料夾"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:79
+msgctxt "@title:group This PC section"
+msgid "Devices and drives"
+msgstr "裝置和磁碟機"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:81
+msgctxt "@title:group This PC section"
+msgid "Network locations"
+msgstr "網路位置"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:148
+msgctxt "@info:status"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 個項目"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:149
+msgctxt "@info:status"
+msgid "1 item selected"
+msgstr "已選取 1 個項目"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:485
+msgctxt "@info free and total space of a drive"
+msgid "%1 free of %2"
+msgstr "可用 %1，共 %2"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:644
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "開啟"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:648
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "在新分頁開啟"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:651
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "在新視窗開啟"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:677
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "屬性"

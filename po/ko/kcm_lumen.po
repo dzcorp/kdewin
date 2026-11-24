@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ko\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "완료되었습니다."
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "실패했습니다(종료 코드 %1)."
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "애니메이션"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "창을 열고 닫을 때 페이드 및 확대/축소"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "열기 및 닫기"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "시작 크기"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "최소화"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "창이 작업 표시줄 단추로 날아갑니다"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "지속 시간"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "모든 바탕 화면 효과"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "앱"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "창 소재"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Mica 창 배경"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "사이드바, 도구 모음, 대화 상자에 흐린 배경 화면이 표시됩니다. 새로 여는 창에 적용됩니다."
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "불투명도"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "이 앱은 불투명하게 유지"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "컨트롤"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "모서리 반경"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "아크릴 메뉴 및 도구 설명"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "Lumen 소재가 필요합니다"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "항상 전체 스크롤 막대 표시"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "끄면 포인터를 올리기 전까지 얇게 유지됩니다"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "파일 탐색기"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "명령 모음"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "주소 표시줄 아래에 새로 만들기, 잘라내기, 복사, 붙여넣기, 정렬, 보기 단추를 표시합니다. 끄면 창이 깔끔하고 간결해집니다."
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "파일 탐색기 열기 위치"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "홈 폴더는 파일 탐색기 설정에 지정된 시작 위치입니다"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "홈 폴더"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "이전 세션"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "최근 파일"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "내 PC"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "사용 가능한 공간 표시"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "각 드라이브 아래에 용량 막대와 사용 가능한 공간"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "폴더 표시"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "드라이브 위에 바탕 화면, 문서, 다운로드, 음악, 사진, 동영상"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "네트워크 위치 표시"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "숨겨진 드라이브 표시"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "탐색 창에서 숨긴 드라이브"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "동작"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "컨트롤 애니메이션"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "Lumen 앱 스타일을 사용하는 앱에 적용됩니다. 변경 사항이 바로 반영됩니다."
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "부팅"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "부팅할 때 Lumen 사용"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Limine 부팅 메뉴와 Plymouth 시작 화면. 이전 메뉴는 백업됩니다."
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "이전 부팅 모양 복원"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "잠금 및 로그인"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "잠금 화면"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Lumen 배경 화면"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "항상 시계 표시"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "미디어 컨트롤"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "화면 잠금"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "로그인 화면"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "로그인 화면에 Lumen 사용"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "기본 로그인 화면 복원"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "로그인 화면 설정"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "잠금 및 로그아웃 화면"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "Lumen 잠금 및 로그아웃 화면 새로 고침"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Plasma 업데이트 후 자동으로 실행됩니다"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "유지 관리"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "lumen 도구를 찾을 수 없습니다"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "Lumen 소스 폴더에서 `make install-system`으로 설치하세요."
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "검사"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "Lumen의 모든 부분이 설치되어 작동하는지 확인합니다"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "진단 실행"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "패널 레이아웃 스냅숏 보기"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "복구"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "색, 스타일, 창 장식, 효과 및 Plasma 테마"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "Lumen 다시 적용"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "데스크톱 구성 요소 다시 시작"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "시스템 설정에서 아이콘이나 테마를 바꾼 뒤 사용하세요: 열린 앱의 아이콘을 새로 고치고 작업 표시줄, 바탕 화면, 검색을 다시 불러옵니다"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "대체된 도구 찾기"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "Kvantum, Klassy 등 Lumen이 대체하는 설치된 패키지를 나열합니다. 터미널에서 `lumen cleanup`으로 제거하세요."
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "네이티브 구성 요소 다시 빌드"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "KWin 또는 Qt 업데이트 후 자동으로 실행됩니다"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "소재"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Lumen 소재"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "기본 흐림 효과를 Mica와 아크릴로 대체합니다"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "작업 표시줄에 Mica 사용"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "끄면 아크릴을 사용하여 작업 표시줄 뒤의 창이 비쳐 보입니다"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "배경 화면 색조"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "작업 표시줄, 시작, 메뉴, 창이 배경 화면의 색을 띠고 배경 화면이 바뀌면 부드럽게 따라갑니다"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "아크릴(메뉴, 플라이아웃, 시작)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "흐림"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "채도"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "노이즈"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica(창, 작업 표시줄)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "작업 표시줄"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "이 바탕 화면에 Lumen 작업 표시줄이 없습니다"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "Lumen 레이아웃을 적용하여 현재 패널을 바꿉니다. 위젯, 알림 영역 아이콘, 고정된 앱, 즐겨찾기는 유지됩니다."
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "Lumen 레이아웃 적용"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "레이아웃"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "작업 표시줄 아이콘 가운데 맞춤"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "플로팅"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "자동으로 숨기기"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "아이콘"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "작업 표시줄 높이"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "시작 아이콘 크기"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "앱 아이콘 크기"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "시작 및 앱 아이콘은 작업 표시줄 높이와 관계없이 이 크기를 유지합니다"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "앱 사이 간격"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "매우 넓게"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "없음"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "보통"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "넓게"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "알림 영역 아이콘 크기"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "빠른 설정 아이콘 크기"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "시계 옆의 네트워크, 볼륨, 배터리"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "알림 영역 아이콘 간격"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "시계"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "표시"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "날짜만"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "시간과 날짜를 한 줄에"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "시간만"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "날짜 위에 시간"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "시간 형식"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12시간제"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24시간제"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "지역 설정 사용"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "날짜 형식"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "지역 간단히(%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "요일 포함(%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "지역 자세히(%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO(%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "사용자 지정(시계 설정에서 지정)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "초 표시"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "시간 굵게"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "시간 크기"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "시간 정렬"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "가운데"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "왼쪽"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "오른쪽"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "날짜 크기"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "큰 크기는 맞도록 줄어들며 작업 표시줄 자체는 바뀌지 않습니다"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "날짜 정렬"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "구성 요소"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "고정된 앱과 추천 앱, 전원 및 계정 메뉴"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "시작"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "아이콘, 오버플로, 타일, 슬라이더"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "알림 영역 및 빠른 설정"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "시계 및 알림"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "사용자 지정 날짜 형식, 달력, 알림 센터"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "앱 단추"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "고정된 앱과 열린 창"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "알림"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "전체 화면 앱 위에 표시"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "끄면 전체 화면 게임과 동영상에서 방해 금지가 켜집니다(중요한 알림은 계속 표시됨)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "출력"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "실행 중…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "창"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "제목 표시줄"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "반투명 제목 표시줄"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "높이"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "제목 가운데 맞춤"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "앱 아이콘 표시"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "단추"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "닫기만"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "닫기, 최소화, 최대화(왼쪽)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "최소화, 최대화, 닫기(오른쪽)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "모양"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "창 장식 설정"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "어둡게"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "모든 곳에 어두운 Mica 표면"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "부드러운 그림자가 있는 밝은 표면"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "밝게"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "자동"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "시간대에 따라 밝게와 어둡게 전환"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "모드"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "텍스트 크기"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "사용자 지정"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Mica 및 아크릴 흐림, 색조, 노이즈"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "제목 표시줄, 모서리, 단추"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "컨트롤, 메뉴, 스크롤 막대, 애니메이션 속도"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "열기, 닫기, 최소화 동작"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "정렬, 크기, 시작, 알림 영역, 시계"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "잠금 화면, 로그인 화면, 로그아웃"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "부팅 메뉴 및 시작 화면"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "복구, 업데이트, 진단"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "관련 설정"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "강조 색"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "배경 화면"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "글꼴"

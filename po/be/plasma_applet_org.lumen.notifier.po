@@ -1,0 +1,196 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+
+#: plasma/notifier/FullRepresentation.qml:81
+msgid "Do not disturb"
+msgstr "Не турбаваць"
+
+#: plasma/notifier/FullRepresentation.qml:131
+msgid "For 1 hour"
+msgstr "1 гадзіну"
+
+#: plasma/notifier/FullRepresentation.qml:136
+msgid "For 4 hours"
+msgstr "На 4 гадзіны"
+
+#: plasma/notifier/FullRepresentation.qml:145
+msgid "Until this evening"
+msgstr "Да сённяшняга вечара"
+
+#: plasma/notifier/FullRepresentation.qml:155
+msgid "Until tomorrow morning"
+msgstr "Да заўтрашняй раніцы"
+
+#: plasma/notifier/FullRepresentation.qml:167
+msgid "Until Monday"
+msgstr "Да панядзелка"
+
+#: plasma/notifier/FullRepresentation.qml:174
+msgid "Until manually disabled"
+msgstr "Пакуль не будзе адключана ўласнаручна"
+
+#: plasma/notifier/FullRepresentation.qml:226
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Аўтаматычнае завяршэнне: %1"
+
+#: plasma/notifier/FullRepresentation.qml:238
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "Пакуль \"%1\" актыўная (%2)"
+
+#: plasma/notifier/FullRepresentation.qml:240
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "Пакуль \"%1\" актыўная"
+
+#: plasma/notifier/FullRepresentation.qml:246
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Экраны люстраныя"
+
+#: plasma/notifier/FullRepresentation.qml:250
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr ""
+
+#: plasma/notifier/FullRepresentation.qml:510
+#: plasma/notifier/FullRepresentation.qml:516
+msgctxt "@action:button"
+msgid "View"
+msgstr ""
+
+#: plasma/notifier/FullRepresentation.qml:597
+msgid "Close Group"
+msgstr "Закрыць групу"
+
+#: plasma/notifier/FullRepresentation.qml:619
+msgid "Show Fewer"
+msgstr "Паказваць менш"
+
+#: plasma/notifier/FullRepresentation.qml:621
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "Паказаць яшчэ %1"
+
+#: plasma/notifier/FullRepresentation.qml:650 plasma/notifier/main.qml:108
+msgid "No unread notifications"
+msgstr "Няма непрачытаных апавяшчэнняў"
+
+#: plasma/notifier/FullRepresentation.qml:665 plasma/notifier/main.qml:77
+msgid "Notification service not available"
+msgstr "Служба апавяшчэнняў недаступная"
+
+#: plasma/notifier/FullRepresentation.qml:667
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "На дадзены момант працу апавяшчэнняў забяспечвае \"%1 %2\""
+
+#: plasma/notifier/components/ActionContainer.qml:92
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Адказаць"
+
+#: plasma/notifier/fileinfo.cpp:186
+msgid "Open with %1"
+msgstr "Адкрыць у %1"
+
+#: plasma/notifier/fileinfo.cpp:190
+msgid "Open with…"
+msgstr "Адкрыць у…"
+
+#: plasma/notifier/filemenu.cpp:117
+msgid "Open Containing Folder"
+msgstr "Адкрыць каталог змесціва"
+
+#: plasma/notifier/filemenu.cpp:131
+msgid "&Copy"
+msgstr "&Скапіяваць"
+
+#: plasma/notifier/filemenu.cpp:140
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Скапіяваць размяшчэнне"
+
+#: plasma/notifier/filemenu.cpp:198
+msgid "Properties"
+msgstr "Уласцівасці"
+
+#: plasma/notifier/globalshortcuts.cpp:24
+msgid "Toggle do not disturb"
+msgstr "Пераключэнне рэжыму \"Не турбаваць\""
+
+#: plasma/notifier/globalshortcuts.cpp:33
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr ""
+
+#: plasma/notifier/globalshortcuts.cpp:52
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Апавяшчэнні адключаныя"
+
+#: plasma/notifier/globalshortcuts.cpp:53
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Апавяшчэнні ўключаныя"
+
+#: plasma/notifier/globalshortcuts.cpp:68
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr ""
+
+#: plasma/notifier/main.qml:61
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "Выконваецца %1 задача"
+msgstr[1] "Выконваюцца %1 задачы"
+msgstr[2] "Выконваецца %1 задач"
+msgstr[3] "Выконваюцца %1 задачы"
+
+#: plasma/notifier/main.qml:65
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: plasma/notifier/main.qml:70
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "Выконваецца %1 задача (%2%)"
+msgstr[1] "Выконваюцца %1 задачы (%2%)"
+msgstr[2] "Выконваецца %1 задач (%2%)"
+msgstr[3] "Выконваюцца %1 задачы (%2%)"
+
+#: plasma/notifier/main.qml:83
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 непрачытанае апавяшчэнне"
+msgstr[1] "%1 непрачытаныя апавяшчэнні"
+msgstr[2] "%1 непрачытаных апавяшчэнняў"
+msgstr[3] "%1 непрачытаныя апавяшчэнні"
+
+#: plasma/notifier/main.qml:88
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plasma/notifier/main.qml:101
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "Не турбаваць да %1; пстрыкніце сярэдняй кнопкай мышы, каб выйсці з рэжыму"
+
+#: plasma/notifier/main.qml:104
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "Рэжым \"Не турбаваць\" актыўны; пстрыкніце сярэдняй кнопкай мышы, каб выйсці з рэжыму"
+
+#: plasma/notifier/main.qml:110
+msgid "Middle-click to enter do not disturb mode"
+msgstr "Пстрыкніце сярэдняй кнопкай мышы, каб увайсці ў рэжым \"Не турбаваць\""
+
+#: plasma/notifier/main.qml:245
+msgid "Clear All Notifications"
+msgstr "Выдаліць усе апавяшчэнні"
+
+#: plasma/notifier/main.qml:264
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Наладжванне апавяшчэнняў пра падзеі і дзеянняў…"

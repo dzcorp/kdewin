@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "完了しました。"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "失敗しました (終了コード %1)。"
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "アニメーション"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "ウィンドウをフェードとズームで表示・非表示"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "開く・閉じる"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "開始時のサイズ"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "最小化"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "ウィンドウがタスク バーのボタンへ移動します"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "長さ"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "すべてのデスクトップ効果"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "アプリケーション"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "ウィンドウの素材"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Mica のウィンドウ背景"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "サイドバー、ツール バー、ダイアログにぼかした壁紙を表示します。新しく開くウィンドウに適用されます。"
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "不透明度"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "これらのアプリは不透明のままにする"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "コントロール"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "角の半径"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "アクリルのメニューとツールチップ"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "Lumen マテリアルが必要です"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "スクロール バーを常に完全に表示する"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "オフの場合、ポインターを合わせるまで細いままです"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "エクスプローラー"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "コマンド バー"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "アドレス バーの下に新規作成、切り取り、コピー、貼り付け、並べ替え、表示のボタンを表示します。オフにするとすっきりした最小限のウィンドウになります。"
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "エクスプローラーで開く場所"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "ホーム フォルダーはエクスプローラー自身の設定にある開始場所です"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "ホーム フォルダー"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "前回のセッション"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "最近使ったファイル"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "PC"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "空き領域を表示する"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "各ドライブの下に使用量バーと空き領域を表示します"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "フォルダーを表示する"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "ドライブの上にデスクトップ、ドキュメント、ダウンロード、ミュージック、ピクチャ、ビデオを表示します"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "ネットワークの場所を表示する"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "非表示のドライブを表示する"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "ナビゲーション ウィンドウで非表示にしたドライブ"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "モーション"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "コントロールをアニメーション表示する"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "Lumen のアプリケーション スタイルを使うアプリに適用されます。変更はすぐに反映されます。"
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "起動"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "起動時に Lumen を使用する"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Limine ブート メニューと Plymouth スプラッシュ。以前のメニューはバックアップされます。"
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "以前の起動画面に戻す"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "ロックとサインイン"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "ロック画面"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Lumen の壁紙"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "常に時計を表示する"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "メディア コントロール"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "画面のロック"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "サインイン画面"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "サインイン画面で Lumen を使用する"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "標準のサインイン画面に戻す"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "サインイン画面の設定"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "ロック画面とサインアウト画面"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "Lumen のロック画面とサインアウト画面を更新する"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Plasma の更新後に自動で実行されます"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "メンテナンス"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "lumen ツールが見つかりません"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "Lumen のソース フォルダーで `make install-system` を実行してインストールしてください。"
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "チェック"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "Lumen のすべての部分がインストールされ有効か確認します"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "診断を実行"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "パネル レイアウトのスナップショットを表示"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "修復"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "色、スタイル、ウィンドウ装飾、効果、Plasma テーマ"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "Lumen を再適用"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "デスクトップ コンポーネントを再起動"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "システム設定でアイコンやテーマを変更した後に使用します: 開いているアプリのアイコンを更新し、タスクバー、デスクトップ、検索を再読み込みします"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "置き換えられたツールを探す"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "Lumen が置き換える Kvantum や Klassy などのインストール済みパッケージを一覧表示します。ターミナルで `lumen cleanup` を実行して削除してください。"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "ネイティブ コンポーネントを再ビルド"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "KWin または Qt の更新後に自動で実行されます"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "マテリアル"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Lumen マテリアル"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "標準のぼかしを Mica とアクリルに置き換えます"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "タスク バーに Mica を使う"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "オフの場合はアクリルを使い、タスク バーの後ろのウィンドウが透けて見えます"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "壁紙の色調"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "タスク バー、スタート、メニュー、ウィンドウが壁紙の色を帯び、壁紙が変わるとなめらかに追従します"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "アクリル (メニュー、ポップアップ、スタート)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "ぼかし"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "彩度"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "ノイズ"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica (ウィンドウ、タスク バー)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "タスク バー"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "このデスクトップに Lumen のタスク バーがありません"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "Lumen のレイアウトを適用して現在のパネルを置き換えます。ウィジェット、通知領域のアイコン、ピン留めしたアプリ、お気に入りはそのまま残ります。"
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "Lumen のレイアウトを適用"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "レイアウト"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "タスク バーのアイコンを中央に配置"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "フローティング"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "自動的に隠す"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "アイコン"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "タスク バーの高さ"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "スタート アイコンのサイズ"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "アプリ アイコンのサイズ"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "スタートとアプリのアイコンはタスク バーの高さに関係なくこのサイズを保ちます"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "アプリ間の間隔"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "非常に広い"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "なし"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "標準"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "広い"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "通知領域のアイコン サイズ"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "クイック設定のアイコン サイズ"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "時計の横のネットワーク、音量、バッテリー"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "通知領域のアイコンの間隔"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "時計"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "表示"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "日付のみ"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "時刻と日付を 1 行で"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "時刻のみ"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "時刻を日付の上に"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "時刻の形式"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12 時間制"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24 時間制"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "地域の設定を使用"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "日付の形式"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "地域の短い形式 (%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "曜日付き (%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "地域の長い形式 (%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "カスタム (時計の設定で指定)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "秒を表示"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "時刻を太字にする"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "時刻のサイズ"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "時刻の配置"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "中央"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "左"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "右"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "日付のサイズ"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "大きいサイズは収まるように縮小されます。タスク バー自体は変わりません"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "日付の配置"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "構成要素"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "ピン留めしたアプリとおすすめのアプリ、電源とアカウントのメニュー"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "スタート"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "アイコン、オーバーフロー、タイル、スライダー"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "通知領域とクイック設定"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "時計と通知"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "カスタムの日付形式、カレンダー、通知センター"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "アプリのボタン"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "ピン留めしたアプリと開いているウィンドウ"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "通知"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "全画面アプリの上に表示する"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "オフの場合、全画面のゲームや動画で応答不可がオンになります (重要な通知は表示されます)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "出力"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "実行中…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "ウィンドウ"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "タイトル バー"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "半透明のタイトル バー"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "高さ"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "タイトルを中央に配置"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "アプリケーションのアイコンを表示"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "ボタン"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "閉じるのみ"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "閉じる、最小化、最大化 (左)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "最小化、最大化、閉じる (右)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "形状"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "ウィンドウ装飾の設定"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "ダーク"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "あらゆる場所にダークな Mica の面"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "柔らかな影のある明るい面"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "ライト"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "自動"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "時間帯に合わせてライトとダークを切り替える"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "モード"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "テキストのサイズ"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "カスタマイズ"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Mica とアクリルのぼかし、色合い、ノイズ"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "タイトル バー、角、ボタン"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "コントロール、メニュー、スクロール バー、アニメーションの速さ"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "開く・閉じる・最小化の動き"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "配置、サイズ、スタート、通知領域、時計"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "ロック画面、サインイン画面、サインアウト"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "ブート メニューと起動画面"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "修復、更新、診断"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "関連設定"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "アクセント カラー"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "壁紙"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "フォント"

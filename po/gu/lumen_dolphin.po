@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: gu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:14
+msgid "File Explorer"
+msgstr "ફાઇલ એક્સપ્લોરર"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:19
+#: apps/dolphin/src/lumen/thispcworker.cpp:89
+msgid "This PC"
+msgstr "આ PC"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:24
+msgid "Recent files"
+msgstr ""
+
+#: apps/dolphin/src/lumen/lumensearchfield.cpp:16
+msgctxt "@action:intoolbar"
+msgid "Search"
+msgstr ""
+
+#: apps/dolphin/src/lumen/lumentitlebar.cpp:152
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "નવી ટેબ"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:77
+msgctxt "@title:group This PC section"
+msgid "Folders"
+msgstr "ફોલ્ડરો"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:79
+msgctxt "@title:group This PC section"
+msgid "Devices and drives"
+msgstr ""
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:81
+msgctxt "@title:group This PC section"
+msgid "Network locations"
+msgstr ""
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:148
+msgctxt "@info:status"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "૧ વસ્તુ"
+msgstr[1] "%1 વસ્તુઓ"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:149
+msgctxt "@info:status"
+msgid "1 item selected"
+msgstr ""
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:485
+msgctxt "@info free and total space of a drive"
+msgid "%1 free of %2"
+msgstr ""
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:644
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "ખોલો"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:648
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "નવી ટેબમાં ખોલો"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:651
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "નવી વિન્ડોમાં ખોલો"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:677
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "ગુણધર્મો"

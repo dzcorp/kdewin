@@ -1,0 +1,190 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: el\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: plasma/notifier/FullRepresentation.qml:81
+msgid "Do not disturb"
+msgstr "Μην ενοχλείτε"
+
+#: plasma/notifier/FullRepresentation.qml:131
+msgid "For 1 hour"
+msgstr "Για 1 ώρα"
+
+#: plasma/notifier/FullRepresentation.qml:136
+msgid "For 4 hours"
+msgstr "Για 4 ώρες"
+
+#: plasma/notifier/FullRepresentation.qml:145
+msgid "Until this evening"
+msgstr "Μέχρι σήμερα το απόγευμα"
+
+#: plasma/notifier/FullRepresentation.qml:155
+msgid "Until tomorrow morning"
+msgstr "Μέχρι αύριο το πρωί"
+
+#: plasma/notifier/FullRepresentation.qml:167
+msgid "Until Monday"
+msgstr "Μέχρι τη Δευτέρα"
+
+#: plasma/notifier/FullRepresentation.qml:174
+msgid "Until manually disabled"
+msgstr "Μέχρι να απενεργοποιηθεί χειροκίνητα"
+
+#: plasma/notifier/FullRepresentation.qml:226
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Τελειώνει αυτόματα: %1"
+
+#: plasma/notifier/FullRepresentation.qml:238
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "Ενώ το %1 είναι ενεργό (%2)"
+
+#: plasma/notifier/FullRepresentation.qml:240
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "Ενώ το %1 είναι ενεργό"
+
+#: plasma/notifier/FullRepresentation.qml:246
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Οι οθόνες καθρεφτίζονται"
+
+#: plasma/notifier/FullRepresentation.qml:250
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "Μια εφαρμογή πλήρους οθόνης έχει την εστίαση"
+
+#: plasma/notifier/FullRepresentation.qml:510
+#: plasma/notifier/FullRepresentation.qml:516
+msgctxt "@action:button"
+msgid "View"
+msgstr "Προβολή"
+
+#: plasma/notifier/FullRepresentation.qml:597
+msgid "Close Group"
+msgstr "Κλείσιμο ομάδας"
+
+#: plasma/notifier/FullRepresentation.qml:619
+msgid "Show Fewer"
+msgstr "Εμφάνιση λιγότερων"
+
+#: plasma/notifier/FullRepresentation.qml:621
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "Εμφάνιση %1 περισσότερων"
+
+#: plasma/notifier/FullRepresentation.qml:650 plasma/notifier/main.qml:108
+msgid "No unread notifications"
+msgstr "Καμία μη αναγνωσμένη ειδοποίηση"
+
+#: plasma/notifier/FullRepresentation.qml:665 plasma/notifier/main.qml:77
+msgid "Notification service not available"
+msgstr "Η υπηρεσία ειδοποίησης δεν είναι διαθέσιμη"
+
+#: plasma/notifier/FullRepresentation.qml:667
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "Οι ειδοποιήσεις παρέχονται επί του παρόντος από το '%1 %2'"
+
+#: plasma/notifier/components/ActionContainer.qml:92
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: plasma/notifier/fileinfo.cpp:186
+msgid "Open with %1"
+msgstr "Άνοιγμα με %1"
+
+#: plasma/notifier/fileinfo.cpp:190
+msgid "Open with…"
+msgstr "Άνοιγμα με…"
+
+#: plasma/notifier/filemenu.cpp:117
+msgid "Open Containing Folder"
+msgstr "Άνοιγμα περιέχοντος φακέλου"
+
+#: plasma/notifier/filemenu.cpp:131
+msgid "&Copy"
+msgstr "&Αντιγραφή"
+
+#: plasma/notifier/filemenu.cpp:140
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Αντιγραφή τοποθεσίας"
+
+#: plasma/notifier/filemenu.cpp:198
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: plasma/notifier/globalshortcuts.cpp:24
+msgid "Toggle do not disturb"
+msgstr "Εναλλαγή μην ενοχλείτε"
+
+#: plasma/notifier/globalshortcuts.cpp:33
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr ""
+
+#: plasma/notifier/globalshortcuts.cpp:52
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Ειδοποιήσεις ανενεργές"
+
+#: plasma/notifier/globalshortcuts.cpp:53
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Ειδοποιήσεις ενεργές"
+
+#: plasma/notifier/globalshortcuts.cpp:68
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr ""
+
+#: plasma/notifier/main.qml:61
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 εκτελούμενη εργασία"
+msgstr[1] "%1 εκτελούμενες εργασίες"
+
+#: plasma/notifier/main.qml:65
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: plasma/notifier/main.qml:70
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 εκτελούμενη εργασία (%2%)"
+msgstr[1] "%1 εκτελούμενες εργασίες (%2%)"
+
+#: plasma/notifier/main.qml:83
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 μη αναγνωσμένη ειδοποίηση"
+msgstr[1] "%1 μη αναγνωσμένες ειδοποιήσεις"
+
+#: plasma/notifier/main.qml:88
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plasma/notifier/main.qml:101
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "Μην ενοχλείτε μέχρι %1, κάντε μεσαίο κλικ για να βγείτε τώρα"
+
+#: plasma/notifier/main.qml:104
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "Λειτουργία «μην ενοχλείτε» ενεργή, μεσαίο κλικ για έξοδο"
+
+#: plasma/notifier/main.qml:110
+msgid "Middle-click to enter do not disturb mode"
+msgstr "Κάντε μεσαίο κλικ για να εισέλθετε στη λειτουργία «μην ενοχλείτε»."
+
+#: plasma/notifier/main.qml:245
+msgid "Clear All Notifications"
+msgstr "Εκκαθάριση όλων των ειδοποιήσεων"
+
+#: plasma/notifier/main.qml:264
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Διαμόρφωση ειδοποιήσεων συμβάντων και ενεργειών…"

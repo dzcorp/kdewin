@@ -1,0 +1,19 @@
+/build/
+/tools/lumen/target/
+# Windows fonts imported with `lumen fonts`: Microsoft licence, never publish.
+/fonts/windows/
+/.claude/
+
+# makepkg runs in packaging/aur/*
+/packaging/aur/*/src/
+/packaging/aur/*/pkg/
+/packaging/aur/*/kdewin/
+/packaging/aur/*/*.tar.*
+*.pkg.tar.*
+
+*.orig
+*.rej
+.vscode/
+.idea/
+/core
+/core.[0-9]*

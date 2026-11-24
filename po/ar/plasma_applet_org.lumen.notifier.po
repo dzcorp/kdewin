@@ -1,0 +1,206 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ar\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+#: plasma/notifier/FullRepresentation.qml:81
+msgid "Do not disturb"
+msgstr "نمط عدم الإزعاج"
+
+#: plasma/notifier/FullRepresentation.qml:131
+msgid "For 1 hour"
+msgstr "لساعة واحدة"
+
+#: plasma/notifier/FullRepresentation.qml:136
+msgid "For 4 hours"
+msgstr "لأربع ساعات"
+
+#: plasma/notifier/FullRepresentation.qml:145
+msgid "Until this evening"
+msgstr "حتى هذا المساء"
+
+#: plasma/notifier/FullRepresentation.qml:155
+msgid "Until tomorrow morning"
+msgstr "حتى الصباح الباكر"
+
+#: plasma/notifier/FullRepresentation.qml:167
+msgid "Until Monday"
+msgstr "حتى الإثنين"
+
+#: plasma/notifier/FullRepresentation.qml:174
+msgid "Until manually disabled"
+msgstr "حتى تعطل يدويًا"
+
+#: plasma/notifier/FullRepresentation.qml:226
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "ينتهي آليّا: %1"
+
+#: plasma/notifier/FullRepresentation.qml:238
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "ما دام %1 نشطا (%2)"
+
+#: plasma/notifier/FullRepresentation.qml:240
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "ما دام %1 نشطا"
+
+#: plasma/notifier/FullRepresentation.qml:246
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "الشاشات معكوسة"
+
+#: plasma/notifier/FullRepresentation.qml:250
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "التركيز على تطبيق ملء الشاشة"
+
+#: plasma/notifier/FullRepresentation.qml:510
+#: plasma/notifier/FullRepresentation.qml:516
+msgctxt "@action:button"
+msgid "View"
+msgstr "اعرض"
+
+#: plasma/notifier/FullRepresentation.qml:597
+msgid "Close Group"
+msgstr "أغلق المجموعة"
+
+#: plasma/notifier/FullRepresentation.qml:619
+msgid "Show Fewer"
+msgstr "اعرض أقل"
+
+#: plasma/notifier/FullRepresentation.qml:621
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "اعرض أكثر بـ%1"
+
+#: plasma/notifier/FullRepresentation.qml:650 plasma/notifier/main.qml:108
+msgid "No unread notifications"
+msgstr "لا يوجد إشعارات غير مقروءة"
+
+#: plasma/notifier/FullRepresentation.qml:665 plasma/notifier/main.qml:77
+msgid "Notification service not available"
+msgstr "خدمة الإشعارات غير متوفرة"
+
+#: plasma/notifier/FullRepresentation.qml:667
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "الإشعارات تزود حاليا بواسطة '%1 %2' "
+
+#: plasma/notifier/components/ActionContainer.qml:92
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "رد"
+
+#: plasma/notifier/fileinfo.cpp:186
+msgid "Open with %1"
+msgstr "افتح باستخدام %1"
+
+#: plasma/notifier/fileinfo.cpp:190
+msgid "Open with…"
+msgstr "افتح باستخدام "
+
+#: plasma/notifier/filemenu.cpp:117
+msgid "Open Containing Folder"
+msgstr "افتح المجلد الحاوي"
+
+#: plasma/notifier/filemenu.cpp:131
+msgid "&Copy"
+msgstr "ا&نسخ"
+
+#: plasma/notifier/filemenu.cpp:140
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "انسخ المكان"
+
+#: plasma/notifier/filemenu.cpp:198
+msgid "Properties"
+msgstr "الخصائص"
+
+#: plasma/notifier/globalshortcuts.cpp:24
+msgid "Toggle do not disturb"
+msgstr "بدل وضع عدم الإزعاج"
+
+#: plasma/notifier/globalshortcuts.cpp:33
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "امحُ تاريخ الإشعارات"
+
+#: plasma/notifier/globalshortcuts.cpp:52
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "الإشعارات متوقفة"
+
+#: plasma/notifier/globalshortcuts.cpp:53
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "الإشعارات مفعلة"
+
+#: plasma/notifier/globalshortcuts.cpp:68
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "محي تاريخ الإشعارات"
+
+#: plasma/notifier/main.qml:61
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "لا مهامّ تعمل"
+msgstr[1] "مهمّة واحدة تعمل"
+msgstr[2] "مهمّتان تعملان"
+msgstr[3] "%1 مهامّ تعمل"
+msgstr[4] "%1 مهمّة تعمل"
+msgstr[5] "%1 مهمّة تعمل"
+
+#: plasma/notifier/main.qml:65
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "‏%1 (%2٪)"
+
+#: plasma/notifier/main.qml:70
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "لا مهامّ تعمل (%2٪)"
+msgstr[1] "مهمّة واحدة تعمل (%2٪)"
+msgstr[2] "مهمّتان تعملان (%2٪)"
+msgstr[3] "%1 مهامّ تعمل (%2٪)"
+msgstr[4] "%1 مهمّة تعمل (%2٪)"
+msgstr[5] "%1 مهمّة تعمل (%2٪)"
+
+#: plasma/notifier/main.qml:83
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "لا يوجد إشعارات"
+msgstr[1] "إشعار واحد"
+msgstr[2] "إشعارين"
+msgstr[3] "%1 إشعارات"
+msgstr[4] "%1 إشعارا"
+msgstr[5] "%1 إشعار"
+
+#: plasma/notifier/main.qml:88
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "لا يوجد إشعارات"
+msgstr[1] "إشعارًا واحدًا نشطًا"
+msgstr[2] "إشعارين نشيطين"
+msgstr[3] "%1 إشعارات نشطة"
+msgstr[4] "%1 إشعارًا نشطًا"
+msgstr[5] "%1 إشعار نشطًا"
+
+#: plasma/notifier/main.qml:101
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "لا تزعجني حتى %1، انقر الزر الأوسط للخروج الآن"
+
+#: plasma/notifier/main.qml:104
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "نمط عدم الإزعاج نشط، انقر الزر الأوسط للخروج"
+
+#: plasma/notifier/main.qml:110
+msgid "Middle-click to enter do not disturb mode"
+msgstr "انقر بالزر الأوسط للدخول إلى نمط عدم الإزعاج"
+
+#: plasma/notifier/main.qml:245
+msgid "Clear All Notifications"
+msgstr "امحُ جميع الإشعارات"
+
+#: plasma/notifier/main.qml:264
+msgid "&Configure Event Notifications and Actions…"
+msgstr "ا&ضبط إشعارات الأحداث والإجراءات..."

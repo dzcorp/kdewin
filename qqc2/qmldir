@@ -1,0 +1,7 @@
+module org.lumen.desktop
+import org.kde.desktop auto
+Switch 1.0 Switch.qml
+SwitchDelegate 1.0 SwitchDelegate.qml
+ItemDelegate 1.0 ItemDelegate.qml
+internal SwitchIndicator SwitchIndicator.qml
+internal LumenTokens LumenTokens.qml

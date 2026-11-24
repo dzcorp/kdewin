@@ -1,0 +1,385 @@
+1	Selesai.
+2	Gagal (kode keluar %1).
+3	Animasi
+4	Munculkan dan hilangkan jendela dengan memudar dan memperbesar
+5	Buka dan tutup
+6	Ukuran awal
+7	Minimalkan
+8	Jendela terbang ke tombolnya di bilah tugas
+9	Durasi
+10	Semua efek desktop
+11	Aplikasi
+12	Material jendela
+13	Latar belakang jendela Mica
+14	Bilah samping, bilah alat, dan dialog menampilkan wallpaper yang diburamkan. Berlaku untuk jendela yang baru dibuka.
+15	Opasitas
+16	Biarkan aplikasi ini tetap buram
+17	Kontrol
+18	Radius sudut
+19	Menu dan tooltip akrilik
+20	Memerlukan material Lumen
+21	Selalu tampilkan bilah gulir penuh
+22	Jika mati, bilah tetap tipis sampai disorot
+23	Gerakan
+24	Animasikan kontrol
+25	Berlaku untuk aplikasi yang memakai gaya aplikasi Lumen. Perubahan langsung terlihat.
+26	Booting
+27	Gunakan Lumen saat booting
+28	Menu boot Limine dan layar pembuka Plymouth. Menu sebelumnya dicadangkan.
+29	Kembalikan tampilan booting sebelumnya
+30	Kunci dan masuk
+31	Layar kunci
+32	Wallpaper Lumen
+33	Selalu tampilkan jam
+34	Kontrol media
+35	Penguncian layar
+36	Layar masuk
+37	Gunakan Lumen di layar masuk
+38	Kembalikan layar masuk bawaan
+39	Pengaturan layar masuk
+40	Layar kunci dan keluar
+41	Segarkan layar kunci dan keluar Lumen
+42	Berjalan otomatis setelah pembaruan Plasma
+43	Pemeliharaan
+44	Alat lumen tidak ditemukan
+45	Pasang dengan `make install-system` dari folder sumber Lumen.
+46	Periksa
+47	Memeriksa apakah setiap bagian Lumen terpasang dan aktif
+48	Jalankan diagnostik
+49	Tampilkan cuplikan tata letak panel
+50	Perbaiki
+51	Warna, gaya, dekorasi jendela, efek, dan tema Plasma
+52	Terapkan ulang Lumen
+53	Cari alat yang digantikan
+54	Menampilkan paket terpasang yang digantikan Lumen, seperti Kvantum dan Klassy. Hapus dengan `lumen cleanup` di terminal.
+55	Bangun ulang komponen native
+56	Berjalan otomatis setelah pembaruan KWin atau Qt
+57	Material
+58	Material Lumen
+59	Mengganti blur bawaan dengan Mica dan akrilik
+60	Mica untuk bilah tugas
+61	Jika mati, memakai akrilik yang memperlihatkan jendela di belakang bilah tugas
+62	Akrilik (menu, panel pop-up, Mulai)
+63	Blur
+64	Saturasi
+65	Derau
+66	Mica (jendela, bilah tugas)
+67	Bilah tugas
+68	Bilah tugas Lumen tidak ada di desktop ini
+69	Terapkan tata letak Lumen untuk mengganti panel saat ini. Widget, ikon baki, aplikasi yang disematkan, dan favorit Anda tetap disimpan.
+70	Terapkan tata letak Lumen
+71	Tata letak
+72	Pusatkan ikon bilah tugas
+73	Mengambang
+74	Sembunyikan otomatis
+75	Ikon
+76	Tinggi bilah tugas
+77	Ukuran ikon aplikasi
+78	Ikon Mulai dan aplikasi tetap berukuran ini pada tinggi bilah tugas berapa pun
+79	Jarak antaraplikasi
+80	Sangat lebar
+81	Tidak ada
+82	Normal
+83	Lebar
+84	Ukuran ikon baki
+85	Ukuran ikon Pengaturan Cepat
+86	Jaringan, volume, dan baterai di samping jam
+87	Jarak antarikon baki
+88	Jam
+89	Tampilkan
+90	Tanggal saja
+91	Waktu dan tanggal dalam satu baris
+92	Waktu saja
+93	Waktu di atas tanggal
+94	Format waktu
+95	12 jam
+96	24 jam
+97	Gunakan pengaturan wilayah
+98	Format tanggal
+99	Pendek wilayah (%1)
+100	Dengan hari (%1)
+101	Panjang wilayah (%1)
+102	ISO (%1)
+103	Kustom (diatur di pengaturan jam)
+104	Tampilkan detik
+105	Waktu tebal
+106	Ukuran waktu
+107	Perataan waktu
+108	Tengah
+109	Kiri
+110	Kanan
+111	Ukuran tanggal
+112	Ukuran besar dikecilkan agar muat; bilah tugas sendiri tidak pernah berubah
+113	Perataan tanggal
+114	Bagian
+115	Aplikasi yang disematkan dan direkomendasikan, menu daya dan akun
+116	Mulai
+117	Ikon, luapan, ubin, dan penggeser
+118	Baki dan Pengaturan Cepat
+119	Jam dan notifikasi
+120	Format tanggal kustom, kalender, dan Pusat Notifikasi
+121	Tombol aplikasi
+122	Aplikasi yang disematkan dan jendela yang terbuka
+123	Notifikasi
+124	Tampilkan di atas aplikasi layar penuh
+125	Jika mati, game dan video layar penuh menyalakan Jangan Ganggu (notifikasi penting tetap muncul)
+126	Keluaran
+127	Berjalan…
+128	Jendela
+129	Bilah judul
+130	Bilah judul tembus pandang
+131	Tinggi
+132	Pusatkan judul
+133	Tampilkan ikon aplikasi
+134	Tombol
+135	Tutup saja
+136	Tutup, minimalkan, maksimalkan (kiri)
+137	Minimalkan, maksimalkan, tutup (kanan)
+138	Bentuk
+139	Pengaturan dekorasi jendela
+140	Gelap
+141	Permukaan Mica gelap di mana-mana
+142	Permukaan terang dengan bayangan lembut
+143	Terang
+144	Otomatis
+145	Beralih antara terang dan gelap sesuai waktu
+146	Mode
+147	Sesuaikan
+148	Blur Mica dan akrilik, rona, dan derau
+149	Bilah judul, sudut, dan tombol
+150	Kontrol, menu, bilah gulir, dan kecepatan animasi
+151	Gerakan buka, tutup, dan minimalkan
+152	Perataan, ukuran, Mulai, baki, dan jam
+153	Layar kunci, layar masuk, dan keluar
+154	Menu boot dan layar pembuka
+155	Perbaikan, pembaruan, dan diagnostik
+156	Terkait
+157	Warna aksen
+158	Wallpaper
+159	Fon
+161	Tampilkan:
+162	Format waktu:
+165	Format kustom:
+166	Ukuran waktu:
+167	Perataan waktu:
+168	Ukuran tanggal:
+169	Perataan tanggal:
+170	Ukuran besar dikecilkan agar muat di bilah tugas; bilah tugas sendiri tidak pernah berubah.
+171	Tampilkan lonceng notifikasi
+172	Panel pop-up:
+173	Tampilkan kalender
+174	Tampilkan nomor minggu
+176	Jangan ganggu
+177	Hapus semua
+178	Jangan Ganggu aktif
+179	Tidak ada notifikasi baru
+180	Sebelumnya
+181	Tampilkan lebih sedikit
+182	+%1
+183	Hapus grup
+184	Sembunyikan kalender
+191	Hapus semua notifikasi
+192	Sesuaikan tanggal dan waktu…
+193	Pengaturan notifikasi…
+194	Umum
+195	Ikon:
+197	Nama aplikasi:
+198	Nama umum (nama)
+199	Nama umum saja
+200	Nama (nama umum)
+201	Nama saja
+202	Direkomendasikan:
+203	Tampilkan berkas terbaru
+204	Cari aplikasi, pengaturan, dan dokumen
+205	Disematkan
+206	Semua aplikasi
+207	Klik kanan sebuah aplikasi lalu pilih “Sematkan ke Mulai”
+208	Direkomendasikan
+209	Berkas terbaru Anda akan muncul di sini
+210	Kembali
+211	Tidak ada hasil untuk “%1”
+212	Ubah pengaturan akun
+213	Kunci
+214	Ganti pengguna
+215	Keluar
+216	Daya
+217	Tidur
+218	Hibernasi
+219	Matikan
+220	Mulai ulang
+221	Lepas sematan dari Mulai
+222	Sematkan ke Mulai
+223	Edit Aplikasi…
+224	Keluar dari %1
+225	Wi-Fi
+227	Mode pesawat
+228	Mode daya
+229	Lampu malam
+230	Mode gelap
+231	Tips: seret ikon di bilah tugas untuk mengurutkannya, atau antara bilah tugas dan panel ikon tersembunyi untuk menyematkan atau menyembunyikannya.
+232	Ubin Pengaturan Cepat
+233	Di Pengaturan Cepat
+234	Selalu tersembunyi
+235	Selalu ditampilkan
+236	Dinonaktifkan
+237	Ditampilkan bila relevan
+238	Sembunyikan ikon tersembunyi
+239	Tampilkan ikon tersembunyi
+240	Letakkan ikon di sini
+242	Sebelumnya
+244	Berikutnya
+245	Penghemat daya
+250	Pengaturan Cepat
+251	Opsi lainnya
+252	Entri
+253	%1 Tempat lainnya…	%1 Tempat lainnya…
+261	Aktifkan Entri Pengelola Tugas Sebelumnya
+262	Aktifkan Entri Pengelola Tugas Berikutnya
+263	Pindahkan Entri Pengelola Tugas Aktif ke Belakang
+264	Pindahkan Entri Pengelola Tugas Aktif ke Depan
+265	Aktifkan Entri Pengelola Tugas %1
+273	Sembunyikan jendela lain saat menyorot tooltip
+293	Jika Anda memakai pengaturan ini untuk mengatasi aplikasi yang terlalu sering meminta perhatian, cari dulu pengaturan di aplikasi itu untuk mematikannya. Jika tidak ada, pertimbangkan untuk melaporkannya sebagai bug ke pengembang aplikasi.
+311	Menurut posisi horizontal jendela
+323	Perilaku gulir:
+325	Berputar di antara semua tugas
+326	Berputar di antara jendela tugas yang disorot
+327	Mengatur volume tugas yang disorot
+330	Dari desktop saat ini
+331	Dari aktivitas saat ini
+332	Dari layar saat ini
+341	Tempat
+342	Berkas Terbaru
+343	Tindakan
+352	Buka Jendela Baru
+353	Pindahkan ke &Desktop
+354	Pindahkan &ke Desktop Saat Ini
+355	Semu&a Desktop
+356	Desktop &Baru
+357	Tampilkan di &Aktivitas
+358	Tambahkan ke Aktivitas Saat Ini
+359	Semua Aktivitas
+360	Pindahkan ke %1
+361	&Sematkan ke Pengelola Tugas
+362	Di Semua Aktivitas
+363	Di Aktivitas Saat Ini
+364	Lepas Sematan dari Pengelola Tugas
+365	Lainnya
+366	&Pindahkan
+367	Ubah &Ukuran
+368	Ma&ksimalkan
+369	Mi&nimalkan
+370	Tetap di &Atas yang Lain
+371	Tetap di &Bawah yang Lain
+372	&Layar Penuh
+374	&Sembunyikan dari Siaran Layar
+375	Izinkan program ini dikelompokkan
+376	&Tutup
+377	&Tutup Semua
+383	Aktifkan %1
+384	9rb+
+385	%1rb
+386	Tutup jendela
+397	Penampilan
+398	Perilaku
+399	Rona wallpaper
+400	Bilah tugas, Mulai, menu, dan jendela mengikuti warna wallpaper dan berubah dengan halus saat wallpaper diganti
+409	Hanya jika berbeda dari lokal
+410	Format zona waktu:
+413	Selisih dari UTC
+422	Tambahkan zona waktu lain untuk melihatnya di panel dan tooltip jam, atau untuk menampilkan salah satunya di bilah tugas
+423	Ganti zona waktu yang ditampilkan dengan menggulir di atas jam
+424	Ini tidak mengubah zona waktu sistem. Saat bepergian, ganti zona waktu sistem saja.
+426	Tetap terbuka
+428	Tambah acara
+431	Zona waktu
+432	Sepanjang hari
+433	Lainnya
+434	%1 lainnya	%1 lainnya
+435	Tampilkan lebih sedikit
+403	Umum:
+406	Pengaya yang Tersedia
+436	 • %1:%2 lebih lambat
+437	 • %1:%2 lebih awal
+438	 • %1 jam lebih lambat	 • %1 jam lebih lambat
+439	 • %1 jam lebih awal	 • %1 jam lebih awal
+441	Lonceng notifikasi:
+443	Hanya saat ada notifikasi baru
+444	Tampilkan jumlah notifikasi baru
+445	Semua
+446	Baru ditambahkan
+447	Paling sering digunakan
+448	Lompat ke huruf
+449	Pengaturan
+450	Pengelola Berkas
+451	Dokumen
+452	Unduhan
+453	Musik
+454	Gambar
+455	Video
+456	Jaringan
+457	Tata letak:
+458	Disematkan dan Semua aplikasi di halaman terpisah
+459	Semuanya dalam satu halaman bergulir
+460	Bawaan
+461	Lebih banyak sematan
+462	Lebih banyak rekomendasi
+463	Sertakan aplikasi yang baru digunakan
+464	Semua aplikasi:
+465	Tampilkan aplikasi yang baru ditambahkan
+466	Tampilkan aplikasi yang paling sering digunakan
+467	Aktifkan tampilan kategori (grup menu aplikasi)
+468	Tampilan:
+469	Kategori
+470	Kisi
+471	Daftar
+472	Di samping Daya:
+473	Mulai ulang ke Pengaturan Firmware UEFI
+474	Tampilkan semua
+475	Lainnya
+476	Aplikasi
+477	Web
+478	Konfigurasi Pencarian…
+479	Hasil pencarian
+480	Buka
+481	Tampilan: %1
+482	Ukuran:
+483	Isi ruang kosong
+484	Menu klik kanan:
+485	Hapus
+486	Tambah aplikasi…
+487	Pengaturan bilah tugas
+488	Mulai ulang komponen desktop
+489	Gunakan setelah mengganti ikon atau tema di Pengaturan Sistem: menyegarkan ikon di aplikasi yang terbuka dan memuat ulang bilah tugas, desktop, dan pencarian
+490	Bilah perintah
+491	Tombol Baru, Potong, Salin, Tempel, Urutkan, dan Tampilan di bawah bilah alamat. Mati membuat jendela tetap bersih dan minimal.
+492	Tampilkan bulan
+493	Tampilkan tahun
+494	Hari ini
+495	Ukuran teks
+496	Ukuran ikon Mulai
+537	File Explorer
+538	Buka File Explorer ke PC Ini
+539	Jika nonaktif, folder beranda yang dibuka
+540	PC Ini
+541	Tampilkan ruang kosong
+542	Bilah kapasitas dan ruang kosong di bawah setiap drive
+543	Tampilkan folder
+544	Desktop, Dokumen, Unduhan, Musik, Gambar, dan Video di atas drive
+545	Tampilkan lokasi jaringan
+546	Tampilkan drive tersembunyi
+547	Drive yang disembunyikan dari panel navigasi
+551	Perangkat dan drive
+552	Lokasi jaringan
+554	1 item dipilih
+555	%1 kosong dari %2
+560	Buka File Explorer ke
+561	Folder beranda adalah lokasi awal yang diatur di pengaturan File Explorer
+562	Folder beranda
+563	Sesi sebelumnya
+564	File terbaru
+507	Aplikasi layar penuh sedang difokuskan
+508	Lihat
+523	Bersihkan Riwayat Notifikasi
+526	Riwayat notifikasi dibersihkan
+531	%1 notifikasi aktif	%1 notifikasi aktif

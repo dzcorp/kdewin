@@ -1,0 +1,99 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Shell scripts
+        run: |
+          shellcheck -x install.sh uninstall.sh
+          shellcheck -s bash packaging/aur/lumen-kde.install
+          shellcheck -s bash -e SC2034,SC2154,SC2164 packaging/aur/*/PKGBUILD
+      - name: Both PKGBUILDs list the same dependencies
+        run: |
+          deps() { bash -c 'source "$1"; printf "%s\n" "${depends[@]}" -- "${makedepends[@]}" -- "${optdepends[@]}"' _ "$1"; }
+          diff <(deps packaging/aur/lumen-kde-git/PKGBUILD) <(deps packaging/aur/lumen-kde/PKGBUILD)
+
+  build:
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    steps:
+      - name: Base tools
+        run: pacman -Syu --noconfirm --needed git base-devel
+      - uses: actions/checkout@v4
+      - name: Build dependencies (from the PKGBUILD)
+        run: |
+          source packaging/aur/lumen-kde-git/PKGBUILD
+          pacman -S --noconfirm --needed "${depends[@]}" "${makedepends[@]}"
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            tools/lumen/target
+          key: cargo-${{ runner.os }}-${{ hashFiles('tools/lumen/Cargo.lock', 'tools/lumen/src/**') }}
+          restore-keys: cargo-${{ runner.os }}-
+      - name: Build (tool, generated assets, native plugins, Dolphin fork)
+        run: make -j"$(nproc)"
+      - name: Tray checks
+        run: make check-tray
+      - name: Generator benchmark
+        run: make bench-gen
+
+  package:
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    steps:
+      - name: Base tools
+        run: pacman -Syu --noconfirm --needed git base-devel sudo namcap
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build the package from this commit
+        run: |
+          source packaging/aur/lumen-kde-git/PKGBUILD
+          pacman -S --noconfirm --needed "${depends[@]}" "${makedepends[@]}"
+          useradd -m builder
+          work=/home/builder/pkg
+          mkdir "$work"
+          cp -L packaging/aur/lumen-kde-git/* "$work/"
+          sed -i "s|^source=.*|source=(\"\$_repo::git+file://$GITHUB_WORKSPACE#commit=$GITHUB_SHA\")|" "$work/PKGBUILD"
+          chown -R builder: "$work"
+          sudo -u builder -H git config --global --add safe.directory '*'
+          cd "$work" && sudo -u builder -H makepkg --noconfirm
+      - name: namcap
+        run: cd /home/builder/pkg && namcap PKGBUILD lumen-kde-git-*.pkg.tar.zst || true
+      - name: Install, run the package hooks, remove
+        run: |
+          cd /home/builder/pkg
+          pkg=$(ls lumen-kde-git-[0-9]*.pkg.tar.zst)
+          pacman -U --noconfirm "$pkg"
+          lumen --version
+          test -f /usr/local/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/MainBlock.qml
+          test -f /usr/lib/lumen/qml/org/kde/kirigami/qmldir
+          pacman -Rns --noconfirm lumen-kde-git
+          test ! -e /usr/local/share/plasma/shells/org.kde.plasma.desktop
+          test ! -e /usr/lib/lumen
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lumen-kde-git
+          path: /home/builder/pkg/lumen-kde-git-[0-9]*.pkg.tar.zst
+          retention-days: 14

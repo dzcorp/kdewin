@@ -1,0 +1,15 @@
+{
+    "KPlugin": {
+        "Authors": [{ "Name": "Lumen" }],
+        "Category": "Windows and Tasks",
+        "Description": "Taskbar corner: tray icons with manual sorting, overflow flyout and Quick Settings",
+        "EnabledByDefault": true,
+        "FormFactors": ["desktop"],
+        "Icon": "preferences-desktop-notification",
+        "License": "GPL-2.0+",
+        "Name": "Lumen Tray",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-ContainmentType": "CustomEmbedded"
+}

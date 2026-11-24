@@ -1,0 +1,318 @@
+1	Gotowe.
+2	Niepowodzenie (kod wyjścia %1).
+3	Animacje
+4	Płynne pojawianie się i powiększanie okien
+5	Otwieranie i zamykanie
+6	Rozmiar początkowy
+7	Minimalizacja
+8	Okna lecą do swojego przycisku na pasku zadań
+9	Czas trwania
+10	Wszystkie efekty pulpitu
+11	Aplikacje
+12	Materiał okien
+13	Tła okien Mica
+14	Paski boczne, paski narzędzi i okna dialogowe pokazują rozmytą tapetę. Dotyczy nowo otwieranych okien.
+15	Nieprzezroczystość
+16	Te aplikacje pozostawiaj nieprzezroczyste
+17	Kontrolki
+18	Promień zaokrąglenia
+19	Akrylowe menu i podpowiedzi
+20	Wymaga materiałów Lumen
+21	Zawsze pokazuj pełne paski przewijania
+22	Wyłączone: pozostają cienkie do najechania kursorem
+23	Ruch
+24	Animuj kontrolki
+25	Dotyczy aplikacji używających stylu Lumen. Zmiany widać od razu.
+26	Rozruch
+27	Używaj Lumen podczas rozruchu
+28	Menu rozruchowe Limine i ekran Plymouth. Poprzednie menu zostaje zachowane.
+29	Przywróć poprzedni wygląd rozruchu
+30	Blokada i logowanie
+31	Ekran blokady
+32	Tapeta Lumen
+33	Zawsze pokazuj zegar
+34	Sterowanie multimediami
+35	Blokowanie ekranu
+36	Ekran logowania
+37	Używaj Lumen na ekranie logowania
+38	Przywróć standardowy ekran logowania
+39	Ustawienia ekranu logowania
+40	Ekrany blokady i wylogowania
+41	Odśwież ekrany blokady i wylogowania Lumen
+42	Uruchamiane automatycznie po aktualizacjach Plasmy
+43	Konserwacja
+44	Nie znaleziono narzędzia lumen
+45	Zainstaluj je poleceniem `make install-system` z katalogu źródeł Lumen.
+46	Sprawdzanie
+47	Sprawdza, czy wszystkie części Lumen są zainstalowane i działają
+48	Uruchom diagnostykę
+49	Pokaż migawkę układu panelu
+50	Naprawa
+51	Kolory, styl, dekoracja okien, efekty i motyw Plasmy
+52	Zastosuj Lumen ponownie
+53	Znajdź zastąpione narzędzia
+54	Wyświetla zainstalowane pakiety, które zastępuje Lumen, np. Kvantum i Klassy. Usuń je poleceniem `lumen cleanup` w terminalu.
+55	Przebuduj natywne składniki
+56	Uruchamiane automatycznie po aktualizacjach KWin lub Qt
+57	Materiały
+58	Materiały Lumen
+59	Zastępują standardowe rozmycie efektami Mica i akryl
+60	Mica dla paska zadań
+61	Wyłączone: akryl, przez który widać okna za paskiem zadań
+62	Akryl (menu, wysuwane panele, Start)
+63	Rozmycie
+64	Nasycenie
+65	Szum
+66	Mica (okna, pasek zadań)
+67	Pasek zadań
+68	Paska zadań Lumen nie ma na tym pulpicie
+69	Zastosuj układ Lumen, aby zastąpić obecny panel. Twoje widżety, ikony w zasobniku, przypięte aplikacje i ulubione zostaną zachowane.
+70	Zastosuj układ Lumen
+71	Układ
+72	Wyśrodkuj ikony paska zadań
+73	Pływający
+74	Ukrywaj automatycznie
+75	Ikony
+76	Wysokość paska zadań
+77	Rozmiar ikon aplikacji
+78	Ikony Start i aplikacji zachowują ten rozmiar przy każdej wysokości paska
+79	Odstęp między aplikacjami
+80	Bardzo szeroki
+81	Brak
+82	Normalny
+83	Szeroki
+84	Rozmiar ikon w zasobniku
+85	Rozmiar ikon szybkich ustawień
+86	Sieć, głośność i bateria obok zegara
+87	Odstęp między ikonami w zasobniku
+88	Zegar
+89	Pokazuj
+90	Tylko datę
+91	Godzinę i datę w jednym wierszu
+92	Tylko godzinę
+93	Godzinę nad datą
+94	Format godziny
+95	12-godzinny
+96	24-godzinny
+97	Według ustawień regionalnych
+98	Format daty
+99	Krótki regionalny (%1)
+100	Z dniem tygodnia (%1)
+101	Długi regionalny (%1)
+102	ISO (%1)
+103	Własny (ustawiany w opcjach zegara)
+104	Pokazuj sekundy
+105	Pogrubiona godzina
+106	Rozmiar godziny
+107	Wyrównanie godziny
+108	Do środka
+109	Do lewej
+110	Do prawej
+111	Rozmiar daty
+112	Duże rozmiary są zmniejszane, aby się zmieściły; sam pasek zadań się nie zmienia
+113	Wyrównanie daty
+114	Części
+115	Przypięte i polecane aplikacje, menu zasilania i konta
+116	Start
+117	Ikony, przepełnienie, kafelki i suwaki
+118	Zasobnik i szybkie ustawienia
+119	Zegar i powiadomienia
+120	Własny format daty, kalendarz i centrum powiadomień
+121	Przyciski aplikacji
+122	Przypięte aplikacje i otwarte okna
+123	Powiadomienia
+124	Pokazuj nad aplikacjami pełnoekranowymi
+125	Wyłączone: gry i filmy na pełnym ekranie włączają tryb „Nie przeszkadzać” (krytyczne powiadomienia nadal się pojawiają)
+126	Wyjście
+127	Trwa wykonywanie…
+128	Okna
+129	Pasek tytułu
+130	Półprzezroczysty pasek tytułu
+131	Wysokość
+132	Wyśrodkuj tytuł
+133	Pokazuj ikonę aplikacji
+134	Przyciski
+135	Tylko zamknij
+136	Zamknij, minimalizuj, maksymalizuj (z lewej)
+137	Minimalizuj, maksymalizuj, zamknij (z prawej)
+138	Kształt
+139	Ustawienia dekoracji okien
+140	Ciemny
+141	Ciemne powierzchnie Mica wszędzie
+142	Jasne powierzchnie z miękkimi cieniami
+143	Jasny
+144	Automatyczny
+145	Przełączaj między jasnym a ciemnym zależnie od pory dnia
+146	Tryb
+147	Dostosuj
+148	Rozmycie Mica i akryl, odcień i szum
+149	Paski tytułu, narożniki i przyciski
+150	Kontrolki, menu, paski przewijania i szybkość animacji
+151	Ruch przy otwieraniu, zamykaniu i minimalizacji
+152	Wyrównanie, rozmiar, Start, zasobnik i zegar
+153	Ekran blokady, ekran logowania i wylogowanie
+154	Menu rozruchowe i ekran rozruchu
+155	Naprawa, aktualizacja i diagnostyka
+156	Powiązane
+157	Kolor akcentu
+158	Tapeta
+159	Czcionki
+161	Pokazuj:
+162	Format godziny:
+165	Własny format:
+166	Rozmiar godziny:
+167	Wyrównanie godziny:
+168	Rozmiar daty:
+169	Wyrównanie daty:
+170	Duże rozmiary są zmniejszane do paska zadań; sam pasek się nie zmienia.
+171	Pokazuj dzwonek powiadomień
+172	Panel wysuwany:
+173	Pokazuj kalendarz
+176	Nie przeszkadzać
+177	Wyczyść wszystko
+178	Tryb „Nie przeszkadzać” jest włączony
+179	Brak nowych powiadomień
+180	Wcześniej
+181	Pokaż mniej
+182	+%1
+183	Wyczyść grupę
+184	Ukryj kalendarz
+191	Wyczyść wszystkie powiadomienia
+192	Dostosuj datę i godzinę…
+193	Ustawienia powiadomień…
+197	Nazwy aplikacji:
+198	Nazwa ogólna (nazwa)
+199	Tylko nazwa ogólna
+200	Nazwa (nazwa ogólna)
+202	Polecane:
+203	Pokazuj ostatnie pliki
+204	Wyszukaj aplikacje, ustawienia i dokumenty
+205	Przypięte
+206	Wszystkie aplikacje
+207	Kliknij aplikację prawym przyciskiem i wybierz „Przypnij do menu Start”
+208	Polecane
+209	Tutaj pojawią się ostatnie pliki
+210	Wstecz
+211	Brak wyników dla „%1”
+212	Zmień ustawienia konta
+213	Zablokuj
+214	Przełącz użytkownika
+215	Wyloguj
+217	Uśpij
+218	Hibernuj
+219	Wyłącz
+220	Uruchom ponownie
+221	Odepnij od menu Start
+222	Przypnij do menu Start
+224	Zakończ %1
+225	Wi-Fi
+227	Tryb samolotowy
+228	Tryb zasilania
+229	Światło nocne
+230	Tryb ciemny
+231	Wskazówka: przeciągaj ikony na pasku zadań, aby zmienić ich kolejność, albo między paskiem a panelem ukrytych ikon, aby je przypiąć lub ukryć.
+232	Kafelki szybkich ustawień
+233	W szybkich ustawieniach
+234	Zawsze ukryta
+235	Zawsze widoczna
+236	Wyłączona
+237	Widoczna w razie potrzeby
+238	Ukryj ukryte ikony
+239	Pokaż ukryte ikony
+240	Upuść ikony tutaj
+242	Poprzedni
+244	Następny
+245	Oszczędzanie energii
+250	Szybkie ustawienia
+251	Więcej opcji
+252	Pozycje
+399	Odcień tapety
+400	Pasek zadań, Start, menu i okna przyjmują kolor tapety i płynnie za nim podążają, gdy się zmienia
+409	Tylko gdy inna niż lokalna
+410	Format strefy czasowej:
+413	Przesunięcie względem UTC
+422	Dodaj więcej stref czasowych, aby widzieć je w panelu i podpowiedzi zegara albo pokazać jedną z nich na pasku zadań
+423	Przełączaj wyświetlaną strefę czasową przewijaniem nad zegarem
+424	Nie zmienia to systemowej strefy czasowej. W podróży zmień raczej systemową strefę czasową.
+426	Nie zamykaj
+428	Dodaj wydarzenie
+431	Strefy czasowe
+432	Cały dzień
+433	Inne
+434	jeszcze %1	jeszcze %1	jeszcze %1
+435	Pokaż mniej
+441	Dzwonek powiadomień:
+443	Tylko przy nowych powiadomieniach
+444	Pokazuj liczbę nowych powiadomień
+445	Wszystko
+446	Ostatnio dodane
+447	Najczęściej używane
+448	Przejdź do litery
+449	Ustawienia
+450	Menedżer plików
+451	Dokumenty
+452	Pobrane
+453	Muzyka
+454	Obrazy
+455	Wideo
+456	Sieć
+457	Układ:
+458	Przypięte i Wszystkie aplikacje na osobnych stronach
+459	Wszystko na jednej przewijanej stronie
+460	Domyślny
+461	Więcej przypiętych
+462	Więcej rekomendacji
+463	Uwzględniaj ostatnio używane aplikacje
+464	Wszystkie aplikacje:
+465	Pokazuj ostatnio dodane aplikacje
+466	Pokazuj najczęściej używane aplikacje
+467	Włącz widok kategorii (grupy menu aplikacji)
+468	Widok:
+469	Kategorie
+470	Siatka
+471	Lista
+472	Obok przycisku zasilania:
+473	Uruchom ponownie do ustawień oprogramowania UEFI
+474	Pokaż wszystko
+476	Aplikacje
+477	Internet
+478	Skonfiguruj wyszukiwanie…
+479	Wyniki wyszukiwania
+480	Otwórz
+481	Widok: %1
+194	Ogólne
+482	Rozmiar:
+483	Wypełniaj wolne miejsce
+484	Menu prawego przycisku:
+485	Usuń
+486	Dodaj aplikację…
+487	Ustawienia paska zadań
+488	Uruchom ponownie składniki pulpitu
+489	Użyj po zmianie ikon lub motywów w Ustawieniach systemowych: odświeża ikony w otwartych aplikacjach i ponownie wczytuje pasek zadań, pulpit i wyszukiwanie
+490	Pasek poleceń
+491	Przyciski Nowy, Wytnij, Kopiuj, Wklej, Sortuj i Widok pod paskiem adresu. Wyłączony pozostawia czyste, minimalne okno.
+492	Pokaż miesiące
+493	Pokaż lata
+494	Dzisiaj
+495	Rozmiar tekstu
+496	Rozmiar ikony Start
+537	Eksplorator plików
+538	Otwieraj Eksplorator plików w lokalizacji „Ten komputer”
+539	Wyłączone otwiera folder domowy
+540	Ten komputer
+541	Pokazuj wolne miejsce
+542	Pasek zajętości i wolne miejsce pod każdym dyskiem
+543	Pokazuj foldery
+544	Pulpit, Dokumenty, Pobrane, Muzyka, Obrazy i Wideo nad dyskami
+545	Pokazuj lokalizacje sieciowe
+546	Pokazuj ukryte dyski
+547	Dyski ukryte w okienku nawigacji
+551	Urządzenia i dyski
+552	Lokalizacje sieciowe
+554	Zaznaczono 1 element
+555	%1 wolnego z %2
+560	Otwieraj Eksplorator plików w
+561	„Folder domowy” to lokalizacja początkowa ustawiona w ustawieniach Eksploratora plików
+562	Folder domowy
+563	Poprzednia sesja
+564	Ostatnie pliki

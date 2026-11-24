@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: id\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "Selesai."
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "Gagal (kode keluar %1)."
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "Animasi"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "Munculkan dan hilangkan jendela dengan memudar dan memperbesar"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "Buka dan tutup"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "Ukuran awal"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "Minimalkan"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "Jendela terbang ke tombolnya di bilah tugas"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "Durasi"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "Semua efek desktop"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "Aplikasi"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "Material jendela"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Latar belakang jendela Mica"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "Bilah samping, bilah alat, dan dialog menampilkan wallpaper yang diburamkan. Berlaku untuk jendela yang baru dibuka."
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "Opasitas"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "Biarkan aplikasi ini tetap buram"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "Kontrol"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "Radius sudut"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "Menu dan tooltip akrilik"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "Memerlukan material Lumen"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "Selalu tampilkan bilah gulir penuh"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "Jika mati, bilah tetap tipis sampai disorot"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "File Explorer"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "Bilah perintah"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "Tombol Baru, Potong, Salin, Tempel, Urutkan, dan Tampilan di bawah bilah alamat. Mati membuat jendela tetap bersih dan minimal."
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "Buka File Explorer ke"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "Folder beranda adalah lokasi awal yang diatur di pengaturan File Explorer"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "Folder beranda"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "Sesi sebelumnya"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "File terbaru"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "PC Ini"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "Tampilkan ruang kosong"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "Bilah kapasitas dan ruang kosong di bawah setiap drive"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "Tampilkan folder"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "Desktop, Dokumen, Unduhan, Musik, Gambar, dan Video di atas drive"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "Tampilkan lokasi jaringan"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "Tampilkan drive tersembunyi"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "Drive yang disembunyikan dari panel navigasi"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "Gerakan"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "Animasikan kontrol"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "Berlaku untuk aplikasi yang memakai gaya aplikasi Lumen. Perubahan langsung terlihat."
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "Booting"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "Gunakan Lumen saat booting"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Menu boot Limine dan layar pembuka Plymouth. Menu sebelumnya dicadangkan."
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "Kembalikan tampilan booting sebelumnya"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "Kunci dan masuk"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "Layar kunci"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Wallpaper Lumen"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "Selalu tampilkan jam"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "Kontrol media"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "Penguncian layar"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "Layar masuk"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "Gunakan Lumen di layar masuk"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "Kembalikan layar masuk bawaan"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "Pengaturan layar masuk"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "Layar kunci dan keluar"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "Segarkan layar kunci dan keluar Lumen"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Berjalan otomatis setelah pembaruan Plasma"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "Pemeliharaan"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "Alat lumen tidak ditemukan"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "Pasang dengan `make install-system` dari folder sumber Lumen."
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "Periksa"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "Memeriksa apakah setiap bagian Lumen terpasang dan aktif"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "Jalankan diagnostik"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "Tampilkan cuplikan tata letak panel"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "Perbaiki"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "Warna, gaya, dekorasi jendela, efek, dan tema Plasma"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "Terapkan ulang Lumen"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "Mulai ulang komponen desktop"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "Gunakan setelah mengganti ikon atau tema di Pengaturan Sistem: menyegarkan ikon di aplikasi yang terbuka dan memuat ulang bilah tugas, desktop, dan pencarian"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "Cari alat yang digantikan"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "Menampilkan paket terpasang yang digantikan Lumen, seperti Kvantum dan Klassy. Hapus dengan `lumen cleanup` di terminal."
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "Bangun ulang komponen native"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "Berjalan otomatis setelah pembaruan KWin atau Qt"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "Material"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Material Lumen"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "Mengganti blur bawaan dengan Mica dan akrilik"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "Mica untuk bilah tugas"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "Jika mati, memakai akrilik yang memperlihatkan jendela di belakang bilah tugas"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "Rona wallpaper"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "Bilah tugas, Mulai, menu, dan jendela mengikuti warna wallpaper dan berubah dengan halus saat wallpaper diganti"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "Akrilik (menu, panel pop-up, Mulai)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "Blur"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "Saturasi"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "Derau"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica (jendela, bilah tugas)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "Bilah tugas"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "Bilah tugas Lumen tidak ada di desktop ini"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "Terapkan tata letak Lumen untuk mengganti panel saat ini. Widget, ikon baki, aplikasi yang disematkan, dan favorit Anda tetap disimpan."
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "Terapkan tata letak Lumen"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "Tata letak"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "Pusatkan ikon bilah tugas"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "Mengambang"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "Sembunyikan otomatis"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "Ikon"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "Tinggi bilah tugas"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "Ukuran ikon Mulai"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "Ukuran ikon aplikasi"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "Ikon Mulai dan aplikasi tetap berukuran ini pada tinggi bilah tugas berapa pun"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "Jarak antaraplikasi"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "Sangat lebar"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "Tidak ada"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "Normal"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "Lebar"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "Ukuran ikon baki"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "Ukuran ikon Pengaturan Cepat"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "Jaringan, volume, dan baterai di samping jam"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "Jarak antarikon baki"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "Jam"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "Tampilkan"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "Tanggal saja"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "Waktu dan tanggal dalam satu baris"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "Waktu saja"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "Waktu di atas tanggal"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "Format waktu"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12 jam"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24 jam"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "Gunakan pengaturan wilayah"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "Format tanggal"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "Pendek wilayah (%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "Dengan hari (%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "Panjang wilayah (%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "Kustom (diatur di pengaturan jam)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "Tampilkan detik"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "Waktu tebal"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "Ukuran waktu"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "Perataan waktu"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "Tengah"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "Kiri"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "Kanan"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "Ukuran tanggal"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "Ukuran besar dikecilkan agar muat; bilah tugas sendiri tidak pernah berubah"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "Perataan tanggal"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "Bagian"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "Aplikasi yang disematkan dan direkomendasikan, menu daya dan akun"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "Mulai"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "Ikon, luapan, ubin, dan penggeser"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "Baki dan Pengaturan Cepat"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "Jam dan notifikasi"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "Format tanggal kustom, kalender, dan Pusat Notifikasi"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "Tombol aplikasi"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "Aplikasi yang disematkan dan jendela yang terbuka"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "Notifikasi"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "Tampilkan di atas aplikasi layar penuh"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "Jika mati, game dan video layar penuh menyalakan Jangan Ganggu (notifikasi penting tetap muncul)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "Keluaran"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "Berjalan…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "Jendela"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "Bilah judul"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "Bilah judul tembus pandang"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "Tinggi"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "Pusatkan judul"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "Tampilkan ikon aplikasi"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "Tombol"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "Tutup saja"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "Tutup, minimalkan, maksimalkan (kiri)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "Minimalkan, maksimalkan, tutup (kanan)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "Bentuk"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "Pengaturan dekorasi jendela"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "Gelap"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "Permukaan Mica gelap di mana-mana"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "Permukaan terang dengan bayangan lembut"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "Terang"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "Otomatis"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "Beralih antara terang dan gelap sesuai waktu"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "Mode"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "Ukuran teks"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "Sesuaikan"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Blur Mica dan akrilik, rona, dan derau"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "Bilah judul, sudut, dan tombol"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "Kontrol, menu, bilah gulir, dan kecepatan animasi"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "Gerakan buka, tutup, dan minimalkan"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "Perataan, ukuran, Mulai, baki, dan jam"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "Layar kunci, layar masuk, dan keluar"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "Menu boot dan layar pembuka"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "Perbaikan, pembaruan, dan diagnostik"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "Terkait"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "Warna aksen"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "Wallpaper"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "Fon"

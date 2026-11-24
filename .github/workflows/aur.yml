@@ -1,0 +1,71 @@
+# Releases and AUR packages. A v* tag creates the GitHub release and publishes lumen-kde at that version;
+# PKGBUILD changes on main publish lumen-kde-git (it builds main, so code changes need no AUR update).
+# AUR publishing needs the AUR_SSH_PRIVATE_KEY secret (a key added to the AUR account that maintains both).
+name: Release and AUR
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+    paths:
+      - "packaging/aur/**"
+      - ".github/workflows/aur.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    env:
+      AUR_KEY: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
+    steps:
+      - name: Base tools
+        run: pacman -Syu --noconfirm --needed git openssh base-devel pacman-contrib github-cli sudo
+      - uses: actions/checkout@v4
+      - name: GitHub release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 || gh release create "$GITHUB_REF_NAME" --verify-tag --generate-notes --title "Lumen ${GITHUB_REF_NAME#v}"
+      - name: Publish to the AUR
+        run: |
+          if [ -z "$AUR_KEY" ]; then
+            echo "::notice::AUR_SSH_PRIVATE_KEY is not set: AUR publishing skipped"
+            exit 0
+          fi
+          useradd -m builder
+          install -d -m 700 -o builder /home/builder/.ssh
+          printf '%s\n' "$AUR_KEY" > /home/builder/.ssh/aur
+          ssh-keyscan -t ed25519,rsa aur.archlinux.org > /home/builder/.ssh/known_hosts 2>/dev/null
+          printf 'Host aur.archlinux.org\n  User aur\n  IdentityFile ~/.ssh/aur\n  IdentitiesOnly yes\n' > /home/builder/.ssh/config
+          chown -R builder: /home/builder/.ssh
+          chmod 600 /home/builder/.ssh/aur
+          as() { sudo -u builder -H "$@"; }
+          as git config --global user.name "github-actions[bot]"
+          as git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          publish() {
+            local pkg=$1 version=${2:-} dir=/home/builder/aur-$1
+            as git clone -q "ssh://aur@aur.archlinux.org/$pkg.git" "$dir"
+            cp -L "packaging/aur/$pkg"/* "$dir/"
+            chown -R builder: "$dir"
+            if [ -n "$version" ]; then
+              sed -i "s/^pkgver=.*/pkgver=$version/;s/^pkgrel=.*/pkgrel=1/" "$dir/PKGBUILD"
+              (cd "$dir" && as updpkgsums)
+            fi
+            (cd "$dir" && as makepkg --printsrcinfo > .SRCINFO && chown builder: .SRCINFO)
+            (cd "$dir" && as git add -A && { as git diff --cached --quiet || { as git commit -q -m "Update to ${version:-$GITHUB_SHA}" && as git push -q origin HEAD:master; }; })
+            echo "published $pkg"
+          }
+          case $GITHUB_REF in
+            refs/tags/v*) publish lumen-kde "${GITHUB_REF_NAME#v}" ;;
+            *) publish lumen-kde-git ;;
+          esac

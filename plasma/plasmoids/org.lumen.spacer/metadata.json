@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Lumen" }],
+        "Category": "Windows and Tasks",
+        "Description": "Taskbar gap with a right-click menu of chosen apps",
+        "EnabledByDefault": true,
+        "Icon": "distribute-horizontal-x",
+        "Id": "org.lumen.spacer",
+        "License": "GPL-2.0+",
+        "Name": "Lumen Spacer",
+        "Version": "@@meta.version@@"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

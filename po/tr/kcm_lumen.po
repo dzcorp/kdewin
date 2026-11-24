@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: tr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "Tamamlandı."
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "Başarısız (çıkış kodu %1)."
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "Animasyonlar"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "Pencereleri soldurarak ve yakınlaştırarak aç ve kapat"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "Açma ve kapatma"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "Başlangıç boyutu"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "Simge durumuna küçültme"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "Pencereler görev çubuğu düğmelerine uçar"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "Süre"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "Tüm masaüstü efektleri"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "Uygulamalar"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "Pencere malzemesi"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Mica pencere arka planları"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "Kenar çubukları, araç çubukları ve iletişim kutuları bulanık duvar kâğıdını gösterir. Yeni açılan pencerelere uygulanır."
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "Opaklık"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "Bu uygulamalar opak kalsın"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "Denetimler"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "Köşe yarıçapı"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "Akrilik menüler ve araç ipuçları"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "Lumen malzemeleri gerekir"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "Kaydırma çubuklarını her zaman tam göster"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "Kapalıyken üzerine gelinene kadar ince kalırlar"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "Dosya Gezgini"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "Komut çubuğu"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "Adres çubuğunun altında Yeni, Kes, Kopyala, Yapıştır, Sırala ve Görünüm düğmeleri. Kapalıyken pencere sade ve minimal kalır."
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "Dosya Gezgini'ni şurada aç"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "\"Ana klasör\", Dosya Gezgini'nin kendi ayarlarındaki başlangıç konumudur"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "Ana klasör"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "Önceki oturum"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "Son dosyalar"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "Bu bilgisayar"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "Boş alanı göster"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "Her sürücünün altında bir kapasite çubuğu ve boş alan"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "Klasörleri göster"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "Sürücülerin üstünde Masaüstü, Belgeler, İndirilenler, Müzik, Resimler ve Videolar"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "Ağ konumlarını göster"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "Gizli sürücüleri göster"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "Gezinti bölmesinde gizlenmiş sürücüler"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "Hareket"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "Denetimleri canlandır"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "Lumen uygulama stilini kullanan uygulamalara uygulanır. Değişiklikler hemen görünür."
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "Önyükleme"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "Önyüklemede Lumen kullan"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Limine önyükleme menüsü ve Plymouth açılış ekranı. Önceki menü yedeklenir."
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "Önceki önyükleme görünümünü geri yükle"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "Kilit ve oturum açma"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "Kilit ekranı"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Lumen duvar kâğıdı"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "Saati her zaman göster"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "Ortam denetimleri"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "Ekran kilidi"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "Oturum açma ekranı"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "Oturum açma ekranında Lumen kullan"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "Standart oturum açma ekranını geri yükle"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "Oturum açma ekranı ayarları"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "Kilit ve oturum kapatma ekranları"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "Lumen kilit ve oturum kapatma ekranlarını yenile"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Plasma güncellemelerinden sonra otomatik çalışır"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "Bakım"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "lumen aracı bulunamadı"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "Lumen kaynak klasöründen `make install-system` ile kurun."
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "Denetim"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "Lumen'in her parçasının kurulu ve etkin olduğunu denetler"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "Tanılamayı çalıştır"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "Panel düzeni anlık görüntüsünü göster"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "Onarım"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "Renkler, stil, pencere dekorasyonu, efektler ve Plasma teması"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "Lumen'i yeniden uygula"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "Masaüstü bileşenlerini yeniden başlat"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "Sistem Ayarları'nda simgeleri veya temaları değiştirdikten sonra kullanın: açık uygulamalardaki simgeleri yeniler, görev çubuğunu, masaüstünü ve aramayı yeniden yükler"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "Değiştirilen araçları bul"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "Lumen'in yerini aldığı kurulu paketleri listeler (ör. Kvantum ve Klassy). Bunları bir terminalde `lumen cleanup` ile kaldırın."
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "Yerel bileşenleri yeniden derle"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "KWin veya Qt güncellemelerinden sonra otomatik çalışır"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "Malzemeler"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Lumen malzemeleri"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "Standart bulanıklığı Mica ve akrilik ile değiştirir"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "Görev çubuğu için Mica"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "Kapalıyken akrilik kullanılır; görev çubuğunun arkasındaki pencereler görünür"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "Duvar kâğıdı tonu"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "Görev çubuğu, Başlat, menüler ve pencereler duvar kâğıdının rengini alır ve değiştiğinde yumuşakça onu izler"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "Akrilik (menüler, açılır paneller, Başlat)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "Bulanıklık"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "Doygunluk"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "Gürültü"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica (pencereler, görev çubuğu)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "Görev çubuğu"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "Lumen görev çubuğu bu masaüstünde yok"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "Geçerli paneli değiştirmek için Lumen düzenini uygulayın. Widget'larınız, sistem tepsisi simgeleriniz, sabitlenmiş uygulamalarınız ve sık kullanılanlarınız korunur."
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "Lumen düzenini uygula"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "Düzen"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "Görev çubuğu simgelerini ortala"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "Yüzen"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "Otomatik gizle"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "Simgeler"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "Görev çubuğu yüksekliği"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "Başlat simgesi boyutu"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "Uygulama simgesi boyutu"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "Başlat ve uygulama simgeleri her görev çubuğu yüksekliğinde bu boyutta kalır"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "Uygulamalar arası boşluk"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "Çok geniş"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "Yok"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "Normal"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "Geniş"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "Tepsi simgesi boyutu"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "Hızlı Ayarlar simgesi boyutu"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "Saatin yanındaki ağ, ses ve pil"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "Tepsi simgeleri arası boşluk"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "Saat"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "Göster"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "Yalnızca tarih"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "Saat ve tarih tek satırda"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "Yalnızca saat"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "Saat tarihin üstünde"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "Saat biçimi"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12 saat"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24 saat"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "Bölge ayarlarını kullan"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "Tarih biçimi"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "Bölgesel kısa (%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "Hafta günüyle (%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "Bölgesel uzun (%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "Özel (saatin ayarlarında belirlenir)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "Saniyeleri göster"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "Kalın saat"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "Saat boyutu"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "Saat hizalaması"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "Orta"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "Sol"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "Sağ"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "Tarih boyutu"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "Büyük boyutlar sığması için küçültülür; görev çubuğunun kendisi hiç değişmez"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "Tarih hizalaması"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "Parçalar"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "Sabitlenmiş ve önerilen uygulamalar, güç ve hesap menüleri"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "Başlat"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "Simgeler, taşma, kutucuklar ve kaydırıcılar"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "Tepsi ve Hızlı Ayarlar"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "Saat ve bildirimler"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "Özel tarih biçimi, takvim ve Bildirim Merkezi"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "Uygulama düğmeleri"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "Sabitlenmiş uygulamalar ve açık pencereler"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "Tam ekran uygulamaların üzerinde göster"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "Kapalıyken tam ekran oyunlar ve videolar Rahatsız Etmeyin'i açar (kritik bildirimler yine de görünür)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "Çıktı"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "Çalışıyor…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "Pencereler"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "Başlık çubuğu"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "Yarı saydam başlık çubuğu"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "Yükseklik"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "Başlığı ortala"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "Uygulama simgesini göster"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "Düğmeler"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "Yalnızca kapat"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "Kapat, küçült, büyüt (solda)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "Küçült, büyüt, kapat (sağda)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "Şekil"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "Pencere dekorasyonu ayarları"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "Koyu"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "Her yerde koyu Mica yüzeyler"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "Yumuşak gölgeli açık yüzeyler"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "Açık"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "Otomatik"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "Günün saatine göre açık ve koyu arasında geçiş yap"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "Mod"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "Metin boyutu"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "Özelleştir"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Mica ve akrilik bulanıklık, renk tonu ve gürültü"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "Başlık çubukları, köşeler ve düğmeler"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "Denetimler, menüler, kaydırma çubukları ve animasyon hızı"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "Açma, kapatma ve küçültme hareketi"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "Hizalama, boyut, Başlat, tepsi ve saat"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "Kilit ekranı, oturum açma ekranı ve oturum kapatma"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "Önyükleme menüsü ve açılış ekranı"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "Onarım, güncelleme ve tanılama"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "İlgili"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "Vurgu rengi"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "Duvar kâğıdı"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "Yazı tipleri"

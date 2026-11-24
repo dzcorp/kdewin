@@ -1,0 +1,318 @@
+1	Fatto.
+2	Non riuscito (codice di uscita %1).
+3	Animazioni
+4	Dissolvenza e zoom delle finestre in apertura e chiusura
+5	Apertura e chiusura
+6	Dimensione iniziale
+7	Riduci a icona
+8	Le finestre volano verso il loro pulsante sulla barra delle applicazioni
+9	Durata
+10	Tutti gli effetti del desktop
+11	Applicazioni
+12	Materiale delle finestre
+13	Sfondi delle finestre Mica
+14	Barre laterali, barre degli strumenti e finestre di dialogo mostrano lo sfondo sfocato. Vale per le finestre aperte da ora in poi.
+15	Opacità
+16	Mantieni opache queste app
+17	Controlli
+18	Raggio degli angoli
+19	Menu e descrizioni comandi in acrilico
+20	Richiede i materiali Lumen
+21	Mostra sempre le barre di scorrimento complete
+22	Disattivato: restano sottili finché non si passa sopra
+23	Movimento
+24	Anima i controlli
+25	Vale per le app che usano lo stile Lumen. Le modifiche sono visibili subito.
+26	Avvio
+27	Usa Lumen all'avvio
+28	Menu di avvio Limine e schermata Plymouth. Il menu precedente viene salvato.
+29	Ripristina l'aspetto di avvio precedente
+30	Blocco e accesso
+31	Schermata di blocco
+32	Sfondo Lumen
+33	Mostra sempre l'orologio
+34	Controlli multimediali
+35	Blocco dello schermo
+36	Schermata di accesso
+37	Usa Lumen nella schermata di accesso
+38	Ripristina la schermata di accesso predefinita
+39	Impostazioni della schermata di accesso
+40	Schermate di blocco e di uscita
+41	Aggiorna le schermate di blocco e di uscita di Lumen
+42	Viene eseguito automaticamente dopo gli aggiornamenti di Plasma
+43	Manutenzione
+44	Lo strumento lumen non è stato trovato
+45	Installalo con `make install-system` dalla cartella dei sorgenti di Lumen.
+46	Controllo
+47	Verifica che ogni parte di Lumen sia installata e attiva
+48	Esegui la diagnostica
+49	Mostra l'istantanea della disposizione del pannello
+50	Riparazione
+51	Colori, stile, decorazione, effetti e tema di Plasma
+52	Riapplica Lumen
+53	Trova gli strumenti sostituiti
+54	Elenca i pacchetti installati che Lumen sostituisce, come Kvantum e Klassy. Rimuovili con `lumen cleanup` in un terminale.
+55	Ricompila i componenti nativi
+56	Viene eseguito automaticamente dopo gli aggiornamenti di KWin o Qt
+57	Materiali
+58	Materiali Lumen
+59	Sostituisce la sfocatura standard con Mica e acrilico
+60	Mica per la barra delle applicazioni
+61	Disattivato: acrilico, che lascia vedere le finestre dietro la barra
+62	Acrilico (menu, riquadri a comparsa, Start)
+63	Sfocatura
+64	Saturazione
+65	Rumore
+66	Mica (finestre, barra delle applicazioni)
+67	Barra delle applicazioni
+68	La barra delle applicazioni Lumen non è su questo desktop
+69	Applica la disposizione Lumen per sostituire il pannello attuale. Widget, icone dell'area di notifica, app aggiunte e preferiti vengono mantenuti.
+70	Applica la disposizione Lumen
+71	Disposizione
+72	Centra le icone della barra delle applicazioni
+73	Mobile
+74	Nascondi automaticamente
+75	Icone
+76	Altezza della barra delle applicazioni
+77	Dimensione delle icone delle app
+78	Le icone di Start e delle app mantengono questa dimensione a qualsiasi altezza della barra
+79	Spazio tra le app
+80	Molto ampio
+81	Nessuno
+82	Normale
+83	Ampio
+84	Dimensione delle icone dell'area di notifica
+85	Dimensione delle icone delle impostazioni rapide
+86	Rete, volume e batteria accanto all'orologio
+87	Spazio tra le icone dell'area di notifica
+88	Orologio
+89	Mostra
+90	Solo la data
+91	Ora e data su una riga
+92	Solo l'ora
+93	Ora sopra la data
+94	Formato dell'ora
+95	12 ore
+96	24 ore
+97	Usa le impostazioni internazionali
+98	Formato della data
+99	Breve internazionale (%1)
+100	Con giorno della settimana (%1)
+101	Lungo internazionale (%1)
+102	ISO (%1)
+103	Personalizzato (impostato nelle opzioni dell'orologio)
+104	Mostra i secondi
+105	Ora in grassetto
+106	Dimensione dell'ora
+107	Allineamento dell'ora
+108	Al centro
+109	A sinistra
+110	A destra
+111	Dimensione della data
+112	Le dimensioni grandi vengono ridotte per entrare; la barra delle applicazioni non cambia mai
+113	Allineamento della data
+114	Componenti
+115	App aggiunte e consigliate, menu di alimentazione e account
+116	Start
+117	Icone, overflow, riquadri e dispositivi di scorrimento
+118	Area di notifica e impostazioni rapide
+119	Orologio e notifiche
+120	Formato data personalizzato, calendario e centro notifiche
+121	Pulsanti delle app
+122	App aggiunte e finestre aperte
+123	Notifiche
+124	Mostra sopra le app a schermo intero
+125	Disattivato: giochi e video a schermo intero attivano «Non disturbare» (le notifiche critiche vengono comunque mostrate)
+126	Output
+127	In esecuzione…
+128	Finestre
+129	Barra del titolo
+130	Barra del titolo traslucida
+131	Altezza
+132	Centra il titolo
+133	Mostra l'icona dell'applicazione
+134	Pulsanti
+135	Solo chiudi
+136	Chiudi, riduci, ingrandisci (a sinistra)
+137	Riduci, ingrandisci, chiudi (a destra)
+138	Forma
+139	Impostazioni della decorazione delle finestre
+140	Scuro
+141	Superfici Mica scure ovunque
+142	Superfici chiare con ombre morbide
+143	Chiaro
+144	Automatico
+145	Passa da chiaro a scuro in base all'ora del giorno
+146	Modalità
+147	Personalizza
+148	Sfocatura Mica e acrilico, tinta e rumore
+149	Barre del titolo, angoli e pulsanti
+150	Controlli, menu, barre di scorrimento e velocità delle animazioni
+151	Movimento di apertura, chiusura e riduzione a icona
+152	Allineamento, dimensioni, Start, area di notifica e orologio
+153	Schermata di blocco, di accesso e uscita
+154	Menu di avvio e schermata di avvio
+155	Riparazione, aggiornamento e diagnostica
+156	Correlati
+157	Colore principale
+158	Sfondo
+159	Caratteri
+161	Mostra:
+162	Formato dell'ora:
+165	Formato personalizzato:
+166	Dimensione dell'ora:
+167	Allineamento dell'ora:
+168	Dimensione della data:
+169	Allineamento della data:
+170	Le dimensioni grandi vengono ridotte per entrare nella barra; la barra non cambia mai.
+171	Mostra la campanella delle notifiche
+172	Riquadro a comparsa:
+173	Mostra il calendario
+176	Non disturbare
+177	Cancella tutto
+178	«Non disturbare» è attivo
+179	Nessuna nuova notifica
+180	Precedenti
+181	Mostra meno
+182	+%1
+183	Cancella il gruppo
+184	Nascondi il calendario
+191	Cancella tutte le notifiche
+192	Regola data e ora…
+193	Impostazioni delle notifiche…
+197	Nomi delle app:
+198	Nome generico (nome)
+199	Solo nome generico
+200	Nome (nome generico)
+202	Consigliati:
+203	Mostra i file recenti
+204	Cerca app, impostazioni e documenti
+205	Aggiunte
+206	Tutte le app
+207	Fai clic con il pulsante destro su un'app e scegli «Aggiungi a Start»
+208	Consigliati
+209	I file recenti verranno mostrati qui
+210	Indietro
+211	Nessun risultato per «%1»
+212	Modifica le impostazioni dell'account
+213	Blocca
+214	Cambia utente
+215	Esci
+217	Sospendi
+218	Iberna
+219	Arresta
+220	Riavvia
+221	Rimuovi da Start
+222	Aggiungi a Start
+224	Esci da %1
+225	Wi-Fi
+227	Modalità aereo
+228	Modalità di alimentazione
+229	Luce notturna
+230	Modalità scura
+231	Suggerimento: trascina le icone sulla barra delle applicazioni per riordinarle, oppure tra la barra e il riquadro delle icone nascoste per aggiungerle o nasconderle.
+232	Riquadri delle impostazioni rapide
+233	Nelle impostazioni rapide
+234	Sempre nascosta
+235	Sempre visibile
+236	Disattivata
+237	Visibile quando serve
+238	Nascondi le icone nascoste
+239	Mostra le icone nascoste
+240	Rilascia qui le icone
+242	Precedente
+244	Successivo
+245	Risparmio energia
+250	Impostazioni rapide
+251	Altre opzioni
+252	Voci
+399	Tono dello sfondo
+400	Barra delle applicazioni, Start, menu e finestre assumono il colore dello sfondo e lo seguono gradualmente quando cambia
+409	Solo se diverso da quello locale
+410	Formato fuso orario:
+413	Differenza da UTC
+422	Aggiungi altri fusi orari per vederli nel pannello e nel suggerimento dell'orologio, o per mostrarne uno nella barra delle applicazioni
+423	Cambia il fuso orario mostrato scorrendo sull'orologio
+424	Questo non cambia il fuso orario di sistema. Quando viaggi, cambia invece il fuso orario di sistema.
+426	Mantieni aperto
+428	Aggiungi evento
+431	Fusi orari
+432	Tutto il giorno
+433	Altro
+434	altri %1	altri %1
+435	Mostra meno
+441	Campanella delle notifiche:
+443	Solo con nuove notifiche
+444	Mostra il numero di nuove notifiche
+445	Tutto
+446	Aggiunte di recente
+447	Più usate
+448	Vai a una lettera
+449	Impostazioni
+450	Gestore dei file
+451	Documenti
+452	Download
+453	Musica
+454	Immagini
+455	Video
+456	Rete
+457	Disposizione:
+458	Aggiunte e Tutte le app su pagine separate
+459	Tutto in un'unica pagina scorrevole
+460	Predefinita
+461	Più elementi aggiunti
+462	Più consigli
+463	Includi le app usate di recente
+464	Tutte le app:
+465	Mostra le app aggiunte di recente
+466	Mostra le app più usate
+467	Abilita la vista per categorie (gruppi del menu delle applicazioni)
+468	Vista:
+469	Categoria
+470	Griglia
+471	Elenco
+472	Accanto ad Arresta:
+473	Riavvia nella configurazione del firmware UEFI
+474	Mostra tutto
+476	App
+477	Web
+478	Configura la ricerca…
+479	Risultati della ricerca
+480	Apri
+481	Vista: %1
+194	Generale
+482	Dimensione:
+483	Riempi lo spazio libero
+484	Menu del clic destro:
+485	Rimuovi
+486	Aggiungi app…
+487	Impostazioni della barra delle applicazioni
+488	Riavvia i componenti del desktop
+489	Da usare dopo aver cambiato icone o temi in Impostazioni di sistema: aggiorna le icone nelle applicazioni aperte e ricarica barra delle applicazioni, desktop e ricerca
+490	Barra dei comandi
+491	Pulsanti Nuovo, Taglia, Copia, Incolla, Ordina e Visualizza sotto la barra degli indirizzi. Disattivata lascia la finestra pulita e minimale.
+492	Mostra i mesi
+493	Mostra gli anni
+494	Oggi
+495	Dimensioni testo
+496	Dimensione dell'icona Start
+537	Esplora file
+538	Apri Esplora file in "Questo PC"
+539	Se disattivato, si apre la cartella home
+540	Questo PC
+541	Mostra spazio disponibile
+542	Una barra di capacità e lo spazio disponibile sotto ogni unità
+543	Mostra cartelle
+544	Desktop, Documenti, Download, Musica, Immagini e Video sopra le unità
+545	Mostra percorsi di rete
+546	Mostra unità nascoste
+547	Unità nascoste nel riquadro di spostamento
+551	Dispositivi e unità
+552	Percorsi di rete
+554	1 elemento selezionato
+555	%1 disponibili su %2
+560	Apri Esplora file in
+561	"Cartella home" è la posizione iniziale impostata nelle impostazioni di Esplora file
+562	Cartella home
+563	Sessione precedente
+564	File recenti

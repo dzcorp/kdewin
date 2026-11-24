@@ -1,0 +1,10 @@
+find_package(KWin REQUIRED)
+find_package(KDecoration3 REQUIRED)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Config)
+find_package(XCB REQUIRED COMPONENTS XCB)
+
+add_library(lumen_materials MODULE lumenmaterials.cpp lumen_materials.qrc)
+target_include_directories(lumen_materials PRIVATE ${LUMEN_GEN_DIR})
+target_link_libraries(lumen_materials PRIVATE KWin::kwin KDecoration3::KDecoration KF6::ConfigCore Qt6::Gui XCB::XCB)
+install(TARGETS lumen_materials DESTINATION ${KDE_INSTALL_PLUGINDIR}/kwin/effects/plugins)
+set_property(TARGET lumen_materials APPEND PROPERTY AUTOMOC_MACRO_NAMES KWIN_EFFECT_FACTORY_SUPPORTED_ENABLED)

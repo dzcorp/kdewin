@@ -1,0 +1,439 @@
+# Lumen design tokens — single source for every generated asset and compiled component.
+# Colors: "#RRGGBB" or "#RRGGBBAA" (CSS byte order). Sizes: logical px at scale 1. Time: ms.
+
+[meta]
+id = "lumen"
+name = "Lumen"
+version = "0.1.0"
+author = "dzcorp"
+license = "GPL-3.0-or-later"
+website = "https://github.com/dzcorp/kdewin"
+
+[font]
+ui = "Segoe UI Variable Static Text"
+ui_small = "Segoe UI Variable Static Small"
+ui_display = "Segoe UI Variable Static Display"
+fallback = ["Selawik", "Inter", "Noto Sans"]
+mono = "Liberation Mono"
+# Used instead of ui/mono once imported from Windows (`lumen fonts`): Win32 text (Explorer views, title bars), Notepad.
+win32 = "Segoe UI"
+win32_mono = "Consolas"
+# Windows 11 with Text size 117 % (Win32 12 px and XAML Body 14 px read small on desktop monitors).
+size_pt = 10.5
+# Windows "Text size" (Accessibility), percent of every size here.
+text_size = 100
+menu_pt = 12.3
+small_pt = 10.5
+mono_pt = 12.9
+title_weight = 400
+
+[type]  # px / line-height px / weight
+caption = [12, 16, 400]
+body = [14, 20, 400]
+body_strong = [14, 20, 600]
+body_large = [18, 24, 400]
+subtitle = [20, 28, 600]
+title = [28, 36, 600]
+title_large = [40, 52, 600]
+display = [68, 92, 600]
+
+[radius]
+control = 4
+overlay = 8
+window = 8
+tooltip = 4
+menu_item = 4
+list_pill = 1.5
+taskbar_button = 4
+tile = 4
+switch = 10
+
+[size]
+border = 1
+focus_outer = 2
+focus_inner = 1
+focus_margin = 3
+titlebar = 32
+titlebar_icon = 16
+titlebar_pad = 12
+caption_button_w = 46
+caption_button_h = 30
+caption_glyph = 10
+control_h = 32
+control_h_compact = 24
+control_pad_x = 11
+control_pad_y = 5
+input_underline = 2
+checkbox = 20
+radio = 20
+radio_glyph = 12
+radio_glyph_hover = 14
+radio_glyph_pressed = 10
+switch_w = 40
+switch_h = 20
+switch_knob = 12
+switch_knob_hover = 14
+slider_track = 4
+slider_thumb = 20
+slider_thumb_inner = 12
+slider_thumb_inner_hover = 14
+slider_thumb_inner_pressed = 10
+scrollbar = 12
+scrollbar_rest = 2
+scrollbar_hover = 6
+scrollbar_min_thumb = 30
+menu_pad = 4
+menu_pad_v = 2
+# Item pitch; the highlight leaves 2 px above and below (WinUI MenuFlyoutItem margin 4,2).
+menu_item_h = 32
+menu_item_pad_x = 11
+menu_icon = 16
+menu_icon_slot = 28
+menu_separator_pad = 4
+list_item_h = 36
+list_pill_w = 3
+list_pill_h = 16
+tab_h = 32
+toolbar_h = 40
+progress_h = 3
+progress_track = 1
+capacity_h = 6
+tooltip_pad = [9, 6, 9, 8]
+tooltip_max_w = 320
+flyout_pad = 12
+dialog_pad = 24
+taskbar_h = 48
+taskbar_icon = 24
+start_icon = 32
+taskbar_button = 44
+taskbar_plate = 40
+taskbar_indicator_active = 16
+taskbar_indicator_inactive = 6
+taskbar_indicator_h = 3
+tray_icon = 16
+qs_icon = 16
+start_w = 640
+start_h = 726
+start_tile = 84
+start_cols = 6
+# Screens from 1600 px wide get the wide Start.
+start_large_from = 1600
+start_w_large = 834
+start_h_large = 865
+start_cols_large = 8
+quicksettings_w = 360
+quicksettings_tile_h = 48
+quicksettings_cols = 3
+notification_w = 364
+notification_center_w = 336
+osd_w = 220
+osd_h = 48
+switcher_thumb_w = 240
+switcher_thumb_h = 150
+
+[motion]
+faster_ms = 83
+fast_ms = 167
+normal_ms = 250
+slow_ms = 333
+decel = [0.0, 0.0, 0.0, 1.0]
+point = [0.55, 0.55, 0.0, 1.0]
+accel = [1.0, 0.0, 1.0, 1.0]
+qt_decel = "OutQuint"
+qt_accel = "InCubic"
+qt_point = "OutCubic"
+scrollbar_expand_delay_ms = 400
+scrollbar_contract_delay_ms = 500
+window_open_scale = 0.92
+window_close_scale = 0.96
+minimize_ms = 250
+
+# Shadow layers: [x, y, blur, alpha_dark, alpha_light]
+[shadow]
+window_active = [[0, 2, 8, 0.30, 0.14], [0, 16, 48, 0.40, 0.20]]
+window_inactive = [[0, 1, 4, 0.22, 0.10], [0, 8, 24, 0.28, 0.12]]
+flyout = [[0, 0, 8, 0.24, 0.12], [0, 14, 28, 0.28, 0.14]]
+tooltip = [[0, 0, 2, 0.24, 0.12], [0, 4, 8, 0.28, 0.14]]
+control = [[0, 0, 2, 0.24, 0.12], [0, 1, 2, 0.28, 0.14]]
+
+[accent]
+default = "#0078D4"
+light3 = "#99EBFF"
+light2 = "#60CDFF"
+light1 = "#2AA8F2"
+dark1 = "#005FB8"
+dark2 = "#003E92"
+dark3 = "#001A68"
+# OKLCH shade derivation for arbitrary accents (shared by Rust, C++, QML):
+# light_k: L = Lb + (lmax - Lb) * f ; dark_k: L = Lb * f ; hue kept, chroma reduced until in sRGB gamut
+lmax = 0.95
+light_f = [0.31, 0.62, 0.85]
+dark_f = [0.875, 0.70, 0.48]
+
+# Materials. strength/noise follow KWin scales (1..15, 0..14); saturation in percent.
+[material.acrylic]
+strength = 7
+noise = 6
+saturation = 180
+# Lighter layers than WinUI's (0.96 / 0.85 luminosity): the backdrop's own light and color stay visible.
+dark = { tint = "#2C2C2C", tint_opacity = 0.10, luminosity_opacity = 0.35, fallback = "#2C2C2C" }
+light = { tint = "#FCFCFC", tint_opacity = 0.0, luminosity_opacity = 0.35, fallback = "#F9F9F9" }
+
+[material.acrylic_base]
+dark = { tint = "#202020", tint_opacity = 0.5, luminosity_opacity = 0.96, fallback = "#1C1C1C" }
+light = { tint = "#F3F3F3", tint_opacity = 0.0, luminosity_opacity = 0.90, fallback = "#EEEEEE" }
+
+[material.mica]
+strength = 8
+saturation = 170
+# Percent: how strongly every material takes the wallpaper's hue (0 = off).
+wallpaper_tone = 50
+# Lighter tint than Windows' Mica (0.8 / 0.5): the luminosity layer already keeps text readable.
+dark = { tint = "#202020", tint_opacity = 0.45, luminosity_opacity = 0.55, fallback = "#202020" }
+light = { tint = "#F3F3F3", tint_opacity = 0.30, luminosity_opacity = 0.55, fallback = "#F3F3F3" }
+
+[material.mica_alt]
+dark = { tint = "#0A0A0A", tint_opacity = 0.0, luminosity_opacity = 1.0, fallback = "#0A0A0A" }
+light = { tint = "#DADADA", tint_opacity = 0.50, luminosity_opacity = 1.0, fallback = "#DADADA" }
+
+# Surface fill alpha for Plasma SVG / QML (tint the compositor blur).
+# Low on purpose: the materials effect composes tint and luminosity itself; more fill turns the glass flat.
+[surface]
+panel_alpha = { dark = 0.40, light = 0.40 }
+dialog_alpha = { dark = 0.50, light = 0.50 }
+tooltip_alpha = { dark = 0.70, light = 0.70 }
+osd_alpha = { dark = 0.50, light = 0.50 }
+menu_alpha = { dark = 0.50, light = 0.50 }
+titlebar_alpha_active = { dark = 0.0, light = 0.0 }
+titlebar_alpha_inactive = { dark = 1.0, light = 1.0 }
+
+# Fluent semantic tokens (WinUI Common_themeresources_any.xaml, MIT).
+[color.dark]
+text_primary = "#FFFFFF"
+text_secondary = "#FFFFFFC5"
+text_tertiary = "#FFFFFF87"
+text_disabled = "#FFFFFF5D"
+text_inverse = "#000000E4"
+text_on_accent = "#000000"
+text_on_accent_secondary = "#00000080"
+text_on_accent_disabled = "#FFFFFF87"
+control_fill = "#FFFFFF0F"
+control_fill_hover = "#FFFFFF15"
+control_fill_pressed = "#FFFFFF08"
+control_fill_disabled = "#FFFFFF0B"
+control_fill_input_active = "#1E1E1EB3"
+control_strong_fill = "#FFFFFF8B"
+control_strong_fill_disabled = "#FFFFFF3F"
+control_solid_fill = "#454545"
+subtle_fill_hover = "#FFFFFF0F"
+subtle_fill_pressed = "#FFFFFF0A"
+control_alt_fill = "#00000019"
+control_alt_fill_hover = "#FFFFFF0B"
+control_alt_fill_pressed = "#FFFFFF12"
+control_stroke = "#FFFFFF12"
+control_stroke_secondary = "#FFFFFF18"
+control_stroke_on_accent = "#FFFFFF14"
+control_stroke_on_accent_secondary = "#00000023"
+control_strong_stroke = "#FFFFFF8B"
+control_strong_stroke_disabled = "#FFFFFF28"
+card_stroke = "#00000019"
+surface_stroke = "#75757566"
+surface_stroke_flyout = "#00000033"
+divider = "#FFFFFF15"
+focus_outer = "#FFFFFF"
+focus_inner = "#000000B3"
+card_bg = "#FFFFFF0D"
+card_bg_secondary = "#FFFFFF08"
+card_bg_tertiary = "#FFFFFF12"
+layer_fill = "#3A3A3A4C"
+layer_fill_alt = "#FFFFFF0D"
+layer_on_acrylic = "#FFFFFF09"
+layer_on_mica = "#1414148C"
+smoke = "#0000004D"
+bg_base = "#202020"
+bg_secondary = "#1C1C1C"
+bg_tertiary = "#282828"
+bg_quaternary = "#2C2C2C"
+bg_quinary = "#333333"
+bg_senary = "#373737"
+bg_base_alt = "#0A0A0A"
+success = "#6CCB5F"
+caution = "#FCE100"
+critical = "#FF99A4"
+success_bg = "#393D1B"
+caution_bg = "#433519"
+critical_bg = "#442726"
+accent_disabled = "#FFFFFF28"
+close_hover = "#C42B1C"
+close_pressed = "#C42B1CE6"
+close_glyph = "#FFFFFF"
+# File Explorer item views and column header (Win32 Explorer theme, measured in 26H2).
+list_hover = "#4D4D4D"
+list_selected = "#505050"
+list_selected_inactive = "#333333"
+list_text_secondary = "#DEDEDE"
+header_text = "#DEDEDE"
+header_divider = "#636363"
+header_hover = "#434343"
+header_arrow = "#ABABAB"
+explorer_divider = "#3A3A3A"
+
+[color.light]
+text_primary = "#000000E4"
+text_secondary = "#0000009E"
+text_tertiary = "#00000072"
+text_disabled = "#0000005C"
+text_inverse = "#FFFFFF"
+text_on_accent = "#FFFFFF"
+text_on_accent_secondary = "#FFFFFFB3"
+text_on_accent_disabled = "#FFFFFF"
+control_fill = "#FFFFFFB3"
+control_fill_hover = "#F9F9F980"
+control_fill_pressed = "#F9F9F94D"
+control_fill_disabled = "#F9F9F94D"
+control_fill_input_active = "#FFFFFF"
+control_strong_fill = "#00000072"
+control_strong_fill_disabled = "#00000051"
+control_solid_fill = "#FFFFFF"
+subtle_fill_hover = "#00000009"
+subtle_fill_pressed = "#00000006"
+control_alt_fill = "#00000006"
+control_alt_fill_hover = "#0000000F"
+control_alt_fill_pressed = "#00000018"
+control_stroke = "#0000000F"
+control_stroke_secondary = "#00000029"
+control_stroke_on_accent = "#FFFFFF14"
+control_stroke_on_accent_secondary = "#00000066"
+control_strong_stroke = "#00000072"
+control_strong_stroke_disabled = "#00000037"
+card_stroke = "#0000000F"
+surface_stroke = "#75757566"
+surface_stroke_flyout = "#0000000F"
+divider = "#0000000F"
+focus_outer = "#000000E4"
+focus_inner = "#FFFFFFB3"
+card_bg = "#FFFFFFB3"
+card_bg_secondary = "#F6F6F680"
+card_bg_tertiary = "#FFFFFF"
+layer_fill = "#FFFFFF80"
+layer_fill_alt = "#FFFFFF"
+layer_on_acrylic = "#FFFFFF40"
+layer_on_mica = "#FFFFFFB3"
+smoke = "#0000004D"
+bg_base = "#F3F3F3"
+bg_secondary = "#EEEEEE"
+bg_tertiary = "#F9F9F9"
+bg_quaternary = "#FFFFFF"
+bg_quinary = "#FDFDFD"
+bg_senary = "#FFFFFF"
+bg_base_alt = "#DADADA"
+success = "#0F7B0F"
+caution = "#9D5D00"
+critical = "#C42B1C"
+success_bg = "#DFF6DD"
+caution_bg = "#FFF4CE"
+critical_bg = "#FDE7E9"
+accent_disabled = "#00000037"
+close_hover = "#C42B1C"
+close_pressed = "#C42B1CE6"
+close_glyph = "#FFFFFF"
+list_hover = "#E5F3FF"
+list_selected = "#CCE8FF"
+list_selected_inactive = "#D9D9D9"
+list_text_secondary = "#6D6D6D"
+header_text = "#4C607A"
+header_divider = "#E5E5E5"
+header_hover = "#D9EBF9"
+header_arrow = "#595959"
+explorer_divider = "#D6D6D6"
+
+# Solid palette roles for KColorScheme / GTK / terminals.
+[palette.dark]
+window = "#202020"
+window_alt = "#2B2B2B"
+view = "#191919"
+view_alt = "#1F1F1F"
+button = "#2D2D2D"
+button_alt = "#373737"
+header = "#202020"
+header_alt = "#2B2B2B"
+header_inactive = "#202020"
+tooltip = "#2C2C2C"
+tooltip_alt = "#333333"
+complementary = "#202020"
+complementary_alt = "#2B2B2B"
+selection = "#0078D4"
+selection_text = "#FFFFFF"
+text = "#FFFFFF"
+text_inactive = "#CCCCCC"
+text_disabled = "#717171"
+link = "#60CDFF"
+link_visited = "#B4A0FF"
+active = "#60CDFF"
+negative = "#FF99A4"
+neutral = "#FCE100"
+positive = "#6CCB5F"
+focus = "#0078D4"
+hover = "#60CDFF"
+
+[palette.light]
+window = "#F3F3F3"
+window_alt = "#EBEBEB"
+view = "#FFFFFF"
+view_alt = "#F9F9F9"
+button = "#FBFBFB"
+button_alt = "#F3F3F3"
+header = "#F3F3F3"
+header_alt = "#EBEBEB"
+header_inactive = "#F3F3F3"
+tooltip = "#F9F9F9"
+tooltip_alt = "#F3F3F3"
+complementary = "#202020"
+complementary_alt = "#2B2B2B"
+selection = "#005FB8"
+selection_text = "#FFFFFF"
+text = "#1A1A1A"
+text_inactive = "#5C5C5C"
+text_disabled = "#A0A0A0"
+link = "#005FB8"
+link_visited = "#8764B8"
+active = "#005FB8"
+negative = "#C42B1C"
+neutral = "#9D5D00"
+positive = "#0F7B0F"
+focus = "#005FB8"
+hover = "#0078D4"
+
+[terminal.dark]
+background = "#1A1A1A"
+foreground = "#E6E6E6"
+cursor = "#60CDFF"
+selection = "#264F78"
+ansi = ["#2B2B2B", "#F2777A", "#6CCB5F", "#F9D45C", "#5AA9FF", "#C792EA", "#4DD0E1", "#D4D4D4",
+        "#6E6E6E", "#FF99A4", "#9BE28F", "#FFE57A", "#99D1FF", "#E0B3FF", "#8BE9F7", "#FFFFFF"]
+
+[terminal.light]
+background = "#FFFFFF"
+foreground = "#1A1A1A"
+cursor = "#005FB8"
+selection = "#ADD6FF"
+ansi = ["#1A1A1A", "#C42B1C", "#0F7B0F", "#9D5D00", "#005FB8", "#8E44AD", "#00838F", "#5C5C5C",
+        "#767676", "#E74856", "#13A10E", "#C19C00", "#0078D4", "#B146C2", "#3A96DD", "#B0B0B0"]
+
+[boot]
+logo = "bgrt"            # "bgrt" (firmware/OEM logo, Windows-like) or "lumen" (generated mark)
+background = "#000000"
+spinner = "#FFFFFF"
+spinner_dots = 5
+spinner_size = 40
+spinner_frames = 100     # two-step plays throbber frames at 30 fps: 3.3 s per cycle
+# Windows-style boot dots: each dot runs two laps clockwise from 6 o'clock, fastest at the bottom (speed grows as
+# exp(rush * drop below 12 o'clock)), then pops out; the next follows `lag` of a cycle later and `trail` degrees behind.
+spinner_rush = 2.3
+spinner_life = 0.795
+spinner_lag = 0.041
+spinner_trail = 16
+limine_timeout = 3
+
+[install]
+wallpaper = "lumen"

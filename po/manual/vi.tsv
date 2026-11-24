@@ -1,0 +1,459 @@
+1	Xong.
+2	Thất bại (mã thoát %1).
+3	Hoạt ảnh
+4	Hiện và ẩn cửa sổ bằng hiệu ứng mờ dần và thu phóng
+5	Mở và đóng
+6	Kích thước ban đầu
+7	Thu nhỏ
+8	Cửa sổ bay về nút của nó trên thanh tác vụ
+9	Thời lượng
+10	Tất cả hiệu ứng màn hình
+11	Ứng dụng
+12	Chất liệu cửa sổ
+13	Nền cửa sổ Mica
+14	Thanh bên, thanh công cụ và hộp thoại hiển thị hình nền được làm mờ. Áp dụng cho các cửa sổ mở mới.
+15	Độ mờ đục
+16	Giữ các ứng dụng này không trong suốt
+17	Điều khiển
+18	Bán kính góc
+19	Menu và chú giải acrylic
+20	Cần chất liệu Lumen
+21	Luôn hiện thanh cuộn đầy đủ
+22	Khi tắt, thanh cuộn giữ mảnh cho đến khi di chuột lên
+23	Chuyển động
+24	Tạo hoạt ảnh cho điều khiển
+25	Áp dụng cho các ứng dụng dùng kiểu ứng dụng Lumen. Thay đổi hiển thị ngay.
+26	Khởi động
+27	Dùng Lumen khi khởi động
+28	Menu khởi động Limine và màn hình chờ Plymouth. Menu trước đó được sao lưu.
+29	Khôi phục giao diện khởi động trước đó
+30	Khóa và đăng nhập
+31	Màn hình khóa
+32	Hình nền Lumen
+33	Luôn hiện đồng hồ
+34	Điều khiển đa phương tiện
+35	Khóa màn hình
+36	Màn hình đăng nhập
+37	Dùng Lumen cho màn hình đăng nhập
+38	Khôi phục màn hình đăng nhập chuẩn
+39	Cài đặt màn hình đăng nhập
+40	Màn hình khóa và đăng xuất
+41	Làm mới màn hình khóa và đăng xuất Lumen
+42	Tự chạy sau khi cập nhật Plasma
+43	Bảo trì
+44	Không tìm thấy công cụ lumen
+45	Cài đặt bằng `make install-system` từ thư mục mã nguồn Lumen.
+46	Kiểm tra
+47	Kiểm tra mọi thành phần Lumen đã được cài đặt và hoạt động
+48	Chạy chẩn đoán
+49	Hiện ảnh chụp bố cục bảng
+50	Sửa chữa
+51	Màu, kiểu, trang trí cửa sổ, hiệu ứng và chủ đề Plasma
+52	Áp dụng lại Lumen
+53	Tìm công cụ bị thay thế
+54	Liệt kê các gói đã cài mà Lumen thay thế, như Kvantum và Klassy. Gỡ bỏ bằng `lumen cleanup` trong terminal.
+55	Xây dựng lại thành phần gốc
+56	Tự chạy sau khi cập nhật KWin hoặc Qt
+57	Chất liệu
+58	Chất liệu Lumen
+59	Thay hiệu ứng mờ chuẩn bằng Mica và acrylic
+60	Mica cho thanh tác vụ
+61	Khi tắt, dùng acrylic để thấy cửa sổ phía sau thanh tác vụ
+62	Acrylic (menu, bảng bật lên, Bắt đầu)
+63	Làm mờ
+64	Độ bão hòa
+65	Nhiễu
+66	Mica (cửa sổ, thanh tác vụ)
+67	Thanh tác vụ
+68	Không có thanh tác vụ Lumen trên màn hình này
+69	Áp dụng bố cục Lumen để thay bảng hiện tại. Tiện ích, biểu tượng khay, ứng dụng đã ghim và mục yêu thích của bạn được giữ lại.
+70	Áp dụng bố cục Lumen
+71	Bố cục
+72	Căn giữa biểu tượng thanh tác vụ
+73	Nổi
+74	Tự động ẩn
+75	Biểu tượng
+76	Chiều cao thanh tác vụ
+77	Kích thước biểu tượng ứng dụng
+78	Biểu tượng Bắt đầu và ứng dụng giữ kích thước này ở mọi chiều cao thanh tác vụ
+79	Khoảng cách giữa các ứng dụng
+80	Rất rộng
+81	Không
+82	Bình thường
+83	Rộng
+84	Kích thước biểu tượng khay
+85	Kích thước biểu tượng Cài đặt nhanh
+86	Mạng, âm lượng và pin cạnh đồng hồ
+87	Khoảng cách biểu tượng khay
+88	Đồng hồ
+89	Hiện
+90	Chỉ ngày
+91	Giờ và ngày trên một dòng
+92	Chỉ giờ
+93	Giờ phía trên ngày
+94	Định dạng giờ
+95	12 giờ
+96	24 giờ
+97	Dùng cài đặt vùng
+98	Định dạng ngày
+99	Ngắn theo vùng (%1)
+100	Kèm thứ (%1)
+101	Dài theo vùng (%1)
+102	ISO (%1)
+103	Tùy chỉnh (đặt trong cài đặt đồng hồ)
+104	Hiện giây
+105	Giờ in đậm
+106	Cỡ giờ
+107	Căn lề giờ
+108	Giữa
+109	Trái
+110	Phải
+111	Cỡ ngày
+112	Cỡ lớn được thu nhỏ cho vừa; bản thân thanh tác vụ không bao giờ thay đổi
+113	Căn lề ngày
+114	Thành phần
+115	Ứng dụng đã ghim và đề xuất, menu nguồn và tài khoản
+116	Bắt đầu
+117	Biểu tượng, vùng tràn, ô và thanh trượt
+118	Khay và Cài đặt nhanh
+119	Đồng hồ và thông báo
+120	Định dạng ngày tùy chỉnh, lịch và Trung tâm thông báo
+121	Nút ứng dụng
+122	Ứng dụng đã ghim và cửa sổ đang mở
+123	Thông báo
+124	Hiện trên ứng dụng toàn màn hình
+125	Khi tắt, trò chơi và video toàn màn hình bật Không làm phiền (thông báo quan trọng vẫn hiện)
+126	Đầu ra
+127	Đang chạy…
+128	Cửa sổ
+129	Thanh tiêu đề
+130	Thanh tiêu đề trong mờ
+131	Chiều cao
+132	Căn giữa tiêu đề
+133	Hiện biểu tượng ứng dụng
+134	Nút
+135	Chỉ đóng
+136	Đóng, thu nhỏ, phóng to (trái)
+137	Thu nhỏ, phóng to, đóng (phải)
+138	Hình dạng
+139	Cài đặt trang trí cửa sổ
+140	Tối
+141	Bề mặt Mica tối ở mọi nơi
+142	Bề mặt sáng với bóng đổ nhẹ
+143	Sáng
+144	Tự động
+145	Chuyển giữa sáng và tối theo thời gian trong ngày
+146	Chế độ
+147	Cá nhân hóa
+148	Làm mờ Mica và acrylic, sắc màu và nhiễu
+149	Thanh tiêu đề, góc và nút
+150	Điều khiển, menu, thanh cuộn và tốc độ hoạt ảnh
+151	Chuyển động mở, đóng và thu nhỏ
+152	Căn lề, kích thước, Bắt đầu, khay và đồng hồ
+153	Màn hình khóa, màn hình đăng nhập và đăng xuất
+154	Menu khởi động và màn hình chờ
+155	Sửa chữa, cập nhật và chẩn đoán
+156	Liên quan
+157	Màu nhấn
+158	Hình nền
+159	Phông chữ
+161	Hiện:
+162	Định dạng giờ:
+163	Định dạng ngày:
+164	Tùy chỉnh
+165	Định dạng tùy chỉnh:
+166	Cỡ giờ:
+167	Căn lề giờ:
+168	Cỡ ngày:
+169	Căn lề ngày:
+170	Cỡ lớn được thu nhỏ cho vừa thanh tác vụ; bản thân thanh tác vụ không bao giờ thay đổi.
+171	Hiện chuông thông báo
+172	Bảng bật lên:
+173	Hiện lịch
+174	Hiện số tuần
+176	Không làm phiền
+177	Xóa tất cả
+178	Không làm phiền đang bật
+179	Không có thông báo mới
+180	Trước đó
+181	Hiện ít hơn
+182	+%1
+183	Xóa nhóm
+184	Ẩn lịch
+191	Xóa tất cả thông báo
+192	Điều chỉnh ngày và giờ…
+193	Cài đặt thông báo…
+194	Chung
+195	Biểu tượng:
+197	Tên ứng dụng:
+198	Tên chung (tên)
+199	Chỉ tên chung
+200	Tên (tên chung)
+201	Chỉ tên
+202	Đề xuất:
+203	Hiện tệp gần đây
+204	Tìm ứng dụng, cài đặt và tài liệu
+205	Đã ghim
+206	Tất cả ứng dụng
+207	Nhấp chuột phải vào ứng dụng và chọn “Ghim vào Bắt đầu”
+208	Đề xuất
+209	Các tệp gần đây của bạn sẽ hiện ở đây
+210	Quay lại
+211	Không có kết quả cho “%1”
+212	Thay đổi cài đặt tài khoản
+213	Khóa
+214	Chuyển người dùng
+215	Đăng xuất
+216	Nguồn
+217	Ngủ
+218	Ngủ đông
+219	Tắt máy
+220	Khởi động lại
+221	Bỏ ghim khỏi Bắt đầu
+222	Ghim vào Bắt đầu
+223	Sửa ứng dụng…
+224	Thoát %1
+225	Wi-Fi
+226	Bluetooth
+227	Chế độ máy bay
+228	Chế độ nguồn
+229	Ánh sáng ban đêm
+230	Chế độ tối
+231	Mẹo: kéo biểu tượng trên thanh tác vụ để sắp xếp lại, hoặc kéo giữa thanh tác vụ và bảng biểu tượng ẩn để ghim hoặc ẩn chúng.
+232	Ô Cài đặt nhanh
+233	Trong Cài đặt nhanh
+234	Luôn ẩn
+235	Luôn hiện
+236	Đã tắt
+237	Hiện khi cần
+238	Ẩn biểu tượng ẩn
+239	Hiện biểu tượng ẩn
+240	Thả biểu tượng vào đây
+242	Trước
+244	Tiếp
+245	Tiết kiệm pin
+248	Tắt tiếng
+249	Bật tiếng
+250	Cài đặt nhanh
+251	Tùy chọn khác
+252	Mục
+253	%1 địa điểm khác…
+261	Kích hoạt mục trình quản lý tác vụ trước
+262	Kích hoạt mục trình quản lý tác vụ tiếp theo
+263	Chuyển mục trình quản lý tác vụ đang hoạt động về sau
+264	Chuyển mục trình quản lý tác vụ đang hoạt động lên trước
+265	Kích hoạt mục trình quản lý tác vụ %1
+270	Chung:
+271	Hiện ảnh xem trước cửa sổ nhỏ khi di chuột lên tác vụ
+272	Ẩn các cửa sổ khác khi di chuột lên ảnh xem trước
+273	Ẩn các cửa sổ khác khi di chuột lên chú giải
+274	Hiện chỉ báo khi tác vụ đang phát âm thanh
+275	Tắt tiếng tác vụ khi nhấp vào chỉ báo
+276	Hiện điều khiển đa phương tiện và âm lượng trong chú giải
+277	Lấp đầy khoảng trống trên bảng
+278	Độ rộng tác vụ tối đa:
+279	Hẹp
+280	Vừa
+281	Rộng
+282	Dùng chế độ xem nhiều cột:
+283	Dùng chế độ xem nhiều hàng:
+284	Không bao giờ
+285	Khi bảng thiếu chỗ và đủ dày
+286	Luôn luôn khi bảng đủ dày
+287	Số cột tối đa:
+288	Số hàng tối đa:
+289	Khoảng cách giữa các biểu tượng:
+290	Nhỏ
+291	Bình thường
+292	Lớn
+293	Nếu bạn dùng cài đặt này để khắc phục một ứng dụng đòi chú ý quá thường xuyên, trước tiên hãy tìm cài đặt trong ứng dụng đó để tắt hành vi này. Nếu không có, hãy cân nhắc báo lỗi cho nhà phát triển ứng dụng.
+294	Nhóm:
+295	Không nhóm
+296	Theo tên chương trình
+297	Nhấp vào tác vụ được nhóm:
+298	Lần lượt qua các tác vụ
+299	Hiện ảnh xem trước cửa sổ nhỏ
+300	Hiện ảnh xem trước cửa sổ lớn
+301	Hiện danh sách văn bản
+302	Trình tổng hợp không hỗ trợ hiển thị cửa sổ cạnh nhau, vì vậy danh sách văn bản sẽ được hiển thị thay thế.
+303	Gộp thành một nút
+304	Chỉ nhóm khi trình quản lý tác vụ đầy
+305	Sắp xếp:
+306	Không sắp xếp
+307	Thủ công
+308	Theo bảng chữ cái
+309	Theo màn hình nền
+310	Theo hoạt động
+311	Theo vị trí ngang của cửa sổ
+312	Giữ các trình khởi chạy riêng biệt
+313	Ẩn trình khởi chạy sau khi ứng dụng khởi động
+314	Nhấp vào tác vụ đang hoạt động:
+315	Thu nhỏ tác vụ
+316	Nhấp chuột giữa vào bất kỳ tác vụ nào:
+317	Không làm gì
+318	Đóng cửa sổ hoặc nhóm
+319	Mở cửa sổ mới
+320	Thu nhỏ/Khôi phục cửa sổ hoặc nhóm
+321	Bật/tắt nhóm
+322	Đưa về màn hình nền ảo hiện tại
+323	Hành vi cuộn:
+324	Không làm gì
+325	Lần lượt qua tất cả tác vụ
+326	Lần lượt qua các cửa sổ của tác vụ đang trỏ
+327	Điều chỉnh âm lượng của tác vụ đang trỏ
+328	Bỏ qua tác vụ đã thu nhỏ
+329	Chỉ hiện tác vụ:
+330	Từ màn hình nền hiện tại
+331	Từ hoạt động hiện tại
+332	Từ màn hình hiện tại
+333	Đã thu nhỏ
+334	Khi bảng bị ẩn:
+335	Hiện lại khi một cửa sổ cần chú ý
+336	Tác vụ mới xuất hiện:
+337	Ở dưới cùng
+338	Ở bên phải
+339	Ở bên trái
+340	Ở trên cùng
+341	Địa điểm
+342	Tệp gần đây
+343	Hành động
+352	Mở cửa sổ mới
+353	Chuyển tới &màn hình nền
+354	Chuyển tới màn hình nền &hiện tại
+355	&Tất cả màn hình nền
+356	Màn hình nền &mới
+357	Hiện trong &hoạt động
+358	Thêm vào hoạt động hiện tại
+359	Tất cả hoạt động
+360	Chuyển tới %1
+361	&Ghim vào trình quản lý tác vụ
+362	Trên tất cả hoạt động
+363	Trên hoạt động hiện tại
+364	Bỏ ghim khỏi trình quản lý tác vụ
+365	Thêm
+366	&Di chuyển
+367	Đổi &cỡ
+368	Phóng &to
+369	Thu &nhỏ
+370	Giữ ở &trên các cửa sổ khác
+371	Giữ ở &dưới các cửa sổ khác
+372	Toàn &màn hình
+373	&Không thanh tiêu đề và khung
+374	Ẩ&n khỏi chia sẻ màn hình
+375	Cho phép nhóm chương trình này
+376	Đó&ng
+377	Đóng &tất cả
+383	Kích hoạt %1
+384	9k+
+385	%1k
+386	Đóng cửa sổ
+397	Giao diện
+398	Hành vi
+399	Sắc màu hình nền
+400	Thanh tác vụ, Bắt đầu, menu và cửa sổ nhận màu của hình nền và chuyển đổi mượt mà khi hình nền thay đổi
+409	Chỉ khi khác với giờ địa phương
+410	Định dạng múi giờ:
+413	Chênh lệch với UTC
+422	Thêm múi giờ để xem chúng trong bảng bật lên và chú giải của đồng hồ, hoặc để hiển thị một trong số đó trên thanh tác vụ
+423	Chuyển múi giờ hiển thị bằng cách cuộn trên đồng hồ
+424	Thao tác này không thay đổi múi giờ hệ thống. Khi đi du lịch, hãy đổi múi giờ hệ thống.
+426	Giữ mở
+428	Thêm sự kiện
+431	Múi giờ
+432	Cả ngày
+433	Khác
+434	%1 mục khác
+435	Hiện ít hơn
+403	Chung:
+404	Ngày đầu tuần:
+405	Dùng mặc định theo vùng
+406	Tiện ích bổ sung có sẵn
+414	Thêm múi giờ đã chọn
+415	Thêm múi giờ…
+417	Ẩn khi đây là thành phố của múi giờ địa phương
+425	Chọn múi giờ
+436	 • muộn hơn %1:%2
+437	 • sớm hơn %1:%2
+438	 • muộn hơn %1 giờ
+439	 • sớm hơn %1 giờ
+441	Chuông thông báo:
+442	Không bao giờ
+443	Chỉ khi có thông báo mới
+444	Hiển thị số thông báo mới
+445	Tất cả
+446	Mới thêm gần đây
+447	Dùng nhiều nhất
+448	Chuyển đến chữ cái
+449	Cài đặt
+450	Trình quản lý tệp
+451	Tài liệu
+452	Tải xuống
+453	Nhạc
+454	Ảnh
+455	Video
+456	Mạng
+457	Bố cục:
+458	Đã ghim và Tất cả ứng dụng ở các trang riêng
+459	Mọi thứ trên một trang cuộn
+460	Mặc định
+461	Nhiều mục ghim hơn
+462	Nhiều đề xuất hơn
+463	Bao gồm ứng dụng dùng gần đây
+464	Tất cả ứng dụng:
+465	Hiển thị ứng dụng mới thêm gần đây
+466	Hiển thị ứng dụng dùng nhiều nhất
+467	Bật chế độ xem theo danh mục (nhóm menu ứng dụng)
+468	Chế độ xem:
+469	Danh mục
+470	Lưới
+471	Danh sách
+472	Bên cạnh Nguồn:
+473	Khởi động lại vào Thiết lập Firmware UEFI
+474	Hiển thị tất cả
+475	Thêm
+476	Ứng dụng
+477	Web
+478	Cấu hình tìm kiếm…
+479	Kết quả tìm kiếm
+480	Mở
+481	Chế độ xem: %1
+482	Kích thước:
+483	Lấp đầy khoảng trống
+484	Menu chuột phải:
+485	Xóa
+486	Thêm ứng dụng…
+487	Cài đặt thanh tác vụ
+488	Khởi động lại các thành phần màn hình nền
+489	Dùng sau khi đổi biểu tượng hoặc chủ đề trong Thiết lập hệ thống: làm mới biểu tượng trong ứng dụng đang mở và tải lại thanh tác vụ, màn hình nền và tìm kiếm
+490	Thanh lệnh
+491	Các nút Mới, Cắt, Sao chép, Dán, Sắp xếp và Xem dưới thanh địa chỉ. Tắt giữ cửa sổ gọn gàng, tối giản.
+492	Hiện các tháng
+493	Hiện các năm
+494	Hôm nay
+495	Cỡ chữ
+496	Kích thước biểu tượng Bắt đầu
+507	Ứng dụng toàn màn hình đang được chọn
+508	Xem
+523	Xóa lịch sử thông báo
+526	Đã xóa lịch sử thông báo
+531	%1 thông báo đang hoạt động
+537	Trình khám phá Tệp
+538	Mở Trình khám phá Tệp tại PC này
+539	Khi tắt, thư mục chính sẽ được mở
+540	PC này
+541	Hiện dung lượng trống
+542	Thanh dung lượng và dung lượng trống dưới mỗi ổ đĩa
+543	Hiện thư mục
+544	Màn hình nền, Tài liệu, Tải xuống, Nhạc, Ảnh và Video phía trên các ổ đĩa
+545	Hiện vị trí mạng
+546	Hiện ổ đĩa ẩn
+547	Ổ đĩa bị ẩn khỏi ngăn dẫn hướng
+551	Thiết bị và ổ đĩa
+552	Vị trí mạng
+554	Đã chọn 1 mục
+555	Còn trống %1 trên %2
+560	Mở Trình khám phá Tệp tại
+561	Thư mục chính là vị trí bắt đầu được đặt trong cài đặt của Trình khám phá Tệp
+562	Thư mục chính
+563	Phiên trước
+564	Tệp gần đây

@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "Hotovo."
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "Selhalo (návratový kód %1)."
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "Animace"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "Prolínání a zvětšování oken při otevření a zavření"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "Otevření a zavření"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "Počáteční velikost"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "Minimalizace"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "Okna odlétají ke svému tlačítku na hlavním panelu"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "Doba trvání"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "Všechny efekty plochy"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "Aplikace"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "Materiál oken"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Pozadí oken Mica"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "Postranní panely, panely nástrojů a dialogy zobrazují rozmazanou tapetu. Platí pro nově otevřená okna."
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "Neprůhlednost"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "Tyto aplikace ponechat neprůhledné"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "Ovládací prvky"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "Poloměr zaoblení"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "Akrylové nabídky a popisky"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "Vyžaduje materiály Lumen"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "Vždy zobrazovat celé posuvníky"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "Vypnuto: zůstávají tenké, dokud na ně nenajedete"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "Průzkumník souborů"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "Panel příkazů"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "Tlačítka Nový, Vyjmout, Kopírovat, Vložit, Řadit a Zobrazení pod adresním řádkem. Vypnuto ponechá okno čisté a minimální."
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "Otevírat Průzkumníka souborů v"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "Domovská složka je počáteční umístění nastavené v Průzkumníkovi souborů"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "Domovská složka"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "Předchozí relace"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "Poslední soubory"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "Tento počítač"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "Zobrazit volné místo"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "Pruh kapacity a volné místo pod každou jednotkou"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "Zobrazit složky"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "Plocha, Dokumenty, Stažené soubory, Hudba, Obrázky a Videa nad jednotkami"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "Zobrazit síťová umístění"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "Zobrazit skryté jednotky"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "Jednotky skryté v navigačním podokně"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "Pohyb"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "Animovat ovládací prvky"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "Platí pro aplikace se stylem Lumen. Změny se projeví ihned."
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "Spouštění"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "Použít Lumen při spouštění"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Spouštěcí nabídka Limine a úvodní obrazovka Plymouth. Předchozí nabídka se zálohuje."
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "Obnovit předchozí vzhled spouštění"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "Zamčení a přihlášení"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "Zamykací obrazovka"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Tapeta Lumen"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "Vždy zobrazovat hodiny"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "Ovládání médií"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "Zamykání obrazovky"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "Přihlašovací obrazovka"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "Použít Lumen na přihlašovací obrazovce"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "Obnovit standardní přihlašovací obrazovku"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "Nastavení přihlašovací obrazovky"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "Obrazovky zamčení a odhlášení"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "Obnovit obrazovky zamčení a odhlášení Lumen"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Spouští se automaticky po aktualizacích Plasmy"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "Údržba"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "Nástroj lumen nebyl nalezen"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "Nainstalujte jej příkazem `make install-system` ze složky se zdrojovým kódem Lumen."
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "Kontrola"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "Ověří, že jsou všechny části Lumen nainstalované a aktivní"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "Spustit diagnostiku"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "Zobrazit snímek rozvržení panelu"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "Oprava"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "Barvy, styl, dekorace oken, efekty a motiv Plasmy"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "Znovu použít Lumen"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "Restartovat součásti pracovní plochy"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "Použijte po změně ikon nebo motivů v Nastavení systému: obnoví ikony v otevřených aplikacích a znovu načte hlavní panel, plochu a hledání"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "Najít nahrazené nástroje"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "Vypíše nainstalované balíčky, které Lumen nahrazuje, například Kvantum a Klassy. Odstraňte je příkazem `lumen cleanup` v terminálu."
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "Znovu sestavit nativní součásti"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "Spouští se automaticky po aktualizacích KWin nebo Qt"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "Materiály"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Materiály Lumen"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "Nahrazuje standardní rozmazání efekty Mica a akryl"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "Mica pro hlavní panel"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "Vypnuto: akryl, kterým prosvítají okna za hlavním panelem"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "Tón tapety"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "Hlavní panel, Start, nabídky a okna přebírají barvu tapety a plynule ji sledují, když se změní"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "Akryl (nabídky, vysouvací panely, Start)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "Rozmazání"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "Sytost"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "Šum"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica (okna, hlavní panel)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "Hlavní panel"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "Hlavní panel Lumen na této ploše není"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "Použijte rozvržení Lumen a nahraďte jím současný panel. Vaše widgety, ikony v oznamovací oblasti, připnuté aplikace a oblíbené položky zůstanou zachovány."
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "Použít rozvržení Lumen"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "Rozvržení"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "Zarovnat ikony hlavního panelu na střed"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "Plovoucí"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "Automaticky skrývat"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "Ikony"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "Výška hlavního panelu"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "Velikost ikony Start"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "Velikost ikon aplikací"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "Ikony Startu a aplikací si tuto velikost zachovají při jakékoli výšce panelu"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "Mezera mezi aplikacemi"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "Velmi široká"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "Žádná"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "Normální"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "Široká"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "Velikost ikon v oznamovací oblasti"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "Velikost ikon rychlého nastavení"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "Síť, hlasitost a baterie vedle hodin"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "Mezera mezi ikonami v oznamovací oblasti"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "Hodiny"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "Zobrazit"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "Jen datum"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "Čas a datum na jednom řádku"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "Jen čas"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "Čas nad datem"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "Formát času"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12hodinový"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24hodinový"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "Podle místního nastavení"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "Formát data"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "Místní krátký (%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "S dnem v týdnu (%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "Místní dlouhý (%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "Vlastní (nastavuje se v možnostech hodin)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "Zobrazovat sekundy"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "Tučný čas"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "Velikost času"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "Zarovnání času"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "Na střed"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "Vlevo"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "Vpravo"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "Velikost data"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "Velké hodnoty se zmenší, aby se vešly; samotný hlavní panel se nikdy nemění"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "Zarovnání data"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "Součásti"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "Připnuté a doporučené aplikace, nabídky napájení a účtu"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "Start"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "Ikony, přetečení, dlaždice a posuvníky"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "Oznamovací oblast a rychlé nastavení"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "Hodiny a oznámení"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "Vlastní formát data, kalendář a centrum oznámení"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "Tlačítka aplikací"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "Připnuté aplikace a otevřená okna"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "Oznámení"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "Zobrazovat nad aplikacemi na celé obrazovce"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "Vypnuto: hry a videa na celé obrazovce zapnou režim Nerušit (kritická oznámení se zobrazí i tak)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "Výstup"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "Probíhá…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "Okna"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "Záhlaví"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "Průsvitné záhlaví"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "Výška"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "Titulek na střed"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "Zobrazovat ikonu aplikace"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "Tlačítka"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "Jen zavřít"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "Zavřít, minimalizovat, maximalizovat (vlevo)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "Minimalizovat, maximalizovat, zavřít (vpravo)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "Tvar"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "Nastavení dekorace oken"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "Tmavý"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "Tmavé povrchy Mica všude"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "Světlé povrchy s jemnými stíny"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "Světlý"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "Automaticky"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "Přepínat mezi světlým a tmavým podle denní doby"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "Režim"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "Velikost textu"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "Přizpůsobení"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Rozmazání Mica a akryl, tónování a šum"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "Záhlaví, rohy a tlačítka"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "Ovládací prvky, nabídky, posuvníky a rychlost animací"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "Pohyb při otevření, zavření a minimalizaci"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "Zarovnání, velikost, Start, oznamovací oblast a hodiny"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "Zamykací obrazovka, přihlašovací obrazovka a odhlášení"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "Spouštěcí nabídka a úvodní obrazovka"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "Oprava, aktualizace a diagnostika"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "Související"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "Barva zvýraznění"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "Tapeta"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "Písma"

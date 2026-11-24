@@ -1,0 +1,16 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Lumen" }],
+        "Category": "Date and Time",
+        "Description": "Taskbar clock with Notification Center and calendar",
+        "EnabledByDefault": true,
+        "Icon": "preferences-system-time",
+        "Id": "org.lumen.clock",
+        "License": "GPL-2.0+",
+        "Name": "Lumen Clock",
+        "Version": "@@meta.version@@"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": ["org.kde.plasma.time", "org.kde.plasma.date"]
+}

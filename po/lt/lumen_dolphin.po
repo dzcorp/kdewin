@@ -1,0 +1,79 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: lt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:14
+msgid "File Explorer"
+msgstr "Failų naršyklė"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:19
+#: apps/dolphin/src/lumen/thispcworker.cpp:89
+msgid "This PC"
+msgstr "Šis kompiuteris"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:24
+msgid "Recent files"
+msgstr ""
+
+#: apps/dolphin/src/lumen/lumensearchfield.cpp:16
+msgctxt "@action:intoolbar"
+msgid "Search"
+msgstr "Ieškoti"
+
+#: apps/dolphin/src/lumen/lumentitlebar.cpp:152
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Nauja kortelė"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:77
+msgctxt "@title:group This PC section"
+msgid "Folders"
+msgstr "Aplankai"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:79
+msgctxt "@title:group This PC section"
+msgid "Devices and drives"
+msgstr ""
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:81
+msgctxt "@title:group This PC section"
+msgid "Network locations"
+msgstr ""
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:148
+msgctxt "@info:status"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "1 elementas"
+msgstr[1] "%1 elementai"
+msgstr[2] "%1 elementų"
+msgstr[3] "%1 elementas"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:149
+msgctxt "@info:status"
+msgid "1 item selected"
+msgstr ""
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:485
+msgctxt "@info free and total space of a drive"
+msgid "%1 free of %2"
+msgstr "%1 laisva iš %2"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:644
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Atverti"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:648
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "Atverti naujoje kortelėje"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:651
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "Atverti naujame lange"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:677
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Savybės"

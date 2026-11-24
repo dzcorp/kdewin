@@ -1,0 +1,730 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: eo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: plasma/tasks/backend.cpp:339
+msgctxt "Show all user Places"
+msgid "%1 more Place…"
+msgid_plural "%1 more Places…"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plasma/tasks/backend.cpp:422
+msgid "Recent Downloads"
+msgstr "Lasttempaj Elŝutoj"
+
+#: plasma/tasks/backend.cpp:424
+msgid "Recent Connections"
+msgstr "Lasttempaj Konektoj"
+
+#: plasma/tasks/backend.cpp:426
+msgid "Recent Places"
+msgstr "Lasttempaj Lokoj"
+
+#: plasma/tasks/backend.cpp:435
+msgctxt "@action:inmenu"
+msgid "Forget Recent Downloads"
+msgstr "Forgesi Lasttempajn Elŝutojn"
+
+#: plasma/tasks/backend.cpp:437
+msgctxt "@action:inmenu"
+msgid "Forget Recent Connections"
+msgstr "Forgesi Lasttempajn Konektojn"
+
+#: plasma/tasks/backend.cpp:439
+msgctxt "@action:inmenu"
+msgid "Forget Recent Places"
+msgstr "Forgesi Lasttempajn Lokojn"
+
+#: plasma/tasks/backend.cpp:441
+msgctxt "@action:inmenu"
+msgid "Forget Recent Files"
+msgstr "Forgesi Lasttempajn Dosierojn"
+
+#: plasma/tasks/backend.cpp:581
+msgid "Activate Previous Task Manager Entry"
+msgstr ""
+
+#: plasma/tasks/backend.cpp:588
+msgid "Activate Next Task Manager Entry"
+msgstr ""
+
+#: plasma/tasks/backend.cpp:595
+msgid "Move Active Task Manager Entry Backward"
+msgstr ""
+
+#: plasma/tasks/backend.cpp:603
+msgid "Move Active Task Manager Entry Forward"
+msgstr ""
+
+#: plasma/tasks/backend.cpp:612
+msgid "Activate Task Manager Entry %1"
+msgstr ""
+
+#: plasma/tasks/qml/AudioStream.qml:100
+msgctxt "@action:button"
+msgid "Mute"
+msgstr "Silentigi"
+
+#: plasma/tasks/qml/AudioStream.qml:100
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr "Malsilentigi"
+
+#: plasma/tasks/qml/AudioStream.qml:101
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Mute %1"
+msgstr "Silentigi %1"
+
+#: plasma/tasks/qml/AudioStream.qml:101
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Unmute %1"
+msgstr "Malsilentigi %1"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:49
+msgctxt "@label for several checkboxes"
+msgid "General:"
+msgstr "Ĝenerala:"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:50
+msgctxt "@option:check section General"
+msgid "Show small window previews when hovering over tasks"
+msgstr "Montri fenestrajn antaŭrigardetojn dum musumado sur taskoj"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:55
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over previews"
+msgstr "Kaŝi aliajn fenestrojn dum musumado sur antaŭrigardoj"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:55
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over tooltips"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigAppearance.qml:60
+msgctxt "@option:check section General"
+msgid "Show an indicator when a task is playing audio"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigAppearance.qml:70
+msgctxt "@option:check section General"
+msgid "Mute task when clicking indicator"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigAppearance.qml:78
+msgctxt "@option:check section General"
+msgid "Show media and volume controls in tooltip"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigAppearance.qml:86
+msgctxt "@option:check section General"
+msgid "Fill free space on panel"
+msgstr "Plenigi liberan spacon en panelo"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:98
+msgctxt "@label:listbox"
+msgid "Maximum task width:"
+msgstr "Maksimuma larĝeco de tasko:"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:101
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Narrow"
+msgstr "Mallarĝa"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:102
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Medium"
+msgstr "Meza"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:103
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Wide"
+msgstr "Larĝa"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:114
+msgctxt "@label for radio button group, completes sentence: … when panel is low on space etc."
+msgid "Use multi-column view:"
+msgstr "Uzi plurkolumnan vidon:"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:115
+msgctxt "@label for radio button group, completes sentence: … when panel is low on space etc."
+msgid "Use multi-row view:"
+msgstr "Uzi plurvican vidon:"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:121
+msgctxt "@option:radio Never use multi-column view for Task Manager"
+msgid "Never"
+msgstr "Neniam"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:131
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "When panel is low on space and thick enough"
+msgstr "Kiam panelo havas malmulte da spaco kaj estas sufiĉe dika"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:141
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "Always when panel is thick enough"
+msgstr "Ĉiam kiam panelo estas sufiĉe dika"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:148
+msgctxt "@label:spinbox maximum number of columns for tasks"
+msgid "Maximum columns:"
+msgstr "Maksimumaj kolumnoj:"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:149
+msgctxt "@label:spinbox maximum number of rows for tasks"
+msgid "Maximum rows:"
+msgstr "Maksimumaj vicoj:"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:159
+msgctxt "@label:listbox"
+msgid "Spacing between icons:"
+msgstr "Spacado inter piktogramoj:"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:163
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "Malgranda"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:167
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "Normala"
+
+#: plasma/tasks/qml/ConfigAppearance.qml:171
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "Granda"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:50
+msgctxt "@info"
+msgid "If you're using this setting to work around an application that demands attention too often, first look for a setting in the app to disable that behavior. If you don't find one, consider reporting this as a bug to the app's developer."
+msgstr ""
+
+#: plasma/tasks/qml/ConfigBehavior.qml:66
+msgctxt "@label:listbox how to group tasks"
+msgid "Group:"
+msgstr "Grupo:"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:70
+msgctxt "@item:inlistbox how to group tasks"
+msgid "Do not group"
+msgstr "Ne grupu"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:71
+msgctxt "@item:inlistbox how to group tasks"
+msgid "By program name"
+msgstr "Laŭ programnomo"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:77
+msgctxt "@label:listbox completes sentence like: … cycles through tasks"
+msgid "Clicking grouped task:"
+msgstr "Klakanta grupitajn taskojn:"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:84
+msgctxt "@item:inlistbox Completes the sentence 'Clicking grouped task cycles through tasks' "
+msgid "Cycles through tasks"
+msgstr "Cirkulas tra taskoj"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:85
+msgctxt "@item:inlistbox Completes the sentence 'Clicking grouped task shows small window previews' "
+msgid "Shows small window previews"
+msgstr "Montras etfenestrajn antaŭrigardojn"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:86
+msgctxt "@item:inlistbox Completes the sentence 'Clicking grouped task shows large window previews' "
+msgid "Shows large window previews"
+msgstr "Montras grandfenestrajn antaŭrigardojn"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:87
+msgctxt "@item:inlistbox Completes the sentence 'Clicking grouped task shows textual list' "
+msgid "Shows textual list"
+msgstr "Montras ekstan liston"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:98
+msgctxt "@info displayed as InlineMessage"
+msgid "The compositor does not support displaying windows side by side, so a textual list will be displayed instead."
+msgstr "La  kompostilo ne subtenas bildigon de fenestroj flank-al-flanke, do teksta listo aperos anstataŭe."
+
+#: plasma/tasks/qml/ConfigBehavior.qml:108
+msgctxt "@option:check grouped task"
+msgid "Combine into single button"
+msgstr "Kombini en sola butono"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:115
+msgctxt "@option:check grouped task"
+msgid "Group only when the Task Manager is full"
+msgstr "Nur kiam la Taskadministrilo estas plena"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:127
+msgctxt "@label:listbox sort tasks in grouped task"
+msgid "Sort:"
+msgstr "Ordigo:"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:134
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Do not sort"
+msgstr "Ne ordigi"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:138
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Manually"
+msgstr "Permane"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:142
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Alphabetically"
+msgstr "Alfabete"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:146
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By desktop"
+msgstr "Laŭ labortablo"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:150
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By activity"
+msgstr "Laŭ aktiveco"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:154
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By horizontal window position"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigBehavior.qml:165
+msgctxt "@option:check configure task sorting"
+msgid "Keep launchers separate"
+msgstr "Teni lanĉilojn apartaj"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:172
+msgctxt "@option:check for icons-and-text task manager"
+msgid "Hide launchers after application startup"
+msgstr "Kaŝi lanĉilojn post ekiĝo de aplikaĵo"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:182
+msgctxt "@label for checkbox Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Clicking active task:"
+msgstr "Mezklako al aktiva tasko:"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:183
+msgctxt "@option:check Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Minimizes the task"
+msgstr "Minimumigas la taskon"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:188
+msgctxt "@label:listbox completes sentence like: … does nothing"
+msgid "Middle-clicking any task:"
+msgstr "Mezklako al iu tasko:"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:192
+msgctxt "@item:inlistbox Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr "Faras nenion"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:193
+msgctxt "@item:inlistbox Part of a sentence: 'Middle-clicking any task closes window or group'"
+msgid "Closes window or group"
+msgstr "Fermas fenestron aŭ grupon"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:194
+msgctxt "@item:inlistbox Part of a sentence: 'Middle-clicking any task opens a new window'"
+msgid "Opens a new window"
+msgstr "Malfermas novan fenestron"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:195
+msgctxt "@item:inlistbox Part of a sentence: 'Middle-clicking any task minimizes/restores window or group'"
+msgid "Minimizes/Restores window or group"
+msgstr "Minimumigas/Restaŭras fenestron aŭ grupon"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:196
+msgctxt "@item:inlistbox Part of a sentence: 'Middle-clicking any task toggles grouping'"
+msgid "Toggles grouping"
+msgstr "Baskuligas grupadon"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:197
+msgctxt "@item:inlistbox Part of a sentence: 'Middle-clicking any task brings it to the current virtual desktop'"
+msgid "Brings it to the current virtual desktop"
+msgstr "Portas ĝin al la nuna virtuala labortablo"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:207
+msgctxt "@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles through tasks/cycles through the selected task's windows/adjusts the hovered task’s volume''"
+msgid "Scrolling behavior:"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigBehavior.qml:211
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
+msgid "Does nothing"
+msgstr "Faras nenion"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:212
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all tasks'"
+msgid "Cycles through all tasks"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigBehavior.qml:213
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the hovered task's windows'"
+msgid "Cycles through the hovered task’s windows"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigBehavior.qml:214
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior adjusts the hovered task’s volume'"
+msgid "Adjusts the hovered task’s volume"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigBehavior.qml:222
+msgctxt "@option:check mouse wheel task cycling"
+msgid "Skip minimized tasks"
+msgstr "Preterlasas minimumigitajn taskojn"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:232
+msgctxt "@label for checkbox group, completes sentence like: … from current screen"
+msgid "Show only tasks:"
+msgstr "Montri nur taskojn:"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:233
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current desktop"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigBehavior.qml:238
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current activity"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigBehavior.qml:243
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current screen"
+msgstr ""
+
+#: plasma/tasks/qml/ConfigBehavior.qml:248
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "That are minimized"
+msgstr "Kiuj estas minimumigitaj"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:257
+msgctxt "@label for checkbox, completes sentence: … unhide if window wants attention"
+msgid "When panel is hidden:"
+msgstr "Kiam panelo estas kaŝata:"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:258
+msgctxt "@option:check completes sentence: When panel is hidden"
+msgid "Unhide when a window wants attention"
+msgstr "Malkaŝi kiam fenetro postulas atenton"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:273
+msgctxt "@label for radiobutton group completes sentence like: … on the bottom"
+msgid "New tasks appear:"
+msgstr "Novaj taskoj aperas:"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:277
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the bottom"
+msgstr "Malsupre"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:281
+#: plasma/tasks/qml/ConfigBehavior.qml:300
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the right"
+msgstr "Dekstre"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:283
+#: plasma/tasks/qml/ConfigBehavior.qml:298
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the left"
+msgstr "Maldekstre"
+
+#: plasma/tasks/qml/ConfigBehavior.qml:294
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the top"
+msgstr "Sur la supro"
+
+#: plasma/tasks/qml/ContextMenu.qml:100
+msgctxt "@title:group for section of menu items"
+msgid "Places"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:106
+msgctxt "@title:group for section of menu items"
+msgid "Recent Files"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:116
+msgctxt "@title:group for section of menu items"
+msgid "Actions"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:163
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Antaŭa Peco"
+
+#: plasma/tasks/qml/ContextMenu.qml:177
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Paŭzi"
+
+#: plasma/tasks/qml/ContextMenu.qml:177
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Sonigi"
+
+#: plasma/tasks/qml/ContextMenu.qml:195
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Sekva Peco"
+
+#: plasma/tasks/qml/ContextMenu.qml:206
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Halti"
+
+#: plasma/tasks/qml/ContextMenu.qml:226
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "Forlasi"
+
+#: plasma/tasks/qml/ContextMenu.qml:241
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "Restaŭri"
+
+#: plasma/tasks/qml/ContextMenu.qml:266
+msgctxt "@option:check inmenu, no separate unmute action"
+msgid "Mute"
+msgstr "Silentigi"
+
+#: plasma/tasks/qml/ContextMenu.qml:277
+msgctxt "action:inmenu"
+msgid "Open New Window"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:293
+msgctxt "action:inmenu"
+msgid "Move to &Desktop"
+msgstr "Movu al &Tablo"
+
+#: plasma/tasks/qml/ContextMenu.qml:323
+msgctxt "action:inmenu"
+msgid "Move &To Current Desktop"
+msgstr "Movi al ak&tuala labortablo"
+
+#: plasma/tasks/qml/ContextMenu.qml:345
+msgctxt "action:inmenu"
+msgid "&All Desktops"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:373
+msgctxt "action:inmenu"
+msgid "&New Desktop"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:393
+msgctxt "action:inmenu"
+msgid "Show in &Activities"
+msgstr "Montri en &Agadoj"
+
+#: plasma/tasks/qml/ContextMenu.qml:417
+msgctxt "action:inmenu"
+msgid "Add To Current Activity"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:427
+msgctxt "action:inmenu"
+msgid "All Activities"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:483
+msgctxt "action:inmenu"
+msgid "Move to %1"
+msgstr "Movu al %1"
+
+#: plasma/tasks/qml/ContextMenu.qml:509 plasma/tasks/qml/ContextMenu.qml:525
+msgctxt "action:inmenu"
+msgid "&Pin to Task Manager"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:577
+msgctxt "action:inmenu"
+msgid "On All Activities"
+msgstr "Pri Ĉiuj Agadoj"
+
+#: plasma/tasks/qml/ContextMenu.qml:583
+msgctxt "action:inmenu"
+msgid "On The Current Activity"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:607
+msgctxt "action:inmenu"
+msgid "Unpin from Task Manager"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:622
+msgctxt "item:inmenu opens submenu"
+msgid "More"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:631
+msgctxt "action:inmenu"
+msgid "&Move"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:640
+msgctxt "action:inmenu"
+msgid "Re&size"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:654
+msgctxt "action:inmenu"
+msgid "Ma&ximize"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:668
+msgctxt "action:inmenu"
+msgid "Mi&nimize"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:678
+msgctxt "action:inmenu"
+msgid "Keep &Above Others"
+msgstr "Fiksi super &aliaj"
+
+#: plasma/tasks/qml/ContextMenu.qml:688
+msgctxt "action:inmenu"
+msgid "Keep &Below Others"
+msgstr "Fiksi su&b aliaj"
+
+#: plasma/tasks/qml/ContextMenu.qml:700
+msgctxt "action:inmenu"
+msgid "&Fullscreen"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:712
+msgctxt "@action:inmenu"
+msgid "&No Titlebar and Frame"
+msgstr "&Neniu Titolobreto kaj Kadro"
+
+#: plasma/tasks/qml/ContextMenu.qml:725
+msgctxt "@action:inmenu"
+msgid "&Hide from Screencast"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:741
+msgctxt "@option:check inmenu"
+msgid "Allow this program to be grouped"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:787
+msgctxt "@action:inmenu"
+msgid "&Close"
+msgstr ""
+
+#: plasma/tasks/qml/ContextMenu.qml:787
+msgctxt "@action:inmenu"
+msgid "&Close All"
+msgstr ""
+
+#: plasma/tasks/qml/Task.qml:159
+msgctxt "@info:usagetip %1 application name"
+msgid "Launch %1"
+msgstr "Lanĉi %1"
+
+#: plasma/tasks/qml/Task.qml:164
+msgctxt "@info:tooltip"
+msgid "There is %1 new message."
+msgid_plural "There are %1 new messages."
+msgstr[0] "Estas %1 nova mesaĝo."
+msgstr[1] "Estas %1 novaj mesaĝoj."
+
+#: plasma/tasks/qml/Task.qml:172
+msgctxt "@info:usagetip %1 task name"
+msgid "Show Task tooltip for %1"
+msgstr "Montri Taskan ŝpruchelpilon por %1"
+
+#: plasma/tasks/qml/Task.qml:176
+msgctxt "@info:usagetip %1 task name"
+msgid "Show windows side by side for %1"
+msgstr "Montri fenestrojn flank-al-flanke por %1"
+
+#: plasma/tasks/qml/Task.qml:181
+msgctxt "@info:usagetip %1 task name"
+msgid "Open textual list of windows for %1"
+msgstr "Malfermi tekstan liston de fenestroj por %1"
+
+#: plasma/tasks/qml/Task.qml:185
+msgctxt "@info:usagetip %1 task name"
+msgid "Activate %1"
+msgstr ""
+
+#: plasma/tasks/qml/TaskBadgeOverlay.qml:101
+msgctxt "'k' is a suffix for 'thousand'; keep to one character or else the badge could overflow!"
+msgid "9k+"
+msgstr ""
+
+#: plasma/tasks/qml/TaskBadgeOverlay.qml:104
+msgctxt "'k' is a suffix for 'thousand'; keep to one character or else the badge could overflow!"
+msgid "%1k"
+msgstr ""
+
+#: plasma/tasks/qml/ToolTipInstance.qml:212
+msgctxt "@info:tooltip Close this window"
+msgid "Close window"
+msgstr ""
+
+#: plasma/tasks/qml/ToolTipInstance.qml:426
+msgctxt "button to unmute app"
+msgid "Unmute %1"
+msgstr "Malsilentigi %1"
+
+#: plasma/tasks/qml/ToolTipInstance.qml:427
+msgctxt "button to mute app"
+msgid "Mute %1"
+msgstr "Silentigi %1"
+
+#: plasma/tasks/qml/ToolTipInstance.qml:445
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "Alĝustigi laŭtecon por %1"
+
+#: plasma/tasks/qml/ToolTipInstance.qml:461
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: plasma/tasks/qml/ToolTipInstance.qml:465
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100%"
+
+#: plasma/tasks/qml/ToolTipInstance.qml:481
+msgctxt "Comma-separated list of desktops"
+msgid "On %1"
+msgstr "Sur %1"
+
+#: plasma/tasks/qml/ToolTipInstance.qml:484
+msgctxt "Comma-separated list of desktops"
+msgid "Pinned to all desktops"
+msgstr "Fiksita al ĉiuj labortabloj"
+
+#: plasma/tasks/qml/ToolTipInstance.qml:490
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "Havebla en ĉiuj aktivecoj"
+
+#: plasma/tasks/qml/ToolTipInstance.qml:500
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "Ankaŭ havebla en %1"
+
+#: plasma/tasks/qml/ToolTipInstance.qml:504
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "Havebla en %1"
+
+#: plasma/tasks/qml/config.qml:13
+msgctxt "@title:group for configuration dialog page"
+msgid "Appearance"
+msgstr ""
+
+#: plasma/tasks/qml/config.qml:18
+msgctxt "@title:group for configuration dialog page"
+msgid "Behavior"
+msgstr ""

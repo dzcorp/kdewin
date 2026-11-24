@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="icon" type="String"><default>start-here-kde-symbolic</default></entry>
+    <entry name="favorites" type="StringList">
+      <default>preferred://browser,preferred://filemanager,org.kde.konsole.desktop,org.kde.kate.desktop,org.kde.discover.desktop,systemsettings.desktop,org.kde.spectacle.desktop,org.kde.okular.desktop,org.kde.gwenview.desktop,org.kde.kcalc.desktop</default>
+    </entry>
+    <entry name="favoritesPortedToKAstats" type="Bool"><default>false</default></entry>
+    <!-- KAStats client id; set to a previous Kickoff instance's id to keep its favorites. -->
+    <entry name="favoritesClientId" type="String"><default></default></entry>
+    <entry name="singlePage" type="Bool"><default>true</default></entry>
+    <!-- 0 default, 1 more pins, 2 more recommendations -->
+    <entry name="startLayout" type="Int"><default>0</default><min>0</min><max>2</max></entry>
+    <entry name="showRecommended" type="Bool"><default>true</default></entry>
+    <entry name="recommendApps" type="Bool"><default>false</default></entry>
+    <entry name="showRecentlyAdded" type="Bool"><default>true</default></entry>
+    <entry name="showMostUsed" type="Bool"><default>false</default></entry>
+    <entry name="showCategories" type="Bool"><default>true</default></entry>
+    <!-- 0 list, 1 grid, 2 categories -->
+    <entry name="appsView" type="Int"><default>2</default><min>0</min><max>2</max></entry>
+    <entry name="footerFolders" type="StringList"><default></default></entry>
+    <entry name="appNameFormat" type="Int"><default>0</default></entry>
+    <entry name="pin" type="Bool"><default>false</default></entry>
+    <entry name="iconSize" type="Int"><default>@@size.start_icon@@</default><min>16</min><max>64</max></entry>
+  </group>
+</kcfg>

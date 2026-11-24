@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: id\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plasma/tray/qml/AppletPage.qml:64
+msgid "Back"
+msgstr "Kembali"
+
+#: plasma/tray/qml/BackgroundAppTrayItem.qml:47
+msgctxt "@action:inmenu"
+msgid "Quit %1"
+msgstr "Keluar dari %1"
+
+#: plasma/tray/qml/ConfigEntries.qml:16 plasma/tray/qml/QsWifi.qml:11
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: plasma/tray/qml/ConfigEntries.qml:17 plasma/tray/qml/QsBluetooth.qml:5
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: plasma/tray/qml/ConfigEntries.qml:18 plasma/tray/qml/QsAirplane.qml:8
+msgid "Airplane mode"
+msgstr "Mode pesawat"
+
+#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:14
+msgid "Power mode"
+msgstr "Mode daya"
+
+#: plasma/tray/qml/ConfigEntries.qml:20 plasma/tray/qml/QsNightLight.qml:18
+msgid "Night light"
+msgstr "Lampu malam"
+
+#: plasma/tray/qml/ConfigEntries.qml:21 plasma/tray/qml/QsDnd.qml:9
+msgid "Do not disturb"
+msgstr "Jangan ganggu"
+
+#: plasma/tray/qml/ConfigEntries.qml:22 plasma/tray/qml/QsDarkMode.qml:6
+msgid "Dark mode"
+msgstr "Mode gelap"
+
+#: plasma/tray/qml/ConfigEntries.qml:61
+msgid "Tip: drag icons on the taskbar to reorder them, or between the taskbar and the hidden icons flyout to pin or hide them."
+msgstr "Tips: seret ikon di bilah tugas untuk mengurutkannya, atau antara bilah tugas dan panel ikon tersembunyi untuk menyematkan atau menyembunyikannya."
+
+#: plasma/tray/qml/ConfigEntries.qml:65
+msgid "Quick Settings tiles"
+msgstr "Ubin Pengaturan Cepat"
+
+#: plasma/tray/qml/ConfigEntries.qml:82
+msgid "Icons"
+msgstr "Ikon"
+
+#: plasma/tray/qml/ConfigEntries.qml:112
+msgid "In Quick Settings"
+msgstr "Di Pengaturan Cepat"
+
+#: plasma/tray/qml/ConfigEntries.qml:119
+msgid "Always hidden"
+msgstr "Selalu tersembunyi"
+
+#: plasma/tray/qml/ConfigEntries.qml:119
+msgid "Always shown"
+msgstr "Selalu ditampilkan"
+
+#: plasma/tray/qml/ConfigEntries.qml:119
+msgid "Disabled"
+msgstr "Dinonaktifkan"
+
+#: plasma/tray/qml/ConfigEntries.qml:119
+msgid "Shown when relevant"
+msgstr "Ditampilkan bila relevan"
+
+#: plasma/tray/qml/OverflowChevron.qml:12
+msgid "Hide hidden icons"
+msgstr "Sembunyikan ikon tersembunyi"
+
+#: plasma/tray/qml/OverflowChevron.qml:12
+msgid "Show hidden icons"
+msgstr "Tampilkan ikon tersembunyi"
+
+#: plasma/tray/qml/OverflowFlyout.qml:64
+msgid "Drop icons here"
+msgstr "Letakkan ikon di sini"
+
+#: plasma/tray/qml/QsBattery.qml:22
+msgctxt "battery percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: plasma/tray/qml/QsMedia.qml:74
+msgid "Previous"
+msgstr "Sebelumnya"
+
+#: plasma/tray/qml/QsMedia.qml:81
+msgid "Pause"
+msgstr "Jeda"
+
+#: plasma/tray/qml/QsMedia.qml:81
+msgid "Play"
+msgstr "Putar"
+
+#: plasma/tray/qml/QsMedia.qml:88
+msgid "Next"
+msgstr "Berikutnya"
+
+#: plasma/tray/qml/QsPowerProfile.qml:9
+msgid "Power saver"
+msgstr "Penghemat daya"
+
+#: plasma/tray/qml/QsPowerProfile.qml:10
+msgid "Balanced"
+msgstr "Seimbang"
+
+#: plasma/tray/qml/QsPowerProfile.qml:11
+msgid "Performance"
+msgstr "Performa"
+
+#: plasma/tray/qml/QsVolume.qml:17
+msgid "Mute"
+msgstr "Senyapkan"
+
+#: plasma/tray/qml/QsVolume.qml:17
+msgid "Unmute"
+msgstr "Bunyikan"
+
+#: plasma/tray/qml/QuickSettings.qml:115
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: plasma/tray/qml/QuickSettingsButton.qml:17
+msgid "Quick Settings"
+msgstr "Pengaturan Cepat"
+
+#: plasma/tray/qml/QuickSlider.qml:122
+msgid "More options"
+msgstr "Opsi lainnya"
+
+#: plasma/tray/qml/config.qml:6
+msgid "Entries"
+msgstr "Entri"

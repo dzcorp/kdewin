@@ -1,0 +1,6 @@
+[Misc]
+Name=Lumen
+Comment=Fluent-inspired widget style
+
+[KDE]
+WidgetStyle=Lumen

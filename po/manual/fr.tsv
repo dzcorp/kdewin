@@ -1,0 +1,318 @@
+1	Terminé.
+2	Échec (code de sortie %1).
+3	Animations
+4	Fondu et zoom des fenêtres à l'ouverture et à la fermeture
+5	Ouverture et fermeture
+6	Taille de départ
+7	Réduire
+8	Les fenêtres rejoignent leur bouton dans la barre des tâches
+9	Durée
+10	Tous les effets du bureau
+11	Applications
+12	Matériau des fenêtres
+13	Arrière-plans de fenêtre Mica
+14	Les barres latérales, barres d'outils et boîtes de dialogue affichent le fond d'écran flouté. S'applique aux nouvelles fenêtres.
+15	Opacité
+16	Garder ces applications opaques
+17	Contrôles
+18	Rayon des angles
+19	Menus et info-bulles en acrylique
+20	Nécessite les matériaux Lumen
+21	Toujours afficher les barres de défilement complètes
+22	Désactivé : elles restent fines jusqu'au survol
+23	Mouvement
+24	Animer les contrôles
+25	S'applique aux applications utilisant le style Lumen. Les changements sont visibles immédiatement.
+26	Démarrage
+27	Utiliser Lumen au démarrage
+28	Menu de démarrage Limine et écran Plymouth. Le menu précédent est sauvegardé.
+29	Restaurer l'ancien aspect du démarrage
+30	Verrouillage et connexion
+31	Écran de verrouillage
+32	Fond d'écran Lumen
+33	Toujours afficher l'horloge
+34	Contrôles multimédias
+35	Verrouillage de l'écran
+36	Écran de connexion
+37	Utiliser Lumen sur l'écran de connexion
+38	Restaurer l'écran de connexion standard
+39	Paramètres de l'écran de connexion
+40	Écrans de verrouillage et de déconnexion
+41	Actualiser les écrans de verrouillage et de déconnexion Lumen
+42	S'exécute automatiquement après les mises à jour de Plasma
+43	Maintenance
+44	L'outil lumen est introuvable
+45	Installez-le avec `make install-system` depuis le dossier source de Lumen.
+46	Vérification
+47	Vérifie que chaque composant de Lumen est installé et actif
+48	Lancer le diagnostic
+49	Afficher l'instantané de la disposition du panneau
+50	Réparation
+51	Couleurs, style, décoration, effets et thème Plasma
+52	Réappliquer Lumen
+53	Rechercher les outils remplacés
+54	Liste les paquets installés que Lumen remplace, comme Kvantum et Klassy. Supprimez-les avec `lumen cleanup` dans un terminal.
+55	Recompiler les composants natifs
+56	S'exécute automatiquement après les mises à jour de KWin ou de Qt
+57	Matériaux
+58	Matériaux Lumen
+59	Remplace le flou standard par Mica et l'acrylique
+60	Mica pour la barre des tâches
+61	Désactivé : acrylique, qui laisse voir les fenêtres derrière la barre des tâches
+62	Acrylique (menus, volets, Démarrer)
+63	Flou
+64	Saturation
+65	Bruit
+66	Mica (fenêtres, barre des tâches)
+67	Barre des tâches
+68	La barre des tâches Lumen n'est pas sur ce bureau
+69	Appliquez la disposition Lumen pour remplacer le panneau actuel. Vos widgets, icônes de la zone de notification, applications épinglées et favoris sont conservés.
+70	Appliquer la disposition Lumen
+71	Disposition
+72	Centrer les icônes de la barre des tâches
+73	Flottante
+74	Masquer automatiquement
+75	Icônes
+76	Hauteur de la barre des tâches
+77	Taille des icônes d'applications
+78	Les icônes de Démarrer et des applications gardent cette taille quelle que soit la hauteur de la barre
+79	Espace entre les applications
+80	Très large
+81	Aucun
+82	Normal
+83	Large
+84	Taille des icônes de la zone de notification
+85	Taille des icônes des paramètres rapides
+86	Réseau, volume et batterie à côté de l'horloge
+87	Espace entre les icônes de la zone de notification
+88	Horloge
+89	Afficher
+90	Date seule
+91	Heure et date sur une ligne
+92	Heure seule
+93	Heure au-dessus de la date
+94	Format de l'heure
+95	12 heures
+96	24 heures
+97	Selon les paramètres régionaux
+98	Format de la date
+99	Court régional (%1)
+100	Avec le jour (%1)
+101	Long régional (%1)
+102	ISO (%1)
+103	Personnalisé (défini dans les paramètres de l'horloge)
+104	Afficher les secondes
+105	Heure en gras
+106	Taille de l'heure
+107	Alignement de l'heure
+108	Centré
+109	Gauche
+110	Droite
+111	Taille de la date
+112	Les grandes tailles sont réduites pour tenir ; la barre des tâches elle-même ne change jamais
+113	Alignement de la date
+114	Composants
+115	Applications épinglées et recommandées, menus d'alimentation et de compte
+116	Démarrer
+117	Icônes, débordement, vignettes et curseurs
+118	Zone de notification et paramètres rapides
+119	Horloge et notifications
+120	Format de date personnalisé, calendrier et centre de notifications
+121	Boutons d'applications
+122	Applications épinglées et fenêtres ouvertes
+123	Notifications
+124	Afficher par-dessus les applications en plein écran
+125	Désactivé : les jeux et vidéos en plein écran activent « Ne pas déranger » (les notifications critiques s'affichent quand même)
+126	Sortie
+127	En cours…
+128	Fenêtres
+129	Barre de titre
+130	Barre de titre translucide
+131	Hauteur
+132	Centrer le titre
+133	Afficher l'icône de l'application
+134	Boutons
+135	Fermer uniquement
+136	Fermer, réduire, agrandir (à gauche)
+137	Réduire, agrandir, fermer (à droite)
+138	Forme
+139	Paramètres de décoration des fenêtres
+140	Sombre
+141	Surfaces Mica sombres partout
+142	Surfaces claires aux ombres douces
+143	Clair
+144	Automatique
+145	Basculer entre clair et sombre selon l'heure de la journée
+146	Mode
+147	Personnaliser
+148	Flou Mica et acrylique, teinte et bruit
+149	Barres de titre, angles et boutons
+150	Contrôles, menus, barres de défilement et vitesse d'animation
+151	Mouvement d'ouverture, de fermeture et de réduction
+152	Alignement, taille, Démarrer, zone de notification et horloge
+153	Écran de verrouillage, écran de connexion et déconnexion
+154	Menu de démarrage et écran de démarrage
+155	Réparation, mise à jour et diagnostic
+156	Paramètres associés
+157	Couleur d'accentuation
+158	Fond d'écran
+159	Polices
+161	Afficher :
+162	Format de l'heure :
+165	Format personnalisé :
+166	Taille de l'heure :
+167	Alignement de l'heure :
+168	Taille de la date :
+169	Alignement de la date :
+170	Les grandes tailles sont réduites pour tenir dans la barre des tâches ; la barre elle-même ne change jamais.
+171	Afficher la cloche des notifications
+172	Volet :
+173	Afficher le calendrier
+176	Ne pas déranger
+177	Tout effacer
+178	« Ne pas déranger » est activé
+179	Aucune nouvelle notification
+180	Plus tôt
+181	Afficher moins
+182	+%1
+183	Effacer le groupe
+184	Masquer le calendrier
+191	Effacer toutes les notifications
+192	Régler la date et l'heure…
+193	Paramètres des notifications…
+197	Noms des applications :
+198	Nom générique (nom)
+199	Nom générique seul
+200	Nom (nom générique)
+202	Recommandé :
+203	Afficher les fichiers récents
+204	Rechercher des applications, paramètres et documents
+205	Épinglé
+206	Toutes les applications
+207	Cliquez avec le bouton droit sur une application et choisissez « Épingler à Démarrer »
+208	Recommandé
+209	Vos fichiers récents apparaîtront ici
+210	Retour
+211	Aucun résultat pour « %1 »
+212	Modifier les paramètres du compte
+213	Verrouiller
+214	Changer d'utilisateur
+215	Se déconnecter
+217	Mettre en veille
+218	Mettre en veille prolongée
+219	Arrêter
+220	Redémarrer
+221	Détacher de Démarrer
+222	Épingler à Démarrer
+224	Quitter %1
+225	Wi-Fi
+227	Mode avion
+228	Mode d'alimentation
+229	Éclairage nocturne
+230	Mode sombre
+231	Astuce : faites glisser les icônes de la barre des tâches pour les réorganiser, ou entre la barre et le volet des icônes masquées pour les épingler ou les masquer.
+232	Vignettes des paramètres rapides
+233	Dans les paramètres rapides
+234	Toujours masqué
+235	Toujours affiché
+236	Désactivé
+237	Affiché si nécessaire
+238	Masquer les icônes cachées
+239	Afficher les icônes cachées
+240	Déposez les icônes ici
+242	Précédent
+244	Suivant
+245	Économiseur d'énergie
+250	Paramètres rapides
+251	Plus d'options
+252	Entrées
+399	Teinte du fond d'écran
+400	La barre des tâches, Démarrer, les menus et les fenêtres prennent la couleur du fond d'écran et la suivent en douceur quand il change
+409	Uniquement si différent du fuseau local
+410	Format du fuseau horaire :
+413	Décalage par rapport à UTC
+422	Ajoutez d'autres fuseaux horaires pour les voir dans le panneau et l'infobulle de l'horloge, ou pour afficher l'un d'eux dans la barre des tâches
+423	Changer le fuseau horaire affiché en faisant défiler sur l'horloge
+424	Cela ne modifie pas le fuseau horaire du système. En voyage, changez plutôt le fuseau horaire du système.
+426	Garder ouvert
+428	Ajouter un évènement
+431	Fuseaux horaires
+432	Toute la journée
+433	Autre
+434	%1 de plus	%1 de plus
+435	Afficher moins
+441	Cloche de notifications :
+443	Seulement avec de nouvelles notifications
+444	Afficher le nombre de nouvelles notifications
+445	Tout
+446	Ajoutées récemment
+447	Les plus utilisées
+448	Aller à une lettre
+449	Paramètres
+450	Gestionnaire de fichiers
+451	Documents
+452	Téléchargements
+453	Musique
+454	Images
+455	Vidéos
+456	Réseau
+457	Disposition :
+458	Épinglées et Toutes les applications sur des pages séparées
+459	Tout sur une seule page défilante
+460	Par défaut
+461	Plus d’épingles
+462	Plus de recommandations
+463	Inclure les applications récemment utilisées
+464	Toutes les applications :
+465	Afficher les applications ajoutées récemment
+466	Afficher les applications les plus utilisées
+467	Activer la vue par catégories (groupes du menu des applications)
+468	Affichage :
+469	Catégorie
+470	Grille
+471	Liste
+472	À côté de l’alimentation :
+473	Redémarrer dans la configuration du micrologiciel UEFI
+474	Tout afficher
+476	Applications
+477	Web
+478	Configurer la recherche…
+479	Résultats de la recherche
+480	Ouvrir
+481	Affichage : %1
+194	Général
+482	Taille :
+483	Remplir l’espace libre
+484	Menu du clic droit :
+485	Supprimer
+486	Ajouter une application…
+487	Paramètres de la barre des tâches
+488	Redémarrer les composants du bureau
+489	À utiliser après avoir changé d'icônes ou de thème dans la Configuration du système : actualise les icônes des applications ouvertes et recharge la barre des tâches, le bureau et la recherche
+490	Barre de commandes
+491	Boutons Nouveau, Couper, Copier, Coller, Trier et Affichage sous la barre d'adresse. Désactivée, la fenêtre reste épurée et minimale.
+492	Afficher les mois
+493	Afficher les années
+494	Aujourd'hui
+495	Taille du texte
+496	Taille de l'icône Démarrer
+537	Explorateur de fichiers
+538	Ouvrir l’Explorateur de fichiers dans « Ce PC »
+539	Désactivé, il s’ouvre dans votre dossier personnel
+540	Ce PC
+541	Afficher l’espace libre
+542	Une barre de capacité et l’espace libre sous chaque lecteur
+543	Afficher les dossiers
+544	Bureau, Documents, Téléchargements, Musique, Images et Vidéos au-dessus des lecteurs
+545	Afficher les emplacements réseau
+546	Afficher les lecteurs masqués
+547	Lecteurs masqués dans le volet de navigation
+551	Périphériques et lecteurs
+552	Emplacements réseau
+554	1 élément sélectionné
+555	%1 libres sur %2
+560	Ouvrir l’Explorateur de fichiers dans
+561	« Dossier personnel » est l’emplacement de départ défini dans les paramètres de l’Explorateur de fichiers
+562	Dossier personnel
+563	Session précédente
+564	Fichiers récents

@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: pt_BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:14
+msgid "File Explorer"
+msgstr "Explorador de Arquivos"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:19
+#: apps/dolphin/src/lumen/thispcworker.cpp:89
+msgid "This PC"
+msgstr "Este Computador"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:24
+msgid "Recent files"
+msgstr "Arquivos recentes"
+
+#: apps/dolphin/src/lumen/lumensearchfield.cpp:16
+msgctxt "@action:intoolbar"
+msgid "Search"
+msgstr "Pesquisar"
+
+#: apps/dolphin/src/lumen/lumentitlebar.cpp:152
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Nova aba"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:77
+msgctxt "@title:group This PC section"
+msgid "Folders"
+msgstr "Pastas"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:79
+msgctxt "@title:group This PC section"
+msgid "Devices and drives"
+msgstr "Dispositivos e unidades"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:81
+msgctxt "@title:group This PC section"
+msgid "Network locations"
+msgstr "Locais de rede"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:148
+msgctxt "@info:status"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "1 item"
+msgstr[1] "%1 itens"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:149
+msgctxt "@info:status"
+msgid "1 item selected"
+msgstr "1 item selecionado"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:485
+msgctxt "@info free and total space of a drive"
+msgid "%1 free of %2"
+msgstr "%1 livres de %2"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:644
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Abrir"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:648
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "Abrir em nova aba"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:651
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "Abrir em nova janela"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:677
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Propriedades"

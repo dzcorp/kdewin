@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: vi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "Xong."
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "Thất bại (mã thoát %1)."
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "Hoạt ảnh"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "Hiện và ẩn cửa sổ bằng hiệu ứng mờ dần và thu phóng"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "Mở và đóng"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "Kích thước ban đầu"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "Thu nhỏ"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "Cửa sổ bay về nút của nó trên thanh tác vụ"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "Thời lượng"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "Tất cả hiệu ứng màn hình"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "Ứng dụng"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "Chất liệu cửa sổ"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Nền cửa sổ Mica"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "Thanh bên, thanh công cụ và hộp thoại hiển thị hình nền được làm mờ. Áp dụng cho các cửa sổ mở mới."
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "Độ mờ đục"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "Giữ các ứng dụng này không trong suốt"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "Điều khiển"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "Bán kính góc"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "Menu và chú giải acrylic"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "Cần chất liệu Lumen"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "Luôn hiện thanh cuộn đầy đủ"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "Khi tắt, thanh cuộn giữ mảnh cho đến khi di chuột lên"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "Trình khám phá Tệp"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "Thanh lệnh"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "Các nút Mới, Cắt, Sao chép, Dán, Sắp xếp và Xem dưới thanh địa chỉ. Tắt giữ cửa sổ gọn gàng, tối giản."
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "Mở Trình khám phá Tệp tại"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "Thư mục chính là vị trí bắt đầu được đặt trong cài đặt của Trình khám phá Tệp"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "Thư mục chính"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "Phiên trước"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "Tệp gần đây"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "PC này"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "Hiện dung lượng trống"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "Thanh dung lượng và dung lượng trống dưới mỗi ổ đĩa"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "Hiện thư mục"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "Màn hình nền, Tài liệu, Tải xuống, Nhạc, Ảnh và Video phía trên các ổ đĩa"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "Hiện vị trí mạng"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "Hiện ổ đĩa ẩn"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "Ổ đĩa bị ẩn khỏi ngăn dẫn hướng"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "Chuyển động"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "Tạo hoạt ảnh cho điều khiển"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "Áp dụng cho các ứng dụng dùng kiểu ứng dụng Lumen. Thay đổi hiển thị ngay."
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "Khởi động"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "Dùng Lumen khi khởi động"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Menu khởi động Limine và màn hình chờ Plymouth. Menu trước đó được sao lưu."
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "Khôi phục giao diện khởi động trước đó"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "Khóa và đăng nhập"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "Màn hình khóa"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Hình nền Lumen"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "Luôn hiện đồng hồ"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "Điều khiển đa phương tiện"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "Khóa màn hình"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "Màn hình đăng nhập"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "Dùng Lumen cho màn hình đăng nhập"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "Khôi phục màn hình đăng nhập chuẩn"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "Cài đặt màn hình đăng nhập"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "Màn hình khóa và đăng xuất"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "Làm mới màn hình khóa và đăng xuất Lumen"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Tự chạy sau khi cập nhật Plasma"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "Bảo trì"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "Không tìm thấy công cụ lumen"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "Cài đặt bằng `make install-system` từ thư mục mã nguồn Lumen."
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "Kiểm tra"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "Kiểm tra mọi thành phần Lumen đã được cài đặt và hoạt động"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "Chạy chẩn đoán"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "Hiện ảnh chụp bố cục bảng"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "Sửa chữa"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "Màu, kiểu, trang trí cửa sổ, hiệu ứng và chủ đề Plasma"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "Áp dụng lại Lumen"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "Khởi động lại các thành phần màn hình nền"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "Dùng sau khi đổi biểu tượng hoặc chủ đề trong Thiết lập hệ thống: làm mới biểu tượng trong ứng dụng đang mở và tải lại thanh tác vụ, màn hình nền và tìm kiếm"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "Tìm công cụ bị thay thế"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "Liệt kê các gói đã cài mà Lumen thay thế, như Kvantum và Klassy. Gỡ bỏ bằng `lumen cleanup` trong terminal."
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "Xây dựng lại thành phần gốc"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "Tự chạy sau khi cập nhật KWin hoặc Qt"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "Chất liệu"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Chất liệu Lumen"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "Thay hiệu ứng mờ chuẩn bằng Mica và acrylic"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "Mica cho thanh tác vụ"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "Khi tắt, dùng acrylic để thấy cửa sổ phía sau thanh tác vụ"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "Sắc màu hình nền"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "Thanh tác vụ, Bắt đầu, menu và cửa sổ nhận màu của hình nền và chuyển đổi mượt mà khi hình nền thay đổi"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "Acrylic (menu, bảng bật lên, Bắt đầu)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "Làm mờ"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "Độ bão hòa"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "Nhiễu"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica (cửa sổ, thanh tác vụ)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "Thanh tác vụ"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "Không có thanh tác vụ Lumen trên màn hình này"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "Áp dụng bố cục Lumen để thay bảng hiện tại. Tiện ích, biểu tượng khay, ứng dụng đã ghim và mục yêu thích của bạn được giữ lại."
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "Áp dụng bố cục Lumen"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "Bố cục"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "Căn giữa biểu tượng thanh tác vụ"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "Nổi"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "Tự động ẩn"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "Biểu tượng"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "Chiều cao thanh tác vụ"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "Kích thước biểu tượng Bắt đầu"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "Kích thước biểu tượng ứng dụng"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "Biểu tượng Bắt đầu và ứng dụng giữ kích thước này ở mọi chiều cao thanh tác vụ"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "Khoảng cách giữa các ứng dụng"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "Rất rộng"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "Không"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "Bình thường"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "Rộng"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "Kích thước biểu tượng khay"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "Kích thước biểu tượng Cài đặt nhanh"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "Mạng, âm lượng và pin cạnh đồng hồ"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "Khoảng cách biểu tượng khay"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "Đồng hồ"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "Hiện"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "Chỉ ngày"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "Giờ và ngày trên một dòng"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "Chỉ giờ"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "Giờ phía trên ngày"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "Định dạng giờ"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12 giờ"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24 giờ"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "Dùng cài đặt vùng"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "Định dạng ngày"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "Ngắn theo vùng (%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "Kèm thứ (%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "Dài theo vùng (%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "Tùy chỉnh (đặt trong cài đặt đồng hồ)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "Hiện giây"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "Giờ in đậm"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "Cỡ giờ"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "Căn lề giờ"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "Giữa"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "Trái"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "Phải"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "Cỡ ngày"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "Cỡ lớn được thu nhỏ cho vừa; bản thân thanh tác vụ không bao giờ thay đổi"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "Căn lề ngày"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "Thành phần"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "Ứng dụng đã ghim và đề xuất, menu nguồn và tài khoản"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "Bắt đầu"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "Biểu tượng, vùng tràn, ô và thanh trượt"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "Khay và Cài đặt nhanh"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "Đồng hồ và thông báo"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "Định dạng ngày tùy chỉnh, lịch và Trung tâm thông báo"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "Nút ứng dụng"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "Ứng dụng đã ghim và cửa sổ đang mở"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "Thông báo"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "Hiện trên ứng dụng toàn màn hình"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "Khi tắt, trò chơi và video toàn màn hình bật Không làm phiền (thông báo quan trọng vẫn hiện)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "Đầu ra"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "Đang chạy…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "Cửa sổ"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "Thanh tiêu đề"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "Thanh tiêu đề trong mờ"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "Chiều cao"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "Căn giữa tiêu đề"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "Hiện biểu tượng ứng dụng"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "Nút"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "Chỉ đóng"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "Đóng, thu nhỏ, phóng to (trái)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "Thu nhỏ, phóng to, đóng (phải)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "Hình dạng"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "Cài đặt trang trí cửa sổ"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "Tối"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "Bề mặt Mica tối ở mọi nơi"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "Bề mặt sáng với bóng đổ nhẹ"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "Sáng"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "Tự động"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "Chuyển giữa sáng và tối theo thời gian trong ngày"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "Chế độ"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "Cỡ chữ"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "Cá nhân hóa"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Làm mờ Mica và acrylic, sắc màu và nhiễu"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "Thanh tiêu đề, góc và nút"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "Điều khiển, menu, thanh cuộn và tốc độ hoạt ảnh"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "Chuyển động mở, đóng và thu nhỏ"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "Căn lề, kích thước, Bắt đầu, khay và đồng hồ"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "Màn hình khóa, màn hình đăng nhập và đăng xuất"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "Menu khởi động và màn hình chờ"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "Sửa chữa, cập nhật và chẩn đoán"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "Liên quan"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "Màu nhấn"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "Hình nền"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "Phông chữ"

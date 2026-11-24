@@ -1,0 +1,190 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ml\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plasma/notifier/FullRepresentation.qml:81
+msgid "Do not disturb"
+msgstr "ശല്യപ്പെടുത്താതിരിക്കുക"
+
+#: plasma/notifier/FullRepresentation.qml:131
+msgid "For 1 hour"
+msgstr "ഒരു മണിക്കൂർ നേരത്തേക്ക്"
+
+#: plasma/notifier/FullRepresentation.qml:136
+msgid "For 4 hours"
+msgstr "നാല് മണിക്കൂർ നേരത്തേക്ക്"
+
+#: plasma/notifier/FullRepresentation.qml:145
+msgid "Until this evening"
+msgstr "ഇന്ന് വൈകുന്നേരം വരെ"
+
+#: plasma/notifier/FullRepresentation.qml:155
+msgid "Until tomorrow morning"
+msgstr "നാളെ രാവിലെ വരെ"
+
+#: plasma/notifier/FullRepresentation.qml:167
+msgid "Until Monday"
+msgstr "തിങ്കളാഴ്ച വരെ"
+
+#: plasma/notifier/FullRepresentation.qml:174
+msgid "Until manually disabled"
+msgstr "തന്നത്താൻ അപ്രാപ്തമാക്കുന്നതു വരെ"
+
+#: plasma/notifier/FullRepresentation.qml:226
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr ""
+
+#: plasma/notifier/FullRepresentation.qml:238
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "%1 സജീവമായിരിക്കുമ്പോൾ (%2)"
+
+#: plasma/notifier/FullRepresentation.qml:240
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "%1 സജീവമായിരിക്കുമ്പോൾ"
+
+#: plasma/notifier/FullRepresentation.qml:246
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "സ്ക്രീനുകൾ പ്രതിബിംബിച്ചിട്ടുണ്ട്"
+
+#: plasma/notifier/FullRepresentation.qml:250
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr ""
+
+#: plasma/notifier/FullRepresentation.qml:510
+#: plasma/notifier/FullRepresentation.qml:516
+msgctxt "@action:button"
+msgid "View"
+msgstr ""
+
+#: plasma/notifier/FullRepresentation.qml:597
+msgid "Close Group"
+msgstr "ഗ്രൂപ്പ് അടയ്ക്കുക"
+
+#: plasma/notifier/FullRepresentation.qml:619
+msgid "Show Fewer"
+msgstr "കുറച്ച് കാണിക്കുക"
+
+#: plasma/notifier/FullRepresentation.qml:621
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "%1 കൂടുതൽ കാണിക്കുക"
+
+#: plasma/notifier/FullRepresentation.qml:650 plasma/notifier/main.qml:108
+msgid "No unread notifications"
+msgstr "വായിക്കാത്ത അറിയിപ്പുകൾ ഇല്ല"
+
+#: plasma/notifier/FullRepresentation.qml:665 plasma/notifier/main.qml:77
+msgid "Notification service not available"
+msgstr "അറിയിപ്പ് സേവനം ലഭ്യമല്ല"
+
+#: plasma/notifier/FullRepresentation.qml:667
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "അറിയിപ്പുകൾ നിലവിൽ നൽകുന്നത് '%1%2' ആണ്"
+
+#: plasma/notifier/components/ActionContainer.qml:92
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "മറുപടി"
+
+#: plasma/notifier/fileinfo.cpp:186
+msgid "Open with %1"
+msgstr "%1 ഉപയോഗിച്ച് തുറക്കുക"
+
+#: plasma/notifier/fileinfo.cpp:190
+msgid "Open with…"
+msgstr "ഇതിലൂടെ തുറക്കു…"
+
+#: plasma/notifier/filemenu.cpp:117
+msgid "Open Containing Folder"
+msgstr "ഇതുള്ള അറ തുറക്കുക"
+
+#: plasma/notifier/filemenu.cpp:131
+msgid "&Copy"
+msgstr "പകർത്തുക (&C)"
+
+#: plasma/notifier/filemenu.cpp:140
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "പാത പകർത്തുക"
+
+#: plasma/notifier/filemenu.cpp:198
+msgid "Properties"
+msgstr "ഗുണഗണങ്ങൾ"
+
+#: plasma/notifier/globalshortcuts.cpp:24
+msgid "Toggle do not disturb"
+msgstr "ശല്യപ്പെടുത്താതിരിക്കൽ"
+
+#: plasma/notifier/globalshortcuts.cpp:33
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr ""
+
+#: plasma/notifier/globalshortcuts.cpp:52
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "അറിയിപ്പുകൾ വേണ്ട"
+
+#: plasma/notifier/globalshortcuts.cpp:53
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "അറിയിപ്പുകൾ വേണം"
+
+#: plasma/notifier/globalshortcuts.cpp:68
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr ""
+
+#: plasma/notifier/main.qml:61
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 ചെയ്തുകൊണ്ടിരിക്കുന്ന ജോലി"
+msgstr[1] "%1 ചെയ്തുകൊണ്ടിരിക്കുന്ന ജോലികൾ"
+
+#: plasma/notifier/main.qml:65
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr ""
+
+#: plasma/notifier/main.qml:70
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plasma/notifier/main.qml:83
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 വായിക്കാത്ത അറിയിപ്പ്"
+msgstr[1] "%1 വായിക്കാത്ത അറിയിപ്പുകൾ"
+
+#: plasma/notifier/main.qml:88
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plasma/notifier/main.qml:101
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr ""
+
+#: plasma/notifier/main.qml:104
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr ""
+
+#: plasma/notifier/main.qml:110
+msgid "Middle-click to enter do not disturb mode"
+msgstr ""
+
+#: plasma/notifier/main.qml:245
+msgid "Clear All Notifications"
+msgstr "എല്ലാ അറിയിപ്പുകളും മായ്ക്കുക"
+
+#: plasma/notifier/main.qml:264
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&സംഭവ അറിയിപ്പുകളും നടപടികളും ക്രമീകരിക്കുക…"

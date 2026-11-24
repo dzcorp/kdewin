@@ -1,0 +1,81 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ar\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:14
+msgid "File Explorer"
+msgstr "مستكشف الملفات"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:19
+#: apps/dolphin/src/lumen/thispcworker.cpp:89
+msgid "This PC"
+msgstr "هذا الكمبيوتر"
+
+#: apps/dolphin/src/lumen/lumennames.cpp:24
+msgid "Recent files"
+msgstr "الملفات الأخيرة"
+
+#: apps/dolphin/src/lumen/lumensearchfield.cpp:16
+msgctxt "@action:intoolbar"
+msgid "Search"
+msgstr "ابحث"
+
+#: apps/dolphin/src/lumen/lumentitlebar.cpp:152
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "لسان جديد"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:77
+msgctxt "@title:group This PC section"
+msgid "Folders"
+msgstr "مجلدات"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:79
+msgctxt "@title:group This PC section"
+msgid "Devices and drives"
+msgstr "الأجهزة ومحركات الأقراص"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:81
+msgctxt "@title:group This PC section"
+msgid "Network locations"
+msgstr "مواقع الشبكة"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:148
+msgctxt "@info:status"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] " "
+msgstr[1] "عنصر واحد"
+msgstr[2] "عنصران"
+msgstr[3] "%1 عناصر"
+msgstr[4] "%1 عنصرًا"
+msgstr[5] "%1 عنصر"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:149
+msgctxt "@info:status"
+msgid "1 item selected"
+msgstr "تم تحديد عنصر واحد"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:485
+msgctxt "@info free and total space of a drive"
+msgid "%1 free of %2"
+msgstr "%1 متاحة من %2"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:644
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "افتح"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:648
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "افتح في لسان جديد"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:651
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "افتح في نافذة جديدة"
+
+#: apps/dolphin/src/lumen/thispcpage.cpp:677
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "خصائص"

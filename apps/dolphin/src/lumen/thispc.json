@@ -1,0 +1,15 @@
+{
+    "KDE-KIO-Protocols": {
+        "thispc": {
+            "Class": ":local",
+            "Icon": "computer",
+            "input": "none",
+            "listing": ["Name", "Type", "Access", "Link"],
+            "maxInstances": 4,
+            "output": "filesystem",
+            "protocol": "thispc",
+            "reading": false,
+            "writing": false
+        }
+    }
+}

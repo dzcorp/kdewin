@@ -1,0 +1,318 @@
+1	Fertig.
+2	Fehlgeschlagen (Exit-Code %1).
+3	Animationen
+4	Fenster ein- und ausblenden und zoomen
+5	Öffnen und Schließen
+6	Startgröße
+7	Minimieren
+8	Fenster fliegen zu ihrer Taskleistenschaltfläche
+9	Dauer
+10	Alle Desktopeffekte
+11	Anwendungen
+12	Fenstermaterial
+13	Mica-Fensterhintergründe
+14	Seitenleisten, Werkzeugleisten und Dialoge zeigen das unscharfe Hintergrundbild. Gilt für neu geöffnete Fenster.
+15	Deckkraft
+16	Diese Apps undurchsichtig lassen
+17	Steuerelemente
+18	Eckenradius
+19	Menüs und QuickInfos aus Acryl
+20	Benötigt Lumen-Materialien
+21	Bildlaufleisten immer vollständig anzeigen
+22	Aus: Sie bleiben schmal, bis der Mauszeiger darüber ist
+23	Bewegung
+24	Steuerelemente animieren
+25	Gilt für Apps mit dem Lumen-Anwendungsstil. Änderungen werden sofort sichtbar.
+26	Start des Systems
+27	Lumen beim Systemstart verwenden
+28	Limine-Bootmenü und Plymouth-Startbildschirm. Das vorherige Menü wird gesichert.
+29	Vorheriges Startaussehen wiederherstellen
+30	Sperren und Anmelden
+31	Sperrbildschirm
+32	Lumen-Hintergrundbild
+33	Uhr immer anzeigen
+34	Mediensteuerung
+35	Bildschirmsperre
+36	Anmeldebildschirm
+37	Lumen auf dem Anmeldebildschirm verwenden
+38	Standard-Anmeldebildschirm wiederherstellen
+39	Einstellungen für den Anmeldebildschirm
+40	Sperr- und Abmeldebildschirme
+41	Lumen-Sperr- und -Abmeldebildschirme aktualisieren
+42	Läuft automatisch nach Plasma-Aktualisierungen
+43	Wartung
+44	Das Werkzeug lumen wurde nicht gefunden
+45	Installieren Sie es mit `make install-system` im Lumen-Quellordner.
+46	Prüfen
+47	Prüft, ob alle Lumen-Teile installiert und aktiv sind
+48	Diagnose ausführen
+49	Momentaufnahme des Leistenlayouts anzeigen
+50	Reparieren
+51	Farben, Stil, Fensterdekoration, Effekte und Plasma-Design
+52	Lumen erneut anwenden
+53	Ersetzte Programme suchen
+54	Listet installierte Pakete auf, die Lumen ersetzt, etwa Kvantum und Klassy. Entfernen Sie sie mit `lumen cleanup` in einem Terminal.
+55	Native Komponenten neu erstellen
+56	Läuft automatisch nach KWin- oder Qt-Aktualisierungen
+57	Materialien
+58	Lumen-Materialien
+59	Ersetzt die Standard-Unschärfe durch Mica und Acryl
+60	Mica für die Taskleiste
+61	Aus: Acryl, das Fenster hinter der Taskleiste durchscheinen lässt
+62	Acryl (Menüs, Flyouts, Start)
+63	Unschärfe
+64	Sättigung
+65	Rauschen
+66	Mica (Fenster, Taskleiste)
+67	Taskleiste
+68	Die Lumen-Taskleiste ist auf diesem Desktop nicht vorhanden
+69	Wenden Sie das Lumen-Layout an, um die aktuelle Leiste zu ersetzen. Ihre Widgets, Symbole im Infobereich, angehefteten Apps und Favoriten bleiben erhalten.
+70	Lumen-Layout anwenden
+71	Layout
+72	Taskleistensymbole zentrieren
+73	Schwebend
+74	Automatisch ausblenden
+75	Symbole
+76	Höhe der Taskleiste
+77	Größe der App-Symbole
+78	Start- und App-Symbole behalten diese Größe bei jeder Taskleistenhöhe
+79	Abstand zwischen Apps
+80	Sehr breit
+81	Kein
+82	Normal
+83	Breit
+84	Größe der Infobereichssymbole
+85	Größe der Schnelleinstellungssymbole
+86	Netzwerk, Lautstärke und Akku neben der Uhr
+87	Abstand zwischen Infobereichssymbolen
+88	Uhr
+89	Anzeigen
+90	Nur Datum
+91	Uhrzeit und Datum in einer Zeile
+92	Nur Uhrzeit
+93	Uhrzeit über Datum
+94	Uhrzeitformat
+95	12 Stunden
+96	24 Stunden
+97	Regionale Einstellungen verwenden
+98	Datumsformat
+99	Regional kurz (%1)
+100	Mit Wochentag (%1)
+101	Regional lang (%1)
+102	ISO (%1)
+103	Benutzerdefiniert (in den Uhreinstellungen festlegen)
+104	Sekunden anzeigen
+105	Uhrzeit fett
+106	Größe der Uhrzeit
+107	Ausrichtung der Uhrzeit
+108	Zentriert
+109	Links
+110	Rechts
+111	Größe des Datums
+112	Große Werte werden verkleinert, damit sie passen; die Taskleiste selbst ändert sich nie
+113	Ausrichtung des Datums
+114	Bestandteile
+115	Angeheftete und empfohlene Apps, Energie- und Kontomenüs
+116	Start
+117	Symbole, Überlauf, Kacheln und Schieberegler
+118	Infobereich und Schnelleinstellungen
+119	Uhr und Benachrichtigungen
+120	Eigenes Datumsformat, Kalender und Benachrichtigungscenter
+121	App-Schaltflächen
+122	Angeheftete Apps und geöffnete Fenster
+123	Benachrichtigungen
+124	Über Vollbild-Apps anzeigen
+125	Aus: Vollbildspiele und -videos aktivieren „Nicht stören“ (kritische Benachrichtigungen erscheinen trotzdem)
+126	Ausgabe
+127	Wird ausgeführt …
+128	Fenster
+129	Titelleiste
+130	Durchscheinende Titelleiste
+131	Höhe
+132	Titel zentrieren
+133	Anwendungssymbol anzeigen
+134	Schaltflächen
+135	Nur Schließen
+136	Schließen, Minimieren, Maximieren (links)
+137	Minimieren, Maximieren, Schließen (rechts)
+138	Form
+139	Einstellungen für Fensterdekorationen
+140	Dunkel
+141	Dunkle Mica-Oberflächen überall
+142	Helle Oberflächen mit weichen Schatten
+143	Hell
+144	Automatisch
+145	Je nach Tageszeit zwischen hell und dunkel wechseln
+146	Modus
+147	Anpassen
+148	Mica- und Acryl-Unschärfe, Tönung und Rauschen
+149	Titelleisten, Ecken und Schaltflächen
+150	Steuerelemente, Menüs, Bildlaufleisten und Animationstempo
+151	Bewegung beim Öffnen, Schließen und Minimieren
+152	Ausrichtung, Größe, Start, Infobereich und Uhr
+153	Sperrbildschirm, Anmeldebildschirm und Abmelden
+154	Bootmenü und Startbildschirm
+155	Reparatur, Aktualisierung und Diagnose
+156	Verwandte Einstellungen
+157	Akzentfarbe
+158	Hintergrundbild
+159	Schriftarten
+161	Anzeigen:
+162	Uhrzeitformat:
+165	Eigenes Format:
+166	Größe der Uhrzeit:
+167	Ausrichtung der Uhrzeit:
+168	Größe des Datums:
+169	Ausrichtung des Datums:
+170	Große Werte werden für die Taskleiste verkleinert; die Taskleiste selbst ändert sich nie.
+171	Benachrichtigungsglocke anzeigen
+172	Flyout:
+173	Kalender anzeigen
+176	Nicht stören
+177	Alle löschen
+178	„Nicht stören“ ist aktiv
+179	Keine neuen Benachrichtigungen
+180	Früher
+181	Weniger anzeigen
+182	+%1
+183	Gruppe löschen
+184	Kalender ausblenden
+191	Alle Benachrichtigungen löschen
+192	Datum und Uhrzeit anpassen …
+193	Benachrichtigungseinstellungen …
+197	App-Namen:
+198	Allgemeiner Name (Name)
+199	Nur allgemeiner Name
+200	Name (allgemeiner Name)
+202	Empfohlen:
+203	Zuletzt verwendete Dateien anzeigen
+204	Nach Apps, Einstellungen und Dokumenten suchen
+205	Angeheftet
+206	Alle Apps
+207	Klicken Sie mit der rechten Maustaste auf eine App und wählen Sie „An Start anheften“
+208	Empfohlen
+209	Ihre zuletzt verwendeten Dateien werden hier angezeigt
+210	Zurück
+211	Keine Ergebnisse für „%1“
+212	Kontoeinstellungen ändern
+213	Sperren
+214	Benutzer wechseln
+215	Abmelden
+217	Energie sparen
+218	Ruhezustand
+219	Herunterfahren
+220	Neu starten
+221	Von Start lösen
+222	An Start anheften
+224	%1 beenden
+225	WLAN
+227	Flugzeugmodus
+228	Energiemodus
+229	Nachtmodus
+230	Dunkler Modus
+231	Tipp: Ziehen Sie Symbole in der Taskleiste, um sie neu anzuordnen, oder zwischen Taskleiste und Überlaufbereich, um sie anzuheften oder auszublenden.
+232	Kacheln der Schnelleinstellungen
+233	In den Schnelleinstellungen
+234	Immer ausgeblendet
+235	Immer angezeigt
+236	Deaktiviert
+237	Bei Bedarf angezeigt
+238	Ausgeblendete Symbole verbergen
+239	Ausgeblendete Symbole anzeigen
+240	Symbole hier ablegen
+242	Vorheriger
+244	Nächster
+245	Energiesparmodus
+250	Schnelleinstellungen
+251	Weitere Optionen
+252	Einträge
+399	Hintergrundbild-Tönung
+400	Taskleiste, Start, Menüs und Fenster übernehmen die Farbe des Hintergrundbilds und folgen ihr sanft, wenn es wechselt
+409	Nur wenn abweichend von der lokalen
+410	Zeitzonenformat:
+413	Abstand zu UTC
+422	Fügen Sie weitere Zeitzonen hinzu, um sie im Flyout und in der Kurzinfo der Uhr zu sehen oder eine davon in der Taskleiste anzuzeigen
+423	Angezeigte Zeitzone durch Scrollen über der Uhr wechseln
+424	Die systemweite Zeitzone wird dadurch nicht geändert. Wechseln Sie auf Reisen stattdessen die systemweite Zeitzone.
+426	Geöffnet lassen
+428	Termin hinzufügen
+431	Zeitzonen
+432	Ganztägig
+433	Andere
+434	%1 weitere	%1 weitere
+435	Weniger anzeigen
+441	Benachrichtigungsglocke:
+443	Nur bei neuen Benachrichtigungen
+444	Anzahl neuer Benachrichtigungen anzeigen
+445	Alle
+446	Zuletzt hinzugefügt
+447	Meistverwendet
+448	Zu einem Buchstaben springen
+449	Einstellungen
+450	Dateiverwaltung
+451	Dokumente
+452	Downloads
+453	Musik
+454	Bilder
+455	Videos
+456	Netzwerk
+457	Layout:
+458	Angeheftet und Alle Apps auf getrennten Seiten
+459	Alles auf einer scrollbaren Seite
+460	Standard
+461	Mehr Pins
+462	Mehr Empfehlungen
+463	Kürzlich verwendete Apps einbeziehen
+464	Alle Apps:
+465	Zuletzt hinzugefügte Apps anzeigen
+466	Meistverwendete Apps anzeigen
+467	Kategorieansicht aktivieren (Gruppen des Anwendungsmenüs)
+468	Ansicht:
+469	Kategorie
+470	Raster
+471	Liste
+472	Neben „Ein/Aus“:
+473	Neustart in die UEFI-Firmware-Einrichtung
+474	Alle anzeigen
+476	Apps
+477	Web
+478	Suche einrichten …
+479	Suchergebnisse
+480	Öffnen
+481	Ansicht: %1
+194	Allgemein
+482	Größe:
+483	Freien Platz füllen
+484	Rechtsklickmenü:
+485	Entfernen
+486	App hinzufügen …
+487	Taskleisteneinstellungen
+488	Desktop-Komponenten neu starten
+489	Nach dem Ändern von Symbolen oder Designs in den Systemeinstellungen verwenden: aktualisiert Symbole in geöffneten Programmen und lädt Taskleiste, Arbeitsfläche und Suche neu
+490	Befehlsleiste
+491	Schaltflächen für Neu, Ausschneiden, Kopieren, Einfügen, Sortieren und Ansicht unter der Adressleiste. Aus lässt das Fenster schlicht und minimal.
+492	Monate anzeigen
+493	Jahre anzeigen
+494	Heute
+495	Textgröße
+496	Größe des Start-Symbols
+537	Datei-Explorer
+538	Datei-Explorer in „Dieser PC“ öffnen
+539	Aus öffnet den persönlichen Ordner
+540	Dieser PC
+541	Freien Speicherplatz anzeigen
+542	Eine Füllstandsanzeige und der freie Speicherplatz unter jedem Laufwerk
+543	Ordner anzeigen
+544	Desktop, Dokumente, Downloads, Musik, Bilder und Videos über den Laufwerken
+545	Netzwerkadressen anzeigen
+546	Ausgeblendete Laufwerke anzeigen
+547	Im Navigationsbereich ausgeblendete Laufwerke
+551	Geräte und Laufwerke
+552	Netzwerkadressen
+554	1 Element ausgewählt
+555	%1 frei von %2
+560	Datei-Explorer öffnen für
+561	„Persönlicher Ordner“ ist der Startort aus den Einstellungen des Datei-Explorers
+562	Persönlicher Ordner
+563	Vorherige Sitzung
+564	Zuletzt verwendete Dateien

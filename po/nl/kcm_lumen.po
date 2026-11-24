@@ -1,0 +1,726 @@
+msgid ""
+msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: nl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: kcm/lumenkcm.cpp:437
+msgid "Done."
+msgstr "Klaar."
+
+#: kcm/lumenkcm.cpp:437
+msgid "Failed (exit code %1)."
+msgstr "Mislukt (afsluitcode %1)."
+
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+msgid "Animations"
+msgstr "Animaties"
+
+#: kcm/ui/Animations.qml:10
+msgid "Fade and zoom windows in and out"
+msgstr "Vensters in- en uitfaden en zoomen"
+
+#: kcm/ui/Animations.qml:10
+msgid "Open and close"
+msgstr "Openen en sluiten"
+
+#: kcm/ui/Animations.qml:14
+msgid "Start size"
+msgstr "Beginformaat"
+
+#: kcm/ui/Animations.qml:19
+msgid "Minimize"
+msgstr "Minimaliseren"
+
+#: kcm/ui/Animations.qml:19
+msgid "Windows fly to their taskbar button"
+msgstr "Vensters vliegen naar hun knop op de taakbalk"
+
+#: kcm/ui/Animations.qml:21 kcm/ui/Applications.qml:91
+msgid "Duration"
+msgstr "Duur"
+
+#: kcm/ui/Animations.qml:27
+msgid "All desktop effects"
+msgstr "Alle bureaubladeffecten"
+
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+msgid "Applications"
+msgstr "Toepassingen"
+
+#: kcm/ui/Applications.qml:9
+msgid "Window material"
+msgstr "Venstermateriaal"
+
+#: kcm/ui/Applications.qml:13
+msgid "Mica window backgrounds"
+msgstr "Mica-vensterachtergronden"
+
+#: kcm/ui/Applications.qml:14
+msgid "Sidebars, toolbars and dialogs show the blurred wallpaper. Applies to newly opened windows."
+msgstr "Zijbalken, werkbalken en dialoogvensters tonen de vervaagde achtergrond. Geldt voor nieuw geopende vensters."
+
+#: kcm/ui/Applications.qml:19 kcm/ui/Windows.qml:14
+msgid "Opacity"
+msgstr "Dekking"
+
+#: kcm/ui/Applications.qml:25
+msgid "Keep these apps opaque"
+msgstr "Deze apps ondoorzichtig houden"
+
+#: kcm/ui/Applications.qml:31
+msgid "Controls"
+msgstr "Besturingselementen"
+
+#: kcm/ui/Applications.qml:33 kcm/ui/Windows.qml:32
+msgid "Corner radius"
+msgstr "Hoekradius"
+
+#: kcm/ui/Applications.qml:36
+msgid "Acrylic menus and tooltips"
+msgstr "Acryl menu's en tooltips"
+
+#: kcm/ui/Applications.qml:37
+msgid "Needs Lumen materials"
+msgstr "Vereist Lumen-materialen"
+
+#: kcm/ui/Applications.qml:41
+msgid "Always show full scroll bars"
+msgstr "Altijd volledige schuifbalken tonen"
+
+#: kcm/ui/Applications.qml:42
+msgid "Off keeps them thin until hovered"
+msgstr "Uit: ze blijven smal tot je eroverheen beweegt"
+
+#: kcm/ui/Applications.qml:46
+msgid "File Explorer"
+msgstr "Verkenner"
+
+#: kcm/ui/Applications.qml:50
+msgid "Command bar"
+msgstr "Opdrachtbalk"
+
+#: kcm/ui/Applications.qml:51
+msgid "New, Cut, Copy, Paste, Sort and View buttons under the address bar. Off keeps a clean, minimal window."
+msgstr "Knoppen Nieuw, Knippen, Kopiëren, Plakken, Sorteren en Weergave onder de adresbalk. Uit houdt het venster strak en minimaal."
+
+#: kcm/ui/Applications.qml:54
+msgid "Open File Explorer to"
+msgstr "Verkenner openen in"
+
+#: kcm/ui/Applications.qml:55
+msgid "Home folder is the start location set in File Explorer's own settings"
+msgstr "'Persoonlijke map' is de startlocatie uit de instellingen van Verkenner"
+
+#: kcm/ui/Applications.qml:56
+msgid "Home folder"
+msgstr "Persoonlijke map"
+
+#: kcm/ui/Applications.qml:56
+msgid "Previous session"
+msgstr "Vorige sessie"
+
+#: kcm/ui/Applications.qml:56
+msgid "Recent files"
+msgstr "Recente bestanden"
+
+#: kcm/ui/Applications.qml:56 kcm/ui/Applications.qml:62
+msgid "This PC"
+msgstr "Deze pc"
+
+#: kcm/ui/Applications.qml:66
+msgid "Show free space"
+msgstr "Vrije ruimte weergeven"
+
+#: kcm/ui/Applications.qml:67
+msgid "A capacity bar and the free space under each drive"
+msgstr "Een capaciteitsbalk en de vrije ruimte onder elk station"
+
+#: kcm/ui/Applications.qml:71
+msgid "Show folders"
+msgstr "Mappen weergeven"
+
+#: kcm/ui/Applications.qml:72
+msgid "Desktop, Documents, Downloads, Music, Pictures and Videos above the drives"
+msgstr "Bureaublad, Documenten, Downloads, Muziek, Afbeeldingen en Video's boven de stations"
+
+#: kcm/ui/Applications.qml:76
+msgid "Show network locations"
+msgstr "Netwerklocaties weergeven"
+
+#: kcm/ui/Applications.qml:80
+msgid "Show hidden drives"
+msgstr "Verborgen stations weergeven"
+
+#: kcm/ui/Applications.qml:81
+msgid "Drives hidden from the navigation pane"
+msgstr "Stations die in het navigatiedeelvenster verborgen zijn"
+
+#: kcm/ui/Applications.qml:85
+msgid "Motion"
+msgstr "Beweging"
+
+#: kcm/ui/Applications.qml:87
+msgid "Animate controls"
+msgstr "Besturingselementen animeren"
+
+#: kcm/ui/Applications.qml:101
+msgid "Applies to apps using the Lumen application style. Changes show up live."
+msgstr "Geldt voor apps met de Lumen-toepassingsstijl. Wijzigingen zijn direct zichtbaar."
+
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+msgid "Boot"
+msgstr "Opstarten"
+
+#: kcm/ui/Boot.qml:9
+msgid "Use Lumen for boot"
+msgstr "Lumen gebruiken bij het opstarten"
+
+#: kcm/ui/Boot.qml:10
+msgid "Limine boot menu and Plymouth splash. The previous menu is backed up."
+msgstr "Limine-opstartmenu en Plymouth-opstartscherm. Het vorige menu wordt bewaard."
+
+#: kcm/ui/Boot.qml:15
+msgid "Restore the previous boot look"
+msgstr "Vorige opstartweergave herstellen"
+
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+msgid "Lock and login"
+msgstr "Vergrendelen en aanmelden"
+
+#: kcm/ui/LockLogin.qml:8
+msgid "Lock screen"
+msgstr "Vergrendelscherm"
+
+#: kcm/ui/LockLogin.qml:10
+msgid "Lumen wallpaper"
+msgstr "Lumen-achtergrond"
+
+#: kcm/ui/LockLogin.qml:11
+msgid "Always show the clock"
+msgstr "Klok altijd tonen"
+
+#: kcm/ui/LockLogin.qml:12
+msgid "Media controls"
+msgstr "Mediabediening"
+
+#: kcm/ui/LockLogin.qml:14
+msgid "Screen locking"
+msgstr "Schermvergrendeling"
+
+#: kcm/ui/LockLogin.qml:20
+msgid "Login screen"
+msgstr "Aanmeldscherm"
+
+#: kcm/ui/LockLogin.qml:22
+msgid "Use Lumen on the login screen"
+msgstr "Lumen gebruiken op het aanmeldscherm"
+
+#: kcm/ui/LockLogin.qml:23
+msgid "Restore the stock login screen"
+msgstr "Standaard aanmeldscherm herstellen"
+
+#: kcm/ui/LockLogin.qml:25
+msgid "Login screen settings"
+msgstr "Instellingen van het aanmeldscherm"
+
+#: kcm/ui/LockLogin.qml:31
+msgid "Lock and logout screens"
+msgstr "Vergrendel- en afmeldschermen"
+
+#: kcm/ui/LockLogin.qml:34
+msgid "Refresh the Lumen lock and logout screens"
+msgstr "Lumen-vergrendel- en afmeldschermen vernieuwen"
+
+#: kcm/ui/LockLogin.qml:35
+msgid "Runs automatically after Plasma updates"
+msgstr "Wordt automatisch uitgevoerd na Plasma-updates"
+
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+msgid "Maintenance"
+msgstr "Onderhoud"
+
+#: kcm/ui/Maintenance.qml:11
+msgid "The lumen tool was not found"
+msgstr "Het hulpmiddel lumen is niet gevonden"
+
+#: kcm/ui/Maintenance.qml:12
+msgid "Install it with `make install-system` from the Lumen source folder."
+msgstr "Installeer het met `make install-system` vanuit de Lumen-bronmap."
+
+#: kcm/ui/Maintenance.qml:16
+msgid "Check"
+msgstr "Controleren"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Checks every Lumen part is installed and active"
+msgstr "Controleert of elk onderdeel van Lumen geïnstalleerd en actief is"
+
+#: kcm/ui/Maintenance.qml:18
+msgid "Run diagnostics"
+msgstr "Diagnose uitvoeren"
+
+#: kcm/ui/Maintenance.qml:19
+msgid "Show the panel layout snapshot"
+msgstr "Momentopname van de paneelindeling tonen"
+
+#: kcm/ui/Maintenance.qml:22
+msgid "Repair"
+msgstr "Herstellen"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Colors, style, decoration, effects and Plasma theme"
+msgstr "Kleuren, stijl, vensterdecoratie, effecten en Plasma-thema"
+
+#: kcm/ui/Maintenance.qml:24
+msgid "Re-apply Lumen"
+msgstr "Lumen opnieuw toepassen"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Restart desktop components"
+msgstr "Bureaubladonderdelen herstarten"
+
+#: kcm/ui/Maintenance.qml:25
+msgid "Use after changing icons or themes in System Settings: refreshes icons in open apps and reloads the taskbar, desktop and search"
+msgstr "Gebruik na het wijzigen van pictogrammen of thema's in Systeeminstellingen: vernieuwt pictogrammen in open apps en laadt de taakbalk, het bureaublad en zoeken opnieuw"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Find replaced tools"
+msgstr "Vervangen hulpmiddelen zoeken"
+
+#: kcm/ui/Maintenance.qml:26
+msgid "Lists installed packages Lumen replaces, such as Kvantum and Klassy. Remove them with `lumen cleanup` in a terminal."
+msgstr "Toont geïnstalleerde pakketten die Lumen vervangt, zoals Kvantum en Klassy. Verwijder ze met `lumen cleanup` in een terminal."
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Rebuild native parts"
+msgstr "Systeemeigen onderdelen opnieuw bouwen"
+
+#: kcm/ui/Maintenance.qml:27
+msgid "Runs automatically after KWin or Qt updates"
+msgstr "Wordt automatisch uitgevoerd na KWin- of Qt-updates"
+
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+msgid "Materials"
+msgstr "Materialen"
+
+#: kcm/ui/Materials.qml:10
+msgid "Lumen materials"
+msgstr "Lumen-materialen"
+
+#: kcm/ui/Materials.qml:11
+msgid "Replaces the stock blur with Mica and acrylic"
+msgstr "Vervangt de standaardvervaging door Mica en acryl"
+
+#: kcm/ui/Materials.qml:17
+msgid "Mica for the taskbar"
+msgstr "Mica voor de taakbalk"
+
+#: kcm/ui/Materials.qml:18
+msgid "Off uses acrylic, which shows windows behind the taskbar"
+msgstr "Uit: acryl, waardoor vensters achter de taakbalk zichtbaar zijn"
+
+#: kcm/ui/Materials.qml:24
+msgid "Wallpaper tone"
+msgstr "Achtergrondtint"
+
+#: kcm/ui/Materials.qml:25
+msgid "Taskbar, Start, menus and windows take on the wallpaper's color and follow it smoothly when it changes"
+msgstr "Taakbalk, Start, menu's en vensters nemen de kleur van de achtergrond over en volgen die vloeiend als hij verandert"
+
+#: kcm/ui/Materials.qml:31
+msgid "Acrylic (menus, flyouts, Start)"
+msgstr "Acryl (menu's, flyouts, Start)"
+
+#: kcm/ui/Materials.qml:34 kcm/ui/Materials.qml:42
+msgid "Blur"
+msgstr "Vervaging"
+
+#: kcm/ui/Materials.qml:35 kcm/ui/Materials.qml:43
+msgid "Saturation"
+msgstr "Verzadiging"
+
+#: kcm/ui/Materials.qml:36
+msgid "Noise"
+msgstr "Ruis"
+
+#: kcm/ui/Materials.qml:39
+msgid "Mica (windows, taskbar)"
+msgstr "Mica (vensters, taakbalk)"
+
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+msgid "Taskbar"
+msgstr "Taakbalk"
+
+#: kcm/ui/Taskbar.qml:17
+msgid "The Lumen taskbar is not on this desktop"
+msgstr "De Lumen-taakbalk staat niet op dit bureaublad"
+
+#: kcm/ui/Taskbar.qml:18
+msgid "Apply the Lumen layout to replace the current panel. Your widgets, tray items, pinned apps and favorites are kept."
+msgstr "Pas de Lumen-indeling toe om het huidige paneel te vervangen. Je widgets, systeemvakpictogrammen, vastgemaakte apps en favorieten blijven behouden."
+
+#: kcm/ui/Taskbar.qml:20
+msgid "Apply Lumen layout"
+msgstr "Lumen-indeling toepassen"
+
+#: kcm/ui/Taskbar.qml:23
+msgid "Layout"
+msgstr "Indeling"
+
+#: kcm/ui/Taskbar.qml:27
+msgid "Center taskbar icons"
+msgstr "Taakbalkpictogrammen centreren"
+
+#: kcm/ui/Taskbar.qml:32
+msgid "Floating"
+msgstr "Zwevend"
+
+#: kcm/ui/Taskbar.qml:37
+msgid "Automatically hide"
+msgstr "Automatisch verbergen"
+
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+msgid "Icons"
+msgstr "Pictogrammen"
+
+#: kcm/ui/Taskbar.qml:47
+msgid "Taskbar height"
+msgstr "Hoogte van de taakbalk"
+
+#: kcm/ui/Taskbar.qml:56
+msgid "Start icon size"
+msgstr "Grootte van het Start-pictogram"
+
+#: kcm/ui/Taskbar.qml:65
+msgid "App icon size"
+msgstr "Grootte van app-pictogrammen"
+
+#: kcm/ui/Taskbar.qml:66
+msgid "Start and app icons keep this size at any taskbar height"
+msgstr "Start- en app-pictogrammen houden dit formaat bij elke taakbalkhoogte"
+
+#: kcm/ui/Taskbar.qml:75
+msgid "Space between apps"
+msgstr "Ruimte tussen apps"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Extra wide"
+msgstr "Extra breed"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "None"
+msgstr "Geen"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Normal"
+msgstr "Normaal"
+
+#: kcm/ui/Taskbar.qml:76
+msgid "Wide"
+msgstr "Breed"
+
+#: kcm/ui/Taskbar.qml:82
+msgid "Tray icon size"
+msgstr "Grootte van systeemvakpictogrammen"
+
+#: kcm/ui/Taskbar.qml:91
+msgid "Quick Settings icon size"
+msgstr "Grootte van snelle-instellingenpictogrammen"
+
+#: kcm/ui/Taskbar.qml:92
+msgid "Network, volume and battery next to the clock"
+msgstr "Netwerk, volume en batterij naast de klok"
+
+#: kcm/ui/Taskbar.qml:101
+msgid "Space between tray icons"
+msgstr "Ruimte tussen systeemvakpictogrammen"
+
+#: kcm/ui/Taskbar.qml:111
+msgid "Clock"
+msgstr "Klok"
+
+#: kcm/ui/Taskbar.qml:115
+msgid "Show"
+msgstr "Tonen"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Date only"
+msgstr "Alleen datum"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time and date on one line"
+msgstr "Tijd en datum op één regel"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time only"
+msgstr "Alleen tijd"
+
+#: kcm/ui/Taskbar.qml:116
+msgid "Time over date"
+msgstr "Tijd boven datum"
+
+#: kcm/ui/Taskbar.qml:121
+msgid "Time format"
+msgstr "Tijdnotatie"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "12-hour"
+msgstr "12-uurs"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "24-hour"
+msgstr "24-uurs"
+
+#: kcm/ui/Taskbar.qml:122
+msgid "Use region settings"
+msgstr "Regio-instellingen gebruiken"
+
+#: kcm/ui/Taskbar.qml:128
+msgid "Date format"
+msgstr "Datumnotatie"
+
+#: kcm/ui/Taskbar.qml:130
+msgid "Region short (%1)"
+msgstr "Regionaal kort (%1)"
+
+#: kcm/ui/Taskbar.qml:131
+msgid "Weekday (%1)"
+msgstr "Met weekdag (%1)"
+
+#: kcm/ui/Taskbar.qml:132
+msgid "Region long (%1)"
+msgstr "Regionaal lang (%1)"
+
+#: kcm/ui/Taskbar.qml:133
+msgid "ISO (%1)"
+msgstr "ISO (%1)"
+
+#: kcm/ui/Taskbar.qml:134
+msgid "Custom (set in the clock's settings)"
+msgstr "Aangepast (in te stellen bij de klok)"
+
+#: kcm/ui/Taskbar.qml:140
+msgid "Show seconds"
+msgstr "Seconden tonen"
+
+#: kcm/ui/Taskbar.qml:145
+msgid "Bold time"
+msgstr "Vetgedrukte tijd"
+
+#: kcm/ui/Taskbar.qml:150
+msgid "Time size"
+msgstr "Grootte van de tijd"
+
+#: kcm/ui/Taskbar.qml:159
+msgid "Time alignment"
+msgstr "Uitlijning van de tijd"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Center"
+msgstr "Gecentreerd"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Left"
+msgstr "Links"
+
+#: kcm/ui/Taskbar.qml:160 kcm/ui/Taskbar.qml:176
+msgid "Right"
+msgstr "Rechts"
+
+#: kcm/ui/Taskbar.qml:165
+msgid "Date size"
+msgstr "Grootte van de datum"
+
+#: kcm/ui/Taskbar.qml:166
+msgid "Large sizes shrink to fit; the taskbar itself never changes"
+msgstr "Grote formaten worden verkleind zodat ze passen; de taakbalk zelf verandert nooit"
+
+#: kcm/ui/Taskbar.qml:175
+msgid "Date alignment"
+msgstr "Uitlijning van de datum"
+
+#: kcm/ui/Taskbar.qml:182
+msgid "Parts"
+msgstr "Onderdelen"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Pinned and recommended apps, power and account menus"
+msgstr "Vastgemaakte en aanbevolen apps, energie- en accountmenu's"
+
+#: kcm/ui/Taskbar.qml:187
+msgid "Start"
+msgstr "Start"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Icons, overflow, tiles and sliders"
+msgstr "Pictogrammen, overloop, tegels en schuifregelaars"
+
+#: kcm/ui/Taskbar.qml:188
+msgid "Tray and Quick Settings"
+msgstr "Systeemvak en snelle instellingen"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Clock and notifications"
+msgstr "Klok en meldingen"
+
+#: kcm/ui/Taskbar.qml:189
+msgid "Custom date format, calendar and Notification Center"
+msgstr "Aangepaste datumnotatie, agenda en meldingencentrum"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "App buttons"
+msgstr "App-knoppen"
+
+#: kcm/ui/Taskbar.qml:190
+msgid "Pinned apps and running windows"
+msgstr "Vastgemaakte apps en geopende vensters"
+
+#: kcm/ui/Taskbar.qml:202
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: kcm/ui/Taskbar.qml:205
+msgid "Show over full-screen apps"
+msgstr "Boven apps op volledig scherm tonen"
+
+#: kcm/ui/Taskbar.qml:206
+msgid "Off: full-screen games and videos turn on Do Not Disturb (critical notifications still show)"
+msgstr "Uit: games en video's op volledig scherm zetten Niet storen aan (kritieke meldingen verschijnen nog steeds)"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Output"
+msgstr "Uitvoer"
+
+#: kcm/ui/ToolLog.qml:20
+msgid "Running…"
+msgstr "Bezig…"
+
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+msgid "Windows"
+msgstr "Vensters"
+
+#: kcm/ui/Windows.qml:8
+msgid "Title bar"
+msgstr "Titelbalk"
+
+#: kcm/ui/Windows.qml:10
+msgid "Translucent title bar"
+msgstr "Doorschijnende titelbalk"
+
+#: kcm/ui/Windows.qml:18
+msgid "Height"
+msgstr "Hoogte"
+
+#: kcm/ui/Windows.qml:20
+msgid "Center the title"
+msgstr "Titel centreren"
+
+#: kcm/ui/Windows.qml:21
+msgid "Show the application icon"
+msgstr "Toepassingspictogram tonen"
+
+#: kcm/ui/Windows.qml:23
+msgid "Buttons"
+msgstr "Knoppen"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close only"
+msgstr "Alleen sluiten"
+
+#: kcm/ui/Windows.qml:24
+msgid "Close, minimize, maximize (left)"
+msgstr "Sluiten, minimaliseren, maximaliseren (links)"
+
+#: kcm/ui/Windows.qml:24
+msgid "Minimize, maximize, close (right)"
+msgstr "Minimaliseren, maximaliseren, sluiten (rechts)"
+
+#: kcm/ui/Windows.qml:30
+msgid "Shape"
+msgstr "Vorm"
+
+#: kcm/ui/Windows.qml:34
+msgid "Window decoration settings"
+msgstr "Instellingen voor vensterdecoraties"
+
+#: kcm/ui/main.qml:9
+msgid "Dark"
+msgstr "Donker"
+
+#: kcm/ui/main.qml:9
+msgid "Mica-dark surfaces everywhere"
+msgstr "Donkere Mica-oppervlakken overal"
+
+#: kcm/ui/main.qml:10
+msgid "Bright surfaces with soft shadows"
+msgstr "Lichte oppervlakken met zachte schaduwen"
+
+#: kcm/ui/main.qml:10
+msgid "Light"
+msgstr "Licht"
+
+#: kcm/ui/main.qml:11
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: kcm/ui/main.qml:11
+msgid "Switch between light and dark with the time of day"
+msgstr "Wisselen tussen licht en donker afhankelijk van het tijdstip"
+
+#: kcm/ui/main.qml:14
+msgid "Mode"
+msgstr "Modus"
+
+#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+msgid "Text size"
+msgstr "Tekstgrootte"
+
+#: kcm/ui/main.qml:33
+msgid "Customize"
+msgstr "Aanpassen"
+
+#: kcm/ui/main.qml:37
+msgid "Mica and acrylic blur, tint and noise"
+msgstr "Mica- en acrylvervaging, tint en ruis"
+
+#: kcm/ui/main.qml:38
+msgid "Title bars, corners and buttons"
+msgstr "Titelbalken, hoeken en knoppen"
+
+#: kcm/ui/main.qml:39
+msgid "Controls, menus, scroll bars and animation speed"
+msgstr "Besturingselementen, menu's, schuifbalken en animatiesnelheid"
+
+#: kcm/ui/main.qml:40
+msgid "Open, close and minimize motion"
+msgstr "Beweging bij openen, sluiten en minimaliseren"
+
+#: kcm/ui/main.qml:41
+msgid "Alignment, size, Start, tray and clock"
+msgstr "Uitlijning, grootte, Start, systeemvak en klok"
+
+#: kcm/ui/main.qml:42
+msgid "Lock screen, login screen and logout"
+msgstr "Vergrendelscherm, aanmeldscherm en afmelden"
+
+#: kcm/ui/main.qml:43
+msgid "Boot menu and boot splash"
+msgstr "Opstartmenu en opstartscherm"
+
+#: kcm/ui/main.qml:44
+msgid "Repair, update and diagnostics"
+msgstr "Herstel, update en diagnose"
+
+#: kcm/ui/main.qml:56
+msgid "Related"
+msgstr "Gerelateerd"
+
+#: kcm/ui/main.qml:60
+msgid "Accent color"
+msgstr "Accentkleur"
+
+#: kcm/ui/main.qml:61
+msgid "Wallpaper"
+msgstr "Achtergrond"
+
+#: kcm/ui/main.qml:62
+msgid "Fonts"
+msgstr "Lettertypen"

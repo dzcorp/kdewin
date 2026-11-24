@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [{ "Name": "@@meta.author@@" }],
+        "Category": "",
+        "Description": "Lumen Light: Fluent-inspired workspace with centered taskbar, Mica and Acrylic",
+        "Id": "org.lumen.desktop.light",
+        "License": "@@meta.license@@",
+        "Name": "Lumen Light",
+        "Version": "@@meta.version@@",
+        "Website": "@@meta.website@@"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Fluent;Lumen;",
+    "X-Plasma-APIVersion": "2"
+}
