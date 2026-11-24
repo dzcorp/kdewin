@@ -24,6 +24,8 @@ jobs:
       - name: Base tools
         run: pacman -Syu --noconfirm --needed git openssh base-devel pacman-contrib github-cli sudo
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -60,4 +62,5 @@ jobs:
             echo "published $pkg"
           }
           publish lumen-kde "${GITHUB_REF_NAME#v}"
-          publish lumen-kde-git
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          publish lumen-kde-git "$(git describe --long --tags --abbrev=7 | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g')"
