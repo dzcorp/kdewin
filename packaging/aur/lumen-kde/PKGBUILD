@@ -15,7 +15,7 @@ depends=(
   'libplasma' 'patch' 'plasma-activities' 'plasma-activities-stats' 'plasma-desktop' 'plasma-workspace'
   'qqc2-desktop-style' 'qt6-base' 'qt6-declarative' 'qt6-multimedia' 'qt6-tools'
 )
-makedepends=('cargo' 'cmake' 'extra-cmake-modules' 'git' 'ninja' 'plasma-wayland-protocols')
+makedepends=('cargo' 'cmake' 'extra-cmake-modules' 'git' 'ninja' 'plasma-wayland-protocols' 'vulkan-headers')
 optdepends=(
   'bluedevil: Bluetooth tile in Quick Settings'
   'kde-gtk-config: GTK apps follow light and dark'
