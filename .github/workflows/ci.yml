@@ -43,7 +43,7 @@ jobs:
         run: |
           source packaging/aur/lumen-kde-git/PKGBUILD
           pacman -S --noconfirm --needed "${depends[@]}" "${makedepends[@]}"
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: |
             ~/.cargo/registry
