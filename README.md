@@ -189,7 +189,7 @@ More detail: [ARCHITECTURE.md](ARCHITECTURE.md).
 |---|---|---|
 | `ci.yml` | push, pull request | shellcheck; full build in an Arch container with tray checks and generator benchmark; builds the pacman package, runs namcap, installs and removes it (hooks included) |
 | `upstream-sync.yml` | daily, manual | three-way merge of the forks with the release Arch ships, build, pull request, automatic merge when clean |
-| `aur.yml` | `v*` tag, PKGBUILD change on main | GitHub release; publishes `lumen-kde` (tags) and `lumen-kde-git` to the AUR |
+| `aur.yml` | `v*` tag only | GitHub release; publishes `lumen-kde` (that version) and `lumen-kde-git` to the AUR. Commits to main never publish |
 
 Repository secrets:
 
