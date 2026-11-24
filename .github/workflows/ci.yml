@@ -92,7 +92,7 @@ jobs:
           pacman -Rns --noconfirm lumen-kde-git
           test ! -e /usr/local/share/plasma/shells/org.kde.plasma.desktop
           test ! -e /usr/lib/lumen
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: lumen-kde-git
           path: /home/builder/pkg/lumen-kde-git-[0-9]*.pkg.tar.zst
