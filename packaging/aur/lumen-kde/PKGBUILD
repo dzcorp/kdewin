@@ -14,10 +14,13 @@ depends=(
   'kparts' 'kpipewire' 'kquickcharts' 'kstatusnotifieritem' 'kuserfeedback' 'kwin' 'kxmlgui' 'libksysguard'
   'libplasma' 'patch' 'plasma-activities' 'plasma-activities-stats' 'plasma-desktop' 'plasma-workspace'
   'qqc2-desktop-style' 'qt6-base' 'qt6-declarative' 'qt6-multimedia' 'qt6-tools'
+  'inter-font' 'ttf-liberation'
 )
 makedepends=('cargo' 'cmake' 'extra-cmake-modules' 'git' 'ninja' 'plasma-wayland-protocols' 'vulkan-headers')
 optdepends=(
   'bluedevil: Bluetooth tile in Quick Settings'
+  'ttf-ms-win11-auto: Segoe UI, Segoe UI Variable, Segoe Fluent Icons and Consolas (needs a Windows licence)'
+  'ttf-selawik: open Segoe UI look-alike, preferred over Inter'
   'kde-gtk-config: GTK apps follow light and dark'
   'limine: boot menu theme (lumen boot on)'
   'plasma-login-manager: Lumen login screen (lumen login on)'

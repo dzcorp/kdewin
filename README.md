@@ -9,9 +9,7 @@ A Windows 11 style desktop for KDE Plasma 6.8, built as one system rather than a
 plugins. Every part (Qt style, window decoration, KWin effects, Plasma theme, GTK, boot splash) is generated or
 compiled from one design-token file, `tokens/tokens.toml`. Light, dark and automatic modes; the accent color follows Plasma.
 
-> Lumen is not affiliated with or endorsed by Microsoft. No Microsoft assets are included. Segoe UI is used only
-> if you have it installed (`lumen fonts` can import it from your own Windows partition); otherwise Selawik, Inter
-> or Noto Sans are used.
+> Lumen is not affiliated with or endorsed by Microsoft. No Microsoft assets are included; see [Fonts](#fonts).
 
 ## What you get
 
@@ -31,6 +29,26 @@ Your icon theme, cursor theme and wallpaper are never changed. The `windows-mode
 Arch Linux or a derivative (CachyOS, EndeavourOS, Manjaro…) with KDE Plasma 6.8 or newer, Qt 6.9+, KDE Frameworks 6.20+,
 on Wayland or X11. The native plugins are built against the installed KWin, Qt and Plasma, so they must be rebuilt after
 those update (see [Updates](#updates)).
+
+## Fonts
+
+Windows 11 uses Segoe UI Variable, Segoe UI and Consolas. Their Microsoft licence doesn't allow redistribution, so
+Lumen never ships or depends on them. `lumen apply` uses the first font that is installed:
+
+| Role | Preferred | Fallbacks |
+|---|---|---|
+| Interface | Segoe UI Variable | Selawik, Inter (`inter-font`, installed with the package), Noto Sans |
+| Title bars | Segoe UI | interface font |
+| Monospace | Consolas | Liberation Mono (`ttf-liberation`, installed with the package) |
+
+To get the Windows fonts, if you hold a Windows licence:
+
+- `lumen fonts /path/to/windows-partition` copies them from your own Windows install, or
+- `yay -S ttf-ms-win11-auto` extracts them from Microsoft's Windows 11 evaluation ISO (a large download).
+
+`ttf-selawik` (AUR) is Microsoft's open-source Segoe UI look-alike. `ttf-segoe-ui-variable` is not suggested: its
+licence allows use only for designing and testing programs for Microsoft platforms. Run `lumen apply` again after
+installing fonts.
 
 ## Install
 

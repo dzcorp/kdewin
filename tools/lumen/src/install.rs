@@ -987,14 +987,16 @@ pub fn apply(ctx: &Ctx, mode: ModeArg, layout: bool) -> Result<()> {
     let default_size = t.i("font.text_size").to_string();
     let scale = lumenrc("Fonts", "TextSize", &default_size).parse::<f64>().unwrap_or(100.0).clamp(100.0, 225.0) / 100.0;
     let font = |family: &str, key: &str, weight: u32| format!("{family},{},-1,5,{weight},0,0,0,0,0,0,0,0,0,0,1", (t.f(key) * scale * 10.0).round() / 10.0);
-    let ui = t.s("font.ui");
-    let pick = |win: &str, other: &'static str| if has_font(t.s(win)) { t.s(win) } else { t.s(other) };
-    kwrite("kdeglobals", &["General"], "font", &font(ui, "font.size_pt", 400))?;
-    kwrite("kdeglobals", &["General"], "menuFont", &font(ui, "font.menu_pt", 400))?;
-    kwrite("kdeglobals", &["General"], "toolBarFont", &font(ui, "font.size_pt", 400))?;
-    kwrite("kdeglobals", &["General"], "smallestReadableFont", &font(t.s("font.ui_small"), "font.small_pt", 400))?;
-    kwrite("kdeglobals", &["General"], "fixed", &font(pick("font.win32_mono", "font.mono"), "font.mono_pt", 400))?;
-    kwrite("kdeglobals", &["WM"], "activeFont", &font(pick("font.win32", "font.ui"), "font.size_pt", t.i("font.title_weight") as u32))?;
+    // Segoe UI (Variable) and Consolas only when installed, else the open fallbacks in token order.
+    let ui = std::iter::once(t.s("font.ui").to_owned()).chain(t.sv("font.fallback")).find(|f| has_font(f)).unwrap_or_else(|| t.s("font.ui").to_owned());
+    let or_ui = |key: &str| if has_font(t.s(key)) { t.s(key).to_owned() } else { ui.clone() };
+    let mono = if has_font(t.s("font.win32_mono")) { t.s("font.win32_mono") } else { t.s("font.mono") };
+    kwrite("kdeglobals", &["General"], "font", &font(&ui, "font.size_pt", 400))?;
+    kwrite("kdeglobals", &["General"], "menuFont", &font(&ui, "font.menu_pt", 400))?;
+    kwrite("kdeglobals", &["General"], "toolBarFont", &font(&ui, "font.size_pt", 400))?;
+    kwrite("kdeglobals", &["General"], "smallestReadableFont", &font(&or_ui("font.ui_small"), "font.small_pt", 400))?;
+    kwrite("kdeglobals", &["General"], "fixed", &font(mono, "font.mono_pt", 400))?;
+    kwrite("kdeglobals", &["WM"], "activeFont", &font(&or_ui("font.win32"), "font.size_pt", t.i("font.title_weight") as u32))?;
     // Running apps re-read their fonts, as after a change in the Fonts module.
     try_run("dbus-send", &["--session", "--type=signal", "/KDEPlatformTheme", "org.kde.KDEPlatformTheme.refreshFonts"]);
     // Stock blur takes over when the materials effect is switched off in the Lumen settings.
@@ -1428,10 +1430,11 @@ fn restore_stock(ctx: &Ctx) -> Result<()> {
         reset_key("kdeglobals", &["KDE"], key)?;
     }
     let t = &ctx.t;
-    let families: Vec<&str> = ["font.ui", "font.ui_small", "font.win32", "font.win32_mono", "font.mono"].iter().map(|k| t.s(k)).collect();
+    let mut families: Vec<String> = ["font.ui", "font.ui_small", "font.win32", "font.win32_mono", "font.mono"].iter().map(|k| t.s(k).to_owned()).collect();
+    families.extend(t.sv("font.fallback"));
     for (group, key) in [("General", "font"), ("General", "menuFont"), ("General", "toolBarFont"), ("General", "smallestReadableFont"), ("General", "fixed"), ("WM", "activeFont")] {
         let current = output("kreadconfig6", &["--file", "kdeglobals", "--group", group, "--key", key]).unwrap_or_default();
-        if current.split(',').next().is_some_and(|f| families.contains(&f)) {
+        if current.split(',').next().is_some_and(|f| families.iter().any(|x| x == f)) {
             reset_key("kdeglobals", &[group], key)?;
         }
     }
