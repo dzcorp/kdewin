@@ -16,7 +16,7 @@ RowLayout {
         roundToIconSize: false
         Layout.preferredWidth: lt.sizeQsIcon
         Layout.preferredHeight: lt.sizeQsIcon
-        source: "battery-level-" + Math.round(battery.percent / 10) * 10 + (parent.charging ? "-charging" : "") + "-symbolic"
+        source: "battery-" + String(Math.round(battery.percent / 10) * 10).padStart(3, "0") + (parent.charging ? "-charging" : "") + "-symbolic"
     }
     PlasmaComponents3.Label {
         text: i18nc("battery percentage", "%1%", battery.percent)

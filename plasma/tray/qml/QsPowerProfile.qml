@@ -11,8 +11,15 @@ QuickTile {
         "performance": i18n("Performance"),
     })
 
+    // KDE icon names: the GNOME ones (power-profile-*) are missing from KDE themes.
+    readonly property var icons: ({
+        "power-saver": "battery-profile-powersave-symbolic",
+        "balanced": "battery-profile-balanced-symbolic",
+        "performance": "battery-profile-performance-symbolic",
+    })
+
     text: names[profiles.activeProfile] ?? i18n("Power mode")
-    iconName: "power-profile-" + (profiles.activeProfile || "balanced") + "-symbolic"
+    iconName: icons[profiles.activeProfile] ?? icons.balanced
     available: profiles.isPowerProfileDaemonInstalled && profiles.profiles.length > 1
     checked: profiles.activeProfile !== "" && profiles.activeProfile !== "balanced"
     hasDetails: true
