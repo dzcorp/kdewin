@@ -4,7 +4,7 @@
         "EnabledByDefault": true,
         "Id": "org.lumen.decoration",
         "Name": "Lumen",
-        "Version": "1.0.0"
+        "Version": "1.1.0"
     },
     "org.kde.kdecoration3": {
         "blur": true,

@@ -3,7 +3,7 @@
         "Description": "Tune every part of the Lumen theme: materials, windows, animations, taskbar, lock screen and boot",
         "Icon": "preferences-desktop-theme-global",
         "Name": "Lumen",
-        "Version": "1.0.0"
+        "Version": "1.1.0"
     },
     "X-KDE-Keywords": "Lumen,Fluent,Mica,Acrylic,Blur,Taskbar,Start,Titlebar,Window,Animations,Lock screen,Login,Boot,Plymouth,Limine",
     "X-KDE-System-Settings-Parent-Category": "appearance",
