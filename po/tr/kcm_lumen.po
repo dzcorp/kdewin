@@ -1,15 +1,27 @@
 msgid ""
 msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: tr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:429
+msgid "Failed to apply the color mode (exit code %1)."
+msgstr "Renk modu uygulanamadı (çıkış kodu %1)."
+
+#: kcm/lumenkcm.cpp:435
+msgid "Failed to apply the color mode: %1"
+msgstr "Renk modu uygulanamadı: %1"
+
+#: kcm/lumenkcm.cpp:562
+msgid "Failed: %1"
+msgstr "Başarısız: %1"
+
+#: kcm/lumenkcm.cpp:567
 msgid "Done."
 msgstr "Tamamlandı."
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:567
 msgid "Failed (exit code %1)."
 msgstr "Başarısız (çıkış kodu %1)."
 
-#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:101
 msgid "Animations"
 msgstr "Animasyonlar"
 
@@ -41,7 +53,7 @@ msgstr "Süre"
 msgid "All desktop effects"
 msgstr "Tüm masaüstü efektleri"
 
-#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:100
 msgid "Applications"
 msgstr "Uygulamalar"
 
@@ -165,7 +177,7 @@ msgstr "Denetimleri canlandır"
 msgid "Applies to apps using the Lumen application style. Changes show up live."
 msgstr "Lumen uygulama stilini kullanan uygulamalara uygulanır. Değişiklikler hemen görünür."
 
-#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:104
 msgid "Boot"
 msgstr "Önyükleme"
 
@@ -181,7 +193,7 @@ msgstr "Limine önyükleme menüsü ve Plymouth açılış ekranı. Önceki men�
 msgid "Restore the previous boot look"
 msgstr "Önceki önyükleme görünümünü geri yükle"
 
-#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:103
 msgid "Lock and login"
 msgstr "Kilit ve oturum açma"
 
@@ -233,7 +245,7 @@ msgstr "Lumen kilit ve oturum kapatma ekranlarını yenile"
 msgid "Runs automatically after Plasma updates"
 msgstr "Plasma güncellemelerinden sonra otomatik çalışır"
 
-#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:105
 msgid "Maintenance"
 msgstr "Bakım"
 
@@ -250,8 +262,8 @@ msgid "Check"
 msgstr "Denetim"
 
 #: kcm/ui/Maintenance.qml:18
-msgid "Checks every Lumen part is installed and active"
-msgstr "Lumen'in her parçasının kurulu ve etkin olduğunu denetler"
+msgid "Checks installed components and whether the materials effect is loaded"
+msgstr "Kurulu bileşenleri ve malzeme efektinin yüklü olup olmadığını denetler"
 
 #: kcm/ui/Maintenance.qml:18
 msgid "Run diagnostics"
@@ -297,7 +309,7 @@ msgstr "Yerel bileşenleri yeniden derle"
 msgid "Runs automatically after KWin or Qt updates"
 msgstr "KWin veya Qt güncellemelerinden sonra otomatik çalışır"
 
-#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:98
 msgid "Materials"
 msgstr "Malzemeler"
 
@@ -345,7 +357,7 @@ msgstr "Gürültü"
 msgid "Mica (windows, taskbar)"
 msgstr "Mica (pencereler, görev çubuğu)"
 
-#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:102
 msgid "Taskbar"
 msgstr "Görev çubuğu"
 
@@ -377,7 +389,7 @@ msgstr "Yüzen"
 msgid "Automatically hide"
 msgstr "Otomatik gizle"
 
-#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:124
 msgid "Icons"
 msgstr "Simgeler"
 
@@ -593,7 +605,7 @@ msgstr "Çıktı"
 msgid "Running…"
 msgstr "Çalışıyor…"
 
-#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:99
 msgid "Windows"
 msgstr "Pencereler"
 
@@ -641,86 +653,130 @@ msgstr "Şekil"
 msgid "Window decoration settings"
 msgstr "Pencere dekorasyonu ayarları"
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:30
+msgid "Lumen is not active"
+msgstr "Lumen etkin değil"
+
+#: kcm/ui/main.qml:35
+msgid "Theme, window decoration, effects, icons and File Explorer switch to the Windows 11 look."
+msgstr "Tema, pencere dekorasyonu, efektler, simgeler ve Dosya Gezgini Windows 11 görünümüne geçer."
+
+#: kcm/ui/main.qml:45 tools/lumen/src/welcome.rs:52
+msgid "Apply Lumen"
+msgstr "Lumen’i uygula"
+
+#: kcm/ui/main.qml:55 tools/lumen/src/welcome.rs:52
+msgid "Apply with taskbar"
+msgstr "Görev çubuğuyla uygula"
+
+#: kcm/ui/main.qml:70
 msgid "Dark"
 msgstr "Koyu"
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:70
 msgid "Mica-dark surfaces everywhere"
 msgstr "Her yerde koyu Mica yüzeyler"
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Bright surfaces with soft shadows"
 msgstr "Yumuşak gölgeli açık yüzeyler"
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Light"
 msgstr "Açık"
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Automatic"
 msgstr "Otomatik"
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Switch between light and dark with the time of day"
 msgstr "Günün saatine göre açık ve koyu arasında geçiş yap"
 
-#: kcm/ui/main.qml:14
+#: kcm/ui/main.qml:75
 msgid "Mode"
 msgstr "Mod"
 
-#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+#: kcm/ui/main.qml:89 kcm/ui/main.qml:91
 msgid "Text size"
 msgstr "Metin boyutu"
 
-#: kcm/ui/main.qml:33
+#: kcm/ui/main.qml:94
 msgid "Customize"
 msgstr "Özelleştir"
 
-#: kcm/ui/main.qml:37
+#: kcm/ui/main.qml:98
 msgid "Mica and acrylic blur, tint and noise"
 msgstr "Mica ve akrilik bulanıklık, renk tonu ve gürültü"
 
-#: kcm/ui/main.qml:38
+#: kcm/ui/main.qml:99
 msgid "Title bars, corners and buttons"
 msgstr "Başlık çubukları, köşeler ve düğmeler"
 
-#: kcm/ui/main.qml:39
+#: kcm/ui/main.qml:100
 msgid "Controls, menus, scroll bars and animation speed"
 msgstr "Denetimler, menüler, kaydırma çubukları ve animasyon hızı"
 
-#: kcm/ui/main.qml:40
+#: kcm/ui/main.qml:101
 msgid "Open, close and minimize motion"
 msgstr "Açma, kapatma ve küçültme hareketi"
 
-#: kcm/ui/main.qml:41
+#: kcm/ui/main.qml:102
 msgid "Alignment, size, Start, tray and clock"
 msgstr "Hizalama, boyut, Başlat, tepsi ve saat"
 
-#: kcm/ui/main.qml:42
+#: kcm/ui/main.qml:103
 msgid "Lock screen, login screen and logout"
 msgstr "Kilit ekranı, oturum açma ekranı ve oturum kapatma"
 
-#: kcm/ui/main.qml:43
+#: kcm/ui/main.qml:104
 msgid "Boot menu and boot splash"
 msgstr "Önyükleme menüsü ve açılış ekranı"
 
-#: kcm/ui/main.qml:44
+#: kcm/ui/main.qml:105
 msgid "Repair, update and diagnostics"
 msgstr "Onarım, güncelleme ve tanılama"
 
-#: kcm/ui/main.qml:56
+#: kcm/ui/main.qml:117
 msgid "Related"
 msgstr "İlgili"
 
-#: kcm/ui/main.qml:60
+#: kcm/ui/main.qml:121
 msgid "Accent color"
 msgstr "Vurgu rengi"
 
-#: kcm/ui/main.qml:61
+#: kcm/ui/main.qml:122
 msgid "Wallpaper"
 msgstr "Duvar kâğıdı"
 
-#: kcm/ui/main.qml:62
+#: kcm/ui/main.qml:123
 msgid "Fonts"
 msgstr "Yazı tipleri"
+
+#: tools/lumen/src/welcome.rs:50
+msgid "Lumen is installed"
+msgstr "Lumen kuruldu"
+
+#: tools/lumen/src/welcome.rs:51
+msgid "Switch this session to the Windows 11 look? You can change it later in System Settings."
+msgstr "Bu oturum Windows 11 görünümüne geçirilsin mi? Bunu daha sonra Sistem Ayarları’ndan değiştirebilirsiniz."
+
+#: tools/lumen/src/welcome.rs:52
+msgid "Not now"
+msgstr "Şimdi değil"
+
+#: tools/lumen/src/welcome.rs:67 tools/lumen/src/welcome.rs:89
+msgid "Log out and back in to finish."
+msgstr "Tamamlamak için oturumu kapatıp yeniden açın."
+
+#: tools/lumen/src/welcome.rs:67
+msgid "Lumen is on"
+msgstr "Lumen etkin"
+
+#: tools/lumen/src/welcome.rs:70 tools/lumen/src/welcome.rs:90
+msgid "Lumen could not be applied"
+msgstr "Lumen uygulanamadı"
+
+#: tools/lumen/src/welcome.rs:89
+msgid "Lumen is updated"
+msgstr "Lumen güncellendi"

@@ -60,22 +60,22 @@ msgstr "Siirrä tehtävänhallinnan aktiivista kohtaa eteenpäin"
 msgid "Activate Task Manager Entry %1"
 msgstr "Aktivoi tehtävienhallinnan kohta %1"
 
-#: plasma/tasks/qml/AudioStream.qml:100
+#: plasma/tasks/qml/AudioStream.qml:102
 msgctxt "@action:button"
 msgid "Mute"
 msgstr "Vaimenna"
 
-#: plasma/tasks/qml/AudioStream.qml:100
+#: plasma/tasks/qml/AudioStream.qml:102
 msgctxt "@action:button"
 msgid "Unmute"
 msgstr "Poista vaimennus"
 
-#: plasma/tasks/qml/AudioStream.qml:101
+#: plasma/tasks/qml/AudioStream.qml:103
 msgctxt "@info:tooltip %1 is the window title"
 msgid "Mute %1"
 msgstr "Vaimenna: %1"
 
-#: plasma/tasks/qml/AudioStream.qml:101
+#: plasma/tasks/qml/AudioStream.qml:103
 msgctxt "@info:tooltip %1 is the window title"
 msgid "Unmute %1"
 msgstr "Poista vaimennus: %1"
@@ -622,34 +622,34 @@ msgctxt "@action:inmenu"
 msgid "&Close All"
 msgstr "Sulje k&aikki"
 
-#: plasma/tasks/qml/Task.qml:159
+#: plasma/tasks/qml/Task.qml:162
 msgctxt "@info:usagetip %1 application name"
 msgid "Launch %1"
 msgstr "Käynnistä %1"
 
-#: plasma/tasks/qml/Task.qml:164
+#: plasma/tasks/qml/Task.qml:167
 msgctxt "@info:tooltip"
 msgid "There is %1 new message."
 msgid_plural "There are %1 new messages."
 msgstr[0] "%1 uusi viesti."
 msgstr[1] "%1 uutta viestiä."
 
-#: plasma/tasks/qml/Task.qml:172
+#: plasma/tasks/qml/Task.qml:175
 msgctxt "@info:usagetip %1 task name"
 msgid "Show Task tooltip for %1"
 msgstr "Näytä tehtävän %1 työkaluvihje"
 
-#: plasma/tasks/qml/Task.qml:176
+#: plasma/tasks/qml/Task.qml:179
 msgctxt "@info:usagetip %1 task name"
 msgid "Show windows side by side for %1"
 msgstr "Näytä tehtävän %1 ikkunat rinnakkain"
 
-#: plasma/tasks/qml/Task.qml:181
+#: plasma/tasks/qml/Task.qml:184
 msgctxt "@info:usagetip %1 task name"
 msgid "Open textual list of windows for %1"
 msgstr "Avaa tehtävän %1 ikkunat luetteloksi"
 
-#: plasma/tasks/qml/Task.qml:185
+#: plasma/tasks/qml/Task.qml:188
 msgctxt "@info:usagetip %1 task name"
 msgid "Activate %1"
 msgstr "Aktivoi %1"

@@ -25,6 +25,6 @@ msgstr "Kaldır"
 msgid "Add app…"
 msgstr "Uygulama ekle…"
 
-#: plasma/plasmoids/org.lumen.spacer/contents/ui/main.qml:154
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/main.qml:159
 msgid "Taskbar settings"
 msgstr "Görev çubuğu ayarları"

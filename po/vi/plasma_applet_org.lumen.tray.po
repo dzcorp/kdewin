@@ -5,7 +5,7 @@ msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast
 msgid "Back"
 msgstr "Quay lại"
 
-#: plasma/tray/qml/BackgroundAppTrayItem.qml:47
+#: plasma/tray/qml/BackgroundAppTrayItem.qml:48
 msgctxt "@action:inmenu"
 msgid "Quit %1"
 msgstr "Thoát %1"
@@ -22,7 +22,7 @@ msgstr "Bluetooth"
 msgid "Airplane mode"
 msgstr "Chế độ máy bay"
 
-#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:14
+#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:21
 msgid "Power mode"
 msgstr "Chế độ nguồn"
 
@@ -39,8 +39,8 @@ msgid "Dark mode"
 msgstr "Chế độ tối"
 
 #: plasma/tray/qml/ConfigEntries.qml:61
-msgid "Tip: drag icons on the taskbar to reorder them, or between the taskbar and the hidden icons flyout to pin or hide them."
-msgstr "Mẹo: kéo biểu tượng trên thanh tác vụ để sắp xếp lại, hoặc kéo giữa thanh tác vụ và bảng biểu tượng ẩn để ghim hoặc ẩn chúng."
+msgid "Tip: drag icons on the taskbar or within the Quick Settings button to reorder them. Drag other tray icons between the taskbar and the hidden icons flyout to pin or hide them."
+msgstr "Mẹo: kéo các biểu tượng trên thanh tác vụ hoặc bên trong nút Cài đặt nhanh để sắp xếp lại. Kéo các biểu tượng khay khác giữa thanh tác vụ và menu biểu tượng ẩn để ghim hoặc ẩn chúng."
 
 #: plasma/tray/qml/ConfigEntries.qml:65
 msgid "Quick Settings tiles"

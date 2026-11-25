@@ -191,7 +191,7 @@ msgid "Flyout:"
 msgstr "Utfällbar panel:"
 
 #: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:118
 msgid "Show calendar"
 msgstr "Visa kalendern"
 
@@ -248,55 +248,55 @@ msgstr "Detta ändrar inte systemets tidszon. Byt hellre systemets tidszon när 
 msgid "Choose Time Zone"
 msgstr "Välj tidszon"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:107
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:110
 msgid "Keep open"
 msgstr "Håll öppen"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:118
 msgid "Hide calendar"
 msgstr "Dölj kalendern"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:190
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:193
 msgid "Events"
 msgstr "Händelser"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:198
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:201
 msgid "Add event"
 msgstr "Lägg till händelse"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:210
 msgid "No events for this day"
 msgstr "Inga händelser under dagen"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:210
 msgid "No events for today"
 msgstr "Inga händelser idag"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:238
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:241
 msgid "Time zones"
 msgstr "Tidszoner"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:349
 msgid "Show months"
 msgstr "Visa månader"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:349
 msgid "Show years"
 msgstr "Visa år"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:363
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:366
 msgid "Today"
 msgstr "Idag"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:371
 msgid "Next"
 msgstr "Nästa"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:371
 msgid "Previous"
 msgstr "Föregående"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:636
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:639
 msgid "All day"
 msgstr "Hela dagen"
 

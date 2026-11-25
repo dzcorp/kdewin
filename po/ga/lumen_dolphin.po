@@ -6,7 +6,7 @@ msgid "File Explorer"
 msgstr "Taiscéalaí Comhad"
 
 #: apps/dolphin/src/lumen/lumennames.cpp:19
-#: apps/dolphin/src/lumen/thispcworker.cpp:89
+#: apps/dolphin/src/lumen/thispcworker.cpp:91
 msgid "This PC"
 msgstr "An ríomhaire seo"
 

@@ -8,6 +8,7 @@ mod svg;
 mod tokens;
 mod upstream;
 mod version;
+mod welcome;
 
 use anyhow::Result;
 use clap::{Parser, Subcommand, ValueEnum};
@@ -61,6 +62,12 @@ enum Cmd {
     /// Undo what Lumen changed outside the package's own files: boot, login screen, shell copy (pacman pre_remove, root)
     #[command(hide = true)]
     PreRemove,
+    /// Offer to apply Lumen once per user (autostart after a package install)
+    #[command(hide = true)]
+    Welcome,
+    /// Run `lumen welcome` in every running graphical session (pacman hook, root)
+    #[command(hide = true)]
+    PostInstall,
     /// Print the release version and check every copy matches it; with a version, set it everywhere
     Version {
         /// New version (MAJOR.MINOR.PATCH)
@@ -166,6 +173,8 @@ fn main() -> Result<()> {
         Cmd::Apply { mode, layout } => install::apply(&ctx, mode, layout),
         Cmd::Uninstall { system } => install::uninstall(&ctx, system),
         Cmd::PreRemove => install::pre_remove(&ctx),
+        Cmd::Welcome => welcome::welcome(&ctx),
+        Cmd::PostInstall => welcome::post_install(),
         Cmd::Version { set } => version::run(&ctx, set.as_deref()),
         Cmd::Upstream { cmd: UpstreamCmd::Check } => upstream::check(&ctx),
         Cmd::Upstream { cmd: UpstreamCmd::Sync { fork, to, report } } => {

@@ -22,7 +22,9 @@ compiled from one design-token file, `tokens/tokens.toml`. Light, dark and autom
 | System | Lock and logout screens, splash, OSD, Alt-Tab, login screen (Plasma Login Manager), Plymouth boot splash, Limine boot menu, console palette |
 | Settings | System Settings → Appearance → **Lumen**: mode, materials, windows, app style, animations, taskbar, lock/login, boot, maintenance (changes apply live) |
 
-Your icon theme, cursor theme and wallpaper are never changed. The `windows-modern` icon theme is installed but not selected.
+Your cursor theme and wallpaper are never changed. The first apply switches the icon theme to the bundled
+`windows-modern` (its Windows Start logo included) and remembers yours; afterwards your choice wins, and
+`lumen uninstall` restores it.
 
 ## Requirements
 
@@ -55,13 +57,24 @@ installing fonts.
 ### From the AUR (yay or paru)
 
 ```sh
-yay -S lumen-kde-git          # or: paru -S lumen-kde-git
-lumen apply auto --layout     # in your Plasma session; drop --layout to keep your panel as is
-lumen login on                # optional: Lumen on the login screen
+yay -S lumen-kde              # tagged releases; lumen-kde-git follows main
+```
+
+Right after the install every running Plasma session gets one notification, **Lumen is installed**, with
+*Apply Lumen*, *Apply with taskbar* and *Not now* (users who were logged out get it at their next login). Applying
+switches the theme, window decoration, effects, the windows-modern icon theme (first time only; `lumen uninstall` puts
+your previous one back), the Start logo and File Explorer in the running session, and sets up the login screen
+(asks for your password). Lumen's page in System Settings shows the same **Apply Lumen** button while Lumen is not
+active. By hand:
+
+```sh
+lumen apply auto --layout     # drop --layout to keep your panel as is
+lumen login on                # Lumen on the login screen
 lumen boot on                 # optional: Plymouth boot splash and Limine boot menu
 ```
 
-Log out and back in afterwards. `lumen-kde` (tagged releases) is published alongside `lumen-kde-git`.
+Updates apply themselves: after `yay -Syu` installs a new Lumen, sessions that use it apply it again (your mode and
+panel stay) and say so; log out and back in once to load the new KWin plugins.
 
 ### With the install script
 

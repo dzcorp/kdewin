@@ -1,15 +1,27 @@
 msgid ""
 msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: nb\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:429
+msgid "Failed to apply the color mode (exit code %1)."
+msgstr ""
+
+#: kcm/lumenkcm.cpp:435
+msgid "Failed to apply the color mode: %1"
+msgstr ""
+
+#: kcm/lumenkcm.cpp:562
+msgid "Failed: %1"
+msgstr ""
+
+#: kcm/lumenkcm.cpp:567
 msgid "Done."
 msgstr ""
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:567
 msgid "Failed (exit code %1)."
 msgstr ""
 
-#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:101
 msgid "Animations"
 msgstr ""
 
@@ -41,7 +53,7 @@ msgstr ""
 msgid "All desktop effects"
 msgstr ""
 
-#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:100
 msgid "Applications"
 msgstr ""
 
@@ -165,7 +177,7 @@ msgstr ""
 msgid "Applies to apps using the Lumen application style. Changes show up live."
 msgstr ""
 
-#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:104
 msgid "Boot"
 msgstr ""
 
@@ -181,7 +193,7 @@ msgstr ""
 msgid "Restore the previous boot look"
 msgstr ""
 
-#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:103
 msgid "Lock and login"
 msgstr ""
 
@@ -233,7 +245,7 @@ msgstr ""
 msgid "Runs automatically after Plasma updates"
 msgstr ""
 
-#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:105
 msgid "Maintenance"
 msgstr ""
 
@@ -250,7 +262,7 @@ msgid "Check"
 msgstr ""
 
 #: kcm/ui/Maintenance.qml:18
-msgid "Checks every Lumen part is installed and active"
+msgid "Checks installed components and whether the materials effect is loaded"
 msgstr ""
 
 #: kcm/ui/Maintenance.qml:18
@@ -297,7 +309,7 @@ msgstr ""
 msgid "Runs automatically after KWin or Qt updates"
 msgstr ""
 
-#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:98
 msgid "Materials"
 msgstr ""
 
@@ -345,7 +357,7 @@ msgstr ""
 msgid "Mica (windows, taskbar)"
 msgstr ""
 
-#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:102
 msgid "Taskbar"
 msgstr ""
 
@@ -377,7 +389,7 @@ msgstr ""
 msgid "Automatically hide"
 msgstr ""
 
-#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:124
 msgid "Icons"
 msgstr ""
 
@@ -593,7 +605,7 @@ msgstr ""
 msgid "Running…"
 msgstr ""
 
-#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:99
 msgid "Windows"
 msgstr ""
 
@@ -641,86 +653,130 @@ msgstr ""
 msgid "Window decoration settings"
 msgstr ""
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:30
+msgid "Lumen is not active"
+msgstr ""
+
+#: kcm/ui/main.qml:35
+msgid "Theme, window decoration, effects, icons and File Explorer switch to the Windows 11 look."
+msgstr ""
+
+#: kcm/ui/main.qml:45 tools/lumen/src/welcome.rs:52
+msgid "Apply Lumen"
+msgstr ""
+
+#: kcm/ui/main.qml:55 tools/lumen/src/welcome.rs:52
+msgid "Apply with taskbar"
+msgstr ""
+
+#: kcm/ui/main.qml:70
 msgid "Dark"
 msgstr ""
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:70
 msgid "Mica-dark surfaces everywhere"
 msgstr ""
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Bright surfaces with soft shadows"
 msgstr ""
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Light"
 msgstr ""
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Automatic"
 msgstr ""
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Switch between light and dark with the time of day"
 msgstr ""
 
-#: kcm/ui/main.qml:14
+#: kcm/ui/main.qml:75
 msgid "Mode"
 msgstr ""
 
-#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+#: kcm/ui/main.qml:89 kcm/ui/main.qml:91
 msgid "Text size"
 msgstr ""
 
-#: kcm/ui/main.qml:33
+#: kcm/ui/main.qml:94
 msgid "Customize"
 msgstr ""
 
-#: kcm/ui/main.qml:37
+#: kcm/ui/main.qml:98
 msgid "Mica and acrylic blur, tint and noise"
 msgstr ""
 
-#: kcm/ui/main.qml:38
+#: kcm/ui/main.qml:99
 msgid "Title bars, corners and buttons"
 msgstr ""
 
-#: kcm/ui/main.qml:39
+#: kcm/ui/main.qml:100
 msgid "Controls, menus, scroll bars and animation speed"
 msgstr ""
 
-#: kcm/ui/main.qml:40
+#: kcm/ui/main.qml:101
 msgid "Open, close and minimize motion"
 msgstr ""
 
-#: kcm/ui/main.qml:41
+#: kcm/ui/main.qml:102
 msgid "Alignment, size, Start, tray and clock"
 msgstr ""
 
-#: kcm/ui/main.qml:42
+#: kcm/ui/main.qml:103
 msgid "Lock screen, login screen and logout"
 msgstr ""
 
-#: kcm/ui/main.qml:43
+#: kcm/ui/main.qml:104
 msgid "Boot menu and boot splash"
 msgstr ""
 
-#: kcm/ui/main.qml:44
+#: kcm/ui/main.qml:105
 msgid "Repair, update and diagnostics"
 msgstr ""
 
-#: kcm/ui/main.qml:56
+#: kcm/ui/main.qml:117
 msgid "Related"
 msgstr ""
 
-#: kcm/ui/main.qml:60
+#: kcm/ui/main.qml:121
 msgid "Accent color"
 msgstr ""
 
-#: kcm/ui/main.qml:61
+#: kcm/ui/main.qml:122
 msgid "Wallpaper"
 msgstr ""
 
-#: kcm/ui/main.qml:62
+#: kcm/ui/main.qml:123
 msgid "Fonts"
+msgstr ""
+
+#: tools/lumen/src/welcome.rs:50
+msgid "Lumen is installed"
+msgstr ""
+
+#: tools/lumen/src/welcome.rs:51
+msgid "Switch this session to the Windows 11 look? You can change it later in System Settings."
+msgstr ""
+
+#: tools/lumen/src/welcome.rs:52
+msgid "Not now"
+msgstr ""
+
+#: tools/lumen/src/welcome.rs:67 tools/lumen/src/welcome.rs:89
+msgid "Log out and back in to finish."
+msgstr ""
+
+#: tools/lumen/src/welcome.rs:67
+msgid "Lumen is on"
+msgstr ""
+
+#: tools/lumen/src/welcome.rs:70 tools/lumen/src/welcome.rs:90
+msgid "Lumen could not be applied"
+msgstr ""
+
+#: tools/lumen/src/welcome.rs:89
+msgid "Lumen is updated"
 msgstr ""

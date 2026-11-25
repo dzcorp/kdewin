@@ -191,7 +191,7 @@ msgid "Flyout:"
 msgstr "Painel suspenso:"
 
 #: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:118
 msgid "Show calendar"
 msgstr "Mostrar o calendário"
 
@@ -248,55 +248,55 @@ msgstr "Isso não altera o fuso horário do sistema. Ao viajar, altere o fuso ho
 msgid "Choose Time Zone"
 msgstr "Escolher fuso horário"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:107
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:110
 msgid "Keep open"
 msgstr "Manter aberto"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:118
 msgid "Hide calendar"
 msgstr "Ocultar o calendário"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:190
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:193
 msgid "Events"
 msgstr "Eventos"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:198
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:201
 msgid "Add event"
 msgstr "Adicionar evento"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:210
 msgid "No events for this day"
 msgstr "Nenhum evento para este dia"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:210
 msgid "No events for today"
 msgstr "Nenhum evento para hoje"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:238
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:241
 msgid "Time zones"
 msgstr "Fusos horários"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:349
 msgid "Show months"
 msgstr "Mostrar meses"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:349
 msgid "Show years"
 msgstr "Mostrar anos"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:363
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:366
 msgid "Today"
 msgstr "Hoje"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:371
 msgid "Next"
 msgstr "Próximo"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:371
 msgid "Previous"
 msgstr "Anterior"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:636
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:639
 msgid "All day"
 msgstr "Dia inteiro"
 

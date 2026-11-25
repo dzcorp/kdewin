@@ -5,7 +5,7 @@ msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast
 msgid "Back"
 msgstr "Geri"
 
-#: plasma/tray/qml/BackgroundAppTrayItem.qml:47
+#: plasma/tray/qml/BackgroundAppTrayItem.qml:48
 msgctxt "@action:inmenu"
 msgid "Quit %1"
 msgstr "%1 uygulamasından çık"
@@ -22,7 +22,7 @@ msgstr "Bluetooth"
 msgid "Airplane mode"
 msgstr "Uçak modu"
 
-#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:14
+#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:21
 msgid "Power mode"
 msgstr "Güç modu"
 
@@ -39,8 +39,8 @@ msgid "Dark mode"
 msgstr "Koyu mod"
 
 #: plasma/tray/qml/ConfigEntries.qml:61
-msgid "Tip: drag icons on the taskbar to reorder them, or between the taskbar and the hidden icons flyout to pin or hide them."
-msgstr "İpucu: Simgeleri yeniden sıralamak için görev çubuğunda sürükleyin; sabitlemek ya da gizlemek için görev çubuğu ile gizli simgeler paneli arasında sürükleyin."
+msgid "Tip: drag icons on the taskbar or within the Quick Settings button to reorder them. Drag other tray icons between the taskbar and the hidden icons flyout to pin or hide them."
+msgstr "İpucu: Simgeleri yeniden sıralamak için görev çubuğunda veya Hızlı Ayarlar düğmesinin içinde sürükleyin. Diğer tepsi simgelerini sabitlemek veya gizlemek için görev çubuğu ile gizli simgeler menüsü arasında sürükleyin."
 
 #: plasma/tray/qml/ConfigEntries.qml:65
 msgid "Quick Settings tiles"

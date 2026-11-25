@@ -65,7 +65,6 @@ panel.addWidget("org.lumen.spacer");
 
 var start = panel.addWidget("org.lumen.start");
 writeAll(start, ["General"], {
-    icon: entry("startIcon", ""),
     favoritesClientId: entry("startFavoritesClient", ""),
     favoritesPortedToKAstats: entry("startFavoritesClient", "") !== "" ? "true" : "",
 });

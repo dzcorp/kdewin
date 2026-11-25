@@ -60,22 +60,22 @@ msgstr ""
 msgid "Activate Task Manager Entry %1"
 msgstr ""
 
-#: plasma/tasks/qml/AudioStream.qml:100
+#: plasma/tasks/qml/AudioStream.qml:102
 msgctxt "@action:button"
 msgid "Mute"
 msgstr "Silenciar"
 
-#: plasma/tasks/qml/AudioStream.qml:100
+#: plasma/tasks/qml/AudioStream.qml:102
 msgctxt "@action:button"
 msgid "Unmute"
 msgstr "Activar o son"
 
-#: plasma/tasks/qml/AudioStream.qml:101
+#: plasma/tasks/qml/AudioStream.qml:103
 msgctxt "@info:tooltip %1 is the window title"
 msgid "Mute %1"
 msgstr "Silenciar %1."
 
-#: plasma/tasks/qml/AudioStream.qml:101
+#: plasma/tasks/qml/AudioStream.qml:103
 msgctxt "@info:tooltip %1 is the window title"
 msgid "Unmute %1"
 msgstr "Activar o son de %1."
@@ -348,7 +348,7 @@ msgstr "Tráea ao escritorio virtual actual"
 #: plasma/tasks/qml/ConfigBehavior.qml:207
 msgctxt "@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles through tasks/cycles through the selected task's windows/adjusts the hovered task’s volume''"
 msgid "Scrolling behavior:"
-msgstr ""
+msgstr "Comportamento de desprazamento:"
 
 #: plasma/tasks/qml/ConfigBehavior.qml:211
 msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
@@ -620,36 +620,36 @@ msgstr ""
 #: plasma/tasks/qml/ContextMenu.qml:787
 msgctxt "@action:inmenu"
 msgid "&Close All"
-msgstr ""
+msgstr "Pe&chalo todo"
 
-#: plasma/tasks/qml/Task.qml:159
+#: plasma/tasks/qml/Task.qml:162
 msgctxt "@info:usagetip %1 application name"
 msgid "Launch %1"
 msgstr "Iniciar %1"
 
-#: plasma/tasks/qml/Task.qml:164
+#: plasma/tasks/qml/Task.qml:167
 msgctxt "@info:tooltip"
 msgid "There is %1 new message."
 msgid_plural "There are %1 new messages."
 msgstr[0] "Hai %1 nova mensaxe."
 msgstr[1] "Hai %1 novas mensaxes."
 
-#: plasma/tasks/qml/Task.qml:172
+#: plasma/tasks/qml/Task.qml:175
 msgctxt "@info:usagetip %1 task name"
 msgid "Show Task tooltip for %1"
 msgstr "Amosar a indicación emerxente de tarefa de %1."
 
-#: plasma/tasks/qml/Task.qml:176
+#: plasma/tasks/qml/Task.qml:179
 msgctxt "@info:usagetip %1 task name"
 msgid "Show windows side by side for %1"
 msgstr "Amosar as xanela unha a carón da outra para %1."
 
-#: plasma/tasks/qml/Task.qml:181
+#: plasma/tasks/qml/Task.qml:184
 msgctxt "@info:usagetip %1 task name"
 msgid "Open textual list of windows for %1"
 msgstr "Abrir unha lista de texto das xanelas para %1."
 
-#: plasma/tasks/qml/Task.qml:185
+#: plasma/tasks/qml/Task.qml:188
 msgctxt "@info:usagetip %1 task name"
 msgid "Activate %1"
 msgstr ""

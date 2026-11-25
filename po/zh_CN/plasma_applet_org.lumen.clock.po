@@ -191,7 +191,7 @@ msgid "Flyout:"
 msgstr "浮出控件:"
 
 #: plasma/plasmoids/org.lumen.clock/contents/ui/ConfigGeneral.qml:115
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:118
 msgid "Show calendar"
 msgstr "显示日历"
 
@@ -248,55 +248,55 @@ msgstr "这不会更改系统时区。旅行时请改为切换系统时区。"
 msgid "Choose Time Zone"
 msgstr "选择时区"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:107
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:110
 msgid "Keep open"
 msgstr "保持打开"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:115
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:118
 msgid "Hide calendar"
 msgstr "隐藏日历"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:190
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:193
 msgid "Events"
 msgstr "事件"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:198
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:201
 msgid "Add event"
 msgstr "添加事件"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:210
 msgid "No events for this day"
 msgstr "这一天没有事件"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:207
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:210
 msgid "No events for today"
 msgstr "今天没有事件"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:238
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:241
 msgid "Time zones"
 msgstr "时区"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:349
 msgid "Show months"
 msgstr "显示月份"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:346
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:349
 msgid "Show years"
 msgstr "显示年份"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:363
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:366
 msgid "Today"
 msgstr "今天"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:371
 msgid "Next"
 msgstr "下一个"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:368
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:371
 msgid "Previous"
 msgstr "上一个"
 
-#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:636
+#: plasma/plasmoids/org.lumen.clock/contents/ui/Flyout.qml:639
 msgid "All day"
 msgstr "全天"
 

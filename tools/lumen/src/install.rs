@@ -43,7 +43,7 @@ fn home() -> PathBuf {
     PathBuf::from(std::env::var_os("HOME").expect("HOME"))
 }
 
-fn data_home() -> PathBuf {
+pub(crate) fn data_home() -> PathBuf {
     std::env::var_os("XDG_DATA_HOME").map(PathBuf::from).unwrap_or_else(|| home().join(".local/share"))
 }
 
@@ -66,7 +66,7 @@ pub(crate) fn try_run(cmd: &str, args: &[&str]) -> bool {
     Command::new(cmd).args(args).status().is_ok_and(|s| s.success())
 }
 
-fn output(cmd: &str, args: &[&str]) -> Option<String> {
+pub(crate) fn output(cmd: &str, args: &[&str]) -> Option<String> {
     Command::new(cmd).args(args).output().ok().filter(|o| o.status.success()).map(|o| String::from_utf8_lossy(&o.stdout).trim().to_owned())
 }
 
@@ -537,6 +537,14 @@ pub fn stage(ctx: &Ctx, dest: &Path) -> Result<()> {
     write_file(&at(&format!("{ALPM_HOOKS}/lumen-shell.hook")), shell.as_bytes())?;
     let rebuild = hook_text(&with_self(REBUILD_TARGETS), "Checking Lumen's native plugins against the updated KDE/Qt...", "NeedsTargets\nExec = /usr/bin/lumen rebuild-kwin\n");
     write_file(&at(&format!("{ALPM_HOOKS}/lumen-rebuild.hook")), rebuild.as_bytes())?;
+    // After lumen-shell.hook (hooks run in name order): offer or re-apply Lumen in running sessions once the shell
+    // copy exists.
+    let welcome = hook_text(PACKAGES, "Applying Lumen in running Plasma sessions...", "Exec = /usr/bin/lumen post-install\n");
+    write_file(&at(&format!("{ALPM_HOOKS}/lumen-welcome.hook")), welcome.as_bytes())?;
+    write_file(
+        &at("/etc/xdg/autostart/org.lumen.welcome.desktop"),
+        b"[Desktop Entry]\nType=Application\nName=Lumen\nExec=/usr/bin/lumen welcome\nOnlyShowIn=KDE;\nNoDisplay=true\nX-KDE-autostart-phase=2\n",
+    )?;
     println!("staged {} generated files and the native build into {}", files.len(), dest.display());
     Ok(())
 }
@@ -1077,8 +1085,92 @@ pub fn apply(ctx: &Ctx, mode: ModeArg, layout: bool) -> Result<()> {
             try_run("qdbus6", &["org.kde.KWin", "/Effects", "org.kde.kwin.Effects.reconfigureEffect", e]);
         }
     }
+    first_apply()?;
+    kwrite("lumenrc", &["Restore"], "AppliedVersion", ctx.version())?;
+    if activate_file_manager() {
+        // The shell and search launch apps with their own environment: restart them on the new one.
+        if !try_run("systemctl", &["--user", "restart", "plasma-plasmashell.service"]) {
+            try_run("kquitapp6", &["plasmashell"]);
+            try_run("kstart", &["plasmashell"]);
+        }
+        try_run("kquitapp6", &["krunner"]);
+    }
     println!("applied Lumen ({}), run `lumen doctor` to verify", if auto { "auto" } else { variant });
     Ok(())
+}
+
+const ICON_THEME: &str = "windows-modern";
+/// Resolves to the Windows Start logo in windows-modern (its start-here-kde is the KDE logo).
+const START_ICON: &str = "start-here";
+
+/// First apply only: Lumen's icon theme (the previous one is kept for `lumen uninstall`) and the Start logo on Lumen's
+/// Start buttons. Later applies leave both to the user.
+fn first_apply() -> Result<()> {
+    let restore = |key: &str| output("kreadconfig6", &["--file", "lumenrc", "--group", "Restore", "--key", key]).unwrap_or_default();
+    if restore("FirstApplied") == "true" {
+        return Ok(());
+    }
+    let installed = [data_home().join("icons"), PathBuf::from("/usr/share/icons")].iter().any(|d| d.join(ICON_THEME).join("index.theme").is_file());
+    let current = output("kreadconfig6", &["--file", "kdeglobals", "--group", "Icons", "--key", "Theme"]).filter(|t| !t.is_empty()).unwrap_or_else(|| "breeze".into());
+    if installed && current != ICON_THEME {
+        kwrite("lumenrc", &["Restore"], "IconTheme", &current)?;
+        set_icon_theme(ICON_THEME)?;
+        println!("icon theme: {ICON_THEME} (was {current}; `lumen uninstall` restores it)");
+    }
+    let script = format!(
+        "panels().forEach(function (p) {{ p.widgets('org.lumen.start').forEach(function (w) {{\
+            w.currentConfigGroup = ['General']; w.writeConfig('icon', '{START_ICON}'); w.reloadConfig(); }}); }});"
+    );
+    try_run("qdbus6", &["org.kde.plasmashell", "/PlasmaShell", "org.kde.PlasmaShell.evaluateScript", &script]);
+    kwrite("lumenrc", &["Restore"], "FirstApplied", "true")
+}
+
+/// Live switch: running apps reload their icons.
+fn set_icon_theme(theme: &str) -> Result<()> {
+    if !try_run("/usr/lib/plasma-changeicons", &[theme]) {
+        kwrite_notify("kdeglobals", &["Icons"], "Theme", theme)?;
+    }
+    refresh_icons(false);
+    Ok(())
+}
+
+/// Lumen's File Explorer for this session without logging out. The packaged Dolphin comes first through the session
+/// env script, which only runs at login: the session's service and D-Bus environment get the same PATH and data dirs
+/// now. Either way the file manager service restarts on the Lumen binary. Returns whether the environment changed.
+fn activate_file_manager() -> bool {
+    try_run("systemctl", &["--user", "daemon-reload"]);
+    let mut changed = false;
+    if let Some(bin) = Path::new(PACKAGED_DOLPHIN).parent().filter(|_| Path::new(PACKAGED_DOLPHIN).is_file()) {
+        // The session's own environment, not this process's (a terminal's PATH has shell additions).
+        let session = output("systemctl", &["--user", "show-environment"]).unwrap_or_default();
+        let get = |var: &str, default: &str| {
+            session.lines().find_map(|l| l.strip_prefix(&format!("{var}="))).filter(|v| !v.is_empty()).unwrap_or(default).to_owned()
+        };
+        let mut vars = Vec::new();
+        for (var, dir, default) in [("PATH", bin.to_string_lossy().into_owned(), "/usr/local/sbin:/usr/local/bin:/usr/bin"), ("XDG_DATA_DIRS", PACKAGED_XDG.to_owned(), "/usr/local/share:/usr/share")] {
+            let current = get(var, default);
+            if !current.split(':').any(|d| d == dir) {
+                vars.push(format!("{var}={dir}:{current}"));
+            }
+        }
+        if !vars.is_empty() {
+            let mut args = vec!["--user", "set-environment"];
+            args.extend(vars.iter().map(String::as_str));
+            try_run("systemctl", &args);
+            try_run("dbus-update-activation-environment", &vars.iter().map(String::as_str).collect::<Vec<_>>());
+            let data_dirs = vars.iter().find_map(|v| v.strip_prefix("XDG_DATA_DIRS=")).map(str::to_owned).unwrap_or_else(|| get("XDG_DATA_DIRS", ""));
+            let _ = Command::new("kbuildsycoca6").env("XDG_DATA_DIRS", data_dirs).stdout(std::process::Stdio::null()).stderr(std::process::Stdio::null()).status();
+            changed = true;
+        }
+    }
+    // Restarting closes the service's windows: only when the running file manager is not Lumen's (an upgraded binary
+    // shows as "… (deleted)" and keeps running).
+    let pid = output("systemctl", &["--user", "show", "--property=MainPID", "--value", "plasma-dolphin.service"]).unwrap_or_default();
+    let exe = std::fs::read_link(format!("/proc/{pid}/exe")).map(|p| p.to_string_lossy().trim_end_matches(" (deleted)").to_owned());
+    if pid != "0" && exe.is_ok_and(|e| e != PACKAGED_DOLPHIN && e != DOLPHIN_BIN) {
+        try_run("systemctl", &["--user", "try-restart", "plasma-dolphin.service"]);
+    }
+    changed
 }
 
 /// Widgets in a Lumen panel that Lumen supersedes: (old plugin, replacement or "" to drop, carry settings over).
@@ -1459,6 +1551,17 @@ fn restore_stock(ctx: &Ctx) -> Result<()> {
         kwrite("kwinrulesrc", &["General"], "count", &ids.len().to_string())?;
     }
     lock_wallpaper(false)?;
+    let saved = output("kreadconfig6", &["--file", "lumenrc", "--group", "Restore", "--key", "IconTheme"]).filter(|t| !t.is_empty());
+    let current = output("kreadconfig6", &["--file", "kdeglobals", "--group", "Icons", "--key", "Theme"]).unwrap_or_default();
+    if let Some(previous) = saved
+        && current == ICON_THEME
+    {
+        set_icon_theme(&previous)?;
+        println!("icon theme: back to {previous}");
+    }
+    for key in ["IconTheme", "FirstApplied", "AppliedVersion"] {
+        kdelete("lumenrc", &["Restore"], key)?;
+    }
     if !try_run("qdbus6", &["org.kde.GtkConfig", "/GtkConfig", "org.kde.GtkConfig.setGtkTheme", "Breeze"]) {
         for v in ["gtk-3.0", "gtk-4.0"] {
             let ini = config_home().join(v).join("settings.ini");

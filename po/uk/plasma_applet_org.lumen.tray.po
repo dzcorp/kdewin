@@ -5,7 +5,7 @@ msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast
 msgid "Back"
 msgstr "Назад"
 
-#: plasma/tray/qml/BackgroundAppTrayItem.qml:47
+#: plasma/tray/qml/BackgroundAppTrayItem.qml:48
 msgctxt "@action:inmenu"
 msgid "Quit %1"
 msgstr "Завершити %1"
@@ -22,7 +22,7 @@ msgstr "Bluetooth"
 msgid "Airplane mode"
 msgstr "Режим «у літаку»"
 
-#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:14
+#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:21
 msgid "Power mode"
 msgstr "Режим живлення"
 
@@ -39,8 +39,8 @@ msgid "Dark mode"
 msgstr "Темний режим"
 
 #: plasma/tray/qml/ConfigEntries.qml:61
-msgid "Tip: drag icons on the taskbar to reorder them, or between the taskbar and the hidden icons flyout to pin or hide them."
-msgstr "Порада: перетягуйте значки на панелі завдань, щоб змінити порядок, або між панеллю та вікном прихованих значків, щоб закріпити чи сховати їх."
+msgid "Tip: drag icons on the taskbar or within the Quick Settings button to reorder them. Drag other tray icons between the taskbar and the hidden icons flyout to pin or hide them."
+msgstr "Порада: перетягуйте піктограми на панелі завдань або всередині кнопки швидких параметрів, щоб змінити їхній порядок. Перетягуйте інші піктограми системного лотка між панеллю завдань і меню прихованих піктограм, щоб закріпити або приховати їх."
 
 #: plasma/tray/qml/ConfigEntries.qml:65
 msgid "Quick Settings tiles"

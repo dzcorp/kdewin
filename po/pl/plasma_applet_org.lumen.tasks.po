@@ -61,22 +61,22 @@ msgstr "Przesuń bieżący wpis paska zadań w przód"
 msgid "Activate Task Manager Entry %1"
 msgstr "Przełącz na wpis %1 na pasku zadań"
 
-#: plasma/tasks/qml/AudioStream.qml:100
+#: plasma/tasks/qml/AudioStream.qml:102
 msgctxt "@action:button"
 msgid "Mute"
 msgstr "Wycisz"
 
-#: plasma/tasks/qml/AudioStream.qml:100
+#: plasma/tasks/qml/AudioStream.qml:102
 msgctxt "@action:button"
 msgid "Unmute"
 msgstr "Wyłącz wyciszenie"
 
-#: plasma/tasks/qml/AudioStream.qml:101
+#: plasma/tasks/qml/AudioStream.qml:103
 msgctxt "@info:tooltip %1 is the window title"
 msgid "Mute %1"
 msgstr "Wycisz %1"
 
-#: plasma/tasks/qml/AudioStream.qml:101
+#: plasma/tasks/qml/AudioStream.qml:103
 msgctxt "@info:tooltip %1 is the window title"
 msgid "Unmute %1"
 msgstr "Usuń wyciszenie %1"
@@ -623,12 +623,12 @@ msgctxt "@action:inmenu"
 msgid "&Close All"
 msgstr "Za&mknij wszystkie"
 
-#: plasma/tasks/qml/Task.qml:159
+#: plasma/tasks/qml/Task.qml:162
 msgctxt "@info:usagetip %1 application name"
 msgid "Launch %1"
 msgstr "Uruchom %1"
 
-#: plasma/tasks/qml/Task.qml:164
+#: plasma/tasks/qml/Task.qml:167
 msgctxt "@info:tooltip"
 msgid "There is %1 new message."
 msgid_plural "There are %1 new messages."
@@ -636,22 +636,22 @@ msgstr[0] "Istnieje %1 nowa wiadomość."
 msgstr[1] "Istnieją %1 nowe wiadomości."
 msgstr[2] "Istnieje %1 nowych wiadomości."
 
-#: plasma/tasks/qml/Task.qml:172
+#: plasma/tasks/qml/Task.qml:175
 msgctxt "@info:usagetip %1 task name"
 msgid "Show Task tooltip for %1"
 msgstr "Pokaż mały podgląd okna po najechaniu na jego zadanie dla %1"
 
-#: plasma/tasks/qml/Task.qml:176
+#: plasma/tasks/qml/Task.qml:179
 msgctxt "@info:usagetip %1 task name"
 msgid "Show windows side by side for %1"
 msgstr "Pokaż okna obok siebie dla %1"
 
-#: plasma/tasks/qml/Task.qml:181
+#: plasma/tasks/qml/Task.qml:184
 msgctxt "@info:usagetip %1 task name"
 msgid "Open textual list of windows for %1"
 msgstr "Otwórz tekstowy wykaz okien dla %1"
 
-#: plasma/tasks/qml/Task.qml:185
+#: plasma/tasks/qml/Task.qml:188
 msgctxt "@info:usagetip %1 task name"
 msgid "Activate %1"
 msgstr "Uaktywnij %1"

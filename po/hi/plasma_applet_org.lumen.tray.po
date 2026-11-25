@@ -5,7 +5,7 @@ msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast
 msgid "Back"
 msgstr "वापस"
 
-#: plasma/tray/qml/BackgroundAppTrayItem.qml:47
+#: plasma/tray/qml/BackgroundAppTrayItem.qml:48
 msgctxt "@action:inmenu"
 msgid "Quit %1"
 msgstr "%1 से बाहर निकलें"
@@ -22,7 +22,7 @@ msgstr "ब्लूटूथ"
 msgid "Airplane mode"
 msgstr "हवाई जहाज़ मोड"
 
-#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:14
+#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:21
 msgid "Power mode"
 msgstr "पावर मोड"
 
@@ -39,8 +39,8 @@ msgid "Dark mode"
 msgstr "गहरा मोड"
 
 #: plasma/tray/qml/ConfigEntries.qml:61
-msgid "Tip: drag icons on the taskbar to reorder them, or between the taskbar and the hidden icons flyout to pin or hide them."
-msgstr "सुझाव: क्रम बदलने के लिए टास्कबार में आइकन खींचें, या पिन करने या छिपाने के लिए उन्हें टास्कबार और छिपे आइकन पैनल के बीच खींचें।"
+msgid "Tip: drag icons on the taskbar or within the Quick Settings button to reorder them. Drag other tray icons between the taskbar and the hidden icons flyout to pin or hide them."
+msgstr "सुझाव: क्रम बदलने के लिए टास्कबार पर या क्विक सेटिंग्स बटन के भीतर आइकन खींचें। अन्य ट्रे आइकन को पिन करने या छिपाने के लिए उन्हें टास्कबार और छिपे हुए आइकन मेनू के बीच खींचें।"
 
 #: plasma/tray/qml/ConfigEntries.qml:65
 msgid "Quick Settings tiles"

@@ -96,7 +96,7 @@ msgstr ""
 
 #: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:48
 msgid "Name only"
-msgstr ""
+msgstr "Só o nome"
 
 #: plasma/plasmoids/org.lumen.start/contents/ui/ConfigGeneral.qml:54
 msgid "Layout:"

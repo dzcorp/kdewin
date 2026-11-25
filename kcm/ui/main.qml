@@ -1,9 +1,70 @@
 import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
 import org.kde.kcmutils as KCMUtils
+import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 
 LumenPage {
     id: page
+
+    // Installed but not the active theme (fresh install, or switched away): one prominent way to turn it on.
+    LumenCard {
+        visible: !kcm.lumenActive
+        FormCard.AbstractFormDelegate {
+            background: null
+            contentItem: ColumnLayout {
+                spacing: Kirigami.Units.largeSpacing
+                RowLayout {
+                    spacing: Kirigami.Units.largeSpacing
+                    Kirigami.Icon {
+                        source: "preferences-desktop-theme-global"
+                        Layout.preferredWidth: Kirigami.Units.iconSizes.large
+                        Layout.preferredHeight: Kirigami.Units.iconSizes.large
+                    }
+                    ColumnLayout {
+                        spacing: 0
+                        Layout.fillWidth: true
+                        Kirigami.Heading {
+                            level: 2
+                            text: i18n("Lumen is not active")
+                            wrapMode: Text.Wrap
+                            Layout.fillWidth: true
+                        }
+                        QQC2.Label {
+                            text: i18n("Theme, window decoration, effects, icons and File Explorer switch to the Windows 11 look.")
+                            wrapMode: Text.Wrap
+                            opacity: 0.8
+                            Layout.fillWidth: true
+                        }
+                    }
+                }
+                RowLayout {
+                    spacing: Kirigami.Units.largeSpacing
+                    QQC2.Button {
+                        text: i18n("Apply Lumen")
+                        icon.name: "dialog-ok-apply"
+                        highlighted: true
+                        enabled: kcm.toolAvailable && !kcm.busy
+                        font.pointSize: Kirigami.Theme.defaultFont.pointSize * 1.2
+                        Layout.preferredHeight: Kirigami.Units.gridUnit * 2.5
+                        Layout.minimumWidth: Kirigami.Units.gridUnit * 10
+                        onClicked: kcm.run(["apply", kcm.settings.appearanceMode], false)
+                    }
+                    QQC2.Button {
+                        text: i18n("Apply with taskbar")
+                        icon.name: "preferences-desktop-panel"
+                        enabled: kcm.toolAvailable && !kcm.busy
+                        Layout.preferredHeight: Kirigami.Units.gridUnit * 2.5
+                        onClicked: kcm.run(["apply", kcm.settings.appearanceMode, "--layout"], false)
+                    }
+                }
+            }
+        }
+    }
+    ToolLog {
+        visible: kcm.log !== "" && !kcm.lumenActive
+    }
 
     readonly property var modes: [
         { id: "dark", label: i18n("Dark"), help: i18n("Mica-dark surfaces everywhere") },

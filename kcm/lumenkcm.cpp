@@ -102,6 +102,7 @@ void LumenKcm::load()
     m_savedSnapshot = snapshot();
     loadPanel();
     Q_EMIT notifyOverFullscreenChanged();
+    Q_EMIT lumenActiveChanged();
     settingsChanged();
     m_autoSave.stop();
 
@@ -525,6 +526,13 @@ QString LumenKcm::version() const
     return QString::fromLatin1(Lumen::T::Version);
 }
 
+bool LumenKcm::lumenActive() const
+{
+    auto globals = KSharedConfig::openConfig(QStringLiteral("kdeglobals"));
+    globals->reparseConfiguration();
+    return globals->group(QStringLiteral("KDE")).readEntry("LookAndFeelPackage").startsWith(QLatin1String("org.lumen."));
+}
+
 void LumenKcm::run(const QStringList &args, bool asRoot)
 {
     if (m_tool.isEmpty() || busy()) {
@@ -564,6 +572,7 @@ void LumenKcm::run(const QStringList &args, bool asRoot)
             }
             loadPanel();
             settingsChanged();
+            Q_EMIT lumenActiveChanged();
         }
     });
     m_proc->start(asRoot ? QStringLiteral("pkexec") : m_tool, full);

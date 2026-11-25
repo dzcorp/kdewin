@@ -5,7 +5,7 @@ msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast
 msgid "Back"
 msgstr "عُد"
 
-#: plasma/tray/qml/BackgroundAppTrayItem.qml:47
+#: plasma/tray/qml/BackgroundAppTrayItem.qml:48
 msgctxt "@action:inmenu"
 msgid "Quit %1"
 msgstr "إنهاء %1"
@@ -22,7 +22,7 @@ msgstr "بلوتوث"
 msgid "Airplane mode"
 msgstr "وضع الطيران"
 
-#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:14
+#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:21
 msgid "Power mode"
 msgstr "وضع الطاقة"
 
@@ -39,8 +39,8 @@ msgid "Dark mode"
 msgstr "الوضع الداكن"
 
 #: plasma/tray/qml/ConfigEntries.qml:61
-msgid "Tip: drag icons on the taskbar to reorder them, or between the taskbar and the hidden icons flyout to pin or hide them."
-msgstr "تلميح: اسحب الأيقونات في شريط المهام لإعادة ترتيبها، أو بين الشريط ولوحة الأيقونات المخفية لتثبيتها أو إخفائها."
+msgid "Tip: drag icons on the taskbar or within the Quick Settings button to reorder them. Drag other tray icons between the taskbar and the hidden icons flyout to pin or hide them."
+msgstr "تلميح: اسحب الأيقونات على شريط المهام أو داخل زر الإعدادات السريعة لإعادة ترتيبها. اسحب أيقونات الصينية الأخرى بين شريط المهام وقائمة الأيقونات المخفية لتثبيتها أو إخفائها."
 
 #: plasma/tray/qml/ConfigEntries.qml:65
 msgid "Quick Settings tiles"

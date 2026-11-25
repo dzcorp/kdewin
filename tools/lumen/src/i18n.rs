@@ -19,7 +19,7 @@ struct Domain {
 }
 
 const DOMAINS: &[Domain] = &[
-    Domain { name: "kcm_lumen", dirs: &["kcm"], upstream: &[] },
+    Domain { name: "kcm_lumen", dirs: &["kcm", "tools/lumen/src/welcome.rs"], upstream: &[] },
     Domain {
         name: "plasma_applet_org.lumen.clock",
         dirs: &["plasma/plasmoids/org.lumen.clock"],
@@ -301,6 +301,7 @@ fn extract(ctx: &Ctx) -> Result<Vec<(&'static Domain, Po)>> {
         let cpp = sources(&ctx.root, d.dirs, &["cpp", "h"]);
         xgettext(&ctx.root, "JavaScript", &js, &pot, false)?;
         xgettext(&ctx.root, "C++", &cpp, &pot, pot.exists())?;
+        xgettext(&ctx.root, "C", &sources(&ctx.root, d.dirs, &["rs"]), &pot, pot.exists())?;
         let po = read_po(&pot).unwrap_or(Po { header: String::new(), entries: Vec::new() });
         out.push((d, po));
     }

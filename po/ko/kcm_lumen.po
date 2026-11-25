@@ -1,15 +1,27 @@
 msgid ""
 msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: ko\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:429
+msgid "Failed to apply the color mode (exit code %1)."
+msgstr "색상 모드를 적용할 수 없습니다(종료 코드 %1)."
+
+#: kcm/lumenkcm.cpp:435
+msgid "Failed to apply the color mode: %1"
+msgstr "색상 모드를 적용할 수 없습니다: %1"
+
+#: kcm/lumenkcm.cpp:562
+msgid "Failed: %1"
+msgstr "실패: %1"
+
+#: kcm/lumenkcm.cpp:567
 msgid "Done."
 msgstr "완료되었습니다."
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:567
 msgid "Failed (exit code %1)."
 msgstr "실패했습니다(종료 코드 %1)."
 
-#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:101
 msgid "Animations"
 msgstr "애니메이션"
 
@@ -41,7 +53,7 @@ msgstr "지속 시간"
 msgid "All desktop effects"
 msgstr "모든 바탕 화면 효과"
 
-#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:100
 msgid "Applications"
 msgstr "앱"
 
@@ -165,7 +177,7 @@ msgstr "컨트롤 애니메이션"
 msgid "Applies to apps using the Lumen application style. Changes show up live."
 msgstr "Lumen 앱 스타일을 사용하는 앱에 적용됩니다. 변경 사항이 바로 반영됩니다."
 
-#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:104
 msgid "Boot"
 msgstr "부팅"
 
@@ -181,7 +193,7 @@ msgstr "Limine 부팅 메뉴와 Plymouth 시작 화면. 이전 메뉴는 백업�
 msgid "Restore the previous boot look"
 msgstr "이전 부팅 모양 복원"
 
-#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:103
 msgid "Lock and login"
 msgstr "잠금 및 로그인"
 
@@ -233,7 +245,7 @@ msgstr "Lumen 잠금 및 로그아웃 화면 새로 고침"
 msgid "Runs automatically after Plasma updates"
 msgstr "Plasma 업데이트 후 자동으로 실행됩니다"
 
-#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:105
 msgid "Maintenance"
 msgstr "유지 관리"
 
@@ -250,8 +262,8 @@ msgid "Check"
 msgstr "검사"
 
 #: kcm/ui/Maintenance.qml:18
-msgid "Checks every Lumen part is installed and active"
-msgstr "Lumen의 모든 부분이 설치되어 작동하는지 확인합니다"
+msgid "Checks installed components and whether the materials effect is loaded"
+msgstr "설치된 구성 요소와 머티리얼 효과가 로드되었는지 확인합니다"
 
 #: kcm/ui/Maintenance.qml:18
 msgid "Run diagnostics"
@@ -297,7 +309,7 @@ msgstr "네이티브 구성 요소 다시 빌드"
 msgid "Runs automatically after KWin or Qt updates"
 msgstr "KWin 또는 Qt 업데이트 후 자동으로 실행됩니다"
 
-#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:98
 msgid "Materials"
 msgstr "소재"
 
@@ -345,7 +357,7 @@ msgstr "노이즈"
 msgid "Mica (windows, taskbar)"
 msgstr "Mica(창, 작업 표시줄)"
 
-#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:102
 msgid "Taskbar"
 msgstr "작업 표시줄"
 
@@ -377,7 +389,7 @@ msgstr "플로팅"
 msgid "Automatically hide"
 msgstr "자동으로 숨기기"
 
-#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:124
 msgid "Icons"
 msgstr "아이콘"
 
@@ -593,7 +605,7 @@ msgstr "출력"
 msgid "Running…"
 msgstr "실행 중…"
 
-#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:99
 msgid "Windows"
 msgstr "창"
 
@@ -641,86 +653,130 @@ msgstr "모양"
 msgid "Window decoration settings"
 msgstr "창 장식 설정"
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:30
+msgid "Lumen is not active"
+msgstr "Lumen이 활성화되지 않았습니다"
+
+#: kcm/ui/main.qml:35
+msgid "Theme, window decoration, effects, icons and File Explorer switch to the Windows 11 look."
+msgstr "테마, 창 장식, 효과, 아이콘과 파일 탐색기가 Windows 11 모양으로 바뀝니다."
+
+#: kcm/ui/main.qml:45 tools/lumen/src/welcome.rs:52
+msgid "Apply Lumen"
+msgstr "Lumen 적용"
+
+#: kcm/ui/main.qml:55 tools/lumen/src/welcome.rs:52
+msgid "Apply with taskbar"
+msgstr "작업 표시줄과 함께 적용"
+
+#: kcm/ui/main.qml:70
 msgid "Dark"
 msgstr "어둡게"
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:70
 msgid "Mica-dark surfaces everywhere"
 msgstr "모든 곳에 어두운 Mica 표면"
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Bright surfaces with soft shadows"
 msgstr "부드러운 그림자가 있는 밝은 표면"
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Light"
 msgstr "밝게"
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Automatic"
 msgstr "자동"
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Switch between light and dark with the time of day"
 msgstr "시간대에 따라 밝게와 어둡게 전환"
 
-#: kcm/ui/main.qml:14
+#: kcm/ui/main.qml:75
 msgid "Mode"
 msgstr "모드"
 
-#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+#: kcm/ui/main.qml:89 kcm/ui/main.qml:91
 msgid "Text size"
 msgstr "텍스트 크기"
 
-#: kcm/ui/main.qml:33
+#: kcm/ui/main.qml:94
 msgid "Customize"
 msgstr "사용자 지정"
 
-#: kcm/ui/main.qml:37
+#: kcm/ui/main.qml:98
 msgid "Mica and acrylic blur, tint and noise"
 msgstr "Mica 및 아크릴 흐림, 색조, 노이즈"
 
-#: kcm/ui/main.qml:38
+#: kcm/ui/main.qml:99
 msgid "Title bars, corners and buttons"
 msgstr "제목 표시줄, 모서리, 단추"
 
-#: kcm/ui/main.qml:39
+#: kcm/ui/main.qml:100
 msgid "Controls, menus, scroll bars and animation speed"
 msgstr "컨트롤, 메뉴, 스크롤 막대, 애니메이션 속도"
 
-#: kcm/ui/main.qml:40
+#: kcm/ui/main.qml:101
 msgid "Open, close and minimize motion"
 msgstr "열기, 닫기, 최소화 동작"
 
-#: kcm/ui/main.qml:41
+#: kcm/ui/main.qml:102
 msgid "Alignment, size, Start, tray and clock"
 msgstr "정렬, 크기, 시작, 알림 영역, 시계"
 
-#: kcm/ui/main.qml:42
+#: kcm/ui/main.qml:103
 msgid "Lock screen, login screen and logout"
 msgstr "잠금 화면, 로그인 화면, 로그아웃"
 
-#: kcm/ui/main.qml:43
+#: kcm/ui/main.qml:104
 msgid "Boot menu and boot splash"
 msgstr "부팅 메뉴 및 시작 화면"
 
-#: kcm/ui/main.qml:44
+#: kcm/ui/main.qml:105
 msgid "Repair, update and diagnostics"
 msgstr "복구, 업데이트, 진단"
 
-#: kcm/ui/main.qml:56
+#: kcm/ui/main.qml:117
 msgid "Related"
 msgstr "관련 설정"
 
-#: kcm/ui/main.qml:60
+#: kcm/ui/main.qml:121
 msgid "Accent color"
 msgstr "강조 색"
 
-#: kcm/ui/main.qml:61
+#: kcm/ui/main.qml:122
 msgid "Wallpaper"
 msgstr "배경 화면"
 
-#: kcm/ui/main.qml:62
+#: kcm/ui/main.qml:123
 msgid "Fonts"
 msgstr "글꼴"
+
+#: tools/lumen/src/welcome.rs:50
+msgid "Lumen is installed"
+msgstr "Lumen이 설치되었습니다"
+
+#: tools/lumen/src/welcome.rs:51
+msgid "Switch this session to the Windows 11 look? You can change it later in System Settings."
+msgstr "이 세션을 Windows 11 모양으로 전환할까요? 나중에 시스템 설정에서 변경할 수 있습니다."
+
+#: tools/lumen/src/welcome.rs:52
+msgid "Not now"
+msgstr "나중에"
+
+#: tools/lumen/src/welcome.rs:67 tools/lumen/src/welcome.rs:89
+msgid "Log out and back in to finish."
+msgstr "완료하려면 로그아웃했다가 다시 로그인하십시오."
+
+#: tools/lumen/src/welcome.rs:67
+msgid "Lumen is on"
+msgstr "Lumen이 켜졌습니다"
+
+#: tools/lumen/src/welcome.rs:70 tools/lumen/src/welcome.rs:90
+msgid "Lumen could not be applied"
+msgstr "Lumen을 적용할 수 없습니다"
+
+#: tools/lumen/src/welcome.rs:89
+msgid "Lumen is updated"
+msgstr "Lumen이 업데이트되었습니다"

@@ -5,7 +5,7 @@ msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast
 msgid "Back"
 msgstr "뒤로"
 
-#: plasma/tray/qml/BackgroundAppTrayItem.qml:47
+#: plasma/tray/qml/BackgroundAppTrayItem.qml:48
 msgctxt "@action:inmenu"
 msgid "Quit %1"
 msgstr "%1 끝내기"
@@ -22,7 +22,7 @@ msgstr "블루투스"
 msgid "Airplane mode"
 msgstr "비행기 모드"
 
-#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:14
+#: plasma/tray/qml/ConfigEntries.qml:19 plasma/tray/qml/QsPowerProfile.qml:21
 msgid "Power mode"
 msgstr "전원 모드"
 
@@ -39,8 +39,8 @@ msgid "Dark mode"
 msgstr "어두운 모드"
 
 #: plasma/tray/qml/ConfigEntries.qml:61
-msgid "Tip: drag icons on the taskbar to reorder them, or between the taskbar and the hidden icons flyout to pin or hide them."
-msgstr "팁: 작업 표시줄의 아이콘을 끌어 순서를 바꾸거나, 작업 표시줄과 숨겨진 아이콘 사이로 끌어 고정하거나 숨길 수 있습니다."
+msgid "Tip: drag icons on the taskbar or within the Quick Settings button to reorder them. Drag other tray icons between the taskbar and the hidden icons flyout to pin or hide them."
+msgstr "팁: 작업 표시줄이나 빠른 설정 버튼 안의 아이콘을 끌어서 순서를 바꿀 수 있습니다. 다른 트레이 아이콘을 작업 표시줄과 숨겨진 아이콘 메뉴 사이로 끌어서 고정하거나 숨길 수 있습니다."
 
 #: plasma/tray/qml/ConfigEntries.qml:65
 msgid "Quick Settings tiles"

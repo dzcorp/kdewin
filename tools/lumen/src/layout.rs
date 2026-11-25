@@ -184,9 +184,6 @@ pub fn snapshot(path: &Path) -> Snapshot {
         let shortcut = ini.get(&["Containments", panel, "Applets", id, "Shortcuts"], "global").map(unescape);
         if let Some((_, client)) = LAUNCHERS.iter().find(|(p, _)| *p == plugin) {
             snap.layout.insert("startFavoritesClient".into(), format!("{client}{id}"));
-            if let Some(icon) = conf("General", "icon") {
-                snap.layout.insert("startIcon".into(), icon);
-            }
             if let Some(sc) = shortcut {
                 snap.layout.insert("startShortcut".into(), sc);
             }

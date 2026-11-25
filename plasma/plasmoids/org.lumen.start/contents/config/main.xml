@@ -4,7 +4,7 @@
       xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
   <kcfgfile name=""/>
   <group name="General">
-    <entry name="icon" type="String"><default>start-here-kde-symbolic</default></entry>
+    <entry name="icon" type="String"><default>start-here</default></entry>
     <entry name="favorites" type="StringList">
       <default>preferred://browser,preferred://filemanager,org.kde.konsole.desktop,org.kde.kate.desktop,org.kde.discover.desktop,systemsettings.desktop,org.kde.spectacle.desktop,org.kde.okular.desktop,org.kde.gwenview.desktop,org.kde.kcalc.desktop</default>
     </entry>

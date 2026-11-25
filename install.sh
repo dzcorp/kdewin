@@ -74,6 +74,10 @@ ask boot "Install the boot splash and boot menu theme (rebuilds the initramfs)?"
 noconfirm=()
 ((yes)) && noconfirm=(--noconfirm)
 
+# This script applies Lumen itself: skip the one-time offer the package makes in running sessions.
+mkdir -p "${XDG_DATA_HOME:-$HOME/.local/share}/lumen"
+touch "${XDG_DATA_HOME:-$HOME/.local/share}/lumen/welcomed"
+
 if [[ $from == aur ]]; then
 	helper=$(command -v yay || command -v paru) || die "--aur needs yay or paru"
 	say "Installing lumen-kde-git from the AUR with ${helper##*/}"

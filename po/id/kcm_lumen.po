@@ -1,15 +1,27 @@
 msgid ""
 msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: id\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:429
+msgid "Failed to apply the color mode (exit code %1)."
+msgstr "Gagal menerapkan mode warna (kode keluar %1)."
+
+#: kcm/lumenkcm.cpp:435
+msgid "Failed to apply the color mode: %1"
+msgstr "Gagal menerapkan mode warna: %1"
+
+#: kcm/lumenkcm.cpp:562
+msgid "Failed: %1"
+msgstr "Gagal: %1"
+
+#: kcm/lumenkcm.cpp:567
 msgid "Done."
 msgstr "Selesai."
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:567
 msgid "Failed (exit code %1)."
 msgstr "Gagal (kode keluar %1)."
 
-#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:101
 msgid "Animations"
 msgstr "Animasi"
 
@@ -41,7 +53,7 @@ msgstr "Durasi"
 msgid "All desktop effects"
 msgstr "Semua efek desktop"
 
-#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:100
 msgid "Applications"
 msgstr "Aplikasi"
 
@@ -165,7 +177,7 @@ msgstr "Animasikan kontrol"
 msgid "Applies to apps using the Lumen application style. Changes show up live."
 msgstr "Berlaku untuk aplikasi yang memakai gaya aplikasi Lumen. Perubahan langsung terlihat."
 
-#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:104
 msgid "Boot"
 msgstr "Booting"
 
@@ -181,7 +193,7 @@ msgstr "Menu boot Limine dan layar pembuka Plymouth. Menu sebelumnya dicadangkan
 msgid "Restore the previous boot look"
 msgstr "Kembalikan tampilan booting sebelumnya"
 
-#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:103
 msgid "Lock and login"
 msgstr "Kunci dan masuk"
 
@@ -233,7 +245,7 @@ msgstr "Segarkan layar kunci dan keluar Lumen"
 msgid "Runs automatically after Plasma updates"
 msgstr "Berjalan otomatis setelah pembaruan Plasma"
 
-#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:105
 msgid "Maintenance"
 msgstr "Pemeliharaan"
 
@@ -250,8 +262,8 @@ msgid "Check"
 msgstr "Periksa"
 
 #: kcm/ui/Maintenance.qml:18
-msgid "Checks every Lumen part is installed and active"
-msgstr "Memeriksa apakah setiap bagian Lumen terpasang dan aktif"
+msgid "Checks installed components and whether the materials effect is loaded"
+msgstr "Memeriksa komponen yang terpasang dan apakah efek material telah dimuat"
 
 #: kcm/ui/Maintenance.qml:18
 msgid "Run diagnostics"
@@ -297,7 +309,7 @@ msgstr "Bangun ulang komponen native"
 msgid "Runs automatically after KWin or Qt updates"
 msgstr "Berjalan otomatis setelah pembaruan KWin atau Qt"
 
-#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:98
 msgid "Materials"
 msgstr "Material"
 
@@ -345,7 +357,7 @@ msgstr "Derau"
 msgid "Mica (windows, taskbar)"
 msgstr "Mica (jendela, bilah tugas)"
 
-#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:102
 msgid "Taskbar"
 msgstr "Bilah tugas"
 
@@ -377,7 +389,7 @@ msgstr "Mengambang"
 msgid "Automatically hide"
 msgstr "Sembunyikan otomatis"
 
-#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:124
 msgid "Icons"
 msgstr "Ikon"
 
@@ -593,7 +605,7 @@ msgstr "Keluaran"
 msgid "Running…"
 msgstr "Berjalan…"
 
-#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:99
 msgid "Windows"
 msgstr "Jendela"
 
@@ -641,86 +653,130 @@ msgstr "Bentuk"
 msgid "Window decoration settings"
 msgstr "Pengaturan dekorasi jendela"
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:30
+msgid "Lumen is not active"
+msgstr "Lumen tidak aktif"
+
+#: kcm/ui/main.qml:35
+msgid "Theme, window decoration, effects, icons and File Explorer switch to the Windows 11 look."
+msgstr "Tema, dekorasi jendela, efek, ikon, dan File Explorer beralih ke tampilan Windows 11."
+
+#: kcm/ui/main.qml:45 tools/lumen/src/welcome.rs:52
+msgid "Apply Lumen"
+msgstr "Terapkan Lumen"
+
+#: kcm/ui/main.qml:55 tools/lumen/src/welcome.rs:52
+msgid "Apply with taskbar"
+msgstr "Terapkan dengan bilah tugas"
+
+#: kcm/ui/main.qml:70
 msgid "Dark"
 msgstr "Gelap"
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:70
 msgid "Mica-dark surfaces everywhere"
 msgstr "Permukaan Mica gelap di mana-mana"
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Bright surfaces with soft shadows"
 msgstr "Permukaan terang dengan bayangan lembut"
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Light"
 msgstr "Terang"
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Automatic"
 msgstr "Otomatis"
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Switch between light and dark with the time of day"
 msgstr "Beralih antara terang dan gelap sesuai waktu"
 
-#: kcm/ui/main.qml:14
+#: kcm/ui/main.qml:75
 msgid "Mode"
 msgstr "Mode"
 
-#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+#: kcm/ui/main.qml:89 kcm/ui/main.qml:91
 msgid "Text size"
 msgstr "Ukuran teks"
 
-#: kcm/ui/main.qml:33
+#: kcm/ui/main.qml:94
 msgid "Customize"
 msgstr "Sesuaikan"
 
-#: kcm/ui/main.qml:37
+#: kcm/ui/main.qml:98
 msgid "Mica and acrylic blur, tint and noise"
 msgstr "Blur Mica dan akrilik, rona, dan derau"
 
-#: kcm/ui/main.qml:38
+#: kcm/ui/main.qml:99
 msgid "Title bars, corners and buttons"
 msgstr "Bilah judul, sudut, dan tombol"
 
-#: kcm/ui/main.qml:39
+#: kcm/ui/main.qml:100
 msgid "Controls, menus, scroll bars and animation speed"
 msgstr "Kontrol, menu, bilah gulir, dan kecepatan animasi"
 
-#: kcm/ui/main.qml:40
+#: kcm/ui/main.qml:101
 msgid "Open, close and minimize motion"
 msgstr "Gerakan buka, tutup, dan minimalkan"
 
-#: kcm/ui/main.qml:41
+#: kcm/ui/main.qml:102
 msgid "Alignment, size, Start, tray and clock"
 msgstr "Perataan, ukuran, Mulai, baki, dan jam"
 
-#: kcm/ui/main.qml:42
+#: kcm/ui/main.qml:103
 msgid "Lock screen, login screen and logout"
 msgstr "Layar kunci, layar masuk, dan keluar"
 
-#: kcm/ui/main.qml:43
+#: kcm/ui/main.qml:104
 msgid "Boot menu and boot splash"
 msgstr "Menu boot dan layar pembuka"
 
-#: kcm/ui/main.qml:44
+#: kcm/ui/main.qml:105
 msgid "Repair, update and diagnostics"
 msgstr "Perbaikan, pembaruan, dan diagnostik"
 
-#: kcm/ui/main.qml:56
+#: kcm/ui/main.qml:117
 msgid "Related"
 msgstr "Terkait"
 
-#: kcm/ui/main.qml:60
+#: kcm/ui/main.qml:121
 msgid "Accent color"
 msgstr "Warna aksen"
 
-#: kcm/ui/main.qml:61
+#: kcm/ui/main.qml:122
 msgid "Wallpaper"
 msgstr "Wallpaper"
 
-#: kcm/ui/main.qml:62
+#: kcm/ui/main.qml:123
 msgid "Fonts"
 msgstr "Fon"
+
+#: tools/lumen/src/welcome.rs:50
+msgid "Lumen is installed"
+msgstr "Lumen telah terpasang"
+
+#: tools/lumen/src/welcome.rs:51
+msgid "Switch this session to the Windows 11 look? You can change it later in System Settings."
+msgstr "Ubah sesi ini ke tampilan Windows 11? Anda dapat mengubahnya nanti di Pengaturan Sistem."
+
+#: tools/lumen/src/welcome.rs:52
+msgid "Not now"
+msgstr "Jangan sekarang"
+
+#: tools/lumen/src/welcome.rs:67 tools/lumen/src/welcome.rs:89
+msgid "Log out and back in to finish."
+msgstr "Keluar lalu masuk kembali untuk menyelesaikan."
+
+#: tools/lumen/src/welcome.rs:67
+msgid "Lumen is on"
+msgstr "Lumen aktif"
+
+#: tools/lumen/src/welcome.rs:70 tools/lumen/src/welcome.rs:90
+msgid "Lumen could not be applied"
+msgstr "Lumen tidak dapat diterapkan"
+
+#: tools/lumen/src/welcome.rs:89
+msgid "Lumen is updated"
+msgstr "Lumen telah diperbarui"

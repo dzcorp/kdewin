@@ -1,15 +1,27 @@
 msgid ""
 msgstr "Project-Id-Version: lumen\nPO-Revision-Date: 2026-11-02 00:00+0000\nLast-Translator: Lumen\nLanguage-Team: Lumen\nLanguage: hi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:429
+msgid "Failed to apply the color mode (exit code %1)."
+msgstr "रंग मोड लागू नहीं किया जा सका (निकास कोड %1)।"
+
+#: kcm/lumenkcm.cpp:435
+msgid "Failed to apply the color mode: %1"
+msgstr "रंग मोड लागू नहीं किया जा सका: %1"
+
+#: kcm/lumenkcm.cpp:562
+msgid "Failed: %1"
+msgstr "विफल: %1"
+
+#: kcm/lumenkcm.cpp:567
 msgid "Done."
 msgstr "हो गया।"
 
-#: kcm/lumenkcm.cpp:437
+#: kcm/lumenkcm.cpp:567
 msgid "Failed (exit code %1)."
 msgstr "विफल (निकास कोड %1)।"
 
-#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:40
+#: kcm/ui/Animations.qml:7 kcm/ui/main.qml:101
 msgid "Animations"
 msgstr "एनिमेशन"
 
@@ -41,7 +53,7 @@ msgstr "अवधि"
 msgid "All desktop effects"
 msgstr "सभी डेस्कटॉप प्रभाव"
 
-#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:39
+#: kcm/ui/Applications.qml:7 kcm/ui/main.qml:100
 msgid "Applications"
 msgstr "ऐप्स"
 
@@ -165,7 +177,7 @@ msgstr "नियंत्रणों को एनिमेट करें"
 msgid "Applies to apps using the Lumen application style. Changes show up live."
 msgstr "Lumen ऐप शैली उपयोग करने वाले ऐप्स पर लागू होता है। बदलाव तुरंत दिखते हैं।"
 
-#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:43
+#: kcm/ui/Boot.qml:5 kcm/ui/main.qml:104
 msgid "Boot"
 msgstr "बूट"
 
@@ -181,7 +193,7 @@ msgstr "Limine बूट मेनू और Plymouth स्प्लैश। �
 msgid "Restore the previous boot look"
 msgstr "पिछला बूट रूप पुनर्स्थापित करें"
 
-#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:42
+#: kcm/ui/LockLogin.qml:6 kcm/ui/main.qml:103
 msgid "Lock and login"
 msgstr "लॉक और साइन-इन"
 
@@ -233,7 +245,7 @@ msgstr "Lumen लॉक और लॉगआउट स्क्रीन ता�
 msgid "Runs automatically after Plasma updates"
 msgstr "Plasma अपडेट के बाद स्वचालित रूप से चलता है"
 
-#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:44
+#: kcm/ui/Maintenance.qml:5 kcm/ui/main.qml:105
 msgid "Maintenance"
 msgstr "रखरखाव"
 
@@ -250,8 +262,8 @@ msgid "Check"
 msgstr "जाँच"
 
 #: kcm/ui/Maintenance.qml:18
-msgid "Checks every Lumen part is installed and active"
-msgstr "जाँचता है कि Lumen का हर हिस्सा इंस्टॉल और सक्रिय है"
+msgid "Checks installed components and whether the materials effect is loaded"
+msgstr "स्थापित घटकों और मटीरियल प्रभाव के लोड होने की जाँच करता है"
 
 #: kcm/ui/Maintenance.qml:18
 msgid "Run diagnostics"
@@ -297,7 +309,7 @@ msgstr "नेटिव घटक फिर से बनाएँ"
 msgid "Runs automatically after KWin or Qt updates"
 msgstr "KWin या Qt अपडेट के बाद स्वचालित रूप से चलता है"
 
-#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:37
+#: kcm/ui/Materials.qml:5 kcm/ui/main.qml:98
 msgid "Materials"
 msgstr "सामग्री"
 
@@ -345,7 +357,7 @@ msgstr "नॉइज़"
 msgid "Mica (windows, taskbar)"
 msgstr "Mica (विंडो, टास्कबार)"
 
-#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:41
+#: kcm/ui/Taskbar.qml:6 kcm/ui/main.qml:102
 msgid "Taskbar"
 msgstr "टास्कबार"
 
@@ -377,7 +389,7 @@ msgstr "फ़्लोटिंग"
 msgid "Automatically hide"
 msgstr "स्वतः छिपाएँ"
 
-#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:63
+#: kcm/ui/Taskbar.qml:43 kcm/ui/main.qml:124
 msgid "Icons"
 msgstr "आइकन"
 
@@ -593,7 +605,7 @@ msgstr "आउटपुट"
 msgid "Running…"
 msgstr "चल रहा है…"
 
-#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:38
+#: kcm/ui/Windows.qml:6 kcm/ui/main.qml:99
 msgid "Windows"
 msgstr "विंडो"
 
@@ -641,86 +653,130 @@ msgstr "आकृति"
 msgid "Window decoration settings"
 msgstr "विंडो सजावट सेटिंग्स"
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:30
+msgid "Lumen is not active"
+msgstr "Lumen सक्रिय नहीं है"
+
+#: kcm/ui/main.qml:35
+msgid "Theme, window decoration, effects, icons and File Explorer switch to the Windows 11 look."
+msgstr "थीम, विंडो सजावट, प्रभाव, आइकन और फ़ाइल एक्सप्लोरर Windows 11 रूप में बदल जाएंगे।"
+
+#: kcm/ui/main.qml:45 tools/lumen/src/welcome.rs:52
+msgid "Apply Lumen"
+msgstr "Lumen लागू करें"
+
+#: kcm/ui/main.qml:55 tools/lumen/src/welcome.rs:52
+msgid "Apply with taskbar"
+msgstr "टास्कबार के साथ लागू करें"
+
+#: kcm/ui/main.qml:70
 msgid "Dark"
 msgstr "गहरा"
 
-#: kcm/ui/main.qml:9
+#: kcm/ui/main.qml:70
 msgid "Mica-dark surfaces everywhere"
 msgstr "हर जगह गहरी Mica सतहें"
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Bright surfaces with soft shadows"
 msgstr "हल्की छाया वाली हल्की सतहें"
 
-#: kcm/ui/main.qml:10
+#: kcm/ui/main.qml:71
 msgid "Light"
 msgstr "हल्का"
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Automatic"
 msgstr "स्वचालित"
 
-#: kcm/ui/main.qml:11
+#: kcm/ui/main.qml:72
 msgid "Switch between light and dark with the time of day"
 msgstr "दिन के समय के अनुसार हल्के और गहरे के बीच बदलें"
 
-#: kcm/ui/main.qml:14
+#: kcm/ui/main.qml:75
 msgid "Mode"
 msgstr "मोड"
 
-#: kcm/ui/main.qml:28 kcm/ui/main.qml:30
+#: kcm/ui/main.qml:89 kcm/ui/main.qml:91
 msgid "Text size"
 msgstr "टेक्स्ट का आकार"
 
-#: kcm/ui/main.qml:33
+#: kcm/ui/main.qml:94
 msgid "Customize"
 msgstr "वैयक्तिकृत करें"
 
-#: kcm/ui/main.qml:37
+#: kcm/ui/main.qml:98
 msgid "Mica and acrylic blur, tint and noise"
 msgstr "Mica और ऐक्रेलिक धुंधलापन, रंगत और नॉइज़"
 
-#: kcm/ui/main.qml:38
+#: kcm/ui/main.qml:99
 msgid "Title bars, corners and buttons"
 msgstr "शीर्षक पट्टियाँ, कोने और बटन"
 
-#: kcm/ui/main.qml:39
+#: kcm/ui/main.qml:100
 msgid "Controls, menus, scroll bars and animation speed"
 msgstr "नियंत्रण, मेनू, स्क्रॉल बार और एनिमेशन गति"
 
-#: kcm/ui/main.qml:40
+#: kcm/ui/main.qml:101
 msgid "Open, close and minimize motion"
 msgstr "खोलने, बंद करने और छोटा करने की गति"
 
-#: kcm/ui/main.qml:41
+#: kcm/ui/main.qml:102
 msgid "Alignment, size, Start, tray and clock"
 msgstr "संरेखण, आकार, प्रारंभ, ट्रे और घड़ी"
 
-#: kcm/ui/main.qml:42
+#: kcm/ui/main.qml:103
 msgid "Lock screen, login screen and logout"
 msgstr "लॉक स्क्रीन, साइन-इन स्क्रीन और लॉगआउट"
 
-#: kcm/ui/main.qml:43
+#: kcm/ui/main.qml:104
 msgid "Boot menu and boot splash"
 msgstr "बूट मेनू और स्प्लैश"
 
-#: kcm/ui/main.qml:44
+#: kcm/ui/main.qml:105
 msgid "Repair, update and diagnostics"
 msgstr "सुधार, अपडेट और निदान"
 
-#: kcm/ui/main.qml:56
+#: kcm/ui/main.qml:117
 msgid "Related"
 msgstr "संबंधित"
 
-#: kcm/ui/main.qml:60
+#: kcm/ui/main.qml:121
 msgid "Accent color"
 msgstr "एक्सेंट रंग"
 
-#: kcm/ui/main.qml:61
+#: kcm/ui/main.qml:122
 msgid "Wallpaper"
 msgstr "वॉलपेपर"
 
-#: kcm/ui/main.qml:62
+#: kcm/ui/main.qml:123
 msgid "Fonts"
 msgstr "फ़ॉन्ट"
+
+#: tools/lumen/src/welcome.rs:50
+msgid "Lumen is installed"
+msgstr "Lumen स्थापित हो गया है"
+
+#: tools/lumen/src/welcome.rs:51
+msgid "Switch this session to the Windows 11 look? You can change it later in System Settings."
+msgstr "इस सत्र को Windows 11 रूप में बदलें? आप इसे बाद में सिस्टम सेटिंग्स में बदल सकते हैं।"
+
+#: tools/lumen/src/welcome.rs:52
+msgid "Not now"
+msgstr "अभी नहीं"
+
+#: tools/lumen/src/welcome.rs:67 tools/lumen/src/welcome.rs:89
+msgid "Log out and back in to finish."
+msgstr "पूरा करने के लिए लॉग आउट करें और फिर से लॉग इन करें।"
+
+#: tools/lumen/src/welcome.rs:67
+msgid "Lumen is on"
+msgstr "Lumen चालू है"
+
+#: tools/lumen/src/welcome.rs:70 tools/lumen/src/welcome.rs:90
+msgid "Lumen could not be applied"
+msgstr "Lumen लागू नहीं किया जा सका"
+
+#: tools/lumen/src/welcome.rs:89
+msgid "Lumen is updated"
+msgstr "Lumen अपडेट हो गया है"

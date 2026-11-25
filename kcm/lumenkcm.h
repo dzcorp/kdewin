@@ -25,6 +25,7 @@ class LumenKcm : public KQuickManagedConfigModule
     Q_PROPERTY(QString log READ log NOTIFY logChanged)
     Q_PROPERTY(bool toolAvailable READ toolAvailable CONSTANT)
     Q_PROPERTY(QString version READ version CONSTANT)
+    Q_PROPERTY(bool lumenActive READ lumenActive NOTIFY lumenActiveChanged)
 
 public:
     LumenKcm(QObject *parent, const KPluginMetaData &data, const QVariantList &args);
@@ -58,6 +59,7 @@ public:
         return !m_tool.isEmpty();
     }
     QString version() const;
+    bool lumenActive() const;
 
     void load() override;
     void save() override;
@@ -73,6 +75,7 @@ Q_SIGNALS:
     void busyChanged();
     void logChanged();
     void notifyOverFullscreenChanged();
+    void lumenActiveChanged();
 
 protected:
     bool isSaveNeeded() const override;

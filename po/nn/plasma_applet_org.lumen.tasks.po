@@ -60,22 +60,22 @@ msgstr "Flytt gjeldande oppføring i oppgåvehandsamaren framover"
 msgid "Activate Task Manager Entry %1"
 msgstr "Start/opna oppføring %1 i oppgåvehandsamaren"
 
-#: plasma/tasks/qml/AudioStream.qml:100
+#: plasma/tasks/qml/AudioStream.qml:102
 msgctxt "@action:button"
 msgid "Mute"
 msgstr "Demp lyd"
 
-#: plasma/tasks/qml/AudioStream.qml:100
+#: plasma/tasks/qml/AudioStream.qml:102
 msgctxt "@action:button"
 msgid "Unmute"
 msgstr "Lyddemping av"
 
-#: plasma/tasks/qml/AudioStream.qml:101
+#: plasma/tasks/qml/AudioStream.qml:103
 msgctxt "@info:tooltip %1 is the window title"
 msgid "Mute %1"
 msgstr "Demp %1"
 
-#: plasma/tasks/qml/AudioStream.qml:101
+#: plasma/tasks/qml/AudioStream.qml:103
 msgctxt "@info:tooltip %1 is the window title"
 msgid "Unmute %1"
 msgstr "Slå av lyddemping for %1"
@@ -622,34 +622,34 @@ msgctxt "@action:inmenu"
 msgid "&Close All"
 msgstr "Lu&kk alle"
 
-#: plasma/tasks/qml/Task.qml:159
+#: plasma/tasks/qml/Task.qml:162
 msgctxt "@info:usagetip %1 application name"
 msgid "Launch %1"
 msgstr "Start %1"
 
-#: plasma/tasks/qml/Task.qml:164
+#: plasma/tasks/qml/Task.qml:167
 msgctxt "@info:tooltip"
 msgid "There is %1 new message."
 msgid_plural "There are %1 new messages."
 msgstr[0] "Du har %1 ny melding."
 msgstr[1] "Du har %1 nye meldingar."
 
-#: plasma/tasks/qml/Task.qml:172
+#: plasma/tasks/qml/Task.qml:175
 msgctxt "@info:usagetip %1 task name"
 msgid "Show Task tooltip for %1"
 msgstr "Vis oppgåve-hjelpeboble for %1"
 
-#: plasma/tasks/qml/Task.qml:176
+#: plasma/tasks/qml/Task.qml:179
 msgctxt "@info:usagetip %1 task name"
 msgid "Show windows side by side for %1"
 msgstr "Viser vindauge side ved side for %1"
 
-#: plasma/tasks/qml/Task.qml:181
+#: plasma/tasks/qml/Task.qml:184
 msgctxt "@info:usagetip %1 task name"
 msgid "Open textual list of windows for %1"
 msgstr "Vis tekstliste med vindauge for %1"
 
-#: plasma/tasks/qml/Task.qml:185
+#: plasma/tasks/qml/Task.qml:188
 msgctxt "@info:usagetip %1 task name"
 msgid "Activate %1"
 msgstr "Slå på %1"

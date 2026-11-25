@@ -25,6 +25,6 @@ msgstr "Entfernen"
 msgid "Add app…"
 msgstr "App hinzufügen …"
 
-#: plasma/plasmoids/org.lumen.spacer/contents/ui/main.qml:154
+#: plasma/plasmoids/org.lumen.spacer/contents/ui/main.qml:159
 msgid "Taskbar settings"
 msgstr "Taskleisteneinstellungen"
