@@ -44,7 +44,7 @@ jobs:
       - name: Base tools
         if: steps.want.outputs.run == 'true'
         run: pacman -Syu --noconfirm --needed git base-devel github-cli
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         if: steps.want.outputs.run == 'true'
         with:
           ref: main

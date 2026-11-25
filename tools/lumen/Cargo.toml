@@ -6,11 +6,11 @@ license = "GPL-3.0-or-later"
 description = "Lumen KDE theme generator and installer"
 
 [dependencies]
-anyhow = "1"
-clap = { version = "4", features = ["derive"] }
-toml = "0.8"
-resvg = "0.45"
-walkdir = "2"
+anyhow = "1.0.105"
+clap = { version = "4.6.10", features = ["derive"] }
+toml = "1.2"
+resvg = "0.50"
+walkdir = "2.5.1"
 
 [profile.release]
 opt-level = 3
