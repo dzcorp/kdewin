@@ -1,11 +1,16 @@
 # Releases only: a v* tag creates the GitHub release and publishes lumen-kde at that version plus the tag's
-# lumen-kde-git PKGBUILD to the AUR. Commits to main never touch the AUR.
+# lumen-kde-git PKGBUILD to the AUR. Commits to main never touch the AUR; a manual run republishes an existing tag.
 # AUR publishing needs the AUR_SSH_PRIVATE_KEY secret (a key added to the AUR account that maintains both).
 name: Release and AUR
 
 on:
   push:
     tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing release tag to publish again, e.g. v1.0.0"
+        required: true
 
 permissions:
   contents: write
@@ -20,22 +25,25 @@ jobs:
     container: archlinux:latest
     env:
       AUR_KEY: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
+      TAG: ${{ inputs.tag || github.ref_name }}
     steps:
       - name: Base tools
         run: pacman -Syu --noconfirm --needed git openssh base-devel pacman-contrib github-cli sudo
       - uses: actions/checkout@v7
         with:
+          ref: ${{ inputs.tag || github.ref }}
           fetch-depth: 0
       - name: Tag matches the release version
         run: |
+          [[ $TAG == v* ]] && git rev-parse -q --verify "refs/tags/$TAG" >/dev/null || { echo "::error::$TAG is not a release tag"; exit 1; }
           version=$(sed -n 's/^version = "\(.*\)"$/\1/p' tokens/tokens.toml | head -1)
-          [ "v$version" = "$GITHUB_REF_NAME" ] || { echo "::error::tag $GITHUB_REF_NAME but tokens/tokens.toml says $version (lumen version X.Y.Z)"; exit 1; }
+          [ "v$version" = "$TAG" ] || { echo "::error::tag $TAG but tokens/tokens.toml says $version (lumen version X.Y.Z)"; exit 1; }
       - name: GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 || gh release create "$GITHUB_REF_NAME" --verify-tag --generate-notes --title "Lumen ${GITHUB_REF_NAME#v}"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --verify-tag --generate-notes --title "Lumen ${TAG#v}"
       - name: Publish to the AUR
         run: |
           if [ -z "$AUR_KEY" ]; then
@@ -52,19 +60,20 @@ jobs:
           as() { sudo -u builder -H "$@"; }
           as git config --global user.name "github-actions[bot]"
           as git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # publish PKG PKGVER [sums]: only the package files are committed (the AUR refuses source archives).
           publish() {
-            local pkg=$1 version=${2:-} dir=/home/builder/aur-$1
+            local pkg=$1 version=$2 dir=/home/builder/aur-$1
             as git clone -q "ssh://aur@aur.archlinux.org/$pkg.git" "$dir"
             cp -L "packaging/aur/$pkg"/* "$dir/"
+            sed -i "s/^pkgver=.*/pkgver=$version/;s/^pkgrel=.*/pkgrel=1/" "$dir/PKGBUILD"
             chown -R builder: "$dir"
-            if [ -n "$version" ]; then
-              sed -i "s/^pkgver=.*/pkgver=$version/;s/^pkgrel=.*/pkgrel=1/" "$dir/PKGBUILD"
+            if [ "${3:-}" = sums ]; then
               (cd "$dir" && as updpkgsums)
             fi
             (cd "$dir" && as makepkg --printsrcinfo > .SRCINFO && chown builder: .SRCINFO)
-            (cd "$dir" && as git add -A && { as git diff --cached --quiet || { as git commit -q -m "Release $GITHUB_REF_NAME" && as git push -q origin HEAD:master; }; })
-            echo "published $pkg"
+            (cd "$dir" && as git add PKGBUILD .SRCINFO lumen-kde.install && { as git diff --cached --quiet || { as git commit -q -m "Release $TAG" && as git push -q origin HEAD:master; }; })
+            echo "published $pkg $version"
           }
-          publish lumen-kde "${GITHUB_REF_NAME#v}"
+          publish lumen-kde "${TAG#v}" sums
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           publish lumen-kde-git "$(git describe --long --tags --abbrev=7 | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g')"
