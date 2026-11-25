@@ -1,7 +1,10 @@
 # Merges the forked KDE sources (upstream/forks.toml) with the release Arch ships, builds the result and merges it
 # into main when it is clean. Conflicts or a failed build leave the pull request open for a human.
-# Pull requests opened with the default token start no other workflows; set the optional SYNC_TOKEN secret
-# (a fine-grained token with contents and pull-requests write) to run CI on them as well.
+# When upstream merges landed since the last tag, the release job bumps the patch version, tags it and starts the
+# release workflow (GitHub release + AUR).
+# Pull requests and tags made with the default token start no other workflows (the release workflow is dispatched
+# instead); set the optional SYNC_TOKEN secret (a fine-grained token with contents and pull-requests write) to run CI
+# on them as well.
 name: Upstream sync
 
 on:
@@ -133,3 +136,46 @@ jobs:
           else
             gh pr edit "$url" --add-label needs-attention
           fi
+
+  release:
+    needs: sync
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: Base tools
+        run: pacman -Syu --noconfirm --needed git github-cli rust
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.SYNC_TOKEN || github.token }}
+      - name: Patch release for upstream merges since the last tag
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN || github.token }}
+          TAG_TRIGGERS_RELEASE: ${{ secrets.SYNC_TOKEN != '' }}
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          last=$(git describe --tags --abbrev=0 --match 'v*')
+          synced=$(git log --format=%s "$last"..HEAD | grep -E '^Sync [a-z]+ fork with upstream' || true)
+          if [ -z "$synced" ]; then
+            echo "no upstream merges since $last"
+            exit 0
+          fi
+          cargo build --release --quiet --manifest-path tools/lumen/Cargo.toml
+          lumen=tools/lumen/target/release/lumen
+          IFS=. read -r major minor patch <<<"$($lumen version)"
+          next="$major.$minor.$((patch + 1))"
+          $lumen version "$next"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -a -m "Release $next" -m "Upstream merges since $last:" -m "$synced"
+          git tag -a "v$next" -m "Lumen $next" -m "$synced"
+          git push -q origin HEAD:main "v$next"
+          if [ "$TAG_TRIGGERS_RELEASE" != true ]; then
+            gh workflow run aur.yml --ref main -f tag="v$next"
+          fi
+          echo "released v$next"

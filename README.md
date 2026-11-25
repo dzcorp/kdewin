@@ -140,6 +140,10 @@ The **Upstream sync** workflow runs this daily against the version Arch ships. I
 builds and passes the checks, it opens a pull request and merges it. Conflicts or build failures leave the pull request
 open with the `needs-attention` label and a report of every file.
 
+When merges landed since the last tag, the workflow then releases them: it bumps the patch version
+(`lumen version`), tags it and runs the release workflow, so the GitHub release and both AUR packages follow KDE
+updates without manual steps.
+
 ```sh
 make upstream-check                 # current vs newest release per fork
 make upstream-sync                  # merge all forks locally
@@ -188,7 +192,7 @@ More detail: [ARCHITECTURE.md](ARCHITECTURE.md).
 | Workflow | When | What |
 |---|---|---|
 | `ci.yml` | push, pull request | shellcheck; full build in an Arch container with tray checks and generator benchmark; builds the pacman package, runs namcap, installs and removes it (hooks included) |
-| `upstream-sync.yml` | daily, manual | three-way merge of the forks with the release Arch ships, build, pull request, automatic merge when clean |
+| `upstream-sync.yml` | daily, manual | three-way merge of the forks with the release Arch ships, build, pull request, automatic merge when clean; then a patch release (`v1.0.1`, …) if anything merged |
 | `aur.yml` | `v*` tag only | GitHub release; publishes `lumen-kde` (that version) and `lumen-kde-git` to the AUR. Commits to main never publish |
 
 Repository secrets:
