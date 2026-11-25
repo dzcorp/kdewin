@@ -21,7 +21,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Shell scripts
         run: |
           shellcheck -x install.sh uninstall.sh
@@ -38,7 +38,7 @@ jobs:
     steps:
       - name: Base tools
         run: pacman -Syu --noconfirm --needed git base-devel
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Build dependencies (from the PKGBUILD)
         run: |
           source packaging/aur/lumen-kde-git/PKGBUILD
@@ -66,7 +66,7 @@ jobs:
     steps:
       - name: Base tools
         run: pacman -Syu --noconfirm --needed git base-devel sudo namcap
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
       - name: Build the package from this commit
