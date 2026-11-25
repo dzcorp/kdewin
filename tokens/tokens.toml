@@ -4,7 +4,7 @@
 [meta]
 id = "lumen"
 name = "Lumen"
-version = "0.1.0"
+version = "1.0.0"
 author = "dzcorp"
 license = "GPL-3.0-or-later"
 website = "https://github.com/dzcorp/kdewin"

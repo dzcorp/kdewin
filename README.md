@@ -198,8 +198,8 @@ Repository secrets:
   pull requests are created with the workflow token, which starts no other workflows (the sync job builds and checks
   the merge itself).
 
-Release: bump the version in `tools/lumen/Cargo.toml`, `CMakeLists.txt` and `tokens/tokens.toml`, then
-`git tag vX.Y.Z && git push --tags`.
+Release: `lumen version X.Y.Z` (writes it to the tokens, Cargo and plugin metadata; CMake reads the tokens), commit,
+then `git tag vX.Y.Z && git push origin vX.Y.Z`. The release workflow refuses a tag that differs from the version.
 
 ## Contributing
 

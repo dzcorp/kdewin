@@ -26,6 +26,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Tag matches the release version
+        run: |
+          version=$(sed -n 's/^version = "\(.*\)"$/\1/p' tokens/tokens.toml | head -1)
+          [ "v$version" = "$GITHUB_REF_NAME" ] || { echo "::error::tag $GITHUB_REF_NAME but tokens/tokens.toml says $version (lumen version X.Y.Z)"; exit 1; }
       - name: GitHub release
         env:
           GH_TOKEN: ${{ github.token }}

@@ -3,7 +3,8 @@
         "Description": "Lumen: Fluent-inspired window decoration",
         "EnabledByDefault": true,
         "Id": "org.lumen.decoration",
-        "Name": "Lumen"
+        "Name": "Lumen",
+        "Version": "1.0.0"
     },
     "org.kde.kdecoration3": {
         "blur": true,

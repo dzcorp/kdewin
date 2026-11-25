@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.24)
-project(lumen VERSION 0.1.0 LANGUAGES CXX)
+# The release version lives in tokens/tokens.toml ([meta] comes first); `lumen version X.Y.Z` changes it.
+file(STRINGS "${CMAKE_CURRENT_SOURCE_DIR}/tokens/tokens.toml" LUMEN_VERSION REGEX "^version = \"[0-9.]+\"$" LIMIT_COUNT 1)
+string(REGEX REPLACE "^version = \"([0-9.]+)\"$" "\\1" LUMEN_VERSION "${LUMEN_VERSION}")
+project(lumen VERSION ${LUMEN_VERSION} LANGUAGES CXX)
 
 set(QT_MIN_VERSION "6.9.0")
 set(KF_MIN_VERSION "6.20.0")

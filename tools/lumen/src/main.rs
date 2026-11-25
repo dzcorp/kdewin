@@ -7,6 +7,7 @@ mod layout;
 mod svg;
 mod tokens;
 mod upstream;
+mod version;
 
 use anyhow::Result;
 use clap::{Parser, Subcommand, ValueEnum};
@@ -60,6 +61,11 @@ enum Cmd {
     /// Undo what Lumen changed outside the package's own files: boot, login screen, shell copy (pacman pre_remove, root)
     #[command(hide = true)]
     PreRemove,
+    /// Print the release version and check every copy matches it; with a version, set it everywhere
+    Version {
+        /// New version (MAJOR.MINOR.PATCH)
+        set: Option<String>,
+    },
     /// Merge the forked KDE sources with a newer upstream release (forks listed in upstream/forks.toml)
     Upstream {
         #[command(subcommand)]
@@ -160,6 +166,7 @@ fn main() -> Result<()> {
         Cmd::Apply { mode, layout } => install::apply(&ctx, mode, layout),
         Cmd::Uninstall { system } => install::uninstall(&ctx, system),
         Cmd::PreRemove => install::pre_remove(&ctx),
+        Cmd::Version { set } => version::run(&ctx, set.as_deref()),
         Cmd::Upstream { cmd: UpstreamCmd::Check } => upstream::check(&ctx),
         Cmd::Upstream { cmd: UpstreamCmd::Sync { fork, to, report } } => {
             if upstream::sync(&ctx, fork.as_deref(), to.as_deref(), report.as_deref())? > 0 {

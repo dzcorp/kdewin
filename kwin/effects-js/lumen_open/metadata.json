@@ -8,7 +8,8 @@
         "Icon": "preferences-system-windows-effect-scale",
         "Id": "lumen_open",
         "License": "GPL",
-        "Name": "Lumen Open/Close"
+        "Name": "Lumen Open/Close",
+        "Version": "@@meta.version@@"
     },
     "X-KDE-ConfigModule": "kcm_kwin4_genericscripted",
     "X-KDE-Ordering": 60,

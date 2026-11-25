@@ -27,5 +27,12 @@ LumenPage {
         ToolAction { text: i18n("Rebuild native parts"); description: i18n("Runs automatically after KWin or Qt updates"); args: ["rebuild-kwin"]; asRoot: true }
     }
 
+    LumenCard {
+        FormCard.FormTextDelegate {
+            icon.name: "help-about"
+            text: "Lumen " + kcm.version
+        }
+    }
+
     ToolLog {}
 }

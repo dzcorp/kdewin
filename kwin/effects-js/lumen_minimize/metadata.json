@@ -8,7 +8,8 @@
         "Icon": "preferences-system-windows-effect-squash",
         "Id": "lumen_minimize",
         "License": "GPL",
-        "Name": "Lumen Minimize"
+        "Name": "Lumen Minimize",
+        "Version": "@@meta.version@@"
     },
     "X-KDE-Ordering": 60,
     "X-KWin-Exclusive-Category": "minimize",

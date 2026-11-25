@@ -8,7 +8,7 @@
         "Icon": "preferences-desktop-notification",
         "License": "GPL-2.0+",
         "Name": "Lumen Tray",
-        "Version": "1.0"
+        "Version": "1.0.0"
     },
     "X-Plasma-API-Minimum-Version": "6.0",
     "X-Plasma-ContainmentType": "CustomEmbedded"

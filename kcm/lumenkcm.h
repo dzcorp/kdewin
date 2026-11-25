@@ -24,6 +24,7 @@ class LumenKcm : public KQuickManagedConfigModule
     Q_PROPERTY(bool busy READ busy NOTIFY busyChanged)
     Q_PROPERTY(QString log READ log NOTIFY logChanged)
     Q_PROPERTY(bool toolAvailable READ toolAvailable CONSTANT)
+    Q_PROPERTY(QString version READ version CONSTANT)
 
 public:
     LumenKcm(QObject *parent, const KPluginMetaData &data, const QVariantList &args);
@@ -56,6 +57,7 @@ public:
     {
         return !m_tool.isEmpty();
     }
+    QString version() const;
 
     void load() override;
     void save() override;

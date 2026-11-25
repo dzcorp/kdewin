@@ -520,6 +520,11 @@ bool LumenKcm::busy() const
     return m_proc && m_proc->state() != QProcess::NotRunning;
 }
 
+QString LumenKcm::version() const
+{
+    return QString::fromLatin1(Lumen::T::Version);
+}
+
 void LumenKcm::run(const QStringList &args, bool asRoot)
 {
     if (m_tool.isEmpty() || busy()) {

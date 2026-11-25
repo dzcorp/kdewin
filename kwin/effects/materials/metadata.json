@@ -5,7 +5,8 @@
         "Description": "Fluent materials: live Acrylic blur for menus and popups, wallpaper-tinted Mica for title bars and the taskbar. Replaces the Blur effect.",
         "EnabledByDefault": false,
         "License": "GPL",
-        "Name": "Lumen Materials"
+        "Name": "Lumen Materials",
+        "Version": "1.0.0"
     },
     "org.kde.kwin.effect": {
         "enabledByDefaultMethod": true

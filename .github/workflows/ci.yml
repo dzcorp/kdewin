@@ -53,6 +53,8 @@ jobs:
           restore-keys: cargo-${{ runner.os }}-
       - name: Build (tool, generated assets, native plugins, Dolphin fork)
         run: make -j"$(nproc)"
+      - name: Versions agree (tokens, Cargo, plugin metadata)
+        run: tools/lumen/target/release/lumen version
       - name: Tray checks
         run: make check-tray
       - name: Generator benchmark
