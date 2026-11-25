@@ -4,7 +4,7 @@
 # only list upstream changes for review. `version_files` get the old version string replaced.
 
 [plasma]
-version = "6.8.2"
+version = "6.8.3"
 arch = "plasma-workspace"
 releases = "https://download.kde.org/stable/plasma/"
 url = "https://download.kde.org/stable/plasma/{v}/{pkg}-{v}.tar.xz"
@@ -38,7 +38,7 @@ package = "plasma-workspace"
 upstream = "applets/systemtray/qml"
 
 [dolphin]
-version = "26.08.2"
+version = "26.08.3"
 arch = "dolphin"
 releases = "https://download.kde.org/stable/release-service/"
 url = "https://download.kde.org/stable/release-service/{v}/src/{pkg}-{v}.tar.xz"

@@ -1,6 +1,6 @@
 # Lumen fork of Dolphin (upstream version in UPSTREAM). Only the app is built: the stock package keeps
 # providing libdolphinvcs (VCS plugins link it), the part, the KCMs, kcfg files and translations.
-set(RELEASE_SERVICE_VERSION "26.08.2")
+set(RELEASE_SERVICE_VERSION "26.08.3")
 set(LUMEN_DOLPHIN_BINDIR "/usr/local/bin" CACHE PATH "Where the Lumen Dolphin binary shadows the stock one")
 set(LUMEN_DOLPHIN_APPDIR "/usr/local/share/applications" CACHE PATH "Where the Lumen launcher shadows the stock one")
 

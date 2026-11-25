@@ -1020,6 +1020,7 @@ private:
 
 private:
     void updatePalette();
+    void updateContainerFrame();
     void showLoadingPlaceholder();
 
     bool m_active;

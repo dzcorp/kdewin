@@ -1,4 +1,4 @@
-# C++ core forked from plasma-workspace 6.8.2 applets/systemtray (GPL-2.0-or-later) and libdbusmenuqt (LGPL-2.0-or-later).
+# C++ core forked from plasma-workspace 6.8.3 applets/systemtray (GPL-2.0-or-later) and libdbusmenuqt (LGPL-2.0-or-later).
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Quick Qml)
 find_package(Qt6GuiPrivate ${QT_MIN_VERSION} REQUIRED)
 find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS I18n IconThemes KIO JobWidgets Service ItemModels XmlGui StatusNotifierItem)

@@ -7,14 +7,15 @@ import org.kde.plasma.extras as PlasmaExtras
 TrayItem {
     id: app
 
-    text: model.name
-    mainText: model.name
-    subText: model.message
+    // The row's model can go away before the delegate (plasma-workspace 6.8.3).
+    text: model?.name ?? ""
+    mainText: text
+    subText: model?.message ?? ""
     active: true
 
     TrayIcon {
         parent: app.iconContainer
-        source: app.model.icon
+        source: app.model?.icon ?? undefined
         active: app.hovered
     }
 
@@ -44,7 +45,7 @@ TrayItem {
         id: menu
         visualParent: app
         PlasmaExtras.MenuItem {
-            text: i18nc("@action:inmenu", "Quit %1", app.model.name)
+            text: i18nc("@action:inmenu", "Quit %1", app.text)
             icon: "application-exit"
             onClicked: {
                 const index = app.sourceIndex();

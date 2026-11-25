@@ -1,4 +1,4 @@
-# Forked from plasma-workspace 6.8.2 applets/notifications (GPL-2.0-or-later): notification server host with Windows-style toasts.
+# Forked from plasma-workspace 6.8.3 applets/notifications (GPL-2.0-or-later): notification server host with Windows-style toasts.
 enable_language(C) # wayland-scanner glue
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Quick Qml WaylandClient)
 find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS ConfigWidgets CoreAddons GlobalAccel I18n KIO Notifications Service)

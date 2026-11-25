@@ -208,6 +208,7 @@ DolphinViewContainer::DolphinViewContainer(const QUrl &url, QWidget *parent)
     m_statusBar->setHidden(false);
 
     setSearchBarVisible(isSearchUrl(url));
+    updateViewPropertiesContext(url);
 
     // Update view as the ContentDisplaySettings change
     // this happens here and not in DolphinView as DolphinviewContainer and DolphinView are not in the same build target ATM
@@ -334,6 +335,11 @@ void DolphinViewContainer::disconnectUrlNavigator()
     m_urlNavigatorConnected = nullptr;
 }
 
+void DolphinViewContainer::updateViewPropertiesContext(const QUrl &url)
+{
+    m_view->setViewPropertiesContext(isSearchUrl(url) ? QStringLiteral("search") : QString());
+}
+
 void DolphinViewContainer::setSearchBarVisible(bool visible)
 {
     if (!visible) {
@@ -346,7 +352,6 @@ void DolphinViewContainer::setSearchBarVisible(bool visible)
     if (!m_searchBar) {
         m_searchBar = new Search::Bar(std::make_shared<const Search::DolphinQuery>(m_urlNavigator->locationUrl(), QUrl{} /** will be set below. */), this);
         connect(m_searchBar, &Search::Bar::urlChangeRequested, this, [this](const QUrl &url) {
-            m_view->setViewPropertiesContext(isSearchUrl(url) ? QStringLiteral("search") : QString());
             setGrabFocusOnUrlChange(false); // Prevent loss of focus while typing or refining a search.
             setUrl(url);
             setGrabFocusOnUrlChange(true);
@@ -961,6 +966,8 @@ void DolphinViewContainer::slotUrlNavigatorLocationChanged(const QUrl &url)
             setSearchBarVisible(false);
         }
 
+        updateViewPropertiesContext(url);
+
         m_view->setUrl(url);
         tryRestoreViewState();
 
@@ -1019,6 +1026,7 @@ void DolphinViewContainer::redirect(const QUrl &oldUrl, const QUrl &newUrl)
     m_urlNavigator->saveLocationState(QByteArray());
     m_urlNavigator->setLocationUrl(newUrl);
     setSearchBarVisible(isSearchUrl(newUrl));
+    updateViewPropertiesContext(newUrl);
 
     m_urlNavigator->blockSignals(block);
 

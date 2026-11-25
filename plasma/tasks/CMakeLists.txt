@@ -1,4 +1,4 @@
-# Forked from plasma-desktop 6.8.2 applets/taskmanager (GPL-2.0-or-later): icons-only taskbar with an explicit icon size.
+# Forked from plasma-desktop 6.8.3 applets/taskmanager (GPL-2.0-or-later): icons-only taskbar with an explicit icon size.
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Quick Qml)
 find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS GlobalAccel I18n KIO Notifications XmlGui Service WindowSystem Config)
 find_package(Plasma REQUIRED)
